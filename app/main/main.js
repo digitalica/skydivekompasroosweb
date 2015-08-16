@@ -3,7 +3,6 @@
 angular.module('myApp.main', ['ngRoute'])
 
 
-
     .config(['$routeProvider', function ($routeProvider) {
         $routeProvider.when('/main', {
             templateUrl: '/main/main.html',
@@ -93,6 +92,11 @@ angular.module('myApp.main', ['ngRoute'])
             }
         };
 
+        $scope.setSettingsMinMaxForDisplay = function () {
+            $scope.settings.minArea = $scope.minAreaBasedOnCategoryForDisplay($scope.settings.category);
+            $scope.settings.maxWingLoad = $scope.maxWingLoadBasedOnCategoryForDisplay($scope.settings.category);
+        }
+
         if ($cookies.get('skydivekompasroossettings')) {
             $scope.settings = $cookies.getObject('skydivekompasroossettings');
             $scope.sliders.totalValue = $scope.settings.jumpsTotal;
@@ -111,6 +115,7 @@ angular.module('myApp.main', ['ngRoute'])
             //console.log('data received '
             //    + Object.keys(data).length + ' '
             //    + Object.keys(data.canopies).length);
+            $scope.setSettingsMinMaxForDisplay();
             $scope.updateWingLoads();
             $scope.updateCanopyList();
         });
@@ -143,8 +148,7 @@ angular.module('myApp.main', ['ngRoute'])
         $scope.updateTotal = function () {
             $scope.settings.jumpsTotal = $scope.sliders.totalValue;
             $scope.settings.category = $scope.jumperCategory($scope.settings.jumpsTotal, $scope.settings.jumpsLastYear);
-            $scope.settings.minArea = $scope.minAreaBasedOnCategoryForDisplay($scope.settings.category);
-            $scope.settings.maxWingLoad = $scope.maxWingLoadBasedOnCategoryForDisplay($scope.settings.category);
+            $scope.setSettingsMinMaxForDisplay();
             if ($scope.settings.jumpsTotal < $scope.settings.jumpsLastYear) {
                 $scope.settings.jumpsLastYear = $scope.settings.jumpsTotal;
                 $scope.sliders.last12MonthsValue = $scope.settings.jumpsLastYear;
@@ -157,8 +161,7 @@ angular.module('myApp.main', ['ngRoute'])
         $scope.updateLast12Months = function () {
             $scope.settings.jumpsLastYear = $scope.sliders.last12MonthsValue;
             $scope.settings.category = $scope.jumperCategory($scope.settings.jumpsTotal, $scope.settings.jumpsLastYear);
-            $scope.settings.minArea = $scope.minAreaBasedOnCategoryForDisplay($scope.settings.category);
-            $scope.settings.maxWingLoad = $scope.maxWingLoadBasedOnCategoryForDisplay($scope.settings.category);
+            $scope.setSettingsMinMaxForDisplay();
             if ($scope.settings.jumpsTotal < $scope.settings.jumpsLastYear) {
                 $scope.settings.jumpsTotal = $scope.settings.jumpsLastYear;
                 $scope.sliders.totalValue = $scope.settings.jumpsTotal;
@@ -544,7 +547,8 @@ angular.module('myApp.main', ['ngRoute'])
                         canopy.class = "canopylistcanopy bg-danger";
                         break;
 
-                };
+                }
+                ;
 
 
                 canopy.listLine1 = canopy.name;
@@ -557,7 +561,7 @@ angular.module('myApp.main', ['ngRoute'])
                         if (linetext) {
                             linetext += ", ";
                         }
-                        linetext+= canopy.minsize + " - " + canopy.maxsize + " sqft";
+                        linetext += canopy.minsize + " - " + canopy.maxsize + " sqft";
                     }
                     // if nothing, make sure at least 1 white space to force the lineheight.
                     if (!linetext) {
