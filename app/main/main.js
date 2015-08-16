@@ -29,7 +29,7 @@ angular.module('myApp.main', ['ngRoute'])
         $scope.accExperienceOpen = true;
         $scope.accExperienceDisabled = false;
 
-        $scope.canopyList = Array();
+        $scope.canopyList = new Array();
 
         // fake enum for acceptability
         $scope.ACC_ACCEPTABLE = 1;
@@ -348,7 +348,7 @@ angular.module('myApp.main', ['ngRoute'])
         };
 
         $scope.wingLoad = function (area, weightInKg) {
-            var weightInLbs = $scope.kgToLbs($weightInKg);
+            var weightInLbs = $scope.kgToLbs(weightInKg);
             var wingload = weightInLbs / area;
             return wingload;
         };
@@ -544,7 +544,7 @@ angular.module('myApp.main', ['ngRoute'])
                         canopy.class = "canopylistcanopy bg-danger";
                         break;
 
-                }
+                };
 
 
                 canopy.listLine1 = canopy.name;
