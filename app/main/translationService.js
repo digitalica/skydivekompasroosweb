@@ -145,11 +145,11 @@ translationServices.service('translationService', function () {
         switch (language) {
             case 'nl':
                 $scope.translation = nl;
-                console.log('setlang nl');
+                //console.log('setlang nl');
                 break;
             default:
                 $scope.translation = en;
-                console.log('setlang en');
+                //console.log('setlang en');
                 break;
         }
 

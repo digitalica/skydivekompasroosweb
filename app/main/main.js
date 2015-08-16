@@ -548,7 +548,25 @@ angular.module('myApp.main', ['ngRoute'])
 
 
                 canopy.listLine1 = canopy.name;
-                canopy.listLine2 = canopy.manufacturer.name;
+                if ($scope.settings.sorting == 'sort_manufacturer') {
+                    var linetext = "";
+                    if (canopy.cells) {
+                        linetext += canopy.cells + " " + $scope.translation.LIST_CELLS;
+                    }
+                    if (canopy.minsize && canopy.maxsize) {
+                        if (linetext) {
+                            linetext += ", ";
+                        }
+                        linetext+= canopy.minsize + " - " + canopy.maxsize + " sqft";
+                    }
+                    // if nothing, make sure at least 1 white space to force the lineheight.
+                    if (!linetext) {
+                        linetext = "-"; // dash for now, should use angular html-unsafe.
+                    }
+                    canopy.listLine2 = linetext
+                } else {
+                    canopy.listLine2 = canopy.manufacturer.name;
+                }
                 newCanopyList.push(canopy);
             }
 
