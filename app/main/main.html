@@ -1,0 +1,502 @@
+<div class="container">
+
+
+    <script type="text/ng-template" id="aboutContent_nl.html">
+        <div class="modal-header">
+            <h3 class="modal-title">Over Skydive Kompasroos</h3>
+        </div>
+        <div class="modal-body">
+            <p>Skydive Kompasroos is een website om te helpen bij het kiezen van een passende parachute, volgens de
+                regels zoals vastgelegd in het <abbr title="Basis veiligheids reglement">BVR</abbr> van de afdeling
+                parachutespringen van de <abbr
+                        title="Koninklijke Nederlandse Vereniging voor de Luchtvaart">KNVvL</abbr>.
+            </p>
+
+            <p> Vraag altijd ook advies aan een instructeur, hij of zij blijft eindverantwoordelijk. Aan deze website
+                kunnen
+                geen rechten worden ontleend, de officiële publicaties van de KNVvL zijn:
+            </p>
+
+            <p> Voor het BVR en meer informatie:<br>
+                <a target="_blank" href="http://www.parachute.nl/bevoegdhedenregl.html">http://www.parachute.nl/bevoegdhedenregl.html</a>
+            </p>
+
+            <p> De kompasroos zelf:<br>
+                <a target="_blank" href="http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/Kompasroos.pdf">http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/Kompasroos.pdf</a>
+            </p>
+
+            <p> BVR Bijlage A, Regels voor Parachutekeuze, versie 2011:<br>
+                <a target="_blank" href="http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/BVR_Bijlage_A_2011.pdf">http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/BVR_Bijlage_A_2011.pdf</a>
+            </p>
+
+            <p>BVR Bijlage B, Indeling hoofdparachutes, versie april 2013:<br>
+                <a target="_blank"
+                   href="http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/BVR_bijlage_B_versie_2013_april.pdf">http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/BVR_bijlage_B_versie_2013_april.pdf</a>
+            </p>
+
+            <p>De source is al te vinden op GitHub:<br>
+                <a target="_blank" href="https://github.com/digitalica/skydivekompasroosweb">https://github.com/digitalica/skydivekompasroosweb</a>
+            </p>
+
+            <p>De Skydive Kompasroos was oorspronkelijk (tot medio 2015) alleen beschikbaar als Android app. De android
+                versie is inmiddels verouderd en wordt niet meer onderhouden.</p>
+
+            <p>Robbert Wethmar<br>
+                robbert@digitalica.nl<br>
+                Digitalica, Amsterdam</p>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary" type="button" ng-click="closeAbout()">Sluit</button>
+        </div>
+    </script>
+
+
+    <script type="text/ng-template" id="aboutContent_en.html">
+        <div class="modal-header">
+            <h3 class="modal-title">About Skydive Kompasroos</h3>
+        </div>
+        <div class="modal-body">
+            <p>Skydive Kompasroos (kompasroos is Dutch for compass rose) is a website to help choosing a canopy matching
+                your experience, according to the rules set in the <abbr title="Basis veiligheids reglement">BVR</abbr>
+                (safety regulations) of the parachuting department of the
+                <abbr title="Koninklijke Nederlandse Vereniging voor de Luchtvaart">KNVvL</abbr> (Royal Dutch Aviation
+                society).
+            </p>
+
+            <p> Always consult a local instructor. He or she remains responsible. No rights can be obtained from this
+                website.
+                The official KNVvL documents are:
+            </p>
+
+            <p> The BVR and other information:<br>
+                <a target="_blank" href="http://www.parachute.nl/bevoegdhedenregl.html">http://www.parachute.nl/bevoegdhedenregl.html</a>
+            </p>
+
+            <p> The compas rose (kompasroos) itself:<br>
+                <a target="_blank" href="http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/Kompasroos.pdf">http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/Kompasroos.pdf</a>
+            </p>
+
+            <p> BVR annex A, Rules for canopy selection, version 2011:<br>
+                <a target="_blank" href="http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/BVR_Bijlage_A_2011.pdf">http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/BVR_Bijlage_A_2011.pdf</a>
+            </p>
+
+            <p>BVR annex B, main canopy categories, version april 2013:<br>
+                <a target="_blank"
+                   href="http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/BVR_bijlage_B_versie_2013_april.pdf">http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/BVR_bijlage_B_versie_2013_april.pdf</a>
+            </p>
+
+            <p>The source can be found at GitHub:<br>
+                <a target="_blank" href="https://github.com/digitalica/skydivekompasroosweb">https://github.com/digitalica/skydivekompasroosweb</a>
+            </p>
+
+            <p>Originally (until 2015), the Skydive Kompasroos was available as Android app. The Android version is now
+                obsolete and no longer maintained.</p>
+
+            <p>Robbert Wethmar<br>
+                robbert@digitalica.nl<br>
+                Digitalica, Amsterdam</p>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary" type="button" ng-click="closeAbout()">Sluit</button>
+        </div>
+    </script>
+
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <img src="img/kompasroos128.png" height="40" width="40" align="left">
+
+            <div class="navbar-header">
+                <div class="pull-right">
+                    <button type="button" class="navbar-toggle collapsed"
+                            ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div>
+                    Skydive Kompasroos<br>
+
+                    {{sliders.totalValue}}
+                    <span ng-show="sliders.totalValue==sliderOptions.totalMax">+</span>
+                    / {{sliders.last12MonthsValue}}
+                    <span ng-show="sliders.last12MonthsValue==sliderOptions.last12MonthsMax">+</span>
+                    / {{sliders.weightValue}} kg
+                    > cat {{settings.category}}
+
+                </div>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" ng-class="{'in':!navCollapsed}">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="" ng-click="openAbout()">{{translation.ABOUT}}</a></li>
+
+                    <li class="dropdown" dropdown is-open="status.isopen-filter">
+                        <a id="single-button-filter" href="" class="dropdown-toggle" dropdown-toggle
+                           ng-disabled="disabled">{{translation.FILTER}}<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="single-button-filter">
+                            <li><a href="" ng-click="setFilterAll()">{{translation.FILTER_ALL}}</a></li>
+                            <li><a href="" ng-click="setFilterCommon()">{{translation.FILTER_COMMON}}</a></li>
+                            <li><a href="" ng-click="setFilterCategory()">{{translation.FILTER_CAT}}</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="dropdown" dropdown is-open="status.isopen-sort">
+                        <a id="single-button-sort" href="" class="dropdown-toggle" dropdown-toggle
+                           ng-disabled="disabled">{{translation.SORT}}<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="single-button-sort">
+                            <li><a href="" ng-click="setSortName()">{{translation.SORT_NAME}}</a></li>
+                            <li><a href="" ng-click="setSortManufacturer()">{{translation.SORT_MANUFACTURER}}</a></li>
+                            <li><a href="" ng-click="setSortCategory()">{{translation.SORT_CAT}}</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="" ng-click="setLanguage('nl')"><img src="img/nl.png"></a></li>
+                    <li><a href="" ng-click="setLanguage('en')"><img src="img/gb.png"></a></li>
+
+                </ul>
+
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </nav>
+
+
+    <div class="row">
+
+        <div class="col-sm-6" id="left">
+
+            <accordion close-others="oneAtATime">
+                <accordion-group heading="Static Header, initially expanded" is-open="accExperienceOpen"
+                                 is-disabled="accExperienceDisabled">
+                    <accordion-heading>
+                        {{translation.EXPERIENCE}} <i class="pull-right glyphicon"
+                                                      ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+                    </accordion-heading>
+
+                    {{translation.INTRO}}<br><br>
+                    <table width="100%">
+                        <tr>
+                            <td class="hidden-xs hidden-sm">
+                                <button class="btn btn-default" ng-click="incTotal(-5)">- 5</button>
+                            </td>
+                            <td>
+                                <button class="btn btn-default" ng-click="incTotal(-1)">-<span
+                                        class="hidden-xs"> 1</span></button>
+                            </td>
+                            <td width="100%" class="slider-cell">
+                                <span class="hidden-xs hidden-sm">{{translation.SLIDER_JUMPSTOTAL_L}}: {{sliders.totalValue}}</span>
+                                <span class="visible-xs visible-sm">{{translation.SLIDER_JUMPSTOTAL_S}}: {{sliders.totalValue}}</span>
+                                <slider ng-model="sliders.totalValue" min="sliderOptions.totalMin"
+                                        step="sliderOptions.totalStep" max="sliderOptions.totalMax"
+                                        value="sliderOptions.totalCurrent" slider-tooltip="hide"
+                                        on-stop-slide="updateTotal()"></slider>
+
+                            </td>
+                            <td>
+                                <button class="btn btn-default" ng-click="incTotal(1)">+<span
+                                        class="hidden-xs"> 1</span></button>
+                            </td>
+                            <td class="hidden-xs hidden-sm">
+                                <button class="btn btn-default" ng-click="incTotal(5)">+ 5</button>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table width="100%">
+                        <tr>
+                            <td class="hidden-xs hidden-sm">
+                                <button class="btn btn-default" ng-click="incLast12Months(-5)">- 5</button>
+                            </td>
+                            <td>
+                                <button class="btn btn-default" ng-click="incLast12Months(-1)">-<span class="hidden-xs"> 1</span>
+                                </button>
+                            </td>
+                            <td width="100%" class="slider-cell">
+                                <span class="hidden-xs hidden-sm">{{translation.SLIDER_JUMPSLAST12MONTHS_L}}: {{sliders.last12MonthsValue}}</span>
+                                <span class="visible-xs visible-sm">{{translation.SLIDER_JUMPSLAST12MONTHS_S}}: {{sliders.last12MonthsValue}}</span>
+                                <slider ng-model="sliders.last12MonthsValue" min="sliderOptions.last12MonthsMin"
+                                        step="sliderOptions.last12MonthsStep" max="sliderOptions.last12MonthsMax"
+                                        value="sliderOptions.last12MonthsCurrent" slider-tooltip="hide"
+                                        on-stop-slide="updateLast12Months()"></slider>
+                            </td>
+                            <td>
+                                <button class="btn btn-default" ng-click="incLast12Months(1)">+<span class="hidden-xs"> 1</span>
+                                </button>
+                            </td>
+                            <td class="hidden-xs hidden-sm">
+                                <button class="btn btn-default" ng-click="incLast12Months(5)">+ 5</button>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table width="100%">
+                        <tr>
+                            <td class="hidden-xs hidden-sm">
+                                <button class="btn btn-default" ng-click="incWeight(-5)">- 5</button>
+                            </td>
+                            <td>
+                                <button class="btn btn-default" ng-click="incWeight(-1)">-<span
+                                        class="hidden-xs"> 1</span></button>
+                            </td>
+                            <td width="100%" class="slider-cell">
+                                {{translation.SLIDER_WEIGHT}}: {{sliders.weightValue}} kg<br>
+                                <slider ng-model="sliders.weightValue" min="sliderOptions.weightMin"
+                                        step="sliderOptions.weightStep" max="sliderOptions.weightMax"
+                                        value="sliderOptions.weightCurrent" slider-tooltip="hide"
+                                        on-stop-slide="updateWeight()"></slider>
+                            </td>
+                            <td>
+                                <button class="btn btn-default" ng-click="incWeight(1)">+<span
+                                        class="hidden-xs"> 1</span></button>
+                            </td>
+                            <td class="hidden-xs hidden-sm">
+                                <button class="btn btn-default" ng-click="incWeight(5)">+ 5</button>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <br>
+                    {{translation.WINGLOAD_TABLE}}<br>
+                    <table width="100%" align="center">
+                        <tr>
+                            <td align="center"
+                                ng-class="wingLoads.wl120ca">120
+                            </td>
+                            <td align="center"
+                                ng-class="wingLoads.wl135ca">135
+                            </td>
+                            <td align="center"
+                                ng-class="wingLoads.wl150ca">150
+                            </td>
+                            <td align="center"
+                                ng-class="wingLoads.wl170ca">170
+                            </td>
+                            <td align="center"
+                                ng-class="wingLoads.wl190ca">190
+                            </td>
+                            <td align="center"
+                                ng-class="wingLoads.wl210ca">210
+                            </td>
+                            <td align="center"
+                                ng-class="wingLoads.wl230ca">230
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center"
+                                ng-class="wingLoads.wl120cl">
+                                {{wingLoads.wl120}}
+                            </td>
+                            <td align="center"
+                                ng-class="wingLoads.wl135cl">
+                                {{wingLoads.wl135}}
+                            </td>
+                            <td align="center"
+                                ng-class="wingLoads.wl150cl">
+                                {{wingLoads.wl150}}
+                            </td>
+                            <td align="center"
+                                ng-class="wingLoads.wl170cl">
+                                {{wingLoads.wl170}}
+                            </td>
+                            <td align="center"
+                                ng-class="wingLoads.wl190cl">
+                                {{wingLoads.wl190}}
+                            </td>
+                            <td align="center"
+                                ng-class="wingLoads.wl210cl">
+                                {{wingLoads.wl210}}
+                            </td>
+                            <td align="center"
+                                ng-class="wingLoads.wl230cl">
+                                {{wingLoads.wl230}}
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    {{translation.RESULT_CAT}} {{settings.category}}<br>
+                    <span class="text-muted">({{translation.JUMPERCATEGORIES[settings.category]}})</span><br>
+                    <br>
+                    <table>
+                        <tr>
+                            <td>
+                                <span class="hidden-xs hidden-sm">{{translation.RESULT_ALLOWED_L}}:&nbsp;</span>
+                                <span class="visible-xs visible-sm">{{translation.RESULT_ALLOWED_S}}:&nbsp;</span>
+                            </td>
+                            <td>{{translation.RESULT_MAXCAT}} {{settings.category}}</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="hidden-xs hidden-sm">{{translation.RESULT_MINAREA_L}}:&nbsp;</span>
+                                <span class="visible-xs visible-sm">{{translation.RESULT_MINAREA_S}}:&nbsp;</span>
+                            </td>
+                            <td>{{settings.minArea}}</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="hidden-xs hidden-sm">{{translation.RESULT_MAXWINGLOAD_L}}:&nbsp;</span>
+                                <span class="visible-xs visible-sm">{{translation.RESULT_MAXWINGLOAD_S}}:&nbsp;</span>
+                            </td>
+                            <td>{{settings.maxWingLoad}}</td>
+                        </tr>
+                    </table>
+
+                    <br>
+
+                    <table width="100%">
+                        <tr>
+                            <td align="left">
+                                <button class="btn btn-default" ng-click="setBeginner()">
+                                    {{translation.RESULT_BEGINNER}}
+                                </button>
+                            </td>
+                            <td align="center">
+                                <button class="btn btn-default" ng-click="setIntermediate()">
+                                    {{translation.RESULT_INTERMEDIATE}}
+                                </button>
+                            </td>
+                            <td align="right">
+                                <button class="btn btn-default" ng-click="setSkyGod()">{{translation.RESULT_SKYGOD}}
+                                </button>
+                            </td>
+                        </tr>
+                    </table>
+
+
+                </accordion-group>
+            </accordion>
+
+        </div>
+
+        <div class="col-sm-6" id="right">
+
+
+            <div ng-show="busyIndicator">
+                <accordion close-others="oneAtATime">
+                    <accordion-group
+                            heading="Static Header, initially expanded" is-open="busy.accIsOpen"
+                            is-disabled="busy.accIsDisabled">
+                        <accordion-heading>
+                            <h4>{{translation.LOADING}}</h4>
+                        </accordion-heading>
+                    </accordion-group>
+                </accordion>
+            </div>
+
+            <div>
+                <accordion close-others="oneAtATime">
+                    <div class="canopylistpanel" ng-repeat="canopy in canopyList"
+                         ng-class="canopy.class">
+                        <accordion-group
+                                heading="Static Header, initially expanded" is-open="canopy.accIsOpen"
+                                is-disabled="canopy.accIsDisabled">
+                            <accordion-heading>
+                                <h4 ng-if="canopy.listHeader">{{canopy.listHeader}}</h4>
+                                <table width="100%" ng-if="!canopy.listHeader">
+                                    <tr>
+                                        <td>
+                                            <b>{{canopy.displaycategory}}</b>&nbsp;
+                                        </td>
+                                        <td width="100%">
+                                            {{canopy.listLine1}}<br>
+                                            {{canopy.listLine2}}
+                                        </td>
+                                        <td><i class="pull-right glyphicon"
+                                               ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </accordion-heading>
+                            <table>
+                                <tr ng-if="canopy.manufacturer.name">
+                                    <td valign="top">{{translation.LIST_MANUFACTURER}}:&nbsp;</td>
+                                    <td valign="top">
+                                        {{canopy.manufacturer.name}}
+                                        <span ng-show='canopy.manufacturer.url'><a ng-href='{{canopy.manufacturer.url}}'
+                                                                                   target='_blank'><i>website</i></a></span>
+                                    </td>
+                                </tr>
+                                <tr ng-if="canopy.url">
+                                    <td valign="top">Online:&nbsp;</td>
+                                    <td valign="top">
+                                        <a ng-href='{{canopy.url}}' target='_blank'>{{canopy.name}}</a>
+                                    </td>
+                                </tr>
+
+                                <tr ng-if="canopy.category">
+                                    <td valign="top">
+                                        <span class="hidden-xs hidden-sm">{{translation.LIST_EXPERIENCENEEDED_L}}:&nbsp;</span>
+                                        <span class="visible-xs visible-sm">{{translation.LIST_EXPERIENCENEEDED_S}}:&nbsp;</span>
+                                    </td>
+                                    <td valign="top">
+                                        {{translation.NEEDEDEXPERIENCE[canopy.calculationcategory]}}
+                                    </td>
+                                </tr>
+
+                                <tr ng-if="canopy.cells">
+                                    <td valign="top">{{translation.LIST_CELLS}}:&nbsp;</td>
+                                    <td valign="top">{{canopy.cells}}</td>
+                                </tr>
+
+                                <tr ng-if="canopy.firstyearofproduction">
+                                    <td valign="top">
+                                        <span class="hidden-xs hidden-sm text-nowrap">{{translation.LIST_FIRSTYEAR_L}}:&nbsp;</span>
+                                        <span class="visible-xs visible-sm text-nowrap">{{translation.LIST_FIRSTYEAR_S}}:&nbsp;</span>
+                                    </td>
+                                    <td valign="top">{{canopy.firstyearofproduction}}</td>
+                                </tr>
+                                <tr ng-if="canopy.lastyearofproduction">
+                                    <td valign="top">
+                                        <span class="hidden-xs hidden-sm text-nowrap">{{translation.LIST_LASTYEAR_L}}:&nbsp;</span>
+                                        <span class="visible-xs visible-sm text-nowrap">{{translation.LIST_LASTYEAR_S}}:&nbsp;</span>
+                                    </td>
+                                    <td valign="top">{{canopy.lastyearofproduction}}</td>
+                                </tr>
+                                <tr ng-if="canopy.maxsize">
+                                    <td valign="top">
+                                        <span class="hidden-xs hidden-sm text-nowrap">{{translation.LIST_MAXSIZE_L}}:&nbsp;</span>
+                                        <span class="visible-xs visible-sm text-nowrap">{{translation.LIST_MAXSIZE_S}}:&nbsp;</span>
+                                    </td>
+                                    <td valign="top">{{canopy.maxsize}} sqft</td>
+                                </tr>
+                                <tr ng-if="canopy.minsize">
+                                    <td valign="top">
+                                        <span class="hidden-xs hidden-sm text-nowrap">{{translation.LIST_MINSIZE_L}}:&nbsp;</span>
+                                        <span class="visible-xs visible-sm text-nowrap">{{translation.LIST_MINSIZE_S}}:&nbsp;</span>
+                                    </td>
+                                    <td valign="top">{{canopy.minsize}} sqft</td>
+                                </tr>
+                                <tr ng-if="canopy.dropzoneid">
+                                    <td valign="top">
+                                        <span class="hidden-xs hidden-sm">www.dropzone.com:&nbsp;</span>
+                                        <span class="visible-xs visible-sm">Dropzone:&nbsp;</span>
+                                    </td>
+                                    <td valign="top"><a target="_blank"
+                                                        href="http://www.dropzone.com/gear/Detailed/{{canopy.dropzoneid}}.html">{{canopy.name}}</a>
+                                    </td>
+                                </tr>
+                                <tr ng-if="canopy.youtube">
+                                    <td valign="top">Youtube:&nbsp;</td>
+                                    <td valign="top">
+                                        <div ng-repeat="ytmovie in canopy.youtube">
+                                            <a target="_blank" href="http://www.youtube.com/watch?v={{ytmovie.id}}">{{ytmovie.title}}</a>
+                                        </div>
+                                    </td>
+                                </tr>
+
+
+                            </table>
+                        </accordion-group>
+                    </div>
+                </accordion>
+            </div>
+
+        </div>
+
+    </div>
+</div>
