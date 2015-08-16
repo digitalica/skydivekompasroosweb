@@ -170,7 +170,7 @@
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
       "maxsize": "280",
       "minsize": "150",
-      "url": "http://www.paratec.de/produkte-fallschirme/hauptschirme/balance/"
+      "url": "http://www.paratec.de/?page_id=3653"
     },
     {
       "id": "9B97CE42-AF52-41E6-828C-9D0EF103B7A3",
@@ -181,7 +181,7 @@
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
       "maxsize": "260",
       "minsize": "220",
-      "url": "http://www.paratec.de/produkte-fallschirme/hauptschirme/element/"
+      "url": "http://www.paratec.de/?page_id=4236"
     },
     {
       "id": "B1CCC136-FAB0-4140-A927-9603C11DD1AA",
@@ -728,8 +728,7 @@
       "dropzoneid": "451",
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
       "maxsize": "150",
-      "minsize": "97",
-      "url": "http://www.paratec.de/en/products-parachutes/main-canopies/50-2/"
+      "minsize": "97"
     },
     {
       "id": "FC044FAE-FD5C-45A2-8740-9CE8783C76FA",
@@ -738,7 +737,7 @@
       "cells": "9",
       "commontype": "0",
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
-      "url": "http://www.paratec.de/produkte-fallschirme/hauptschirme/nrg/",
+      "url": "http://www.paratec.de/?page_id=4243",
       "youtube": [
         {
           "title": "NRG Opening",
@@ -1198,7 +1197,7 @@
       "minsize": "86",
       "remarks": "There is a Rage from Flight Concepts too",
       "remarks_nl": "Er bestaat ook een Rage van Flight Concepts",
-      "url": "http://www.paratec.de/produkte-fallschirme/hauptschirme/rage/"
+      "url": "http://www.paratec.de/?page_id=4253"
     },
     {
       "id": "51970E29-3AFA-4668-9641-4F5281140168",
