@@ -46,12 +46,13 @@ module.exports = function (grunt) {
             options: {
                 strip: true,
                 data: {
-                    message: 'Hello world!'
+                    builddate: Date().toLocaleString('nl_NL')
                 }
             },
             dist: {
                 files: {
-                    'dist/index.html': ['app/index.html']
+                    'dist/index.html': ['app/index.html'],
+                    'dist/main/main.html': ['app/main/main.html']
                 }
             }
         },
@@ -59,7 +60,6 @@ module.exports = function (grunt) {
         copy: {
             main: {
                 files: [
-                    {src: ['app/main/main.html'], dest: 'dist/main/main.html'},
                     {src: ['app/json/canopies.json'], dest: 'dist/json/canopies.json'},
                     {src: ['app/json/manufacturers.json'], dest: 'dist/json/manufacturers.json'},
 
