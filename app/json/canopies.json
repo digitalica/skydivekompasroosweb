@@ -977,6 +977,20 @@
       "planformcells": "4"
     },
     {
+      "id": "6B6EEC2A-31FE-4112-9200-3F74B3E6D119",
+      "name": "Zulu",
+      "category": "4",
+      "cells": "9",
+      "commontype": "1",
+      "dropzoneid": "931",
+      "firstyearofproduction": "2015",
+      "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
+      "maxsize": "152",
+      "minsize": "102",
+      "planform": "10",
+      "url": "http://www.flyaerodyne.com/zulu.asp"
+    },
+    {
       "id": "66EE6227-E990-4451-B134-43D0D51715C6",
       "name": "Pro serie",
       "category": "4",
@@ -1311,6 +1325,25 @@
       ]
     },
     {
+      "id": "23498D9C-045C-4D99-AAD7-E01CFDBC717B",
+      "name": "Valkyrie",
+      "category": "6",
+      "cells": "9",
+      "commontype": "0",
+      "dropzoneid": "267",
+      "firstyearofproduction": "2014",
+      "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
+      "maxsize": "103",
+      "minsize": "67",
+      "url": "http://www.performancedesigns.com/valkyrie.aspx",
+      "youtube": [
+        {
+          "title": "PD Valkyrie promo",
+          "id": "LJr70PKbgOE"
+        }
+      ]
+    },
+    {
       "id": "F566B784-F61C-49A6-89A1-BEFF497487D2",
       "name": "Ninja",
       "category": "6",
@@ -1438,7 +1471,7 @@
     {
       "id": "de98ce5e-513e-454a-bfdb-fc8ff93ee92e",
       "name": "Leia",
-      "category": "",
+      "category": "6",
       "cells": "21",
       "commontype": "0",
       "firstyearofproduction": "2014",
@@ -1458,25 +1491,6 @@
       "commontype": "0",
       "dropzoneid": "473",
       "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D"
-    },
-    {
-      "id": "23498D9C-045C-4D99-AAD7-E01CFDBC717B",
-      "name": "Valkyrie",
-      "category": "6",
-      "cells": "9",
-      "commontype": "0",
-      "dropzoneid": "267",
-      "firstyearofproduction": "2014",
-      "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
-      "maxsize": "103",
-      "minsize": "67",
-      "url": "http://www.performancedesigns.com/valkyrie.aspx",
-      "youtube": [
-        {
-          "title": "PD Valkyrie promo",
-          "id": "LJr70PKbgOE"
-        }
-      ]
     }
   ]
 }
