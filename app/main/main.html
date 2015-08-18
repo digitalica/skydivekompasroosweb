@@ -146,9 +146,12 @@
                         <a id="single-button-filter" href="" class="dropdown-toggle" dropdown-toggle
                            ng-disabled="disabled">{{translation.FILTER}}<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="single-button-filter">
-                            <li><a href="" ng-click="setFilter('filter_all')">{{translation.FILTER_ALL}}</a></li>
-                            <li><a href="" ng-click="setFilter('filter_common')">{{translation.FILTER_COMMON}}</a></li>
-                            <li><a href="" ng-click="setFilter('filter_category')">{{translation.FILTER_CAT}}</a></li>
+                            <li><a href="" ng-click="setFilter('filter_all')">{{translation.FILTER_ALL}}
+                                <i class="glyphicon glyphicon-ok" ng-show="settings.filter=='filter_all'"></i></a></li>
+                            <li><a href="" ng-click="setFilter('filter_common')">{{translation.FILTER_COMMON}}
+                                <i class="glyphicon glyphicon-ok" ng-show="settings.filter=='filter_common'"></i></a></li>
+                            <li><a href="" ng-click="setFilter('filter_category')">{{translation.FILTER_CAT}}
+                                <i class="glyphicon glyphicon-ok" ng-show="settings.filter=='filter_category'"></i></a></li>
                         </ul>
                     </li>
 
@@ -157,9 +160,12 @@
                         <a id="single-button-sort" href="" class="dropdown-toggle" dropdown-toggle
                            ng-disabled="disabled">{{translation.SORT}}<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="single-button-sort">
-                            <li><a href="" ng-click="setSort('sort_name')">{{translation.SORT_NAME}}</a></li>
-                            <li><a href="" ng-click="setSort('sort_manufacturer')">{{translation.SORT_MANUFACTURER}}</a></li>
-                            <li><a href="" ng-click="setSort('sort_category')">{{translation.SORT_CAT}}</a></li>
+                            <li><a href="" ng-click="setSort('sort_name')">{{translation.SORT_NAME}}
+                                <i class="glyphicon glyphicon-ok" ng-show="settings.sorting=='sort_name'"></i></a></li>
+                            <li><a href="" ng-click="setSort('sort_manufacturer')">{{translation.SORT_MANUFACTURER}}
+                                <i class="glyphicon glyphicon-ok" ng-show="settings.sorting=='sort_manufacturer'"></i></a></li>
+                            <li><a href="" ng-click="setSort('sort_category')">{{translation.SORT_CAT}}
+                                <i class="glyphicon glyphicon-ok" ng-show="settings.sorting=='sort_category'"></i></a></li>
                         </ul>
                     </li>
 
