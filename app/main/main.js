@@ -87,6 +87,7 @@ angular.module('myApp.main', ['ngRoute'])
                 translationService.getTranslation($scope, lang);
                 $scope.settings.language = lang;
                 $scope.saveSettings();
+                _gaq.push(['_trackEvent', 'set_language', lang]);
             } else {
                 console.log('error lang: ' + lang);
             }
@@ -123,6 +124,7 @@ angular.module('myApp.main', ['ngRoute'])
         $scope.setBeginner = function () {
             $scope.sliders.totalValue = 5;
             $scope.sliders.last12MonthsValue = 5;
+            _gaq.push(['_trackEvent', 'set_experience', 'beginner']);
             $scope.updateTotal();
             $scope.updateLast12Months();
             $scope.updateCanopyList();
@@ -131,6 +133,7 @@ angular.module('myApp.main', ['ngRoute'])
         $scope.setIntermediate = function () {
             $scope.sliders.totalValue = 100;
             $scope.sliders.last12MonthsValue = 25;
+            _gaq.push(['_trackEvent', 'set_experience', 'intermediate']);
             $scope.updateTotal();
             $scope.updateLast12Months();
             $scope.updateCanopyList();
@@ -139,6 +142,7 @@ angular.module('myApp.main', ['ngRoute'])
         $scope.setSkyGod = function () {
             $scope.sliders.totalValue = 1100;
             $scope.sliders.last12MonthsValue = 200;
+            _gaq.push(['_trackEvent', 'set_experience', 'skygod']);
             $scope.updateTotal();
             $scope.updateLast12Months();
             $scope.updateCanopyList();
@@ -322,6 +326,8 @@ angular.module('myApp.main', ['ngRoute'])
             if (lang != 'nl' && lang != 'en') {
                 lang = 'nl';
             }
+
+            _gaq.push(['_trackEvent', 'open_about', lang]);
 
             var modalInstance = $modal.open({
                 animation: true,
@@ -620,35 +626,18 @@ angular.module('myApp.main', ['ngRoute'])
             return headerObject;
         };
 
-        $scope.setFilterAll = function () {
-            $scope.settings.filter = 'filter_all';
+        $scope.setFilter = function (filterMode) {
+            _gaq.push(['_trackEvent', 'set_filter', filterMode]);
+            $scope.settings.filter = filterMode;
             $scope.updateCanopyList();
         };
 
-        $scope.setFilterCommon = function () {
-            $scope.settings.filter = 'filter_common';
+        $scope.setSort = function (sortMode) {
+            _gaq.push(['_trackEvent', 'set_sort', sortMode]);
+            $scope.settings.sorting = sortMode;
             $scope.updateCanopyList();
         };
 
-        $scope.setFilterCategory = function () {
-            $scope.settings.filter = 'filter_category';
-            $scope.updateCanopyList();
-        };
-
-        $scope.setSortName = function () {
-            $scope.settings.sorting = 'sort_name';
-            $scope.updateCanopyList();
-        };
-
-        $scope.setSortManufacturer = function () {
-            $scope.settings.sorting = 'sort_manufacturer';
-            $scope.updateCanopyList();
-        };
-
-        $scope.setSortCategory = function () {
-            $scope.settings.sorting = 'sort_category';
-            $scope.updateCanopyList();
-        };
 
     }]);
 
