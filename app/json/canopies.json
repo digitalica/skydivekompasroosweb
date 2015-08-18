@@ -11,7 +11,7 @@
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "300",
       "minsize": "200",
-      "url": "http://www.performancedesigns.com/navigator.asp"
+      "url": "http://www.performancedesigns.com/navigator.aspx"
     },
     {
       "id": "3231807B-22F3-4D6B-A490-403CC0018042",
@@ -456,7 +456,7 @@
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "230",
       "minsize": "97",
-      "url": "http://www.performancedesigns.com/spectre.asp",
+      "url": "http://www.performancedesigns.com/spectre.aspx",
       "youtube": [
         {
           "title": "How to land Spectre 190",
@@ -507,7 +507,7 @@
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "305",
       "minsize": "205",
-      "url": "http://www.performancedesigns.com/zero.asp"
+      "url": "http://www.performancedesigns.com/zero.aspx"
     },
     {
       "id": "8C4442DA-BBEF-4C3A-A95C-F45CE891F407",
@@ -845,7 +845,7 @@
       "minsize": "89",
       "planform": "13.3",
       "planformcells": "4",
-      "url": "http://www.performancedesigns.com/stiletto.asp"
+      "url": "http://www.performancedesigns.com/stiletto.aspx"
     },
     {
       "id": "F0B876B6-F2C6-4560-BF4D-A22DD3C070ED",
@@ -1163,7 +1163,7 @@
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "170",
       "minsize": "83",
-      "url": "http://www.performancedesigns.com/katana.asp"
+      "url": "http://www.performancedesigns.com/katana.aspx"
     },
     {
       "id": "639CE7C8-8907-4F07-9AE6-C5D61B7E8341",
@@ -1296,7 +1296,7 @@
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "111",
       "minsize": "71",
-      "url": "http://www.performancedesigns.com/compvelocity.asp"
+      "url": "http://www.performancedesigns.com/compvelocity.aspx"
     },
     {
       "id": "1931C950-68C7-11E2-BCFD-0800200C9A66",
