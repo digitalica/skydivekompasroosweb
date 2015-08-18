@@ -112,7 +112,7 @@
 
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-            <img src="img/kompasroos128.png" height="40" width="40" align="left">
+            <img src="img/kompasroos128.png" height="40" width="40" align="left"  ng-click="scrollToSettings()">
 
             <div class="navbar-header">
                 <div class="pull-right">
@@ -124,7 +124,7 @@
                         <span class="icon-bar"></span>
                     </button>
                 </div>
-                <div>
+                <div ng-click="scrollToSettings()">
                     Skydive Kompasroos<br>
 
                     {{sliders.totalValue}}
@@ -183,6 +183,7 @@
                 <accordion-group heading="Static Header, initially expanded" is-open="accExperienceOpen"
                                  is-disabled="accExperienceDisabled">
                     <accordion-heading>
+                        <span id="experienceSettingsHeader"></span>
                         {{translation.EXPERIENCE}} <i class="pull-right glyphicon"
                                                       ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
                     </accordion-heading>

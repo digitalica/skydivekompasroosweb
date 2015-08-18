@@ -639,6 +639,13 @@ angular.module('myApp.main', ['ngRoute'])
         };
 
 
+        $scope.scrollToSettings = function() {
+            var element = document.getElementById("experienceSettingsHeader");
+            if (element) {
+                element.scrollIntoView();
+            }
+        }
+
     }]);
 
 
