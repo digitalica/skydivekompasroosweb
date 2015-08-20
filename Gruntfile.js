@@ -69,6 +69,9 @@ module.exports = function (grunt) {
                     {src: ['app/template/modal/backdrop.html'], dest: 'dist/template/modal/backdrop.html'},
                     {src: ['app/template/modal/window.html'], dest: 'dist/template/modal/window.html'},
 
+                    {src: ['app/template/typeahead/typeahead-popup.html'], dest: 'dist/template/typeahead/typeahead-popup.html'},
+                    {src: ['app/template/typeahead/typeahead-match.html'], dest: 'dist/template/typeahead/typeahead-match.html'},
+
                     {src: ['app/favicon.ico'], dest: 'dist/favicon.ico'},
 
                     {src: ['app/img/kompasroos128.png'], dest: 'dist/img/kompasroos128.png'},

@@ -77,6 +77,10 @@ translationServices.service('translationService', function () {
         en.RESULT_SKYGOD = 'Sky god';
 
         // canopy list
+        nl.LIST_NAME = 'Naam'; // voor search
+        en.LIST_NAME = 'Name'; // voor search
+        nl.LIST_CATEGORY = 'Categorie'; // voor search
+        en.LIST_CATEGORY = 'Category'; // voor search
         nl.LIST_MANUFACTURER = 'Fabrikant';
         en.LIST_MANUFACTURER = 'Manufacturer';
         nl.LIST_EXPERIENCENEEDED_L = 'Ervaring nodig';
@@ -141,6 +145,11 @@ translationServices.service('translationService', function () {
             "At least 700 jumps, of wich at least 100 in the last 12 months",
             "At least 1000 jumps"
         ];
+
+
+        // search
+        nl.SEARCHHEADER = 'Zoek';
+        en.SEARCHHEADER = 'Search';
 
         switch (language) {
             case 'nl':

@@ -109,10 +109,126 @@
         </div>
     </script>
 
+    <script type="text/ng-template" id="searchContent.html">
+        <div class="modal-header">
+            <h3 class="modal-title">{{translation.SEARCHHEADER}}
+                ({{settings.jumpsTotal}}
+                / {{settings.jumpsLastYear}}
+                / {{settings.weight}} kg)
+
+            </h3>
+        </div>
+        <div class="modal-body">
+            <input type="text" ng-model="selected"
+                   typeahead="canopysearchname for canopysearchname in data.searchNames | filter:$viewValue | limitTo:8"
+                   class="form-control" typeahead-on-select='onSelect($item, $model, $label)' autofocus>
+
+            <br>
+            <table ng-class="currentCanopy.class">
+                <tr ng-if="currentCanopy.name">
+                    <td valign="top">{{translation.LIST_NAME}}:&nbsp;</td>
+                    <td valign="top">
+                        {{currentCanopy.name}}
+                    </td>
+                </tr>
+                <tr ng-if="currentCanopy.manufacturer.name">
+                    <td valign="top">{{translation.LIST_MANUFACTURER}}:&nbsp;</td>
+                    <td valign="top">
+                        {{currentCanopy.manufacturer.name}}
+                                        <span ng-show='currentCanopy.manufacturer.url'><a ng-href='{{currentCanopy.manufacturer.url}}'
+                                                                                   target='_blank'><i>website</i></a></span>
+                    </td>
+                </tr>
+                <tr ng-if="currentCanopy.url">
+                    <td valign="top">Online:&nbsp;</td>
+                    <td valign="top">
+                        <a ng-href='{{currentCanopy.url}}' target='_blank'>{{currentCanopy.name}}</a>
+                    </td>
+                </tr>
+
+                <tr ng-if="currentCanopy.category">
+                    <td valign="top">
+                        {{translation.LIST_CATEGORY}}:&nbsp;
+                    </td>
+                    <td valign="top">
+                        {{currentCanopy.category}}
+                    </td>
+                </tr>
+
+                <tr ng-if="currentCanopy.category">
+                    <td valign="top">
+                        <span class="hidden-xs hidden-sm">{{translation.LIST_EXPERIENCENEEDED_L}}:&nbsp;</span>
+                        <span class="visible-xs visible-sm">{{translation.LIST_EXPERIENCENEEDED_S}}:&nbsp;</span>
+                    </td>
+                    <td valign="top">
+                        {{translation.NEEDEDEXPERIENCE[currentCanopy.calculationcategory]}}
+                    </td>
+                </tr>
+
+                <tr ng-if="currentCanopy.cells">
+                    <td valign="top">{{translation.LIST_CELLS}}:&nbsp;</td>
+                    <td valign="top">{{currentCanopy.cells}}</td>
+                </tr>
+
+                <tr ng-if="currentCanopy.firstyearofproduction">
+                    <td valign="top">
+                        <span class="hidden-xs hidden-sm text-nowrap">{{translation.LIST_FIRSTYEAR_L}}:&nbsp;</span>
+                        <span class="visible-xs visible-sm text-nowrap">{{translation.LIST_FIRSTYEAR_S}}:&nbsp;</span>
+                    </td>
+                    <td valign="top">{{currentCanopy.firstyearofproduction}}</td>
+                </tr>
+                <tr ng-if="currentCanopy.lastyearofproduction">
+                    <td valign="top">
+                        <span class="hidden-xs hidden-sm text-nowrap">{{translation.LIST_LASTYEAR_L}}:&nbsp;</span>
+                        <span class="visible-xs visible-sm text-nowrap">{{translation.LIST_LASTYEAR_S}}:&nbsp;</span>
+                    </td>
+                    <td valign="top">{{currentCanopy.lastyearofproduction}}</td>
+                </tr>
+                <tr ng-if="currentCanopy.maxsize">
+                    <td valign="top">
+                        <span class="hidden-xs hidden-sm text-nowrap">{{translation.LIST_MAXSIZE_L}}:&nbsp;</span>
+                        <span class="visible-xs visible-sm text-nowrap">{{translation.LIST_MAXSIZE_S}}:&nbsp;</span>
+                    </td>
+                    <td valign="top">{{currentCanopy.maxsize}} sqft</td>
+                </tr>
+                <tr ng-if="currentCanopy.minsize">
+                    <td valign="top">
+                        <span class="hidden-xs hidden-sm text-nowrap">{{translation.LIST_MINSIZE_L}}:&nbsp;</span>
+                        <span class="visible-xs visible-sm text-nowrap">{{translation.LIST_MINSIZE_S}}:&nbsp;</span>
+                    </td>
+                    <td valign="top">{{currentCanopy.minsize}} sqft</td>
+                </tr>
+                <tr ng-if="currentCanopy.dropzoneid">
+                    <td valign="top">
+                        <span class="hidden-xs hidden-sm">www.dropzone.com:&nbsp;</span>
+                        <span class="visible-xs visible-sm">Dropzone:&nbsp;</span>
+                    </td>
+                    <td valign="top"><a target="_blank"
+                                        href="http://www.dropzone.com/gear/Detailed/{{currentCanopy.dropzoneid}}.html">{{currentCanopy.name}}</a>
+                    </td>
+                </tr>
+                <tr ng-if="currentCanopy.youtube">
+                    <td valign="top">Youtube:&nbsp;</td>
+                    <td valign="top">
+                        <div ng-repeat="ytmovie in currentCanopy.youtube">
+                            <a target="_blank"
+                               href="http://www.youtube.com/watch?v={{ytmovie.id}}">{{ytmovie.title}}</a>
+                        </div>
+                    </td>
+                </tr>
+
+
+            </table>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary" type="button" ng-click="closeSearch()">Sluit</button>
+        </div>
+    </script>
+
 
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-            <img src="img/kompasroos128.png" height="40" width="40" align="left"  ng-click="scrollToSettings()">
+            <img src="img/kompasroos128.png" height="40" width="40" align="left" ng-click="scrollToSettings()">
 
             <div class="navbar-header">
                 <div class="pull-right">
@@ -140,6 +256,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" ng-class="{'in':!navCollapsed}">
                 <ul class="nav navbar-nav navbar-right">
+                    <li><a href="" ng-click="openSearch()"><i class="glyphicon glyphicon-search"></i>&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
                     <li><a href="" ng-click="openAbout()">{{translation.ABOUT}}</a></li>
 
                     <li class="dropdown" dropdown is-open="status.isopen-filter">
@@ -149,9 +266,11 @@
                             <li><a href="" ng-click="setFilter('filter_all')">{{translation.FILTER_ALL}}
                                 <i class="glyphicon glyphicon-ok" ng-show="settings.filter=='filter_all'"></i></a></li>
                             <li><a href="" ng-click="setFilter('filter_common')">{{translation.FILTER_COMMON}}
-                                <i class="glyphicon glyphicon-ok" ng-show="settings.filter=='filter_common'"></i></a></li>
+                                <i class="glyphicon glyphicon-ok" ng-show="settings.filter=='filter_common'"></i></a>
+                            </li>
                             <li><a href="" ng-click="setFilter('filter_category')">{{translation.FILTER_CAT}}
-                                <i class="glyphicon glyphicon-ok" ng-show="settings.filter=='filter_category'"></i></a></li>
+                                <i class="glyphicon glyphicon-ok" ng-show="settings.filter=='filter_category'"></i></a>
+                            </li>
                         </ul>
                     </li>
 
@@ -163,9 +282,11 @@
                             <li><a href="" ng-click="setSort('sort_name')">{{translation.SORT_NAME}}
                                 <i class="glyphicon glyphicon-ok" ng-show="settings.sorting=='sort_name'"></i></a></li>
                             <li><a href="" ng-click="setSort('sort_manufacturer')">{{translation.SORT_MANUFACTURER}}
-                                <i class="glyphicon glyphicon-ok" ng-show="settings.sorting=='sort_manufacturer'"></i></a></li>
+                                <i class="glyphicon glyphicon-ok"
+                                   ng-show="settings.sorting=='sort_manufacturer'"></i></a></li>
                             <li><a href="" ng-click="setSort('sort_category')">{{translation.SORT_CAT}}
-                                <i class="glyphicon glyphicon-ok" ng-show="settings.sorting=='sort_category'"></i></a></li>
+                                <i class="glyphicon glyphicon-ok" ng-show="settings.sorting=='sort_category'"></i></a>
+                            </li>
                         </ul>
                     </li>
 

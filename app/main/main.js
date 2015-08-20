@@ -344,6 +344,34 @@ angular.module('myApp.main', ['ngRoute'])
 
         };
 
+        $scope.openSearch = function (size) {
+            _gaq.push(['_trackEvent', 'open_search']);
+
+            var modalInstance = $modal.open({
+                animation: true,
+                templateUrl: 'searchContent.html',
+                controller: 'SearchCtrl',
+                size: size,
+                resolve: {
+                    settings: function() {
+                        return $scope.settings;
+                    },
+                    translation: function() {
+                        return $scope.translation;
+                    },
+                    canopyData: function () {
+                        return $scope.data;
+                    }
+                }
+            });
+
+            modalInstance.result.then(function () {
+                //console.log('closed');
+            }, function () {
+                //console.log('closed2');
+            });
+
+        };
 
         // actual tested calculations
 
@@ -657,3 +685,31 @@ angular.module('myApp.main').controller('AboutCtrl', ['$scope', '$modalInstance'
 
 
 }]);
+
+angular.module('myApp.main').controller('SearchCtrl', ['$scope', '$modalInstance', 'canopyData', 'translation', 'settings', function ($scope, $modalInstance, canopyData, translation, settings) {
+
+    $scope.settings = settings;
+    $scope.data = canopyData;
+    $scope.translation = translation;
+
+    $scope.closeSearch = function () {
+        $modalInstance.close();
+    };
+
+    $scope.onSelect = function ($item, $model, $label) {
+        $scope.currentCanopy = $scope.data.canopiesBySearchname[$item];
+    };
+
+    $scope.currentCanopy = {};
+
+}]);
+
+
+angular.module('myApp.main').directive('autofocus', function () {
+    return {
+        restrict: 'A',
+        link: function (scope, element) {
+            element[0].focus();
+        }
+    };
+});

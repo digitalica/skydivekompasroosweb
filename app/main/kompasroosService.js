@@ -33,6 +33,8 @@ kompasroosServices.factory('KompasroosData', ['$resource', function ($resource) 
                         kompasroosdata.canopiesFromFile = canopiesResource.canopies;
                         kompasroosdata.canopies = [];
                         kompasroosdata.canopiesById = [];
+                        kompasroosdata.searchNames = [];
+                        kompasroosdata.canopiesBySearchname = [];
                         for (var cid in kompasroosdata.canopiesFromFile) {
                             var org = kompasroosdata.canopiesFromFile[cid];
                             var canopy = {
@@ -55,6 +57,9 @@ kompasroosServices.factory('KompasroosData', ['$resource', function ($resource) 
                             canopy.manufacturer = kompasroosdata.manufacturersById[canopy.manufacturerid];
                             kompasroosdata.canopies.push(canopy);
                             kompasroosdata.canopiesById[canopy.id] = canopy;
+                            var searchName = canopy.name + " (" + canopy.manufacturer.shortname + ")";
+                            kompasroosdata.searchNames.push(searchName);
+                            kompasroosdata.canopiesBySearchname[searchName] = canopy;
                         }
 
 
