@@ -105,6 +105,8 @@ translationServices.service('translationService', function () {
         en.LIST_MINSIZE_L = 'Minimal size';
         nl.LIST_MINSIZE_S = 'Kleinste';
         en.LIST_MINSIZE_S = 'Minimal';
+        nl.LIST_REMARKS = 'Opmerkingen';
+        en.LIST_REMARKS = 'Remarks';
 
 
         // categorieen

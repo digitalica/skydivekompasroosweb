@@ -689,8 +689,10 @@
       "dropzoneid": "1",
       "firstyearofproduction": "1998",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
-      "remarks": "Safire 2 was introduced in 2001",
-      "remarks_nl": "Safire 2 werd geintroduceerd in 2001"
+      "remarks": {
+        "en": "Safire 2 was introduced in 2001",
+        "nl": "Safire 2 werd geintroduceerd in 2001"
+      }
     },
     {
       "id": "78C709A5-C1C8-4CAE-99F0-52D43B189D88",
@@ -1005,9 +1007,11 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "230",
       "minsize": "90",
-      "remarks": "There is a 'Rage' from Paratec too",
-      "remarks_nl": "Er bestaat ook een 'Rage' van Paratec",
-      "url": "http://flightconceptsint.com/zp-main/rage"
+      "remarks": {
+        "en": "There is a 'Rage' from Paratec too",
+        "nl": "Er bestaat ook een 'Rage' van Paratec",
+        "url": "http://flightconceptsint.com/zp-main/rage"
+      }
     },
     {
       "id": "DD5B5953-DDC5-49E1-995D-1997794694D3",
@@ -1071,8 +1075,10 @@
       "dropzoneid": "4",
       "firstyearofproduction": "1999",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
-      "remarks": "Crossfire 2 was introduced in 2001",
-      "remarks_nl": "Crossfire 2 werd geintroduceerd in 2001"
+      "remarks": {
+        "en": "Crossfire 2 was introduced in 2001",
+        "nl": "Crossfire 2 werd geintroduceerd in 2001"
+      }
     },
     {
       "id": "909AAB5D-37EA-447A-A850-4AEEE03CF1D2",
@@ -1175,8 +1181,10 @@
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "170",
       "minsize": "89",
-      "remarks": "Airlocked",
-      "remarks_nl": "Airlocked"
+      "remarks": {
+        "en": "Airlocked",
+        "nl": "Airlocked"
+      }
     },
     {
       "id": "3E43D7CE-DDFD-446F-B6D4-BB793ABB46A6",
@@ -1195,9 +1203,11 @@
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
       "maxsize": "107",
       "minsize": "86",
-      "remarks": "There is a Rage from Flight Concepts too",
-      "remarks_nl": "Er bestaat ook een Rage van Flight Concepts",
-      "url": "http://www.paratec.de/?page_id=4253"
+      "remarks": {
+        "en": "There is a Rage from Flight Concepts too",
+        "nl": "Er bestaat ook een Rage van Flight Concepts",
+        "url": "http://www.paratec.de/?page_id=4253"
+      }
     },
     {
       "id": "51970E29-3AFA-4668-9641-4F5281140168",
@@ -1305,8 +1315,10 @@
       "cells": "27",
       "commontype": "0",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
-      "remarks": "Not freely available",
-      "remarks_nl": "Niet vrij beschikbaar",
+      "remarks": {
+        "en": "Not freely available",
+        "nl": "Niet vrij beschikbaar"
+      },
       "url": "http://www.performancedesigns.com/peregrine.aspx",
       "youtube": [
         {
@@ -1392,8 +1404,10 @@
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "maxsize": "119",
       "minsize": "59",
-      "remarks": "Daedalus JVX was introduced in 2005",
-      "remarks_nl": "Daedalus JVX werd geintroduceerd in 2005",
+      "remarks": {
+        "en": "Daedalus JVX was introduced in 2005",
+        "nl": "Daedalus JVX werd geintroduceerd in 2005"
+      },
       "url": "http://www.nzaerosports.com/canopies/icarus-VX"
     },
     {
@@ -1407,8 +1421,10 @@
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "maxsize": "119",
       "minsize": "59",
-      "remarks": "Daedalus JFX was introduced in 2010",
-      "remarks_nl": "Daedalus JFX werd geintroduceerd in 2010",
+      "remarks": {
+        "en": "Daedalus JFX was introduced in 2010",
+        "nl": "Daedalus JFX werd geintroduceerd in 2010"
+      },
       "url": "http://www.nzaerosports.com/canopies/icarus-FX"
     },
     {
@@ -1465,7 +1481,11 @@
           "title": "Tech Toys 360 preview: Petra Parachute",
           "id": "BetKPFN_VUY"
         }
-      ]
+      ],
+      "remarks": {
+        "en": "To order NZA requires at least 1500 jumps, of which at least 300 on a crossbraced canopy with a similar wing loading than the Leia odered; 150 jumps in the last 6 months; 2 references from coach or Petra/Peregrine jumper.",
+        "nl": "Om te bestellen eist NZA minimaal 1500 sprongen, waarvan minstens 300 onder een crossbraced koepel met een soorgelijke wingload als de bestelde Leia; 150 sprongen in de laatste 6 maanden; 2 referenties van een coach of Petra/Peregrine springer."
+      }
     },
     {
       "id": "de98ce5e-513e-454a-bfdb-fc8ff93ee92e",
@@ -1481,7 +1501,11 @@
           "title": "Petra Project Episode II: Leia",
           "id": "zomcgbDLTPI"
         }
-      ]
+      ],
+      "remarks": {
+        "en": "To order NZA requires at least 1500 jumps, of which at least 300 on a crossbraced canopy with a similar wing loading than the Leia odered; 150 jumps in the last 6 months.",
+        "nl": "Om te bestellen eist NZA minimaal 1500 sprongen, waarvan minstens 300 onder een crossbraced koepel met een soorgelijke wingload als de bestelde Leia; 150 sprongen in de laatste 6 maanden."
+      }
     },
     {
       "id": "3193501C-9111-4782-B0EC-778CD6923E08",

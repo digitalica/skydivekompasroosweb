@@ -124,7 +124,7 @@
                    class="form-control" typeahead-on-select='onSelect($item, $model, $label)' autofocus>
 
             <br>
-            <table widt="100%" ng-class="currentCanopy.class">
+            <table width="100%" ng-class="currentCanopy.class">
                 <tr ng-if="currentCanopy.name">
                     <td valign="top">{{translation.LIST_NAME}}:&nbsp;</td>
                     <td valign="top">
@@ -137,6 +137,12 @@
                         {{currentCanopy.manufacturer.name}}
                                         <span ng-show='currentCanopy.manufacturer.url'><a ng-href='{{currentCanopy.manufacturer.url}}'
                                                                                    target='_blank'><i>website</i></a></span>
+                    </td>
+                </tr>
+                <tr ng-if="currentCanopy.manufacturer.remarks">
+                    <td valign="top">{{translation.LIST_REMARKS}}:&nbsp;</td>
+                    <td valign="top">
+                        {{currentCanopy.manufacturer.remarks[settings.language]}}
                     </td>
                 </tr>
                 <tr ng-if="currentCanopy.url">
@@ -214,6 +220,12 @@
                             <a target="_blank"
                                href="http://www.youtube.com/watch?v={{ytmovie.id}}">{{ytmovie.title}}</a>
                         </div>
+                    </td>
+                </tr>
+                <tr ng-if="currentCanopy.remarks">
+                    <td valign="top">{{translation.LIST_REMARKS}}:&nbsp;</td>
+                    <td valign="top">
+                        {{currentCanopy.remarks[settings.language]}}
                     </td>
                 </tr>
 
@@ -557,6 +569,12 @@
                                                                                    target='_blank'><i>website</i></a></span>
                                     </td>
                                 </tr>
+                                <tr ng-if="canopy.manufacturer.remarks">
+                                    <td valign="top">{{translation.LIST_REMARKS}}:&nbsp;</td>
+                                    <td valign="top">
+                                        {{canopy.manufacturer.remarks[settings.language]}}
+                                    </td>
+                                </tr>
                                 <tr ng-if="canopy.url">
                                     <td valign="top">Online:&nbsp;</td>
                                     <td valign="top">
@@ -622,6 +640,12 @@
                                         <div ng-repeat="ytmovie in canopy.youtube">
                                             <a target="_blank" href="http://www.youtube.com/watch?v={{ytmovie.id}}">{{ytmovie.title}}</a>
                                         </div>
+                                    </td>
+                                </tr>
+                                <tr ng-if="canopy.remarks">
+                                    <td valign="top">{{translation.LIST_REMARKS}}:&nbsp;</td>
+                                    <td valign="top">
+                                        {{canopy.remarks[settings.language]}}
                                     </td>
                                 </tr>
 

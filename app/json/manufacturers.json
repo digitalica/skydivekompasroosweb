@@ -31,8 +31,10 @@
       "id": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
       "name": "Parachute Systems",
       "countrycode": "sa",
-      "remarks": "Parachute Systems was called Chute Shop originally.",
-      "remarks_nl": "Parachute Systems heette voorheen Chute Shop.",
+      "remarks": {
+        "en": "Parachute Systems was called Chute Shop originally.",
+        "nl": "Parachute Systems heette voorheen Chute Shop."
+      },
       "shortname": "Chute Shop",
       "url": "http://www.parachutesystems.co.za/"
     },
@@ -47,8 +49,10 @@
       "id": "7AE2A118-7566-456B-9D73-2E6751BF7D7A",
       "name": "Firebird",
       "countrycode": "us, de",
-      "remarks": "Firebird was called Performance Variable originally.",
-      "remarks_nl": "Firebird heette voorheen Performance Variable.",
+      "remarks": {
+        "en": "Firebird was called Performance Variable originally.",
+        "nl": "Firebird heette voorheen Performance Variable."
+      },
       "shortname": "Firebird",
       "url": "http://cms.flyfirebird.com/"
     },
@@ -63,8 +67,10 @@
       "id": "29A49954-54B1-4F77-A399-CCEFCCC9B3B9",
       "name": "Icarus Canopies",
       "countrycode": "nz, es",
-      "remarks": "Most Icarus canopies are manufactured by NZ Aerosports.",
-      "remarks_nl": "De meeste typen Icarus parachutes worden gefabriceerd door NZ Aerosports.",
+      "remarks": {
+        "en": "Most Icarus canopies are manufactured by NZ Aerosports.",
+        "nl": "De meeste typen Icarus parachutes worden gefabriceerd door NZ Aerosports."
+      },
       "shortname": "Icarus",
       "url": "http://www.icaruscanopies.aero/"
     },
@@ -86,8 +92,10 @@
       "id": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "name": "NZ Aerosports",
       "countrycode": "nz",
-      "remarks": "NZ Aerosports is the manufacturer of most of the Icarus canopies.",
-      "remarks_nl": "NZ Aerosports is de fabrikant van de meeste typen Icarus parachutes.",
+      "remarks": {
+        "en": "NZ Aerosports is the manufacturer of most of the Icarus canopies.",
+        "nl": "NZ Aerosports is de fabrikant van de meeste typen Icarus parachutes."
+      },
       "shortname": "NZ Aerosports",
       "url": "http://www.nzaerosports.com"
     },
@@ -95,8 +103,10 @@
       "id": "35AF72C6-F1D1-473D-99D0-804769E3E768",
       "name": "Parachutes de France",
       "countrycode": "fr",
-      "remarks": "Parachutes de France was merged in Zodiac Aerospace around 2014.",
-      "remarks_nl": "Parachutes de France is rond 2014 opgegaan in Zodiac Aerospace.",
+      "remarks": {
+        "en": "Parachutes de France was merged in Zodiac Aerospace around 2014.",
+        "nl": "Parachutes de France is rond 2014 opgegaan in Zodiac Aerospace."
+      },
       "shortname": "PdF",
       "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems"
     },
@@ -118,8 +128,10 @@
       "id": "E0E33BAB-7067-42EC-96E3-FD6B35926A11",
       "name": "PISA",
       "countrycode": "sa",
-      "remarks": "PISA is no longer active",
-      "remarks_nl": "PISA is niet meer actief",
+      "remarks": {
+        "en": "PISA is no longer active",
+        "nl": "PISA is niet meer actief"
+      },
       "shortname": "PISA",
       "url": "http://www.pisa.co.za/"
     },

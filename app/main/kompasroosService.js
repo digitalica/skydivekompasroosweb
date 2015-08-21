@@ -52,7 +52,8 @@ kompasroosServices.factory('KompasroosData', ['$resource', function ($resource) 
                                 'maxsize': org.maxsize,
                                 'minsize': org.minsize,
                                 'youtube': org.youtube,
-                                'url': org.url
+                                'url': org.url,
+                                'remarks': org.remarks
                             };
                             canopy.manufacturer = kompasroosdata.manufacturersById[canopy.manufacturerid];
                             kompasroosdata.canopies.push(canopy);
