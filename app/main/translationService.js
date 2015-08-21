@@ -139,10 +139,10 @@ translationServices.service('translationService', function () {
         en.NEEDEDEXPERIENCE = [
             "Unknown",
             "None",
-            "At least 25 jumps, of wich at least 10 in the last 12 months",
-            "At least 100 jumps, of wich at least 25 in the last 12 months",
-            "At least 400 jumps, of wich at least 50 in the last 12 months",
-            "At least 700 jumps, of wich at least 100 in the last 12 months",
+            "At least 25 jumps, of which at least 10 in the last 12 months",
+            "At least 100 jumps, of which at least 25 in the last 12 months",
+            "At least 400 jumps, of which at least 50 in the last 12 months",
+            "At least 700 jumps, of which at least 100 in the last 12 months",
             "At least 1000 jumps"
         ];
 
