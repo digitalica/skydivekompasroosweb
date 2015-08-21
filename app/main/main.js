@@ -538,6 +538,21 @@ angular.module('myApp.main', ['ngRoute'])
             for (var i = 0; i < $scope.data.canopies.length; i++) {
                 var canopy = $scope.data.canopies[i];
 
+                // set acceptability before filter (needed for search)
+                var acceptability = $scope.acceptability(canopy, $scope.settings.category, $scope.settings.weight);
+                switch (acceptability) {
+                    case $scope.ACC_ACCEPTABLE:
+                        canopy.class = "canopylistcanopy bg-success";
+                        break;
+                    case $scope.ACC_NEEDEDSIZENOTAVAILABLE:
+                        canopy.class = "canopylistcanopy bg-warning";
+                        break;
+                    case $scope.ACC_CATEGORYTOOHIGH:
+                        canopy.class = "canopylistcanopy bg-danger";
+                        break;
+
+                }
+
                 // filter
                 var showThisCanopy = true;
                 switch ($scope.settings.filter) {
@@ -568,22 +583,6 @@ angular.module('myApp.main', ['ngRoute'])
                         canopy.sortKey = canopy.manufacturer.name + canopy.name;
                         break;
                 }
-
-                var acceptability = $scope.acceptability(canopy, $scope.settings.category, $scope.settings.weight);
-                switch (acceptability) {
-                    case $scope.ACC_ACCEPTABLE:
-                        canopy.class = "canopylistcanopy bg-success";
-                        break;
-                    case $scope.ACC_NEEDEDSIZENOTAVAILABLE:
-                        canopy.class = "canopylistcanopy bg-warning";
-                        break;
-                    case $scope.ACC_CATEGORYTOOHIGH:
-                        canopy.class = "canopylistcanopy bg-danger";
-                        break;
-
-                }
-                ;
-
 
                 canopy.listLine1 = canopy.name;
                 if ($scope.settings.sorting == 'sort_manufacturer') {
