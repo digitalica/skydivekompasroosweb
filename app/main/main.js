@@ -91,6 +91,11 @@ angular.module('myApp.main', ['ngRoute'])
             } else {
                 console.log('error lang: ' + lang);
             }
+            // we don't need it at at first (and method not defined yet)
+            // but we do need it later, for the correct translation in line2 sorted by manufacturer
+            if ($scope.updateCanopyList) {
+                $scope.updateCanopyList();
+            }
         };
 
         $scope.setSettingsMinMaxForDisplay = function () {
