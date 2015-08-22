@@ -73,7 +73,7 @@ module.exports = function (grunt) {
                     {src: ['app/template/typeahead/typeahead-match.html'], dest: 'dist/template/typeahead/typeahead-match.html'},
 
                     {src: ['app/favicon.ico'], dest: 'dist/favicon.ico'},
-                    {src: ['app/robtos.txt'], dest: 'dist/robots.txt'},
+                    {src: ['app/robots.txt'], dest: 'dist/robots.txt'},
                     {src: ['app/sitemap.xml'], dest: 'dist/sitemap.xml'},
 
                     {src: ['app/img/kompasroos128.png'], dest: 'dist/img/kompasroos128.png'},
