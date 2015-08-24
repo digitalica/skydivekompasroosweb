@@ -349,6 +349,31 @@ angular.module('myApp.main', ['ngRoute'])
 
         };
 
+        $scope.openExitweight= function (size) {
+            var lang = $scope.settings.language;
+
+            // to be sure
+            if (lang != 'nl' && lang != 'en') {
+                lang = 'nl';
+            }
+
+            _gaq.push(['_trackEvent', 'open_exitweight', lang]);
+
+            var modalInstance = $modal.open({
+                animation: true,
+                templateUrl: 'exitweightContent_' + lang + '.html',
+                controller: 'ExitweightCtrl',
+                size: size
+            });
+
+            modalInstance.result.then(function () {
+                //console.log('closed');
+            }, function () {
+                //console.log('closed2');
+            });
+
+        };
+
         $scope.openSearch = function (size) {
             _gaq.push(['_trackEvent', 'open_search']);
 
@@ -687,6 +712,13 @@ angular.module('myApp.main').controller('AboutCtrl', ['$scope', '$modalInstance'
         $modalInstance.close();
     };
 
+}]);
+
+angular.module('myApp.main').controller('ExitweightCtrl', ['$scope', '$modalInstance', function ($scope, $modalInstance) {
+
+    $scope.closeExitweight = function () {
+        $modalInstance.close();
+    };
 
 }]);
 

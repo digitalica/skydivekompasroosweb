@@ -13,8 +13,11 @@ translationServices.service('translationService', function () {
         nl.LOADING = 'Parachute gegevens laden...';
         en.LOADING = 'Loading canopy data...';
 
-        nl.INTRO = 'Stel uw skydive ervaring in, en zie welke parachutes geschikt zijn';
-        en.INTRO = 'Set your skydiving experience and see what parachutes are accepable according to Dutch regulations';
+        nl.INTRO = 'Stel uw skydive ervaring en exitgewicht in, en zie welke parachutes geschikt zijn';
+        en.INTRO = 'Set your skydiving experience and exit weight and see what parachutes are accepable according to Dutch regulations';
+
+        nl.CLOSE = 'Sluit';
+        en.CLOSE = 'Close';
 
         // menu options
         nl.ABOUT = 'Over';

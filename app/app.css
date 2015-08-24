@@ -60,13 +60,16 @@
     background-color: transparent;
 }
 
-.canopylistcanopy  .panel-default > .panel-heading {
+.canopylistcanopy .panel-default > .panel-heading {
     background-color: transparent;
 }
 
-
 body {
     padding-top: 70px;
+}
+
+a:focus, a:hover, a {
+    color: black;
 }
 
 @media (min-width: 768px) {
