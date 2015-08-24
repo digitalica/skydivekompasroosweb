@@ -479,55 +479,77 @@
                     <table width="100%" align="center">
                         <tr>
                             <td align="center"
-                                ng-class="wingLoads.wl120ca">120
+                                ng-class="wingLoads['120']['ca']"
+                                ng-show="settings.category>=3">120
                             </td>
                             <td align="center"
-                                ng-class="wingLoads.wl135ca">135
+                                ng-class="wingLoads['135']['ca']"
+                                ng-show="settings.category>=2">135
                             </td>
                             <td align="center"
-                                ng-class="wingLoads.wl150ca">150
+                                ng-class="wingLoads['150']['ca']">150
                             </td>
                             <td align="center"
-                                ng-class="wingLoads.wl170ca">170
+                                ng-class="wingLoads['170']['ca']">170
                             </td>
                             <td align="center"
-                                ng-class="wingLoads.wl190ca">190
+                                ng-class="wingLoads['190']['ca']">190
                             </td>
                             <td align="center"
-                                ng-class="wingLoads.wl210ca">210
+                                ng-class="wingLoads['210']['ca']">210
                             </td>
                             <td align="center"
-                                ng-class="wingLoads.wl230ca">230
+                                ng-class="wingLoads['230']['ca']">230
+                            </td>
+                            <td align="center"
+                                ng-class="wingLoads['260']['ca']"
+                                ng-show="settings.category<3">260
+                            </td>
+                            <td align="center"
+                                ng-class="wingLoads['285']['ca']"
+                                ng-show="settings.category<2">285
                             </td>
                         </tr>
                         <tr>
                             <td align="center"
-                                ng-class="wingLoads.wl120cl">
-                                {{wingLoads.wl120}}
+                                ng-class="wingLoads['120']['cl']"
+                                ng-show="settings.category>=3">
+                                {{wingLoads['120']['wl']}}
                             </td>
                             <td align="center"
-                                ng-class="wingLoads.wl135cl">
-                                {{wingLoads.wl135}}
+                                ng-class="wingLoads['135']['cl']"
+                                ng-show="settings.category>=2">
+                                {{wingLoads['135']['wl']}}
                             </td>
                             <td align="center"
-                                ng-class="wingLoads.wl150cl">
-                                {{wingLoads.wl150}}
+                                ng-class="wingLoads['150']['cl']">
+                                {{wingLoads['150']['wl']}}
                             </td>
                             <td align="center"
-                                ng-class="wingLoads.wl170cl">
-                                {{wingLoads.wl170}}
+                                ng-class="wingLoads['170']['cl']">
+                                {{wingLoads['170']['wl']}}
                             </td>
                             <td align="center"
-                                ng-class="wingLoads.wl190cl">
-                                {{wingLoads.wl190}}
+                                ng-class="wingLoads['190']['cl']">
+                                {{wingLoads['190']['wl']}}
                             </td>
                             <td align="center"
-                                ng-class="wingLoads.wl210cl">
-                                {{wingLoads.wl210}}
+                                ng-class="wingLoads['210']['cl']">
+                                {{wingLoads['210']['wl']}}
                             </td>
                             <td align="center"
-                                ng-class="wingLoads.wl230cl">
-                                {{wingLoads.wl230}}
+                                ng-class="wingLoads['230']['cl']">
+                                {{wingLoads['230']['wl']}}
+                            </td>
+                            <td align="center"
+                                ng-class="wingLoads['260']['cl']"
+                                ng-show="settings.category<3">
+                                {{wingLoads['260']['wl']}}
+                            </td>
+                            <td align="center"
+                                ng-class="wingLoads['285']['cl']"
+                                ng-show="settings.category<2">
+                                {{wingLoads['285']['wl']}}
                             </td>
                         </tr>
                     </table>

@@ -45,27 +45,51 @@ angular.module('myApp.main', ['ngRoute'])
         $scope.sliders = {};
 
         $scope.wingLoads = {
-            'wl120': 0,
-            'wl120a': false,
-            'wl120l': false,
-            'wl135': 0,
-            'wl135a': false,
-            'wl135l': false,
-            'wl150': 0,
-            'wl150a': false,
-            'wl150l': false,
-            'wl170': 0,
-            'wl170a': false,
-            'wl170l': false,
-            'wl190': 0,
-            'wl190a': false,
-            'wl190l': false,
-            'wl210': 0,
-            'wl210a': false,
-            'wl210l': false,
-            'wl230': 0,
-            'wl230a': false,
-            'wl230l': false
+            '120': {
+                'wl': 0,
+                'a': false,
+                'l': false
+            },
+            '135': {
+                'wl': 0,
+                'a': false,
+                'l': false
+            },
+            '150': {
+                'wl': 0,
+                'a': false,
+                'l': false
+            },
+            '170': {
+                'wl': 0,
+                'a': false,
+                'l': false
+            },
+            '190': {
+                'wl': 0,
+                'a': false,
+                'l': false
+            },
+            '210': {
+                'wl': 0,
+                'a': false,
+                'l': false
+            },
+            '230': {
+                'wl': 0,
+                'a': false,
+                'l': false
+            },
+            '260': {
+                'wl': 0,
+                'a': false,
+                'l': false
+            },
+            '285': {
+                'wl': 0,
+                'a': false,
+                'l': false
+            }
         };
 
         $scope.settings = {
@@ -192,56 +216,18 @@ angular.module('myApp.main', ['ngRoute'])
             var minArea = $scope.minAreaBasedOnCategory($scope.settings.category);
             var maxLoad = $scope.maxWingLoadBasedOnCategory($scope.settings.category);
             var weightInLbs = $scope.kgToLbs($scope.settings.weight);
-            //console.log("updatewl " + minArea.toString() + typeof minArea + " " + maxLoad.toString()+ typeof maxLoad);
-            $scope.wingLoads.wl120 = $scope.getWingloadFor(120, weightInLbs);
-            $scope.wingLoads.wl120a = 120 >= minArea;
-            $scope.wingLoads.wl120l = maxLoad >= $scope.wingLoads.wl120;
-            $scope.wingLoads.wl120ca = $scope.wlClassA($scope.wingLoads.wl120a, $scope.wingLoads.wl120l);
-            $scope.wingLoads.wl120cl = $scope.wlClassL($scope.wingLoads.wl120a, $scope.wingLoads.wl120l);
-            //console.log("120: " + $scope.wingLoads.wl120a + " "+ $scope.wingLoads.wl120l);
 
-            $scope.wingLoads.wl135 = $scope.getWingloadFor(135, weightInLbs);
-            $scope.wingLoads.wl135a = 135 >= minArea;
-            $scope.wingLoads.wl135l = maxLoad >= $scope.wingLoads.wl135;
-            $scope.wingLoads.wl135ca = $scope.wlClassA($scope.wingLoads.wl135a, $scope.wingLoads.wl135l);
-            $scope.wingLoads.wl135cl = $scope.wlClassL($scope.wingLoads.wl135a, $scope.wingLoads.wl135l);
-            //console.log("135: " + $scope.wingLoads.wl135a + " "+ $scope.wingLoads.wl135l);
-
-            $scope.wingLoads.wl150 = $scope.getWingloadFor(150, weightInLbs);
-            $scope.wingLoads.wl150a = 150 >= minArea;
-            $scope.wingLoads.wl150l = maxLoad >= $scope.wingLoads.wl150;
-            $scope.wingLoads.wl150ca = $scope.wlClassA($scope.wingLoads.wl150a, $scope.wingLoads.wl150l);
-            $scope.wingLoads.wl150cl = $scope.wlClassL($scope.wingLoads.wl150a, $scope.wingLoads.wl150l);
-            //console.log("150: " + $scope.wingLoads.wl150a + " "+ $scope.wingLoads.wl150l);
-
-            $scope.wingLoads.wl170 = $scope.getWingloadFor(170, weightInLbs);
-            $scope.wingLoads.wl170a = 170 >= minArea;
-            $scope.wingLoads.wl170l = maxLoad >= $scope.wingLoads.wl170;
-            $scope.wingLoads.wl170ca = $scope.wlClassA($scope.wingLoads.wl170a, $scope.wingLoads.wl170l);
-            $scope.wingLoads.wl170cl = $scope.wlClassL($scope.wingLoads.wl170a, $scope.wingLoads.wl170l);
-            //console.log("170: " + $scope.wingLoads.wl170a + " "+ $scope.wingLoads.wl170l);
-
-            $scope.wingLoads.wl190 = $scope.getWingloadFor(190, weightInLbs);
-            $scope.wingLoads.wl190a = 190 >= minArea;
-            $scope.wingLoads.wl190l = maxLoad >= $scope.wingLoads.wl190;
-            $scope.wingLoads.wl190ca = $scope.wlClassA($scope.wingLoads.wl190a, $scope.wingLoads.wl190l);
-            $scope.wingLoads.wl190cl = $scope.wlClassL($scope.wingLoads.wl190a, $scope.wingLoads.wl190l);
-            //console.log("190: " + $scope.wingLoads.wl190a + " "+ $scope.wingLoads.wl190l);
-
-            $scope.wingLoads.wl210 = $scope.getWingloadFor(210, weightInLbs);
-            $scope.wingLoads.wl210a = 210 >= minArea;
-            $scope.wingLoads.wl210l = maxLoad >= $scope.wingLoads.wl210;
-            $scope.wingLoads.wl210ca = $scope.wlClassA($scope.wingLoads.wl210a, $scope.wingLoads.wl210l);
-            $scope.wingLoads.wl210cl = $scope.wlClassL($scope.wingLoads.wl210a, $scope.wingLoads.wl210l);
-            //console.log("210: " + $scope.wingLoads.wl210a + " "+ $scope.wingLoads.wl210l);
-
-            $scope.wingLoads.wl230 = $scope.getWingloadFor(230, weightInLbs);
-            $scope.wingLoads.wl230a = 230 >= minArea;
-            $scope.wingLoads.wl230l = maxLoad >= $scope.wingLoads.wl230;
-            $scope.wingLoads.wl230ca = $scope.wlClassA($scope.wingLoads.wl230a, $scope.wingLoads.wl230l);
-            $scope.wingLoads.wl230cl = $scope.wlClassL($scope.wingLoads.wl230a, $scope.wingLoads.wl230l);
-            //console.log("230: " + $scope.wingLoads.wl230a + " "+ $scope.wingLoads.wl230l);
-
+            for (var area in $scope.wingLoads) {
+                //console.log("updatewl " + minArea.toString() + typeof minArea + " " + maxLoad.toString()+ typeof maxLoad);
+                var areaValue = parseInt(area);
+                var wingload = $scope.getWingloadFor(areaValue, weightInLbs);
+                $scope.wingLoads[area]['wl'] = wingload
+                $scope.wingLoads[area]['a'] = areaValue >= minArea;
+                $scope.wingLoads[area]['l'] = maxLoad >= wingload;
+                $scope.wingLoads[area]['ca'] = $scope.wlClassA($scope.wingLoads[area]['a'], $scope.wingLoads[area]['l']);
+                $scope.wingLoads[area]['cl'] = $scope.wlClassL($scope.wingLoads[area]['a'], $scope.wingLoads[area]['l']);
+                //console.log("120: " + $scope.wingLoads.wl120a + " "+ $scope.wingLoads.wl120l);
+            }
         };
 
         $scope.wlClassA = function (blnA, blnL) {
@@ -349,7 +335,7 @@ angular.module('myApp.main', ['ngRoute'])
 
         };
 
-        $scope.openExitweight= function (size) {
+        $scope.openExitweight = function (size) {
             var lang = $scope.settings.language;
 
             // to be sure
@@ -383,10 +369,10 @@ angular.module('myApp.main', ['ngRoute'])
                 controller: 'SearchCtrl',
                 size: size,
                 resolve: {
-                    settings: function() {
+                    settings: function () {
                         return $scope.settings;
                     },
-                    translation: function() {
+                    translation: function () {
                         return $scope.translation;
                     },
                     canopyData: function () {
@@ -696,7 +682,7 @@ angular.module('myApp.main', ['ngRoute'])
         };
 
 
-        $scope.scrollToSettings = function() {
+        $scope.scrollToSettings = function () {
             var element = document.getElementById("experienceSettingsHeader");
             if (element) {
                 element.scrollIntoView();
