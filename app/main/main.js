@@ -180,12 +180,12 @@ angular.module('myApp.main', ['ngRoute'])
 
         $scope.updateTotal = function () {
             $scope.settings.jumpsTotal = $scope.sliders.totalValue;
-            $scope.settings.category = $scope.jumperCategory($scope.settings.jumpsTotal, $scope.settings.jumpsLastYear);
-            $scope.setSettingsMinMaxForDisplay();
             if ($scope.settings.jumpsTotal < $scope.settings.jumpsLastYear) {
                 $scope.settings.jumpsLastYear = $scope.settings.jumpsTotal;
                 $scope.sliders.last12MonthsValue = $scope.settings.jumpsLastYear;
             }
+            $scope.settings.category = $scope.jumperCategory($scope.settings.jumpsTotal, $scope.settings.jumpsLastYear);
+            $scope.setSettingsMinMaxForDisplay();
             $scope.updateWingLoads();
             $scope.updateCanopyList();
             $scope.saveSettings();
@@ -193,12 +193,12 @@ angular.module('myApp.main', ['ngRoute'])
 
         $scope.updateLast12Months = function () {
             $scope.settings.jumpsLastYear = $scope.sliders.last12MonthsValue;
-            $scope.settings.category = $scope.jumperCategory($scope.settings.jumpsTotal, $scope.settings.jumpsLastYear);
-            $scope.setSettingsMinMaxForDisplay();
             if ($scope.settings.jumpsTotal < $scope.settings.jumpsLastYear) {
                 $scope.settings.jumpsTotal = $scope.settings.jumpsLastYear;
                 $scope.sliders.totalValue = $scope.settings.jumpsTotal;
             }
+            $scope.settings.category = $scope.jumperCategory($scope.settings.jumpsTotal, $scope.settings.jumpsLastYear);
+            $scope.setSettingsMinMaxForDisplay();
             $scope.updateWingLoads();
             $scope.updateCanopyList();
             $scope.saveSettings();
