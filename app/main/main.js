@@ -711,6 +711,11 @@ angular.module('myApp.main').controller('SearchCtrl', ['$scope', '$modalInstance
     };
 
     $scope.onSelect = function ($item, $model, $label) {
+        if ($item in $scope.data.canopiesBySearchname) {
+            _gaq.push(['_trackEvent', 'search OK', $item]);
+        } else {
+            _gaq.push(['_trackEvent', 'search UNKNOWN', $item]);
+        }
         $scope.currentCanopy = $scope.data.canopiesBySearchname[$item];
     };
 
