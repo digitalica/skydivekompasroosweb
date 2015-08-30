@@ -520,18 +520,6 @@ angular.module('myApp.main', ['ngRoute'])
             return maxWingLoad;
         };
 
-        $scope.minArea = function (jumperCategory, exitWeightInKg) {
-            var maxWingload = $scope.maxWingLoadBasedOnCategory(jumperCategory);
-            var minAreaBasedOnCategory = $scope.minAreaBasedOnCategory(jumperCategory);
-            if (minAreaBasedOnCategory == 0) { // means there is NO LIMIT
-                return minAreaBasedOnCategory;
-            }
-            var minAreaBasedOnExitWeight = Math.round($scope.kgToLbs(exitWeightInKg) / maxWingload);
-            var minArea = Math.max(minAreaBasedOnCategory, minAreaBasedOnExitWeight);
-            return minArea;
-        };
-
-
         $scope.acceptability = function (canopy, jumperCategory, exitWeightInKg) {
             var canopyCategory = canopy.category;
             if (!canopyCategory) {
@@ -539,10 +527,14 @@ angular.module('myApp.main', ['ngRoute'])
             }
             if (jumperCategory < canopyCategory)
                 return $scope.ACC_CATEGORYTOOHIGH; // not acceptable
-            if (canopy.maxsize != "" && canopy.maxsize != null)
-                if (parseInt(canopy.maxsize) < $scope.minArea(
-                        jumperCategory, exitWeightInKg))
+            if (canopy.maxsize != "" && canopy.maxsize != null) {
+                var maxLoad = $scope.maxWingLoadBasedOnCategory(jumperCategory)
+                var weightInLbs = $scope.kgToLbs($scope.settings.weight);
+                var wingLoad = $scope.getWingloadFor(canopy.maxsize, weightInLbs);
+                if (maxLoad < wingLoad) {
                     return $scope.ACC_NEEDEDSIZENOTAVAILABLE;
+                }
+            }
             return $scope.ACC_ACCEPTABLE;
         };
 
