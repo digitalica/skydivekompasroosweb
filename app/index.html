@@ -20,8 +20,11 @@
   <script>
     function isLiveSite() {
       var isLiveSite = false;
+      // situations where we are live
       isLiveSite |= (document.location.hostname.search("skydivekompasroos.nl") !== -1);
-      isLiveSite |= (document.location.hostname.search("skydiveschietschijf.nl") !== -1)
+      isLiveSite |= (document.location.hostname.search("skydiveschietschijf.nl") !== -1);
+      // except if we are test
+      isLiveSite &= (document.location.hostname.search("test") == -1);
       return isLiveSite;
     }
 
