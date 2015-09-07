@@ -58,6 +58,11 @@
 
 .canopylistcanopy .panel-heading {
     background-color: transparent;
+    padding-top: 0px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
 }
 
 .canopylistcanopy .panel-default > .panel-heading {
@@ -66,7 +71,20 @@
 
 body {
     padding-top: 70px;
+    font-family: 'Roboto';
+    font-weight: 300;
 }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+button, .btn {
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
 
 a:focus, a:hover, a {
     color: black;
@@ -101,4 +119,37 @@ a:focus, a:hover, a {
 }
 
 
+.bg-successxx > .panel-default {
+    border: 1px;
+    border-style:  solid;
+    border-color: #00cc33;
+    background-color: #ccffcc;
+}
 
+
+.bg-dangerxx > .panel-default {
+    border: 1px;
+    border-style:  solid;
+    border-color: #f22000;
+    background-color: #ffa6a6;
+}
+
+.bg-warningxx > .panel-default {
+    border: 2px;
+    border-style:  solid;
+    border-color: #ffff33;
+    background-color: #fff8b9;
+}
+
+
+.wingloadtable .bg-success {
+    background-color: #ccffcc;
+}
+
+.wingloadtable .bg-danger {
+    background-color: #ffa6a6;
+}
+
+.wingloadtable .bg-warning{
+    background-color: #fff8b9;
+}

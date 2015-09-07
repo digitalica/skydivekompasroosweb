@@ -564,13 +564,16 @@ angular.module('myApp.main', ['ngRoute'])
                 var acceptability = $scope.acceptability(canopy, $scope.settings.category, $scope.settings.weight);
                 switch (acceptability) {
                     case $scope.ACC_ACCEPTABLE:
-                        canopy.class = "canopylistcanopy bg-success";
+                        canopy.class = "canopylistcanopy bg-successxx";
+                        canopy.icon = "green";
                         break;
                     case $scope.ACC_NEEDEDSIZENOTAVAILABLE:
-                        canopy.class = "canopylistcanopy bg-warning";
+                        canopy.class = "canopylistcanopy bg-warningxx";
+                        canopy.icon = "yellow";
                         break;
                     case $scope.ACC_CATEGORYTOOHIGH:
-                        canopy.class = "canopylistcanopy bg-danger";
+                        canopy.class = "canopylistcanopy bg-dangerxx";
+                        canopy.icon = "red";
                         break;
 
                 }
