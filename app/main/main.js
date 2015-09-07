@@ -111,7 +111,9 @@ angular.module('myApp.main', ['ngRoute'])
                 translationService.getTranslation($scope, lang);
                 $scope.settings.language = lang;
                 $scope.saveSettings();
-                _gaq.push(['_trackEvent', 'set_language', lang]);
+                if (isLiveSite()) {
+                    _gaq.push(['_trackEvent', 'set_language', lang]);
+                }
             } else {
                 console.log('error lang: ' + lang);
             }
@@ -153,7 +155,9 @@ angular.module('myApp.main', ['ngRoute'])
         $scope.setBeginner = function () {
             $scope.sliders.totalValue = 5;
             $scope.sliders.last12MonthsValue = 5;
-            _gaq.push(['_trackEvent', 'set_experience', 'beginner']);
+            if (isLiveSite()) {
+                _gaq.push(['_trackEvent', 'set_experience', 'beginner']);
+            }
             $scope.updateTotal();
             $scope.updateLast12Months();
             $scope.updateCanopyList();
@@ -162,7 +166,9 @@ angular.module('myApp.main', ['ngRoute'])
         $scope.setIntermediate = function () {
             $scope.sliders.totalValue = 100;
             $scope.sliders.last12MonthsValue = 25;
-            _gaq.push(['_trackEvent', 'set_experience', 'intermediate']);
+            if (isLiveSite()) {
+                _gaq.push(['_trackEvent', 'set_experience', 'intermediate']);
+            }
             $scope.updateTotal();
             $scope.updateLast12Months();
             $scope.updateCanopyList();
@@ -171,7 +177,9 @@ angular.module('myApp.main', ['ngRoute'])
         $scope.setSkyGod = function () {
             $scope.sliders.totalValue = 1100;
             $scope.sliders.last12MonthsValue = 200;
-            _gaq.push(['_trackEvent', 'set_experience', 'skygod']);
+            if (isLiveSite()) {
+                _gaq.push(['_trackEvent', 'set_experience', 'skygod']);
+            }
             $scope.updateTotal();
             $scope.updateLast12Months();
             $scope.updateCanopyList();
@@ -318,7 +326,9 @@ angular.module('myApp.main', ['ngRoute'])
                 lang = 'nl';
             }
 
-            _gaq.push(['_trackEvent', 'open_about', lang]);
+            if (isLiveSite()) {
+                _gaq.push(['_trackEvent', 'open_about', lang]);
+            }
 
             var modalInstance = $modal.open({
                 animation: true,
@@ -343,7 +353,9 @@ angular.module('myApp.main', ['ngRoute'])
                 lang = 'nl';
             }
 
-            _gaq.push(['_trackEvent', 'open_exitweight', lang]);
+            if (isLiveSite()) {
+                _gaq.push(['_trackEvent', 'open_exitweight', lang]);
+            }
 
             var modalInstance = $modal.open({
                 animation: true,
@@ -361,7 +373,9 @@ angular.module('myApp.main', ['ngRoute'])
         };
 
         $scope.openSearch = function (size) {
-            _gaq.push(['_trackEvent', 'open_search']);
+            if (isLiveSite()) {
+                _gaq.push(['_trackEvent', 'open_search']);
+            }
 
             var modalInstance = $modal.open({
                 animation: true,
@@ -662,17 +676,20 @@ angular.module('myApp.main', ['ngRoute'])
         };
 
         $scope.setFilter = function (filterMode) {
-            _gaq.push(['_trackEvent', 'set_filter', filterMode]);
+            if (isLiveSite()) {
+                _gaq.push(['_trackEvent', 'set_filter', filterMode]);
+            }
             $scope.settings.filter = filterMode;
             $scope.updateCanopyList();
         };
 
         $scope.setSort = function (sortMode) {
-            _gaq.push(['_trackEvent', 'set_sort', sortMode]);
+            if (isLiveSite()) {
+                _gaq.push(['_trackEvent', 'set_sort', sortMode]);
+            }
             $scope.settings.sorting = sortMode;
             $scope.updateCanopyList();
         };
-
 
         $scope.scrollToSettings = function () {
             var element = document.getElementById("experienceSettingsHeader");
@@ -681,7 +698,9 @@ angular.module('myApp.main', ['ngRoute'])
             }
         }
 
-    }]);
+    }
+    ])
+;
 
 
 angular.module('myApp.main').controller('AboutCtrl', ['$scope', '$modalInstance', function ($scope, $modalInstance) {
@@ -712,9 +731,13 @@ angular.module('myApp.main').controller('SearchCtrl', ['$scope', '$modalInstance
 
     $scope.onSelect = function ($item, $model, $label) {
         if ($item in $scope.data.canopiesBySearchname) {
-            _gaq.push(['_trackEvent', 'search OK', $item]);
+            if (isLiveSite()) {
+                _gaq.push(['_trackEvent', 'search OK', $item]);
+            }
         } else {
-            _gaq.push(['_trackEvent', 'search UNKNOWN', $item]);
+            if (isLiveSite()) {
+                _gaq.push(['_trackEvent', 'search UNKNOWN', $item]);
+            }
         }
         $scope.currentCanopy = $scope.data.canopiesBySearchname[$item];
     };
