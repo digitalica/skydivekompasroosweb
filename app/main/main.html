@@ -476,7 +476,7 @@
 
                     <br>
                     {{translation.WINGLOAD_TABLE}}<br>
-                    <table width="100%" align="center">
+                    <table class="wingloadtable" width="100%" align="center">
                         <tr>
                             <td align="center"
                                 ng-class="wingLoads['120']['ca']"
@@ -635,7 +635,12 @@
                                 <table width="100%" ng-if="!canopy.listHeader">
                                     <tr>
                                         <td>
-                                            <b>{{canopy.displaycategory}}</b>&nbsp;
+                                            <img ng-show="canopy.icon=='green'" src="img/green3.png" width="27" height="40">
+                                            <img ng-show="canopy.icon=='red'" src="img/RED2.png" width="27" height="40">
+                                            <img ng-show="canopy.icon=='yellow'" src="img/Yellow5.png" width="27" height="40">
+                                        </td>
+                                        <td>
+                                            &nbsp;{{canopy.displaycategory}}&nbsp;
                                         </td>
                                         <td width="100%">
                                             {{canopy.listLine1}}<br>
