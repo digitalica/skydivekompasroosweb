@@ -64,13 +64,22 @@ module.exports = function (grunt) {
                     {src: ['app/json/manufacturers.json'], dest: 'dist/json/manufacturers.json'},
 
                     {src: ['app/template/accordion/accordion.html'], dest: 'dist/template/accordion/accordion.html'},
-                    {src: ['app/template/accordion/accordion-group.html'], dest: 'dist/template/accordion/accordion-group.html'},
+                    {
+                        src: ['app/template/accordion/accordion-group.html'],
+                        dest: 'dist/template/accordion/accordion-group.html'
+                    },
 
                     {src: ['app/template/modal/backdrop.html'], dest: 'dist/template/modal/backdrop.html'},
                     {src: ['app/template/modal/window.html'], dest: 'dist/template/modal/window.html'},
 
-                    {src: ['app/template/typeahead/typeahead-popup.html'], dest: 'dist/template/typeahead/typeahead-popup.html'},
-                    {src: ['app/template/typeahead/typeahead-match.html'], dest: 'dist/template/typeahead/typeahead-match.html'},
+                    {
+                        src: ['app/template/typeahead/typeahead-popup.html'],
+                        dest: 'dist/template/typeahead/typeahead-popup.html'
+                    },
+                    {
+                        src: ['app/template/typeahead/typeahead-match.html'],
+                        dest: 'dist/template/typeahead/typeahead-match.html'
+                    },
 
                     {src: ['app/favicon.ico'], dest: 'dist/favicon.ico'},
                     {src: ['app/robots.txt'], dest: 'dist/robots.txt'},
@@ -81,7 +90,12 @@ module.exports = function (grunt) {
                     {src: ['app/img/gb.png'], dest: 'dist/img/gb.png'},
                     {src: ['app/img/skybackground.jpg'], dest: 'dist/img/skybackground.jpg'},
 
-                    {expand: true, flatten: true, src: ['app/bower_components/bootstrap/fonts/glyphicons-halflings-regular.*'], dest: 'dist/fonts/'},
+                    {
+                        expand: true,
+                        flatten: true,
+                        src: ['app/bower_components/bootstrap/fonts/glyphicons-halflings-regular.*'],
+                        dest: 'dist/fonts/'
+                    },
 
 
                     //{src: ['app/bower_components/bootstrap/dist/css/bootstrap.min.css'], dest: 'dist/bower_components/bootstrap/dist/css/bootstrap.min.css'},
@@ -104,8 +118,26 @@ module.exports = function (grunt) {
                     keepalive: true
                 }
             }
+        },
+
+        exec: {
+            tolive: {
+                cmd: 'scp -r dist/* robbert@pepperoni.digitalica.nl:/var/www/skydivekompasroos',
+                stdout: true,
+                stderr: true
+            },
+            totest: {
+                cmd: 'scp -r dist/* robbert@pepperoni.digitalica.nl:/var/www/skydivekompasroostest',
+                stdout: true,
+                stderr: true
+            }
         }
+
+
     });
+
+
+    ///
 
 
     // Load the plugin that provides the "clean" and "concat" task.
@@ -115,9 +147,14 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-processhtml');
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-exec');
 
     // Default task(s).
     grunt.registerTask('default', ['clean', 'uglify', 'cssmin', 'copy', 'processhtml', 'connect']);
+
+    // tasks to publish. use only after building.
+    grunt.registerTask('tolive', ['exec:tolive']);
+    grunt.registerTask('totest', ['exec:totest']);
 
 };
 
