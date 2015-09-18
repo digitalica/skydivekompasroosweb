@@ -79,7 +79,7 @@ module.exports = function (grunt) {
                     {src: ['app/img/kompasroos128.png'], dest: 'dist/img/kompasroos128.png'},
                     {src: ['app/img/nl.png'], dest: 'dist/img/nl.png'},
                     {src: ['app/img/gb.png'], dest: 'dist/img/gb.png'},
-
+                    {src: ['app/img/skybackground.jpg'], dest: 'dist/img/skybackground.jpg'},
 
                     {expand: true, flatten: true, src: ['app/bower_components/bootstrap/fonts/glyphicons-halflings-regular.*'], dest: 'dist/fonts/'},
 
