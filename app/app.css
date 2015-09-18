@@ -85,7 +85,6 @@ button, .btn {
     font-weight: 400;
 }
 
-
 a:focus, a:hover, a {
     color: black;
 }
@@ -118,29 +117,26 @@ a:focus, a:hover, a {
     }
 }
 
-
 .bg-successxx > .panel-default {
     border: 1px;
-    border-style:  solid;
+    border-style: solid;
     border-color: #00cc33;
     background-color: #ccffcc;
 }
 
-
 .bg-dangerxx > .panel-default {
     border: 1px;
-    border-style:  solid;
+    border-style: solid;
     border-color: #f22000;
     background-color: #ffa6a6;
 }
 
 .bg-warningxx > .panel-default {
     border: 2px;
-    border-style:  solid;
+    border-style: solid;
     border-color: #ffff33;
     background-color: #fff8b9;
 }
-
 
 .wingloadtable .bg-success {
     background-color: #ccffcc;
@@ -150,6 +146,70 @@ a:focus, a:hover, a {
     background-color: #ffa6a6;
 }
 
-.wingloadtable .bg-warning{
+.wingloadtable .bg-warning {
     background-color: #fff8b9;
+}
+
+nav {
+    background-image: url("img/skybackground.jpg");
+    background-size: cover;
+}
+
+.apptitle {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 21px;
+    color: black;
+}
+
+.appsettings {
+    line-height: 14px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: black;
+}
+
+.applogo {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    margin-top: 6px;
+}
+
+
+.navbar-nav > li > a {
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    margin-bottom: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 24px;
+    font-family: 'Roboto';
+    font-weight: 400;}
+
+.navbar-nav .borderbutton {
+    border-width: 1px;
+    border-color: #aaaaaa;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+.navbar-nav .searchbutton {
+    margin-left: 5px;
+    margin-right: 0px;
+}
+
+.navbar-nav .flagbutton {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: black;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #333;
 }

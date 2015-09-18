@@ -92,7 +92,7 @@ module.exports = function (grunt) {
                     {src: ['app/img/green3.png'], dest: 'dist/img/green3.png'},
                     {src: ['app/img/RED2.png'], dest: 'dist/img/RED2.png'},
                     {src: ['app/img/Yellow5.png'], dest: 'dist/img/Yellow5.png'},
-
+                    {src: ['app/img/skybackground.jpg'], dest: 'dist/img/skybackground.jpg'},
 
                     {
                         expand: true,

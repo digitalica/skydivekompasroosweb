@@ -303,7 +303,7 @@
 
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-            <img src="img/kompasroos128.png" height="40" width="40" align="left" ng-click="scrollToSettings()">
+            <img src="img/kompasroos128.png" align="left" ng-click="scrollToSettings()" class="applogo">
 
             <div class="navbar-header">
                 <div class="pull-right">
@@ -316,27 +316,27 @@
                     </button>
                 </div>
                 <div ng-click="scrollToSettings()">
-                    Skydive Kompasroos<br>
+                    <span class="apptitle">Skydive Kompasroos</span><br>
 
-                    {{sliders.totalValue}}
+                    <span class="appsettings">{{sliders.totalValue}}
                     <span ng-show="sliders.totalValue==sliderOptions.totalMax">+</span>
                     / {{sliders.last12MonthsValue}}
                     <span ng-show="sliders.last12MonthsValue==sliderOptions.last12MonthsMax">+</span>
                     / {{sliders.weightValue}} kg
                     > cat {{settings.category}}
-
+                    </span>
                 </div>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" ng-class="{'in':!navCollapsed}">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="" ng-click="openSearch()"><i class="glyphicon glyphicon-search"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li><a href="" class="searchbutton" ng-click="openSearch()"><i class="glyphicon glyphicon-search"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                     </a></li>
-                    <li><a href="" ng-click="openAbout()">{{translation.ABOUT}}</a></li>
+                    <li><a href="" class="borderbutton" ng-click="openAbout()">{{translation.ABOUT}}</a></li>
 
                     <li class="dropdown" dropdown is-open="status.isopen-filter">
-                        <a id="single-button-filter" href="" class="dropdown-toggle" dropdown-toggle
+                        <a id="single-button-filter" href="" class="dropdown-toggle borderbutton" dropdown-toggle
                            ng-disabled="disabled">{{translation.FILTER}}<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="single-button-filter">
                             <li><a href="" ng-click="setFilter('filter_all')">{{translation.FILTER_ALL}}
@@ -344,15 +344,15 @@
                             <li><a href="" ng-click="setFilter('filter_common')">{{translation.FILTER_COMMON}}
                                 <i class="glyphicon glyphicon-ok" ng-show="settings.filter=='filter_common'"></i></a>
                             </li>
-                            <li><a href="" ng-click="setFilter('filter_category')">{{translation.FILTER_CAT}} {{settings.category}}
+                            <li><a href="" ng-click="setFilter('filter_category')">{{translation.FILTER_CAT}}
+                                {{settings.category}}
                                 <i class="glyphicon glyphicon-ok" ng-show="settings.filter=='filter_category'"></i></a>
                             </li>
                         </ul>
                     </li>
 
-
                     <li class="dropdown" dropdown is-open="status.isopen-sort">
-                        <a id="single-button-sort" href="" class="dropdown-toggle" dropdown-toggle
+                        <a id="single-button-sort" href="" class="dropdown-toggle borderbutton" dropdown-toggle
                            ng-disabled="disabled">{{translation.SORT}}<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="single-button-sort">
                             <li><a href="" ng-click="setSort('sort_name')">{{translation.SORT_NAME}}
@@ -366,8 +366,8 @@
                         </ul>
                     </li>
 
-                    <li><a href="" ng-click="setLanguage('nl')"><img src="img/nl.png"></a></li>
-                    <li><a href="" ng-click="setLanguage('en')"><img src="img/gb.png"></a></li>
+                    <li><a href="" class="flagbutton" ng-click="setLanguage('nl')"><img src="img/nl.png"></a></li>
+                    <li><a href="" class="flagbutton" ng-click="setLanguage('en')"><img src="img/gb.png"></a></li>
 
                 </ul>
 
@@ -635,9 +635,11 @@
                                 <table width="100%" ng-if="!canopy.listHeader">
                                     <tr>
                                         <td>
-                                            <img ng-show="canopy.icon=='green'" src="img/green3.png" width="27" height="40">
+                                            <img ng-show="canopy.icon=='green'" src="img/green3.png" width="27"
+                                                 height="40">
                                             <img ng-show="canopy.icon=='red'" src="img/RED2.png" width="27" height="40">
-                                            <img ng-show="canopy.icon=='yellow'" src="img/Yellow5.png" width="27" height="40">
+                                            <img ng-show="canopy.icon=='yellow'" src="img/Yellow5.png" width="27"
+                                                 height="40">
                                         </td>
                                         <td>
                                             &nbsp;{{canopy.displaycategory}}&nbsp;
