@@ -126,7 +126,7 @@ module.exports = function (grunt) {
 
         exec: {
             tolive: {
-                cmd: 'scp -r dist/* robbert@pepperoni.digitalica.nl:/var/www/skydivekompasroos',
+                cmd: 'ssh robbert@pepperoni.digitalica.nl "rm -rf /var/www/skydivekompasroos/*; cp -r /var/www/skydivekompasroostest/* /var/www/skydivekompasroos"',
                 stdout: true,
                 stderr: true
             },
