@@ -121,6 +121,36 @@
         </div>
     </script>
 
+
+    <script type="text/ng-template" id="wingloadtableContent_nl.html">
+        <div class="modal-header">
+            <h3 class="modal-title">Wingload in lbs/sqft</h3>
+        </div>
+        <div class="modal-body">
+            <p>Deze tabel toont gangbare maten van parachutes in de eerste regel, en daaronder de bijbehorende wingload.
+                Een groene achtergrond betekend dat deze maat / wingload acceptabel is voor de hierboven opgegeven ervaring.
+            </p>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary" type="button" ng-click="closeWingloadtable()">Sluit</button>
+        </div>
+    </script>
+
+    <script type="text/ng-template" id="wingloadtableContent_en.html">
+        <div class="modal-header">
+            <h3 class="modal-title">Wingload in lbs/sqft</h3>
+        </div>
+        <div class="modal-body">
+            <p>This table shows common parachute sizes in the top row, and the resulting wingload in the bottom row.
+                A green background indicates this size / wingload is allowed based on the experience above.
+            </p>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary" type="button" ng-click="closeWingloadtable()">Close</button>
+        </div>
+    </script>
+
+
     <script type="text/ng-template" id="searchContent.html">
         <div class="modal-header">
             <h3 class="modal-title">{{translation.SEARCHHEADER}}
@@ -475,7 +505,8 @@
                     </table>
 
                     <br>
-                    {{translation.WINGLOAD_TABLE}}<br>
+                    <a href="" ng-click="openWingloadtable()">{{translation.WINGLOAD_TABLE}}&nbsp;<i
+                            class="glyphicon glyphicon-info-sign"></i></a><br>
                     <table class="wingloadtable" width="100%" align="center">
                         <tr>
                             <td align="center"

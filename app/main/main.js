@@ -372,6 +372,33 @@ angular.module('myApp.main', ['ngRoute'])
 
         };
 
+        $scope.openWingloadtable = function (size) {
+            var lang = $scope.settings.language;
+
+            // to be sure
+            if (lang != 'nl' && lang != 'en') {
+                lang = 'nl';
+            }
+
+            if (isLiveSite()) {
+                _gaq.push(['_trackEvent', 'open_exitweight', lang]);
+            }
+
+            var modalInstance = $modal.open({
+                animation: true,
+                templateUrl: 'wingloadtableContent_' + lang + '.html',
+                controller: 'WingloadtableCtrl',
+                size: size
+            });
+
+            modalInstance.result.then(function () {
+                //console.log('closed');
+            }, function () {
+                //console.log('closed2');
+            });
+
+        };
+
         $scope.openSearch = function (size) {
             if (isLiveSite()) {
                 _gaq.push(['_trackEvent', 'open_search']);
@@ -717,6 +744,14 @@ angular.module('myApp.main').controller('AboutCtrl', ['$scope', '$modalInstance'
 angular.module('myApp.main').controller('ExitweightCtrl', ['$scope', '$modalInstance', function ($scope, $modalInstance) {
 
     $scope.closeExitweight = function () {
+        $modalInstance.close();
+    };
+
+}]);
+
+angular.module('myApp.main').controller('WingloadtableCtrl', ['$scope', '$modalInstance', function ($scope, $modalInstance) {
+
+    $scope.closeWingloadtable = function () {
         $modalInstance.close();
     };
 
