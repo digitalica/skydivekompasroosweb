@@ -89,9 +89,9 @@ module.exports = function (grunt) {
                     {src: ['app/img/nl.png'], dest: 'dist/img/nl.png'},
                     {src: ['app/img/gb.png'], dest: 'dist/img/gb.png'},
 
-                    {src: ['app/img/green3.png'], dest: 'dist/img/green3.png'},
-                    {src: ['app/img/RED2.png'], dest: 'dist/img/RED2.png'},
-                    {src: ['app/img/Yellow5.png'], dest: 'dist/img/Yellow5.png'},
+                    {src: ['app/img/green.png'], dest: 'dist/img/green.png'},
+                    {src: ['app/img/red.png'], dest: 'dist/img/red.png'},
+                    {src: ['app/img/yellow.png'], dest: 'dist/img/yellow.png'},
                     {src: ['app/img/skybackground.jpg'], dest: 'dist/img/skybackground.jpg'},
 
                     {
