@@ -678,7 +678,8 @@ angular.module('myApp.main', ['ngRoute'])
                     case 'sort_category':
                         if (canopy.category != lastkey) {
                             lastkey = canopy.category;
-                            newCanopyListWithHeaders.push($scope.createCanopyListHeader("Categorie: " + canopy.category));
+                            var categoryText = "Categorie: " + (canopy.category ? canopy.category : $scope.translation.NOTCATEGORIZEDYET);
+                            newCanopyListWithHeaders.push($scope.createCanopyListHeader(categoryText));
                         }
                         canopy.sortKey = String(canopy.category) + canopy.manufacturer.name + canopy.name;
                         break;

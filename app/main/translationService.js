@@ -111,8 +111,10 @@ translationServices.service('translationService', function () {
         nl.LIST_REMARKS = 'Opmerkingen';
         en.LIST_REMARKS = 'Remarks';
 
-
         // categorieen
+        nl.NOTCATEGORIZEDYET = '6 (nog niet ingedeeld)';
+        en.NOTCATEGORIZEDYET = '6 (not categorized yet)';
+
         nl.JUMPERCATEGORIES = [
             "Unknown",
             "Minder dan 25 sprongen of minder dan 10 sprongen in laatste 12 maanden",
