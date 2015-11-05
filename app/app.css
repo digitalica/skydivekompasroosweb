@@ -117,37 +117,34 @@ a:focus, a:hover, a {
     }
 }
 
-.bg-successxx > .panel-default {
+.bg-success {
+    background-color: #ccffcc;
+}
+
+.bg-danger {
+    background-color: #ffa6a6;
+}
+
+.bg-warning {
+    background-color: #fff8b9;
+}
+
+.bg-success > .panel-default {
     border: 1px;
     border-style: solid;
     border-color: #00cc33;
-    background-color: #ccffcc;
 }
 
-.bg-dangerxx > .panel-default {
+.bg-danger > .panel-default {
     border: 1px;
     border-style: solid;
     border-color: #f22000;
-    background-color: #ffa6a6;
 }
 
-.bg-warningxx > .panel-default {
+.bg-warning > .panel-default {
     border: 2px;
     border-style: solid;
     border-color: #ffff33;
-    background-color: #fff8b9;
-}
-
-.wingloadtable .bg-success {
-    background-color: #ccffcc;
-}
-
-.wingloadtable .bg-danger {
-    background-color: #ffa6a6;
-}
-
-.wingloadtable .bg-warning {
-    background-color: #fff8b9;
 }
 
 nav {
@@ -176,7 +173,6 @@ nav {
     margin-top: 6px;
 }
 
-
 .navbar-nav > li > a {
     padding-bottom: 1px;
     padding-left: 5px;
@@ -187,7 +183,8 @@ nav {
     margin-right: 10px;
     margin-top: 24px;
     font-family: 'Roboto';
-    font-weight: 400;}
+    font-weight: 400;
+}
 
 .navbar-nav .borderbutton {
     border-width: 1px;
