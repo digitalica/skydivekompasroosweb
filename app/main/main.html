@@ -248,22 +248,22 @@
                 <tr ng-if="currentCanopy.url || currentCanopy.manufacturer.url || currentCanopy.dropzoneid || currentCanopy.youtube">
                     <td valign="top" colspan="2">
                         <div class="row">
-                            <div class="col-sm-4 text-center" ng-if="currentCanopy.manufacturer.url">
+                            <div class="col-sm-4 col-xs-6 text-center" ng-if="currentCanopy.manufacturer.url">
                                 <a ng-href='{{currentCanopy.manufacturer.url}}' target='_blank'>
                                     <br><i class="link glyphicon glyphicon-globe"></i><br>{{currentCanopy.manufacturer.name}}
                                 </a>
                             </div>
-                            <div class="col-sm-4 text-center" ng-if="currentCanopy.url">
+                            <div class="col-sm-4 col-xs-6 text-center" ng-if="currentCanopy.url">
                                 <a ng-href='{{currentCanopy.url}}' target='_blank'>
                                     <br><i class="link glyphicon glyphicon-globe"></i><br>{{currentCanopy.name}}
                                 </a>
                             </div>
-                            <div class="col-sm-4 text-center" ng-if="currentCanopy.dropzoneid">
+                            <div class="col-sm-4 col-xs-6 text-center" ng-if="currentCanopy.dropzoneid">
                                 <a ng-href='http://www.dropzone.com/gear/Detailed/{{currentCanopy.dropzoneid}}.html' target='_blank'>
                                     <br><i class="link glyphicon glyphicon-globe"></i><br>dropzone.com
                                 </a>
                             </div>
-                            <div ng-repeat="ytmovie in currentCanopy.youtube" class="col-sm-4 text-center">
+                            <div ng-repeat="ytmovie in currentCanopy.youtube" class="col-sm-4 col-xs-6 text-center">
                                 <a target="_blank" href="http://www.youtube.com/watch?v={{ytmovie.id}}">
                                     <br><i class="link glyphicon glyphicon-play"></i><br>{{ytmovie.title}}
                                 </a>
@@ -754,22 +754,22 @@
                                 <tr ng-if="canopy.url || canopy.manufacturer.url || canopy.dropzoneid || canopy.youtube">
                                     <td valign="top" colspan="2">
                                         <div class="row">
-                                            <div class="col-sm-4 text-center" ng-if="canopy.manufacturer.url">
+                                            <div class="col-sm-4 col-xs-6 text-center" ng-if="canopy.manufacturer.url">
                                                 <a ng-href='{{canopy.manufacturer.url}}' target='_blank'>
                                                     <br><i class="link glyphicon glyphicon-globe"></i><br>{{canopy.manufacturer.name}}
                                                 </a>
                                             </div>
-                                            <div class="col-sm-4 text-center" ng-if="canopy.url">
+                                            <div class="col-sm-4 col-xs-6 text-center" ng-if="canopy.url">
                                                 <a ng-href='{{canopy.url}}' target='_blank'>
                                                     <br><i class="link glyphicon glyphicon-globe"></i><br>{{canopy.name}}
                                                 </a>
                                             </div>
-                                            <div class="col-sm-4 text-center" ng-if="canopy.dropzoneid">
+                                            <div class="col-sm-4 col-xs-6 text-center" ng-if="canopy.dropzoneid">
                                                 <a ng-href='http://www.dropzone.com/gear/Detailed/{{canopy.dropzoneid}}.html' target='_blank'>
                                                     <br><i class="link glyphicon glyphicon-globe"></i><br>dropzone.com
                                                 </a>
                                             </div>
-                                            <div ng-repeat="ytmovie in canopy.youtube" class="col-sm-4 text-center">
+                                            <div ng-repeat="ytmovie in canopy.youtube" class="col-sm-4 col-xs-6 text-center">
                                                 <a target="_blank" href="http://www.youtube.com/watch?v={{ytmovie.id}}">
                                                     <br><i class="link glyphicon glyphicon-play"></i><br>{{ytmovie.title}}
                                                 </a>
