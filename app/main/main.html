@@ -128,7 +128,8 @@
         </div>
         <div class="modal-body">
             <p>Deze tabel toont gangbare maten van parachutes in de eerste regel, en daaronder de bijbehorende wingload.
-                Een groene achtergrond betekend dat deze maat / wingload acceptabel is voor de hierboven opgegeven ervaring.
+                Een groene achtergrond betekend dat deze maat / wingload acceptabel is voor de hierboven opgegeven
+                ervaring.
             </p>
         </div>
         <div class="modal-footer">
@@ -177,21 +178,12 @@
                     <td valign="top">{{translation.LIST_MANUFACTURER}}:&nbsp;</td>
                     <td valign="top">
                         {{currentCanopy.manufacturer.name}}
-                                        <span ng-show='currentCanopy.manufacturer.url'><a
-                                                ng-href='{{currentCanopy.manufacturer.url}}'
-                                                target='_blank'><i>website</i></a></span>
                     </td>
                 </tr>
                 <tr ng-if="currentCanopy.manufacturer.remarks">
                     <td valign="top">{{translation.LIST_REMARKS}}:&nbsp;</td>
                     <td valign="top">
                         {{currentCanopy.manufacturer.remarks[settings.language]}}
-                    </td>
-                </tr>
-                <tr ng-if="currentCanopy.url">
-                    <td valign="top">Online:&nbsp;</td>
-                    <td valign="top">
-                        <a ng-href='{{currentCanopy.url}}' target='_blank'>{{currentCanopy.name}}</a>
                     </td>
                 </tr>
 
@@ -247,28 +239,36 @@
                     </td>
                     <td valign="top">{{currentCanopy.minsize}} sqft</td>
                 </tr>
-                <tr ng-if="currentCanopy.dropzoneid">
-                    <td valign="top">
-                        <span class="hidden-xs hidden-sm">www.dropzone.com:&nbsp;</span>
-                        <span class="visible-xs visible-sm">Dropzone:&nbsp;</span>
-                    </td>
-                    <td valign="top"><a target="_blank"
-                                        href="http://www.dropzone.com/gear/Detailed/{{currentCanopy.dropzoneid}}.html">{{currentCanopy.name}}</a>
-                    </td>
-                </tr>
-                <tr ng-if="currentCanopy.youtube">
-                    <td valign="top">Youtube:&nbsp;</td>
-                    <td valign="top">
-                        <div ng-repeat="ytmovie in currentCanopy.youtube">
-                            <a target="_blank"
-                               href="http://www.youtube.com/watch?v={{ytmovie.id}}">{{ytmovie.title}}</a>
-                        </div>
-                    </td>
-                </tr>
                 <tr ng-if="currentCanopy.remarks">
                     <td valign="top">{{translation.LIST_REMARKS}}:&nbsp;</td>
                     <td valign="top">
                         {{currentCanopy.remarks[settings.language]}}
+                    </td>
+                </tr>
+                <tr ng-if="currentCanopy.url || currentCanopy.manufacturer.url || currentCanopy.dropzoneid || currentCanopy.youtube">
+                    <td valign="top" colspan="2">
+                        <div class="row">
+                            <div class="col-sm-4 text-center" ng-if="currentCanopy.manufacturer.url">
+                                <a ng-href='{{currentCanopy.manufacturer.url}}' target='_blank'>
+                                    <br><i class="link glyphicon glyphicon-globe"></i><br>{{currentCanopy.manufacturer.name}}
+                                </a>
+                            </div>
+                            <div class="col-sm-4 text-center" ng-if="currentCanopy.url">
+                                <a ng-href='{{currentCanopy.url}}' target='_blank'>
+                                    <br><i class="link glyphicon glyphicon-globe"></i><br>{{currentCanopy.name}}
+                                </a>
+                            </div>
+                            <div class="col-sm-4 text-center" ng-if="currentCanopy.dropzoneid">
+                                <a ng-href='http://www.dropzone.com/gear/Detailed/{{currentCanopy.dropzoneid}}.html' target='_blank'>
+                                    <br><i class="link glyphicon glyphicon-globe"></i><br>dropzone.com
+                                </a>
+                            </div>
+                            <div ng-repeat="ytmovie in currentCanopy.youtube" class="col-sm-4 text-center">
+                                <a target="_blank" href="http://www.youtube.com/watch?v={{ytmovie.id}}">
+                                    <br><i class="link glyphicon glyphicon-play"></i><br>{{ytmovie.title}}
+                                </a>
+                            </div>
+                        </div>
                     </td>
                 </tr>
 
@@ -361,7 +361,8 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" ng-class="{'in':!navCollapsed}">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="" class="searchbutton" ng-click="openSearch()"><i class="glyphicon glyphicon-search"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li><a href="" class="searchbutton" ng-click="openSearch()"><i
+                            class="glyphicon glyphicon-search"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                     </a></li>
                     <li><a href="" class="borderbutton" ng-click="openAbout()">{{translation.ABOUT}}</a></li>
 
@@ -668,7 +669,8 @@
                                         <td>
                                             <img ng-show="canopy.icon=='green'" src="../img/green.png" width="27"
                                                  height="40">
-                                            <img ng-show="canopy.icon=='red'" src="../img/red.png" width="27" height="40">
+                                            <img ng-show="canopy.icon=='red'" src="../img/red.png" width="27"
+                                                 height="40">
                                             <img ng-show="canopy.icon=='yellow'" src="../img/yellow.png" width="27"
                                                  height="40">
                                         </td>
@@ -690,20 +692,12 @@
                                     <td valign="top">{{translation.LIST_MANUFACTURER}}:&nbsp;</td>
                                     <td valign="top">
                                         {{canopy.manufacturer.name}}
-                                        <span ng-show='canopy.manufacturer.url'><a ng-href='{{canopy.manufacturer.url}}'
-                                                                                   target='_blank'><i>website</i></a></span>
                                     </td>
                                 </tr>
                                 <tr ng-if="canopy.manufacturer.remarks">
                                     <td valign="top">{{translation.LIST_REMARKS}}:&nbsp;</td>
                                     <td valign="top">
                                         {{canopy.manufacturer.remarks[settings.language]}}
-                                    </td>
-                                </tr>
-                                <tr ng-if="canopy.url">
-                                    <td valign="top">Online:&nbsp;</td>
-                                    <td valign="top">
-                                        <a ng-href='{{canopy.url}}' target='_blank'>{{canopy.name}}</a>
                                     </td>
                                 </tr>
 
@@ -750,27 +744,37 @@
                                     </td>
                                     <td valign="top">{{canopy.minsize}} sqft</td>
                                 </tr>
-                                <tr ng-if="canopy.dropzoneid">
-                                    <td valign="top">
-                                        <span class="hidden-xs hidden-sm">www.dropzone.com:&nbsp;</span>
-                                        <span class="visible-xs visible-sm">Dropzone:&nbsp;</span>
-                                    </td>
-                                    <td valign="top"><a target="_blank"
-                                                        href="http://www.dropzone.com/gear/Detailed/{{canopy.dropzoneid}}.html">{{canopy.name}}</a>
-                                    </td>
-                                </tr>
-                                <tr ng-if="canopy.youtube">
-                                    <td valign="top">Youtube:&nbsp;</td>
-                                    <td valign="top">
-                                        <div ng-repeat="ytmovie in canopy.youtube">
-                                            <a target="_blank" href="http://www.youtube.com/watch?v={{ytmovie.id}}">{{ytmovie.title}}</a>
-                                        </div>
-                                    </td>
-                                </tr>
                                 <tr ng-if="canopy.remarks">
                                     <td valign="top">{{translation.LIST_REMARKS}}:&nbsp;</td>
                                     <td valign="top">
                                         {{canopy.remarks[settings.language]}}
+                                    </td>
+                                </tr>
+
+                                <tr ng-if="canopy.url || canopy.manufacturer.url || canopy.dropzoneid || canopy.youtube">
+                                    <td valign="top" colspan="2">
+                                        <div class="row">
+                                            <div class="col-sm-4 text-center" ng-if="canopy.manufacturer.url">
+                                                <a ng-href='{{canopy.manufacturer.url}}' target='_blank'>
+                                                    <br><i class="link glyphicon glyphicon-globe"></i><br>{{canopy.manufacturer.name}}
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-4 text-center" ng-if="canopy.url">
+                                                <a ng-href='{{canopy.url}}' target='_blank'>
+                                                    <br><i class="link glyphicon glyphicon-globe"></i><br>{{canopy.name}}
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-4 text-center" ng-if="canopy.dropzoneid">
+                                                <a ng-href='http://www.dropzone.com/gear/Detailed/{{canopy.dropzoneid}}.html' target='_blank'>
+                                                    <br><i class="link glyphicon glyphicon-globe"></i><br>dropzone.com
+                                                </a>
+                                            </div>
+                                            <div ng-repeat="ytmovie in canopy.youtube" class="col-sm-4 text-center">
+                                                <a target="_blank" href="http://www.youtube.com/watch?v={{ytmovie.id}}">
+                                                    <br><i class="link glyphicon glyphicon-play"></i><br>{{ytmovie.title}}
+                                                </a>
+                                            </div>
+                                        </div>
                                     </td>
                                 </tr>
 
