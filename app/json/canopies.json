@@ -1338,7 +1338,17 @@
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "121",
       "minsize": "71",
-      "url": "http://www.flyaerodyne.com/sensei.asp"
+      "url": "http://www.flyaerodyne.com/sensei.asp",
+      "youtube": [
+        {
+          "title": "Test Piloting the Sensei 91 Parachute",
+          "id": "AQLM9ZLpBMw"
+        },
+        {
+          "title": "Sensei canopies for ToraTora",
+          "id": "uwShpnBkA10"
+        }
+      ]
     },
     {
       "id": "858EEBF3-169F-4AE7-99A2-A7CC8D025D4E",
