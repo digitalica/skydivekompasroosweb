@@ -148,6 +148,13 @@
       "countrycode": "us",
       "shortname": "Strong",
       "url": "http://www.strongparachutes.com/"
+    },
+    {
+      "id": "CD51335E-1304-4391-9672-A6058F97C352",
+      "name": "Squirrel",
+      "countrycode": "us",
+      "shortname": "Squirrel",
+      "url": "https://squirrel.ws/"
     }
   ]
 }
