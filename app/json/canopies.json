@@ -11,7 +11,13 @@
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "300",
       "minsize": "200",
-      "url": "http://www.performancedesigns.com/navigator.aspx"
+      "url": "http://www.performancedesigns.com/navigator.aspx",
+      "youtube": [
+        {
+          "title": "Test Navigator 240 sq ft",
+          "id": "KALCUff9Tx4"
+        }
+      ]
     },
     {
       "id": "3231807B-22F3-4D6B-A490-403CC0018042",
@@ -301,7 +307,13 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "320",
       "minsize": "185",
-      "url": "http://flightconceptsint.com/zp-main/zp-manta"
+      "url": "http://flightconceptsint.com/zp-main/zp-manta",
+      "youtube": [
+        {
+          "title": "Parachute inflation of Flight Concepts fully zero porosity Manta",
+          "id": "wfaDnBkO6iI"
+        }
+      ]
     },
     {
       "id": "2B6BAAC0-2E47-48BF-B966-137373CA9CA9",
@@ -405,7 +417,13 @@
       "minsize": "90",
       "planform": "6.7",
       "planformcells": "4",
-      "url": "http://www.flyaerodyne.com/pilot.asp"
+      "url": "http://www.flyaerodyne.com/pilot.asp",
+      "youtube": [
+        {
+          "title": "Parachute Opening - Aerodyne Pilot 168 ",
+          "id": "6QgnKTmS0lA"
+        }
+      ]
     },
     {
       "id": "02BFB95A-E433-4A02-A6A1-3F8593BFDC90",
@@ -621,6 +639,10 @@
           "id": "VKxMN8C3TtE"
         },
         {
+          "title": "Sabre2 150 - flight performance and landings ",
+          "id": "kZ3gsPSAvvc"
+        },
+        {
           "title": "PD Sabre 2 pro pack door Nick Grillet 1/3",
           "id": "vhEHdKemr1M"
         },
@@ -645,7 +667,21 @@
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "253",
       "minsize": "126",
-      "url": "http://www.performancedesigns.com/lightning.aspx"
+      "url": "http://www.performancedesigns.com/lightning.aspx",
+      "youtube": [
+        {
+          "title": "Canopy Formation 100 way world record 2007",
+          "id": "Fggc3B5u5Ck"
+        },
+        {
+          "title": "44 way Australian CRW record",
+          "id": "jo6KpVO72UQ"
+        },
+        {
+          "title": "Thread the Needle",
+          "id": "3MwrNPx5ciY"
+        }
+      ]
     },
     {
       "id": "A982E92C-85D9-480B-98CE-A2F2BF80380C",
@@ -717,7 +753,17 @@
       "minsize": "99",
       "planform": "16.4",
       "planformcells": "8",
-      "url": "http://www.nzaerosports.com/canopies/icarus-safire"
+      "url": "http://www.nzaerosports.com/canopies/icarus-safire",
+      "youtube": [
+        {
+          "title": "Icarus Safire2 149",
+          "id": "DI3cjt3Wbrk"
+        },
+        {
+          "title": "Sabre 2 150 - Deployments",
+          "id": "19uMK1SN5kU"
+        }
+      ]
     },
     {
       "id": "D78B4C18-1887-4D66-8FF6-6FFFEF93C6CB",
@@ -832,7 +878,13 @@
       "cells": "7",
       "commontype": "0",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
-      "url": "http://www.nzaerosports.com/canopies/icarus-matrix"
+      "url": "http://www.nzaerosports.com/canopies/icarus-matrix",
+      "youtube": [
+        {
+          "title": "Matrix Reloaded",
+          "id": "tLOqd1VYI2w"
+        }
+      ]
     },
     {
       "id": "9D021CA3-A103-4CB9-B053-A7ABCC4BBC96",
@@ -999,7 +1051,13 @@
       "maxsize": "152",
       "minsize": "102",
       "planform": "10",
-      "url": "http://www.flyaerodyne.com/zulu.asp"
+      "url": "http://www.flyaerodyne.com/zulu.asp",
+      "youtube": [
+        {
+          "title": "aerodyne zulu (152ft) test jump",
+          "id": "aGzmbjk30KU"
+        }
+      ]
     },
     {
       "id": "66EE6227-E990-4451-B134-43D0D51715C6",
@@ -1179,7 +1237,13 @@
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "170",
       "minsize": "83",
-      "url": "http://www.performancedesigns.com/katana.aspx"
+      "url": "http://www.performancedesigns.com/katana.aspx",
+      "youtube": [
+        {
+          "title": "PD Katana 120 openings & landings ",
+          "id": "0az6PofPjck"
+        }
+      ]
     },
     {
       "id": "639CE7C8-8907-4F07-9AE6-C5D61B7E8341",
@@ -1361,6 +1425,10 @@
         {
           "title": "PD Valkyrie promo",
           "id": "LJr70PKbgOE"
+        },
+        {
+          "title": "Flight of the Valkyries",
+          "id": "rrr4BlBLFTY"
         }
       ]
     },
@@ -1471,7 +1539,13 @@
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "maxsize": "119",
       "minsize": "59",
-      "url": "http://www.nzaerosports.com/canopies/daedalus-JFX"
+      "url": "http://www.nzaerosports.com/canopies/daedalus-JFX",
+      "youtube": [
+        {
+          "title": "Daedalus JFX Opening: Camera by Nick Batsch",
+          "id": "IK3uWGdh6eA"
+        }
+      ]
     },
     {
       "id": "0b8688c1-bb96-41d4-ac0f-8c9c71f54eda",
@@ -1486,6 +1560,14 @@
         {
           "title": "Petra 69 Project: new canopy flown by Nick Batsch",
           "id": "n_oMXHn427w"
+        },
+        {
+          "title": "Petra Terminal Openings",
+          "id": "ot7Bi5dpdRA"
+        },
+        {
+          "title": "Petra 86 Prototype: Flown by Patrick Boulongne",
+          "id": "J2wKPYvNBdk"
         },
         {
           "title": "Tech Toys 360 preview: Petra Parachute",
