@@ -676,7 +676,7 @@ angular.module('myApp.main', ['ngRoute'])
                     case 'sort_name': // no headers needed
                         break;
                     case 'sort_category':
-                        if (canopy.category != lastkey) {
+                        if (canopy.category != lastkey && !(isNaN(canopy.category) && isNaN(lastkey))) {
                             lastkey = canopy.category;
                             var categoryText = "Categorie: " + (canopy.category ? canopy.category : $scope.translation.NOTCATEGORIZEDYET);
                             newCanopyListWithHeaders.push($scope.createCanopyListHeader(categoryText));
