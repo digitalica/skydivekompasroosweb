@@ -1658,6 +1658,18 @@
       "commontype": "0",
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
       "url": "http://www.fluidwings.com/#!helix/cczj"
+    },
+    {
+      "id": "E20AECA2-ECF5-4985-9EF2-0A01130B084B",
+      "name": "Ventus Hybrid",
+      "cells": "9",
+      "maxsize": "170",
+      "minsize": "105",
+      "category": "",
+      "dropzoneid": "974",
+      "commontype": "0",
+      "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
+      "url": "http://parachutesystems.com/ventus"
     }
   ]
 }
