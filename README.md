@@ -1,6 +1,6 @@
 # Skydive Kompasroos (web)
 
-This is a web version of the Skydive Kompasroos Adnroid app.
+This is a web version of the Skydive Kompasroos Android app.
 
 ## Getting Started
 
