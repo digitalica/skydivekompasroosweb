@@ -155,6 +155,13 @@
       "countrycode": "us",
       "shortname": "Squirrel",
       "url": "https://squirrel.ws/"
+    },
+    {
+      "id": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
+      "name": "Fluid Wings",
+      "countrycode": "us",
+      "shortname": "Fluid",
+      "url": "http://www.fluidwings.com/"
     }
   ]
 }

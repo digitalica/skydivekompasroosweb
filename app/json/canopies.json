@@ -1634,6 +1634,30 @@
       "commontype": "0",
       "manufacturerid": "CD51335E-1304-4391-9672-A6058F97C352",
       "url": "https://squirrel.ws/parachutes/skydiving/epicene"
+    },
+    {
+      "id": "65A55BBF-5E9E-4ACC-BD87-723BD3CB3ACF",
+      "name": "Prime",
+      "maxsize": "190",
+      "minsize": "135",
+      "cells": "9",
+      "dropzoneid": "978",
+      "category": "",
+      "commontype": "0",
+      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
+      "url": "http://www.fluidwings.com/#!prime/ct0a"
+    },
+    {
+      "id": "30592423-330F-4E41-9BCD-9CA85E06D425",
+      "name": "Helix",
+      "cells": "21",
+      "maxsize": "96",
+      "minsize": "67",
+      "category": "",
+      "dropzoneid": "972",
+      "commontype": "0",
+      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
+      "url": "http://www.fluidwings.com/#!helix/cczj"
     }
   ]
 }
