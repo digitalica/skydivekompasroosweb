@@ -228,6 +228,7 @@ angular.module('myApp.main', ['ngRoute'])
                 } else {
                     console.log('error lang: ' + lang);
                 }
+                $scope.setSettingsMinMaxForDisplay(); // update some of the texts (NOLIMIT)
                 // we don't need it at at first (and method not defined yet)
                 // but we do need it later, for the correct translation in line2 sorted by manufacturer
                 if ($scope.updateCanopyList) {
@@ -239,18 +240,6 @@ angular.module('myApp.main', ['ngRoute'])
                 $scope.settings.minArea = $scope.minAreaBasedOnCategoryForDisplay($scope.settings.category);
                 $scope.settings.maxWingLoad = $scope.maxWingLoadBasedOnCategoryForDisplay($scope.settings.category);
             };
-
-            if ($cookies.get('skydivekompasroossettings')) {
-                $scope.settings = $cookies.getObject('skydivekompasroossettings');
-                $scope.sliders.totalValue = $scope.settings.jumpsTotal;
-                $scope.sliders.last12MonthsValue = $scope.settings.jumpsLastYear;
-                $scope.sliders.weightValue = $scope.settings.weight;
-                $scope.setLanguage($scope.settings.language);
-            } else {
-                $scope.sliders.totalValue = 100;
-                $scope.sliders.last12MonthsValue = 25;
-                $scope.sliders.weightValue = 85;
-            }
 
             $scope.api = KompasroosData;
             $scope.api.get(function (data) {
@@ -573,7 +562,7 @@ angular.module('myApp.main', ['ngRoute'])
             $scope.minAreaBasedOnCategoryForDisplay = function (jumperCategory) {
                 var minArea = calcUtil.minAreaBasedOnCategory(jumperCategory);
                 if (minArea == 0) {
-                    minArea = "geen limiet";
+                    minArea = $scope.translation.NOLIMIT;
                 } else {
                     minArea = minArea.toString() + " sqft";
                 }
@@ -583,7 +572,7 @@ angular.module('myApp.main', ['ngRoute'])
             $scope.maxWingLoadBasedOnCategoryForDisplay = function (jumperCategory) {
                 var maxWingLoad = calcUtil.maxWingLoadBasedOnCategory(jumperCategory);
                 if (maxWingLoad == 9999) {
-                    maxWingLoad = "geen limiet";
+                    maxWingLoad = $scope.translation.NOLIMIT;
                 } else {
                     maxWingLoad = maxWingLoad.toString() + " lbs/sqft";
                 }
@@ -756,9 +745,23 @@ angular.module('myApp.main', ['ngRoute'])
                 if (element) {
                     element.scrollIntoView();
                 }
+            };
+
+            if ($cookies.get('skydivekompasroossettings')) {
+                $scope.settings = $cookies.getObject('skydivekompasroossettings');
+                $scope.sliders.totalValue = $scope.settings.jumpsTotal;
+                $scope.sliders.last12MonthsValue = $scope.settings.jumpsLastYear;
+                $scope.sliders.weightValue = $scope.settings.weight;
+                $scope.setLanguage($scope.settings.language);
+            } else {
+                $scope.sliders.totalValue = 100;
+                $scope.sliders.last12MonthsValue = 25;
+                $scope.sliders.weightValue = 85;
             }
 
         }
+
+
     ]);
 
 

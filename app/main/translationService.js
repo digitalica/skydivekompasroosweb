@@ -79,6 +79,9 @@ translationServices.service('translationService', function () {
         nl.RESULT_SKYGOD = 'Sky god';
         en.RESULT_SKYGOD = 'Sky god';
 
+        nl.NOLIMIT = 'Geen limiet';
+        en.NOLIMIT = 'No limit';
+
         // canopy list
         nl.LIST_NAME = 'Naam'; // voor search
         en.LIST_NAME = 'Name'; // voor search
