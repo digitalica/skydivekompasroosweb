@@ -18,6 +18,10 @@ describe('Calc Service', function () {
     var MAXWINGLOADCAT5 = 1.7;
     var MAXWINGLOADUNLIMITED = 9999;
 
+    var ACC_ACCEPTABLE = 1;
+    var ACC_NEEDEDSIZENOTAVAILABLE = 2;
+    var ACC_CATEGORYTOOHIGH = 3;
+
     beforeEach(function () {
         module('myApp.main');
         inject(function (_calcUtil_) {
@@ -102,5 +106,79 @@ describe('Calc Service', function () {
         expect(calcUtil.maxWingLoadBasedOnCategory(5)).toBe(MAXWINGLOADCAT5);
         expect(calcUtil.maxWingLoadBasedOnCategory(6)).toBe(MAXWINGLOADUNLIMITED); // unlimited
     });
+
+    it('returns correct rounded wingload', function () {
+        expect(calcUtil.getWingloadFor(0, 0)).toBe(''); // illegal area value
+        expect(calcUtil.getWingloadFor(0, 10)).toBe(''); // illegal area value
+        expect(calcUtil.getWingloadFor(1, 0)).toBe('0.00');
+        expect(calcUtil.getWingloadFor(10, 0)).toBe('0.00');
+        expect(calcUtil.getWingloadFor(999, 0)).toBe('0.00');
+        expect(calcUtil.getWingloadFor(100, 10)).toBe('0.10');
+        expect(calcUtil.getWingloadFor(100, 25)).toBe('0.25');
+        expect(calcUtil.getWingloadFor(100, 50)).toBe('0.50');
+        expect(calcUtil.getWingloadFor(90, 30)).toBe('0.33');
+        expect(calcUtil.getWingloadFor(100, 150)).toBe('1.50');
+    });
+
+
+    it('returns the correct availability for a CAT 1 canopy', function () {
+        var testCanopy = {
+            category: '1',
+            maxsize: 280
+        };
+        expect(calcUtil.acceptability(testCanopy, 1, 50)).toBe(ACC_ACCEPTABLE);
+        expect(calcUtil.acceptability(testCanopy, 1, 90)).toBe(ACC_ACCEPTABLE);
+        expect(calcUtil.acceptability(testCanopy, 1, 120)).toBe(ACC_ACCEPTABLE);
+        expect(calcUtil.acceptability(testCanopy, 3, 90)).toBe(ACC_ACCEPTABLE);
+        expect(calcUtil.acceptability(testCanopy, 2, 90)).toBe(ACC_ACCEPTABLE);
+        expect(calcUtil.acceptability(testCanopy, 4, 90)).toBe(ACC_ACCEPTABLE);
+        expect(calcUtil.acceptability(testCanopy, 5, 90)).toBe(ACC_ACCEPTABLE);
+    });
+
+    it('returns the correct availability for a CAT 2 canopy', function () {
+        var testCanopy = {
+            category: '2',
+            maxsize: 280
+        };
+        expect(calcUtil.acceptability(testCanopy, 1, 50)).toBe(ACC_CATEGORYTOOHIGH);
+        expect(calcUtil.acceptability(testCanopy, 1, 90)).toBe(ACC_CATEGORYTOOHIGH);
+        expect(calcUtil.acceptability(testCanopy, 1, 120)).toBe(ACC_CATEGORYTOOHIGH);
+        expect(calcUtil.acceptability(testCanopy, 2, 90)).toBe(ACC_ACCEPTABLE);
+        expect(calcUtil.acceptability(testCanopy, 3, 90)).toBe(ACC_ACCEPTABLE);
+        expect(calcUtil.acceptability(testCanopy, 4, 90)).toBe(ACC_ACCEPTABLE);
+        expect(calcUtil.acceptability(testCanopy, 5, 90)).toBe(ACC_ACCEPTABLE);
+        expect(calcUtil.acceptability(testCanopy, 6, 90)).toBe(ACC_ACCEPTABLE);
+    });
+
+    it('returns the correct availability for a CAT 4 canopy', function () {
+        var testCanopy = {
+            category: '4',
+            maxsize: 280
+        };
+        expect(calcUtil.acceptability(testCanopy, 1, 50)).toBe(ACC_CATEGORYTOOHIGH);
+        expect(calcUtil.acceptability(testCanopy, 1, 90)).toBe(ACC_CATEGORYTOOHIGH);
+        expect(calcUtil.acceptability(testCanopy, 1, 120)).toBe(ACC_CATEGORYTOOHIGH);
+        expect(calcUtil.acceptability(testCanopy, 2, 90)).toBe(ACC_CATEGORYTOOHIGH);
+        expect(calcUtil.acceptability(testCanopy, 3, 90)).toBe(ACC_CATEGORYTOOHIGH);
+        expect(calcUtil.acceptability(testCanopy, 4, 90)).toBe(ACC_ACCEPTABLE);
+        expect(calcUtil.acceptability(testCanopy, 5, 90)).toBe(ACC_ACCEPTABLE);
+        expect(calcUtil.acceptability(testCanopy, 6, 90)).toBe(ACC_ACCEPTABLE);
+    });
+
+    it('returns the correct availability for a CAT 6 canopy', function () {
+        var testCanopy = {
+            category: '6',
+            maxsize: 170
+        };
+        expect(calcUtil.acceptability(testCanopy, 1, 50)).toBe(ACC_CATEGORYTOOHIGH);
+        expect(calcUtil.acceptability(testCanopy, 1, 90)).toBe(ACC_CATEGORYTOOHIGH);
+        expect(calcUtil.acceptability(testCanopy, 1, 120)).toBe(ACC_CATEGORYTOOHIGH);
+        expect(calcUtil.acceptability(testCanopy, 2, 90)).toBe(ACC_CATEGORYTOOHIGH);
+        expect(calcUtil.acceptability(testCanopy, 3, 90)).toBe(ACC_CATEGORYTOOHIGH);
+        expect(calcUtil.acceptability(testCanopy, 4, 90)).toBe(ACC_CATEGORYTOOHIGH);
+        expect(calcUtil.acceptability(testCanopy, 5, 90)).toBe(ACC_CATEGORYTOOHIGH);
+        expect(calcUtil.acceptability(testCanopy, 6, 90)).toBe(ACC_ACCEPTABLE);
+    });
+
 
 });

@@ -20,6 +20,9 @@ angular.module('myApp.main', ['ngRoute'])
         this.MINIMUMTOTALJUMPS = [0, 0, 25, 100, 400, 700, 1000];
         this.MINIMUMJUMPSLAST12MONTHS = [0, 0, 10, 25, 50, 100, 0];
 
+        this.ACC_ACCEPTABLE = 1;
+        this.ACC_NEEDEDSIZENOTAVAILABLE = 2;
+        this.ACC_CATEGORYTOOHIGH = 3;
 
         this.kgToLbs = function (kg) {
             var lbs = Math.round(kg * this.WEIGHT_FACTOR_KG_TO_LBS);
@@ -118,6 +121,49 @@ angular.module('myApp.main', ['ngRoute'])
                     break;
             }
             return maxWingload;
+        };
+
+        /**
+         * Returns the wingload for a given area and weight (in Lbs)
+         * rounded to two decimals as a string
+         *
+         * @param area
+         * @param weightInLbs
+         * @returns {string}
+         */
+        this.getWingloadFor = function (area, weightInLbs) {
+            if (area==0) {
+                return ''; // illegal value
+            }
+            var wingload = weightInLbs / area;
+            return wingload.toFixed(2);
+        };
+
+        /**
+         * Returns the acceptability of a canopy based on category and weight of jumper
+         *
+         *
+         * @param canopy
+         * @param jumperCategory
+         * @param exitWeightInKg
+         * @returns {number}
+         */
+        this.acceptability = function (canopy, jumperCategory, exitWeightInKg) {
+            var canopyCategory = canopy.category;
+            if (!canopyCategory) {
+                canopyCategory = 6; // unknown cat, works as 6.
+            }
+            if (jumperCategory < canopyCategory)
+                return this.ACC_CATEGORYTOOHIGH; // not acceptable
+            if (canopy.maxsize != "" && canopy.maxsize != null) {
+                var maxLoad = this.maxWingLoadBasedOnCategory(jumperCategory);
+                var weightInLbs = this.kgToLbs(exitWeightInKg);
+                var wingLoad = this.getWingloadFor(canopy.maxsize, weightInLbs);
+                if (maxLoad < wingLoad) {
+                    return this.ACC_NEEDEDSIZENOTAVAILABLE;
+                }
+            }
+            return this.ACC_ACCEPTABLE;
         };
 
 
@@ -340,7 +386,7 @@ angular.module('myApp.main', ['ngRoute'])
                 for (var area in $scope.wingLoads) {
                     //console.log("updatewl " + minArea.toString() + typeof minArea + " " + maxLoad.toString()+ typeof maxLoad);
                     var areaValue = parseInt(area);
-                    var wingload = $scope.getWingloadFor(areaValue, weightInLbs);
+                    var wingload = calcUtil.getWingloadFor(areaValue, weightInLbs);
                     $scope.wingLoads[area]['wl'] = wingload;
                     $scope.wingLoads[area]['a'] = areaValue >= minArea;
                     $scope.wingLoads[area]['l'] = maxLoad >= wingload;
@@ -382,11 +428,6 @@ angular.module('myApp.main', ['ngRoute'])
                 } else {
                     return "bg-warning"
                 }
-            };
-
-            $scope.getWingloadFor = function (area, weightInLbs) {
-                var wingload = weightInLbs / area;
-                return wingload.toFixed(2);
             };
 
             $scope.currentCategory = 0;
@@ -579,24 +620,6 @@ angular.module('myApp.main', ['ngRoute'])
                 return maxWingLoad;
             };
 
-            $scope.acceptability = function (canopy, jumperCategory, exitWeightInKg) {
-                var canopyCategory = canopy.category;
-                if (!canopyCategory) {
-                    canopyCategory = 6; // unknown cat, works as 6.
-                }
-                if (jumperCategory < canopyCategory)
-                    return $scope.ACC_CATEGORYTOOHIGH; // not acceptable
-                if (canopy.maxsize != "" && canopy.maxsize != null) {
-                    var maxLoad = calcUtil.maxWingLoadBasedOnCategory(jumperCategory);
-                    var weightInLbs = calcUtil.kgToLbs($scope.settings.weight);
-                    var wingLoad = $scope.getWingloadFor(canopy.maxsize, weightInLbs);
-                    if (maxLoad < wingLoad) {
-                        return $scope.ACC_NEEDEDSIZENOTAVAILABLE;
-                    }
-                }
-                return $scope.ACC_ACCEPTABLE;
-            };
-
             $scope.updateCanopyList = function () {
                 if (!$scope.data) {
                     return;
@@ -606,7 +629,7 @@ angular.module('myApp.main', ['ngRoute'])
                     var canopy = $scope.data.canopies[i];
 
                     // set acceptability before filter (needed for search)
-                    var acceptability = $scope.acceptability(canopy, $scope.settings.category, $scope.settings.weight);
+                    var acceptability = calcUtil.acceptability(canopy, $scope.settings.category, $scope.settings.weight);
                     switch (acceptability) {
                         case $scope.ACC_ACCEPTABLE:
                             canopy.class = "canopylistcanopy bg-success";
