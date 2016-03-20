@@ -46,6 +46,10 @@ translationServices.service('translationService', function () {
         en.SLIDER_JUMPSTOTAL_L = 'Total number of jumps';
         nl.SLIDER_JUMPSTOTAL_S = 'Totaal';
         en.SLIDER_JUMPSTOTAL_S = 'Totaal';
+        nl.SLIDER_JUMPSXBRACED_L = 'Cross braced sprongen totaal';
+        en.SLIDER_JUMPSXBRACED_L = 'Total number of cross based jumps';
+        nl.SLIDER_JUMPSXBRACED_S = 'X Braced';
+        en.SLIDER_JUMPSXBRACED_S = 'X Braced';
         nl.SLIDER_JUMPSLAST12MONTHS_L = 'Aantal sprongen laatste jaar';
         en.SLIDER_JUMPSLAST12MONTHS_L = 'Number of jumps last year';
         nl.SLIDER_JUMPSLAST12MONTHS_S = 'Laatste jaar';
@@ -125,7 +129,8 @@ translationServices.service('translationService', function () {
             "100 tot 400 sprongen; minstens 25 sprongen in de afgelopen 12 maanden",
             "400 tot 700 sprongen; minstens 50 sprongen in de afgelopen 12 maanden",
             "700 tot 1000 sprongen; minstens 100 sprongen in de afgelopen 12 maanden",
-            "meer dan 1000 sprongen"
+            "meer dan 1000 sprongen",
+            "meer dan 1200 sprongen; minstens 200 aan een cross braced koepel uit cat VI"
         ];
         en.JUMPERCATEGORIES = [
             "Unknown",
@@ -134,7 +139,8 @@ translationServices.service('translationService', function () {
             "100 to 400 jumps; at least 25 jumps in the last 12 months",
             "400 to 700 jumps; at least 50 jumps in the last 12 months",
             "700 to 1000 jumps; at least 100 jumps in the last 12 months",
-            "over 1000 jumps"
+            "over 1000 jumps",
+            "over 1200 jumps; at least 200 with a cat VI cross-braced canopy"
         ];
 
         nl.NEEDEDEXPERIENCE = [
@@ -144,7 +150,8 @@ translationServices.service('translationService', function () {
             "Minimaal 100 sprongen, waarvan minimaal 25 in de afgelopen 12 maanden",
             "Minimaal 400 sprongen, waarvan minimaal 50 in de afgelopen 12 maanden",
             "Minimaal 700 sprongen, waarvan minimaal 100 in de afgelopen 12 maanden",
-            "Minimaal 1000 sprongen"
+            "Minimaal 1000 sprongen",
+            "Minimaal 1200 sprongen, waarvan minimaal 200 aan een cross-braced koepel uit cat VI"
         ];
         en.NEEDEDEXPERIENCE = [
             "Unknown",
@@ -153,7 +160,8 @@ translationServices.service('translationService', function () {
             "At least 100 jumps, of which at least 25 in the last 12 months",
             "At least 400 jumps, of which at least 50 in the last 12 months",
             "At least 700 jumps, of which at least 100 in the last 12 months",
-            "At least 1000 jumps"
+            "At least 1000 jumps",
+            "At least 1200 jumps, of which 200 with a cat VI cross-braced canopy"
         ];
 
 

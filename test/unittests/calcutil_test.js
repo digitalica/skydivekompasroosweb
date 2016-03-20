@@ -49,42 +49,58 @@ describe('Calc Service', function () {
 
     it('returns correct jumper category', function () {
         expect(calcUtil.jumperCategory).toBeDefined();
-        expect(calcUtil.jumperCategory(0, 0)).toBe(1); // absolute beginner
-        expect(calcUtil.jumperCategory(24, 0)).toBe(1); // absolute beginner
-        expect(calcUtil.jumperCategory(24, 24)).toBe(1); // absolute beginner
-        expect(calcUtil.jumperCategory(25, 9)).toBe(1); // absolute beginner
-        expect(calcUtil.jumperCategory(999, 9)).toBe(1); // long jump vacation...
+        expect(calcUtil.jumperCategory(0, 0, 0)).toBe(1); // absolute beginner
+        expect(calcUtil.jumperCategory(0, 0, undefined)).toBe(1); // absolute beginner
+        expect(calcUtil.jumperCategory(0, 0, null)).toBe(1); // absolute beginner
+        expect(calcUtil.jumperCategory(24, 0, 0)).toBe(1); // absolute beginner
+        expect(calcUtil.jumperCategory(24, 24, 0)).toBe(1); // absolute beginner
+        expect(calcUtil.jumperCategory(25, 9, 0)).toBe(1); // absolute beginner
+        expect(calcUtil.jumperCategory(999, 9, 0)).toBe(1); // long jump vacation...
+        expect(calcUtil.jumperCategory(999, 0, 0)).toBe(1); // long jump vacation...
+        expect(calcUtil.jumperCategory(999, 9, 300)).toBe(1); // long jump vacation...
+        expect(calcUtil.jumperCategory(999, 0, 300)).toBe(1); // long jump vacation...
 
-        expect(calcUtil.jumperCategory(25, 10)).toBe(2);
-        expect(calcUtil.jumperCategory(100, 24)).toBe(2);
-        expect(calcUtil.jumperCategory(99, 25)).toBe(2);
-        expect(calcUtil.jumperCategory(999, 24)).toBe(2);
+        expect(calcUtil.jumperCategory(25, 10, 0)).toBe(2);
+        expect(calcUtil.jumperCategory(100, 24, 0)).toBe(2);
+        expect(calcUtil.jumperCategory(99, 25, 0)).toBe(2);
+        expect(calcUtil.jumperCategory(999, 24, 0)).toBe(2);
+        expect(calcUtil.jumperCategory(999, 24, 333)).toBe(2);
 
-        expect(calcUtil.jumperCategory(100, 25)).toBe(3);
-        expect(calcUtil.jumperCategory(400, 49)).toBe(3);
-        expect(calcUtil.jumperCategory(399, 50)).toBe(3);
-        expect(calcUtil.jumperCategory(399, 100)).toBe(3);
-        expect(calcUtil.jumperCategory(399, 99)).toBe(3);
-        expect(calcUtil.jumperCategory(999, 49)).toBe(3);
+        expect(calcUtil.jumperCategory(100, 25, 0)).toBe(3);
+        expect(calcUtil.jumperCategory(100, 25, undefined)).toBe(3);
+        expect(calcUtil.jumperCategory(100, 25, null)).toBe(3);
+        expect(calcUtil.jumperCategory(400, 49, 0)).toBe(3);
+        expect(calcUtil.jumperCategory(399, 50, 0)).toBe(3);
+        expect(calcUtil.jumperCategory(399, 100, 0)).toBe(3);
+        expect(calcUtil.jumperCategory(399, 99, 0)).toBe(3);
+        expect(calcUtil.jumperCategory(999, 49, 0)).toBe(3);
+        expect(calcUtil.jumperCategory(999, 49, 666)).toBe(3);
 
-        expect(calcUtil.jumperCategory(400, 50)).toBe(4);
-        expect(calcUtil.jumperCategory(699, 100)).toBe(4);
-        expect(calcUtil.jumperCategory(700, 99)).toBe(4);
-        expect(calcUtil.jumperCategory(999, 99)).toBe(4);
+        expect(calcUtil.jumperCategory(400, 50, 0)).toBe(4);
+        expect(calcUtil.jumperCategory(699, 100, 0)).toBe(4);
+        expect(calcUtil.jumperCategory(700, 99, 0)).toBe(4);
+        expect(calcUtil.jumperCategory(999, 99, 0)).toBe(4);
+        expect(calcUtil.jumperCategory(999, 99, 333)).toBe(4);
 
-        expect(calcUtil.jumperCategory(700, 100)).toBe(5);
-        expect(calcUtil.jumperCategory(999, 100)).toBe(5);
-        expect(calcUtil.jumperCategory(999, 200)).toBe(5);
+        expect(calcUtil.jumperCategory(700, 100, 0)).toBe(5);
+        expect(calcUtil.jumperCategory(999, 100, 0)).toBe(5);
+        expect(calcUtil.jumperCategory(999, 200, 0)).toBe(5);
+        expect(calcUtil.jumperCategory(999, 200, 666)).toBe(5);
 
-        expect(calcUtil.jumperCategory(1000, 0)).toBe(6);
-        expect(calcUtil.jumperCategory(1000, 10)).toBe(6);
-        expect(calcUtil.jumperCategory(1000, 100)).toBe(6);
-        expect(calcUtil.jumperCategory(1000, 1000)).toBe(6);
+        expect(calcUtil.jumperCategory(1000, 0, 0)).toBe(6);
+        expect(calcUtil.jumperCategory(1000, 10, 0)).toBe(6);
+        expect(calcUtil.jumperCategory(1000, 100, 0)).toBe(6);
+        expect(calcUtil.jumperCategory(1000, 1000, 0)).toBe(6);
+        expect(calcUtil.jumperCategory(1199, 1000, 500)).toBe(6);
+        expect(calcUtil.jumperCategory(1200, 1000, 199)).toBe(6);
+        expect(calcUtil.jumperCategory(2000, 1000, 0)).toBe(6); // sky god
+        expect(calcUtil.jumperCategory(2000, 0, 0)).toBe(6); // jump vacation
+        expect(calcUtil.jumperCategory(2000, 1000, 199)).toBe(6); // sky god
 
-        expect(calcUtil.jumperCategory(2000, 1000)).toBe(6); // sky god
-        expect(calcUtil.jumperCategory(2000, 0)).toBe(6); // jump vacation
+        expect(calcUtil.jumperCategory(2000, 300, 200)).toBe(7);
+        expect(calcUtil.jumperCategory(2000, 0, 200)).toBe(7); // jump vacation
+        expect(calcUtil.jumperCategory(3000, 10, 2000)).toBe(7); // jump vacation
 
-        expect(calcUtil.jumperCategory(999, 0)).toBe(1); // jump vacation
     });
 
     it('returns correct min area based on category', function () {
@@ -95,6 +111,7 @@ describe('Calc Service', function () {
         expect(calcUtil.minAreaBasedOnCategory(4)).toBe(MINAREACAT4);
         expect(calcUtil.minAreaBasedOnCategory(5)).toBe(MINAREACAT5);
         expect(calcUtil.minAreaBasedOnCategory(6)).toBe(MINAREAUNLIMITED); // unlimited
+        expect(calcUtil.minAreaBasedOnCategory(7)).toBe(MINAREAUNLIMITED); // unlimited
     });
 
     it('returns correct max wingload based on category', function () {
@@ -105,6 +122,7 @@ describe('Calc Service', function () {
         expect(calcUtil.maxWingLoadBasedOnCategory(4)).toBe(MAXWINGLOADCAT4);
         expect(calcUtil.maxWingLoadBasedOnCategory(5)).toBe(MAXWINGLOADCAT5);
         expect(calcUtil.maxWingLoadBasedOnCategory(6)).toBe(MAXWINGLOADUNLIMITED); // unlimited
+        expect(calcUtil.maxWingLoadBasedOnCategory(7)).toBe(MAXWINGLOADUNLIMITED); // unlimited
     });
 
     it('returns correct rounded wingload', function () {
@@ -133,6 +151,8 @@ describe('Calc Service', function () {
         expect(calcUtil.acceptability(testCanopy, 2, 90)).toBe(ACC_ACCEPTABLE);
         expect(calcUtil.acceptability(testCanopy, 4, 90)).toBe(ACC_ACCEPTABLE);
         expect(calcUtil.acceptability(testCanopy, 5, 90)).toBe(ACC_ACCEPTABLE);
+        expect(calcUtil.acceptability(testCanopy, 6, 90)).toBe(ACC_ACCEPTABLE);
+        expect(calcUtil.acceptability(testCanopy, 7, 90)).toBe(ACC_ACCEPTABLE);
     });
 
     it('returns the correct availability for a CAT 2 canopy', function () {
@@ -148,6 +168,7 @@ describe('Calc Service', function () {
         expect(calcUtil.acceptability(testCanopy, 4, 90)).toBe(ACC_ACCEPTABLE);
         expect(calcUtil.acceptability(testCanopy, 5, 90)).toBe(ACC_ACCEPTABLE);
         expect(calcUtil.acceptability(testCanopy, 6, 90)).toBe(ACC_ACCEPTABLE);
+        expect(calcUtil.acceptability(testCanopy, 7, 90)).toBe(ACC_ACCEPTABLE);
     });
 
     it('returns the correct availability for a CAT 4 canopy', function () {
@@ -163,6 +184,7 @@ describe('Calc Service', function () {
         expect(calcUtil.acceptability(testCanopy, 4, 90)).toBe(ACC_ACCEPTABLE);
         expect(calcUtil.acceptability(testCanopy, 5, 90)).toBe(ACC_ACCEPTABLE);
         expect(calcUtil.acceptability(testCanopy, 6, 90)).toBe(ACC_ACCEPTABLE);
+        expect(calcUtil.acceptability(testCanopy, 7, 90)).toBe(ACC_ACCEPTABLE);
     });
 
     it('returns the correct availability for a CAT 6 canopy', function () {
@@ -178,6 +200,23 @@ describe('Calc Service', function () {
         expect(calcUtil.acceptability(testCanopy, 4, 90)).toBe(ACC_CATEGORYTOOHIGH);
         expect(calcUtil.acceptability(testCanopy, 5, 90)).toBe(ACC_CATEGORYTOOHIGH);
         expect(calcUtil.acceptability(testCanopy, 6, 90)).toBe(ACC_ACCEPTABLE);
+        expect(calcUtil.acceptability(testCanopy, 7, 90)).toBe(ACC_ACCEPTABLE);
+    });
+
+    it('returns the correct availability for a CAT 7 canopy', function () {
+        var testCanopy = {
+            category: '7',
+            maxsize: 120
+        };
+        expect(calcUtil.acceptability(testCanopy, 1, 50)).toBe(ACC_CATEGORYTOOHIGH);
+        expect(calcUtil.acceptability(testCanopy, 1, 90)).toBe(ACC_CATEGORYTOOHIGH);
+        expect(calcUtil.acceptability(testCanopy, 1, 120)).toBe(ACC_CATEGORYTOOHIGH);
+        expect(calcUtil.acceptability(testCanopy, 2, 90)).toBe(ACC_CATEGORYTOOHIGH);
+        expect(calcUtil.acceptability(testCanopy, 3, 90)).toBe(ACC_CATEGORYTOOHIGH);
+        expect(calcUtil.acceptability(testCanopy, 4, 90)).toBe(ACC_CATEGORYTOOHIGH);
+        expect(calcUtil.acceptability(testCanopy, 5, 90)).toBe(ACC_CATEGORYTOOHIGH);
+        expect(calcUtil.acceptability(testCanopy, 6, 90)).toBe(ACC_CATEGORYTOOHIGH);
+        expect(calcUtil.acceptability(testCanopy, 7, 90)).toBe(ACC_ACCEPTABLE);
     });
 
 

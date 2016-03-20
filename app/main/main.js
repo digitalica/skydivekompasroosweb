@@ -17,8 +17,8 @@ angular.module('myApp.main', ['ngRoute'])
 
         this.WEIGHT_FACTOR_KG_TO_LBS = 2.20462262185;
 
-        this.MINIMUMTOTALJUMPS = [0, 0, 25, 100, 400, 700, 1000];
-        this.MINIMUMJUMPSLAST12MONTHS = [0, 0, 10, 25, 50, 100, 0];
+        this.MINIMUMTOTALJUMPS = [0, 0, 25, 100, 400, 700, 1000, 1200];
+        this.MINIMUMJUMPSLAST12MONTHS = [0, 0, 10, 25, 50, 100, 0, 0];
 
         this.ACC_ACCEPTABLE = 1;
         this.ACC_NEEDEDSIZENOTAVAILABLE = 2;
@@ -29,7 +29,7 @@ angular.module('myApp.main', ['ngRoute'])
             return lbs;
         };
 
-        this.jumperCategory = function (totalJumps, jumpsLast12Months) {
+        this.jumperCategory = function (totalJumps, jumpsLast12Months, xbracedjumps) {
             // TODO: below can be done in a simple loop
             var categoryBasedOnTotalJumps = 0;
             if (totalJumps < this.MINIMUMTOTALJUMPS[2]) {
@@ -62,11 +62,17 @@ angular.module('myApp.main', ['ngRoute'])
             }
 
             var jumperCategory;
-            if (categoryBasedOnTotalJumps == 6)
-                jumperCategory = 6; // if 1000 jumps, no recent exp needed.
-            else
+            if (categoryBasedOnTotalJumps == 6) {
+                // if 1000 jumps, no recent exp needed.
+                if (xbracedjumps < 200 || totalJumps < 1200) {
+                    jumperCategory = 6;
+                } else {
+                    jumperCategory = 7;
+                }
+            } else {
                 jumperCategory = Math.min(categoryBasedOnTotalJumps,
                     categoryBasedOnJumpsLast12Months);
+            }
             return jumperCategory;
         };
 
@@ -90,6 +96,7 @@ angular.module('myApp.main', ['ngRoute'])
                     minAreaBasedOnCategory = 120;
                     break;
                 case 6:
+                case 7:
                     minAreaBasedOnCategory = 0; // NO LIMIT
                     break;
             }
@@ -117,6 +124,7 @@ angular.module('myApp.main', ['ngRoute'])
                     maxWingload = 1.7;
                     break;
                 case 6:
+                case 7:
                     // no limits
                     break;
             }
@@ -132,7 +140,7 @@ angular.module('myApp.main', ['ngRoute'])
          * @returns {string}
          */
         this.getWingloadFor = function (area, weightInLbs) {
-            if (area==0) {
+            if (area == 0) {
                 return ''; // illegal value
             }
             var wingload = weightInLbs / area;
@@ -141,7 +149,6 @@ angular.module('myApp.main', ['ngRoute'])
 
         /**
          * Returns the acceptability of a canopy based on category and weight of jumper
-         *
          *
          * @param canopy
          * @param jumperCategory
@@ -253,6 +260,7 @@ angular.module('myApp.main', ['ngRoute'])
                 'filter': 'filt_common',
                 'sorting': 'sort_name',
                 'jumpsLastYear': 25,
+                'xbraced': 0,
                 'jumpsTotal': 100,
                 'weight': 85,
                 'category': 3,
@@ -304,6 +312,7 @@ angular.module('myApp.main', ['ngRoute'])
             $scope.setBeginner = function () {
                 $scope.sliders.totalValue = 5;
                 $scope.sliders.last12MonthsValue = 5;
+                $scope.sliders.xbracedValue = 0;
                 if (isLiveSite()) {
                     _gaq.push(['_trackEvent', 'set_experience', 'beginner']);
                 }
@@ -318,6 +327,7 @@ angular.module('myApp.main', ['ngRoute'])
             $scope.setIntermediate = function () {
                 $scope.sliders.totalValue = 100;
                 $scope.sliders.last12MonthsValue = 25;
+                $scope.sliders.xbracedValue = 0;
                 if (isLiveSite()) {
                     _gaq.push(['_trackEvent', 'set_experience', 'intermediate']);
                 }
@@ -330,8 +340,9 @@ angular.module('myApp.main', ['ngRoute'])
              * Set je parameters to a sky god (for button)
              */
             $scope.setSkyGod = function () {
-                $scope.sliders.totalValue = 1100;
+                $scope.sliders.totalValue = 1200;
                 $scope.sliders.last12MonthsValue = 200;
+                $scope.sliders.xbracedValue = 200;
                 if (isLiveSite()) {
                     _gaq.push(['_trackEvent', 'set_experience', 'skygod']);
                 }
@@ -347,7 +358,7 @@ angular.module('myApp.main', ['ngRoute'])
                     $scope.settings.jumpsLastYear = $scope.settings.jumpsTotal;
                     $scope.sliders.last12MonthsValue = $scope.settings.jumpsLastYear;
                 }
-                $scope.settings.category = calcUtil.jumperCategory($scope.settings.jumpsTotal, $scope.settings.jumpsLastYear);
+                $scope.settings.category = calcUtil.jumperCategory($scope.settings.jumpsTotal, $scope.settings.jumpsLastYear, $scope.settings.xbraced);
                 $scope.setSettingsMinMaxForDisplay();
                 $scope.updateWingLoads();
                 $scope.updateCanopyList();
@@ -360,7 +371,20 @@ angular.module('myApp.main', ['ngRoute'])
                     $scope.settings.jumpsTotal = $scope.settings.jumpsLastYear;
                     $scope.sliders.totalValue = $scope.settings.jumpsTotal;
                 }
-                $scope.settings.category = calcUtil.jumperCategory($scope.settings.jumpsTotal, $scope.settings.jumpsLastYear);
+                $scope.settings.category = calcUtil.jumperCategory($scope.settings.jumpsTotal, $scope.settings.jumpsLastYear, $scope.settings.xbraced);
+                $scope.setSettingsMinMaxForDisplay();
+                $scope.updateWingLoads();
+                $scope.updateCanopyList();
+                $scope.saveSettings();
+            };
+
+            $scope.updateXbraced = function () {
+                $scope.settings.xbraced = $scope.sliders.xbracedValue;
+                if ($scope.settings.jumpsTotal < $scope.settings.xbraced) {
+                    $scope.settings.jumpsTotal = $scope.settings.xbraced;
+                    $scope.sliders.totalValue = $scope.settings.jumpsTotal;
+                }
+                $scope.settings.category = calcUtil.jumperCategory($scope.settings.jumpsTotal, $scope.settings.jumpsLastYear, $scope.settings.xbraced);
                 $scope.setSettingsMinMaxForDisplay();
                 $scope.updateWingLoads();
                 $scope.updateCanopyList();
@@ -433,12 +457,16 @@ angular.module('myApp.main', ['ngRoute'])
             $scope.currentCategory = 0;
 
             $scope.sliderOptions.totalMin = 1;
-            $scope.sliderOptions.totalMax = 1100;
+            $scope.sliderOptions.totalMax = 1250;
             $scope.sliderOptions.totalStep = 1;
 
             $scope.sliderOptions.last12MonthsMin = 0;
             $scope.sliderOptions.last12MonthsMax = 125;
             $scope.sliderOptions.last12MonthsStep = 1;
+
+            $scope.sliderOptions.xbracedMin = 0;
+            $scope.sliderOptions.xbracedMax = 250;
+            $scope.sliderOptions.xbracedStep = 1;
 
             $scope.sliderOptions.weightMin = 50;
             $scope.sliderOptions.weightMax = 140;
@@ -466,6 +494,18 @@ angular.module('myApp.main', ['ngRoute'])
                 }
                 $scope.sliders.last12MonthsValue = newLast12MonthsValue;
                 $scope.updateLast12Months();
+            };
+
+            $scope.incXbraced = function (amount) {
+                var newXbracedValue = $scope.sliders.xbracedValue + amount;
+                if (newXbracedValue < $scope.sliderOptions.xbracedMin) {
+                    newXbracedValue = $scope.sliderOptions.xbracedMin;
+                }
+                if (newXbracedValue > $scope.sliderOptions.xbracedMax) {
+                    newXbracedValue = $scope.sliderOptions.xbracedMax;
+                }
+                $scope.sliders.xbracedValue = newXbracedValue;
+                $scope.updateXbraced();
             };
 
             $scope.incWeight = function (amount) {
@@ -779,6 +819,7 @@ angular.module('myApp.main', ['ngRoute'])
             } else {
                 $scope.sliders.totalValue = 100;
                 $scope.sliders.last12MonthsValue = 25;
+                $scope.sliders.xbracedValue = 0;
                 $scope.sliders.weightValue = 85;
             }
 

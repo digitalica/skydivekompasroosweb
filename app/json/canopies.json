@@ -1405,7 +1405,7 @@
     {
       "id": "1931C950-68C7-11E2-BCFD-0800200C9A66",
       "name": "Peregrine",
-      "category": "6",
+      "category": "7",
       "cells": "27",
       "commontype": "0",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
@@ -1432,7 +1432,7 @@
     {
       "id": "23498D9C-045C-4D99-AAD7-E01CFDBC717B",
       "name": "Valkyrie",
-      "category": "6",
+      "category": "7",
       "cells": "9",
       "commontype": "0",
       "dropzoneid": "971",
@@ -1570,7 +1570,7 @@
     {
       "id": "0b8688c1-bb96-41d4-ac0f-8c9c71f54eda",
       "name": "Petra",
-      "category": "6",
+      "category": "7",
       "cells": "27",
       "commontype": "0",
       "firstyearofproduction": "2013",
@@ -1602,7 +1602,7 @@
     {
       "id": "de98ce5e-513e-454a-bfdb-fc8ff93ee92e",
       "name": "Leia",
-      "category": "6",
+      "category": "7",
       "cells": "21",
       "commontype": "0",
       "firstyearofproduction": "2014",
@@ -1653,7 +1653,7 @@
       "cells": "21",
       "maxsize": "96",
       "minsize": "67",
-      "category": "",
+      "category": "7",
       "dropzoneid": "972",
       "commontype": "0",
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",

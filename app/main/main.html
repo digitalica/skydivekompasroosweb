@@ -23,20 +23,20 @@
             </p>
 
             <p> De kompasroos zelf:<br>
-                <a target="_blank" href="http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/Kompasroos.pdf"><span
-                        class="hidden-xs hidden-sm">http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/</span>Kompasroos.pdf</a>
+                <a target="_blank" href="http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/kompasroos_2016.pdf"><span
+                        class="hidden-xs hidden-sm">http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/</span>kompasroos_2016.pdf</a>
             </p>
 
-            <p> BVR Bijlage A, Regels voor Parachutekeuze, versie 2011:<br>
+            <p> BVR Bijlage A, Regels voor Parachutekeuze, versie 2016:<br>
                 <a target="_blank"
-                   href="http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/BVR_Bijlage_A_2011.pdf"><span
-                        class="hidden-xs hidden-sm">http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/</span>BVR_Bijlage_A_2011.pdf</a>
+                   href="http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/BVR_bijlage_A_2016.pdf"><span
+                        class="hidden-xs hidden-sm">http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/</span>BVR_Bijlage_A_2016.pdf</a>
             </p>
 
-            <p>BVR Bijlage B, Indeling hoofdparachutes, versie maart 2015:<br>
+            <p>BVR Bijlage B, Indeling hoofdparachutes, versie maart 2016:<br>
                 <a target="_blank"
-                   href="http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/BVR_bijlage_B_versie_2015_maart.pdf"><span
-                        class="hidden-xs hidden-sm">http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/</span>BVR_bijlage_B_versie_2015_maart.pdf</a>
+                   href="http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/BVR_bijlage_B_versie_2016_maart.pdf"><span
+                        class="hidden-xs hidden-sm">http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/</span>BVR_bijlage_B_versie_2016_maart.pdf</a>
             </p>
 
             <p>De source is al te vinden op GitHub:<br>
@@ -84,20 +84,20 @@
             </p>
 
             <p> The compas rose (kompasroos) itself:<br>
-                <a target="_blank" href="http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/Kompasroos.pdf"><span
-                        class="hidden-xs hidden-sm">http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/</span>Kompasroos.pdf</a>
+                <a target="_blank" href="http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/kompasroos_2016.pdf"><span
+                        class="hidden-xs hidden-sm">http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/</span>kompasroos_2016.pdf</a>
             </p>
 
-            <p> BVR annex A, Rules for canopy selection, version 2011:<br>
+            <p> BVR annex A, Rules for canopy selection, version 2016:<br>
                 <a target="_blank"
-                   href="http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/BVR_Bijlage_A_2011.pdf"><span
-                        class="hidden-xs hidden-sm">http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/</span>BVR_Bijlage_A_2011.pdf</a>
+                   href="http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/BVR_bijlage_A_2016.pdf"><span
+                        class="hidden-xs hidden-sm">http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/</span>BVR_bijlage_A_2016.pdff</a>
             </p>
 
-            <p>BVR annex B, main canopy categories, version march 2015:<br>
+            <p>BVR annex B, main canopy categories, version march 2016:<br>
                 <a target="_blank"
-                   href="http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/BVR_bijlage_B_versie_2015_maart.pdf"><span
-                        class="hidden-xs hidden-sm">http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/</span>BVR_bijlage_B_versie_2015_maart.pdf</a>
+                   href="http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/BVR_bijlage_B_versie_2016_maart.pdf"><span
+                        class="hidden-xs hidden-sm">http://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/</span>BVR_bijlage_B_versie_2016_maart.pdf</a>
             </p>
 
             <p>The source can be found at GitHub:<br>
@@ -259,7 +259,8 @@
                                 </a>
                             </div>
                             <div class="col-sm-4 col-xs-6 text-center" ng-if="currentCanopy.dropzoneid">
-                                <a ng-href='http://www.dropzone.com/gear/Detailed/{{currentCanopy.dropzoneid}}.html' target='_blank'>
+                                <a ng-href='http://www.dropzone.com/gear/Detailed/{{currentCanopy.dropzoneid}}.html'
+                                   target='_blank'>
                                     <br><i class="link glyphicon glyphicon-globe"></i><br>dropzone.com
                                 </a>
                             </div>
@@ -352,6 +353,10 @@
                     <span ng-show="sliders.totalValue==sliderOptions.totalMax">+</span>
                     / {{sliders.last12MonthsValue}}
                     <span ng-show="sliders.last12MonthsValue==sliderOptions.last12MonthsMax">+</span>
+                     <span ng-show="sliders.totalValue>=1000">
+                        / {{sliders.xbracedValue}}
+                        <span ng-show="sliders.xbracedValue==sliderOptions.xbracedMax">+</span>
+                    </span>
                     / {{sliders.weightValue}} kg
                     > cat {{settings.category}}
                     </span>
@@ -479,6 +484,33 @@
                         </tr>
                     </table>
 
+                    <table width="100%" ng-show="sliders.totalValue>=1000">
+                        <tr>
+                            <td class="hidden-xs hidden-sm">
+                                <button class="btn btn-default" ng-click="incXbraced(-5)">- 5</button>
+                            </td>
+                            <td>
+                                <button class="btn btn-default" ng-click="incxBraced(-1)">-<span class="hidden-xs"> 1</span>
+                                </button>
+                            </td>
+                            <td width="100%" class="slider-cell">
+                                <span class="hidden-xs hidden-sm">{{translation.SLIDER_JUMPSXBRACED_L}}: {{sliders.xbracedValue}}</span>
+                                <span class="visible-xs visible-sm">{{translation.SLIDER_JUMPSXBRACED_S}}: {{sliders.xbracedValue}}</span>
+                                <slider ng-model="sliders.xbracedValue" min="sliderOptions.xbracedMin"
+                                        step="sliderOptions.xbracedStep" max="sliderOptions.xbracedMax"
+                                        value="sliderOptions.xbracedCurrent" slider-tooltip="hide"
+                                        on-stop-slide="updateXbraced()"></slider>
+                            </td>
+                            <td>
+                                <button class="btn btn-default" ng-click="incXbraced(1)">+<span class="hidden-xs"> 1</span>
+                                </button>
+                            </td>
+                            <td class="hidden-xs hidden-sm">
+                                <button class="btn btn-default" ng-click="incXbraced(5)">+ 5</button>
+                            </td>
+                        </tr>
+                    </table>
+
                     <table width="100%">
                         <tr>
                             <td class="hidden-xs hidden-sm">
@@ -504,7 +536,6 @@
                             </td>
                         </tr>
                     </table>
-
                     <br>
                     <a href="" ng-click="openWingloadtable()">{{translation.WINGLOAD_TABLE}}&nbsp;<i
                             class="glyphicon glyphicon-info-sign"></i></a><br>
@@ -648,7 +679,8 @@
                             heading="Static Header, initially expanded" is-open="busy.accIsOpen"
                             is-disabled="busy.accIsDisabled">
                         <accordion-heading>
-                            <h4>{{translation.LOADING}} <span class="glyphicon glyphicon-refresh glyphicon-spin"></span></h4>
+                            <h4>{{translation.LOADING}} <span class="glyphicon glyphicon-refresh glyphicon-spin"></span>
+                            </h4>
                         </accordion-heading>
                     </accordion-group>
                 </accordion>
@@ -764,11 +796,13 @@
                                                 </a>
                                             </div>
                                             <div class="col-sm-4 col-xs-6 text-center" ng-if="canopy.dropzoneid">
-                                                <a ng-href='http://www.dropzone.com/gear/Detailed/{{canopy.dropzoneid}}.html' target='_blank'>
+                                                <a ng-href='http://www.dropzone.com/gear/Detailed/{{canopy.dropzoneid}}.html'
+                                                   target='_blank'>
                                                     <br><i class="link glyphicon glyphicon-globe"></i><br>dropzone.com
                                                 </a>
                                             </div>
-                                            <div ng-repeat="ytmovie in canopy.youtube" class="col-sm-4 col-xs-6 text-center">
+                                            <div ng-repeat="ytmovie in canopy.youtube"
+                                                 class="col-sm-4 col-xs-6 text-center">
                                                 <a target="_blank" href="http://www.youtube.com/watch?v={{ytmovie.id}}">
                                                     <br><i class="link glyphicon glyphicon-play"></i><br>{{ytmovie.title}}
                                                 </a>
