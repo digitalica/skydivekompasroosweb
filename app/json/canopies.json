@@ -17,7 +17,8 @@
           "title": "Test Navigator 240 sq ft",
           "id": "KALCUff9Tx4"
         }
-      ]
+      ],
+      "xbraced": false
     },
     {
       "id": "3231807B-22F3-4D6B-A490-403CC0018042",
@@ -30,7 +31,8 @@
       "lastyearofproduction": "2000",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "253",
-      "minsize": "143"
+      "minsize": "143",
+      "xbraced": false
     },
     {
       "id": "393488EE-E78B-4DFB-9995-0E44AB538F42",
@@ -43,7 +45,8 @@
       "lastyearofproduction": "2000",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "340",
-      "minsize": "150"
+      "minsize": "150",
+      "xbraced": false
     },
     {
       "id": "EDC9AA02-9A92-4809-BCEC-5BA863A28C69",
@@ -56,7 +59,8 @@
       "lastyearofproduction": "2005",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "230",
-      "minsize": "97"
+      "minsize": "97",
+      "xbraced": false
     },
     {
       "id": "8360A137-A59C-4541-8B7A-6F596128A6AF",
@@ -69,7 +73,8 @@
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "290",
       "minsize": "190",
-      "url": "http://www.flyaerodyne.com/solo.asp"
+      "url": "http://www.flyaerodyne.com/solo.asp",
+      "xbraced": false
     },
     {
       "id": "CCD4E177-0E52-4837-BCA8-0640570E41E6",
@@ -79,14 +84,16 @@
       "manufacturerid": "7AE2A118-7566-456B-9D73-2E6751BF7D7A",
       "maxsize": "260",
       "minsize": "210",
-      "url": "http://www.flyfirebird.com/catalog/product_info.php/cPath/90_21_159/products_id/670"
+      "url": "http://www.flyfirebird.com/catalog/product_info.php/cPath/90_21_159/products_id/670",
+      "xbraced": false
     },
     {
       "id": "38A6C9BE-8929-4599-8C1C-77C10F93000C",
       "name": "Spark Student Hybride",
       "category": "1",
       "commontype": "0",
-      "manufacturerid": "7AE2A118-7566-456B-9D73-2E6751BF7D7A"
+      "manufacturerid": "7AE2A118-7566-456B-9D73-2E6751BF7D7A",
+      "xbraced": false
     },
     {
       "id": "D3678054-4391-45BD-9C32-0FD253EF2AAD",
@@ -98,7 +105,8 @@
       "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
       "maxsize": "290",
       "minsize": "230",
-      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy"
+      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy",
+      "xbraced": false
     },
     {
       "id": "4BBA3DB9-9EC3-4EAD-BC59-C72744F4EE02",
@@ -107,14 +115,16 @@
       "cells": "9",
       "commontype": "0",
       "dropzoneid": "52",
-      "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768"
+      "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
+      "xbraced": false
     },
     {
       "id": "54BB53BC-E33D-4FCF-8C7C-2211FF09F57C",
       "name": "Turbo",
       "category": "1",
       "commontype": "0",
-      "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768"
+      "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
+      "xbraced": false
     },
     {
       "id": "9EFB5970-67D1-4A17-BD43-687072DFBEA3",
@@ -125,35 +135,40 @@
       "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
       "maxsize": "280",
       "minsize": "200",
-      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy"
+      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy",
+      "xbraced": false
     },
     {
       "id": "3ECA0242-5B31-47C4-AC03-31FEC46BB777",
       "name": "Raven",
       "category": "1",
       "commontype": "0",
-      "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6"
+      "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
+      "xbraced": false
     },
     {
       "id": "54596159-118E-40BC-B8F5-080F962C0D16",
       "name": "Super Raven",
       "category": "1",
       "commontype": "0",
-      "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6"
+      "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
+      "xbraced": false
     },
     {
       "id": "1AFA9F7D-F7C2-4807-80EA-B394D15AAFE9",
       "name": "Falcon",
       "category": "1",
       "commontype": "0",
-      "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6"
+      "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
+      "xbraced": false
     },
     {
       "id": "C728529C-B0FE-4726-9D1C-7438721117CA",
       "name": "Voyager student",
       "category": "1",
       "commontype": "0",
-      "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6"
+      "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
+      "xbraced": false
     },
     {
       "id": "884274A6-948A-409C-AE6E-96BEA6373ACE",
@@ -164,7 +179,8 @@
       "manufacturerid": "E0E33BAB-7067-42EC-96E3-FD6B35926A11",
       "maxsize": "290",
       "minsize": "170",
-      "url": "http://www.pisa.co.za/default.aspx?id=31"
+      "url": "http://www.pisa.co.za/default.aspx?id=31",
+      "xbraced": false
     },
     {
       "id": "600122AA-A33A-4AF6-A326-8B9E251219D9",
@@ -176,7 +192,8 @@
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
       "maxsize": "280",
       "minsize": "150",
-      "url": "http://www.paratec.de/?page_id=3653"
+      "url": "http://www.paratec.de/?page_id=3653",
+      "xbraced": false
     },
     {
       "id": "9B97CE42-AF52-41E6-828C-9D0EF103B7A3",
@@ -187,7 +204,8 @@
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
       "maxsize": "260",
       "minsize": "220",
-      "url": "http://www.paratec.de/?page_id=4236"
+      "url": "http://www.paratec.de/?page_id=4236",
+      "xbraced": false
     },
     {
       "id": "B1CCC136-FAB0-4140-A927-9603C11DD1AA",
@@ -197,7 +215,8 @@
       "commontype": "0",
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "200",
-      "minsize": "200"
+      "minsize": "200",
+      "xbraced": false
     },
     {
       "id": "E1297544-310F-4FBD-9436-98368303E71E",
@@ -208,7 +227,8 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "220",
       "minsize": "200",
-      "url": "http://flightconceptsint.com/classic/7-cell-classic"
+      "url": "http://flightconceptsint.com/classic/7-cell-classic",
+      "xbraced": false
     },
     {
       "id": "371ABAEA-0A5B-4832-BB52-135A20A2C74F",
@@ -219,7 +239,8 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "175",
       "minsize": "175",
-      "url": "http://flightconceptsint.com/classic/7-cell-classic"
+      "url": "http://flightconceptsint.com/classic/7-cell-classic",
+      "xbraced": false
     },
     {
       "id": "428AC10E-5398-4593-852B-EBD29E451899",
@@ -230,7 +251,8 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "145",
       "minsize": "145",
-      "url": "http://flightconceptsint.com/classic/7-cell-classic"
+      "url": "http://flightconceptsint.com/classic/7-cell-classic",
+      "xbraced": false
     },
     {
       "id": "5FF8C2E2-9A99-47C5-BAD1-3E5C3B0EE615",
@@ -241,7 +263,8 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "320",
       "minsize": "265",
-      "url": "http://flightconceptsint.com/classic/7-cell-classic"
+      "url": "http://flightconceptsint.com/classic/7-cell-classic",
+      "xbraced": false
     },
     {
       "id": "DEBE5437-93D0-4F1C-8A64-F75E77567AE9",
@@ -252,7 +275,8 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "245",
       "minsize": "245",
-      "url": "http://flightconceptsint.com/classic/7-cell-classic"
+      "url": "http://flightconceptsint.com/classic/7-cell-classic",
+      "xbraced": false
     },
     {
       "id": "A2B53986-0BFC-40D6-8D6D-6A2B4DFF8D14",
@@ -263,7 +287,8 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "220",
       "minsize": "220",
-      "url": "http://flightconceptsint.com/classic/9-cell-classic"
+      "url": "http://flightconceptsint.com/classic/9-cell-classic",
+      "xbraced": false
     },
     {
       "id": "89E4F360-8E77-457D-8549-C739496A287E",
@@ -274,7 +299,8 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "250",
       "minsize": "250",
-      "url": "http://flightconceptsint.com/classic/9-cell-classic"
+      "url": "http://flightconceptsint.com/classic/9-cell-classic",
+      "xbraced": false
     },
     {
       "id": "3A6927EF-1272-48DF-BB2A-130E960FA1E8",
@@ -285,7 +311,8 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "195",
       "minsize": "195",
-      "url": "http://flightconceptsint.com/classic/9-cell-classic"
+      "url": "http://flightconceptsint.com/classic/9-cell-classic",
+      "xbraced": false
     },
     {
       "id": "BE30E66B-0C3C-4664-ABE5-99997416B687",
@@ -295,7 +322,8 @@
       "commontype": "1",
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "290",
-      "minsize": "290"
+      "minsize": "290",
+      "xbraced": false
     },
     {
       "id": "08FC5722-0531-4D4C-97E4-61C2A123D784",
@@ -313,14 +341,16 @@
           "title": "Parachute inflation of Flight Concepts fully zero porosity Manta",
           "id": "wfaDnBkO6iI"
         }
-      ]
+      ],
+      "xbraced": false
     },
     {
       "id": "2B6BAAC0-2E47-48BF-B966-137373CA9CA9",
       "name": "Cruiselite",
       "category": "1",
       "commontype": "0",
-      "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F"
+      "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
+      "xbraced": false
     },
     {
       "id": "86A007AE-A9FE-404E-9BF6-AD880D4F8568",
@@ -329,7 +359,8 @@
       "cells": "7",
       "commontype": "0",
       "dropzoneid": "6",
-      "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F"
+      "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
+      "xbraced": false
     },
     {
       "id": "89DCF61C-2FE5-4717-B14F-B5E8BB266DFB",
@@ -341,14 +372,16 @@
       "manufacturerid": "29A49954-54B1-4F77-A399-CCEFCCC9B3B9",
       "maxsize": "229",
       "minsize": "189",
-      "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=20&Itemid=19"
+      "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=20&Itemid=19",
+      "xbraced": false
     },
     {
       "id": "B14481B6-5DE6-485F-9858-7011DE27884C",
       "name": "Zepo Student",
       "category": "1",
       "commontype": "0",
-      "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12"
+      "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
+      "xbraced": false
     },
     {
       "id": "747B45F3-B12C-4743-A5F8-2D90C20F22F1",
@@ -357,7 +390,8 @@
       "cells": "7",
       "commontype": "0",
       "dropzoneid": "70",
-      "manufacturerid": "2228CEB3-3246-47D8-A393-52FF9DFEBB45"
+      "manufacturerid": "2228CEB3-3246-47D8-A393-52FF9DFEBB45",
+      "xbraced": false
     },
     {
       "id": "128B96F9-DAC3-4297-8329-FC24CCF9E781",
@@ -369,7 +403,8 @@
       "manufacturerid": "2228CEB3-3246-47D8-A393-52FF9DFEBB45",
       "maxsize": "330",
       "minsize": "110",
-      "url": "http://www.naaero.com/sport/Eagle%209-cell.htm"
+      "url": "http://www.naaero.com/sport/Eagle%209-cell.htm",
+      "xbraced": false
     },
     {
       "id": "D5522A6B-5A85-4C59-A0E7-D424A96E94E4",
@@ -379,7 +414,8 @@
       "cells": "9",
       "commontype": "0",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
-      "url": "http://www.nzaerosports.com/canopies/icarus-student"
+      "url": "http://www.nzaerosports.com/canopies/icarus-student",
+      "xbraced": false
     },
     {
       "id": "9BADF237-317E-4B64-BF72-9A476F85CA6B",
@@ -393,7 +429,8 @@
       "minsize": "130",
       "planform": "9.5",
       "planformcells": "4",
-      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy"
+      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy",
+      "xbraced": false
     },
     {
       "id": "69B03296-4EDD-4823-BDAF-DD91604F9587",
@@ -402,7 +439,8 @@
       "cells": "9",
       "commontype": "1",
       "dropzoneid": "48",
-      "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768"
+      "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
+      "xbraced": false
     },
     {
       "id": "F32C85D5-615A-4CDA-A7AD-F2F27985E283",
@@ -423,7 +461,8 @@
           "title": "Parachute Opening - Aerodyne Pilot 168 ",
           "id": "6QgnKTmS0lA"
         }
-      ]
+      ],
+      "xbraced": false
     },
     {
       "id": "02BFB95A-E433-4A02-A6A1-3F8593BFDC90",
@@ -436,7 +475,8 @@
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "260",
       "minsize": "99",
-      "url": "http://www.flyaerodyne.com/triathlon.asp"
+      "url": "http://www.flyaerodyne.com/triathlon.asp",
+      "xbraced": false
     },
     {
       "id": "49B5D670-24BF-4392-B6D5-3426A88DC2AC",
@@ -444,21 +484,25 @@
       "category": "2",
       "cells": "7",
       "commontype": "1",
-      "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67"
+      "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
+      "xbraced": false
     },
     {
       "id": "D1AEB195-55A5-4447-9578-47BD8431E13F",
       "name": "Quadra",
       "category": "2",
       "commontype": "0",
-      "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67"
+      "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
+      "xbraced": false
     },
     {
       "id": "5BE7947C-108A-465A-B22A-637C4D301CC2",
       "name": "V-Tec",
       "category": "2",
       "commontype": "1",
-      "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67"
+      "dropzoneid": "450",
+      "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
+      "xbraced": false
     },
     {
       "id": "B83BF1CE-F80C-481A-9797-0FE46F6BA11F",
@@ -471,7 +515,8 @@
       "lastyearofproduction": "2005",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "230",
-      "minsize": "97"
+      "minsize": "97",
+      "xbraced": false
     },
     {
       "id": "AAC013BE-1485-46B3-9539-A4162D9C95AC",
@@ -490,7 +535,8 @@
           "title": "How to land Spectre 190",
           "id": "nwALHH1Nhdk"
         }
-      ]
+      ],
+      "xbraced": false
     },
     {
       "id": "40734BBD-6781-45F7-9A90-C73C89C9ECF2",
@@ -503,7 +549,8 @@
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "260",
       "minsize": "135",
-      "url": "http://www.performancedesigns.com/silhouette.aspx"
+      "url": "http://www.performancedesigns.com/silhouette.aspx",
+      "xbraced": false
     },
     {
       "id": "86B73616-BABF-4D88-9184-ECD1C5657293",
@@ -522,7 +569,8 @@
           "title": "PD Pulse promo",
           "id": "lWM-r67r-9Y"
         }
-      ]
+      ],
+      "xbraced": false
     },
     {
       "id": "8544A47F-DF6D-4B07-A0D9-FF85800E8BB1",
@@ -535,7 +583,8 @@
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "305",
       "minsize": "205",
-      "url": "http://www.performancedesigns.com/zero.aspx"
+      "url": "http://www.performancedesigns.com/zero.aspx",
+      "xbraced": false
     },
     {
       "id": "8C4442DA-BBEF-4C3A-A95C-F45CE891F407",
@@ -547,7 +596,8 @@
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "230",
       "minsize": "98",
-      "url": "http://www.precision.aero/synergy.htm"
+      "url": "http://www.precision.aero/synergy.htm",
+      "xbraced": false
     },
     {
       "id": "5A213243-07F2-4450-9397-B021595F5865",
@@ -559,7 +609,8 @@
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "maxsize": "229",
       "minsize": "99",
-      "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=1&Itemid=11"
+      "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=1&Itemid=11",
+      "xbraced": false
     },
     {
       "id": "95031F08-A04A-4FC4-81D5-EEAAEC329F6D",
@@ -572,18 +623,21 @@
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "maxsize": "229",
       "minsize": "99",
-      "url": "http://www.nzaerosports.com/canopies/icarus-omega"
+      "url": "http://www.nzaerosports.com/canopies/icarus-omega",
+      "xbraced": false
     },
     {
       "id": "F1269861-262D-4CCC-A8FA-4C190B59C0C6",
       "name": "Cayenne",
       "category": "2",
+      "cells": "9",
       "commontype": "1",
       "dropzoneid": "590",
       "manufacturerid": "7AE2A118-7566-456B-9D73-2E6751BF7D7A",
       "maxsize": "190",
       "minsize": "130",
-      "url": "http://cms.flyfirebird.com/skydive/index.php?option=com_content&view=article&id=56%3Acayenne-light&catid=34%3Aprodukte&Itemid=75&lang=en"
+      "url": "http://cms.flyfirebird.com/skydive/index.php?option=com_content&view=article&id=56%3Acayenne-light&catid=34%3Aprodukte&Itemid=75&lang=en",
+      "xbraced": false
     },
     {
       "id": "037A12CF-5B9F-4B20-82C1-4A5FB376B38D",
@@ -595,7 +649,8 @@
       "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
       "maxsize": "210",
       "minsize": "135",
-      "url": "http://www.basetroll.com/products_4.html"
+      "url": "http://www.basetroll.com/products_4.html",
+      "xbraced": false
     },
     {
       "id": "24924509-5EF2-473C-863C-6B43BF64FE09",
@@ -607,7 +662,8 @@
       "manufacturerid": "2228CEB3-3246-47D8-A393-52FF9DFEBB45",
       "maxsize": "302",
       "minsize": "220",
-      "url": "http://www.naaero.com/sport/parafoil.htm"
+      "url": "http://www.naaero.com/sport/parafoil.htm",
+      "xbraced": false
     },
     {
       "id": "7017A355-35E0-4578-A81D-89CE8F021AAA",
@@ -617,7 +673,8 @@
       "commontype": "0",
       "manufacturerid": "B1F74487-55A3-4A0C-9A7E-463B508E3438",
       "maxsize": "328",
-      "minsize": "198"
+      "minsize": "198",
+      "xbraced": false
     },
     {
       "id": "46281C3A-4286-422D-B8F4-8D9015AB96BB",
@@ -654,7 +711,8 @@
           "title": "PD Sabre 2 pro pack door Nick Grillet 3/3",
           "id": "pHSpnXCShs0"
         }
-      ]
+      ],
+      "xbraced": false
     },
     {
       "id": "1EE39B10-69B0-4434-BCA1-5A26BADAFD27",
@@ -681,7 +739,8 @@
           "title": "Thread the Needle",
           "id": "3MwrNPx5ciY"
         }
-      ]
+      ],
+      "xbraced": false
     },
     {
       "id": "A982E92C-85D9-480B-98CE-A2F2BF80380C",
@@ -700,7 +759,8 @@
           "title": "PD Storm promo",
           "id": "pO8dlRu24Kc"
         }
-      ]
+      ],
+      "xbraced": false
     },
     {
       "id": "8A64E433-8856-4329-9B5E-2BF6F2D37632",
@@ -712,7 +772,8 @@
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "230",
       "minsize": "89",
-      "url": "http://www.precision.aero/fusion.htm"
+      "url": "http://www.precision.aero/fusion.htm",
+      "xbraced": false
     },
     {
       "id": "52B5C7B1-D277-4358-AECA-714E0E219590",
@@ -724,7 +785,8 @@
       "manufacturerid": "5947BBA8-8DE6-4F61-AB89-B0B77A74B1EB",
       "maxsize": "190",
       "minsize": "95",
-      "url": "http://www.bigairsportz.com/lotus.php"
+      "url": "http://www.bigairsportz.com/lotus.php",
+      "xbraced": false
     },
     {
       "id": "3B9BF398-E112-45F3-B0A7-B9DC448DF868",
@@ -738,7 +800,8 @@
       "remarks": {
         "en": "Safire 2 was introduced in 2001",
         "nl": "Safire 2 werd geintroduceerd in 2001"
-      }
+      },
+      "xbraced": false
     },
     {
       "id": "78C709A5-C1C8-4CAE-99F0-52D43B189D88",
@@ -763,7 +826,8 @@
           "title": "Sabre 2 150 - Deployments",
           "id": "19uMK1SN5kU"
         }
-      ]
+      ],
+      "xbraced": false
     },
     {
       "id": "D78B4C18-1887-4D66-8FF6-6FFFEF93C6CB",
@@ -775,7 +839,8 @@
       "manufacturerid": "ACD6855E-9F54-4E27-B498-14C9693FB7EF",
       "maxsize": "210",
       "minsize": "130",
-      "url": "http://www.strongparachutes.com/pages/Sport/spmain.html"
+      "url": "http://www.strongparachutes.com/pages/Sport/spmain.html",
+      "xbraced": false
     },
     {
       "id": "ABB72EAB-6276-42E8-9681-19FBCB846FC1",
@@ -786,7 +851,8 @@
       "dropzoneid": "451",
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
       "maxsize": "150",
-      "minsize": "97"
+      "minsize": "97",
+      "xbraced": false
     },
     {
       "id": "FC044FAE-FD5C-45A2-8740-9CE8783C76FA",
@@ -801,14 +867,16 @@
           "title": "NRG Opening",
           "id": "2S9Hwnk-qI4"
         }
-      ]
+      ],
+      "xbraced": false
     },
     {
       "id": "86593DB8-9894-4866-A580-E7A35D53D600",
       "name": "Hornet",
       "category": "3",
       "commontype": "0",
-      "manufacturerid": "E0E33BAB-7067-42EC-96E3-FD6B35926A11"
+      "manufacturerid": "E0E33BAB-7067-42EC-96E3-FD6B35926A11",
+      "xbraced": false
     },
     {
       "id": "26C05258-8F36-4A4B-A710-5B7A4D64810B",
@@ -817,7 +885,8 @@
       "cells": "9",
       "commontype": "1",
       "dropzoneid": "433",
-      "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12"
+      "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
+      "xbraced": false
     },
     {
       "id": "FF9EE1B5-2B29-4EF8-B929-35C530DD52A0",
@@ -828,14 +897,16 @@
       "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
       "maxsize": "215",
       "minsize": "125",
-      "url": "http://www.parachutesystems.co.za/exe_square_parachute"
+      "url": "http://www.parachutesystems.co.za/exe_square_parachute",
+      "xbraced": false
     },
     {
       "id": "4CCBA3E8-89A4-4F25-BAEE-B2248E90415F",
       "name": "Spark",
       "category": "3",
       "commontype": "1",
-      "manufacturerid": "7AE2A118-7566-456B-9D73-2E6751BF7D7A"
+      "manufacturerid": "7AE2A118-7566-456B-9D73-2E6751BF7D7A",
+      "xbraced": false
     },
     {
       "id": "C6C59DF8-9127-4BCA-B320-2BFE21AAA1A8",
@@ -846,7 +917,8 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "200",
       "minsize": "125",
-      "url": "http://flightconceptsint.com/zp-main/express"
+      "url": "http://flightconceptsint.com/zp-main/express",
+      "xbraced": false
     },
     {
       "id": "C34B49DE-FB46-49EA-B34C-41CC059EC4B5",
@@ -857,7 +929,8 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "250",
       "minsize": "150",
-      "url": "http://flightconceptsint.com/zp-main/prodigy"
+      "url": "http://flightconceptsint.com/zp-main/prodigy",
+      "xbraced": false
     },
     {
       "id": "DD3686AE-6C9C-446F-A255-C41A5CEEBE46",
@@ -869,7 +942,8 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "230",
       "minsize": "99",
-      "url": "http://flightconceptsint.com/zp-main/sentry"
+      "url": "http://flightconceptsint.com/zp-main/sentry",
+      "xbraced": false
     },
     {
       "id": "947b67ce-177f-4c70-8fa4-10ab3c171d29",
@@ -884,7 +958,8 @@
           "title": "Matrix Reloaded",
           "id": "tLOqd1VYI2w"
         }
-      ]
+      ],
+      "xbraced": false
     },
     {
       "id": "9D021CA3-A103-4CB9-B053-A7ABCC4BBC96",
@@ -894,7 +969,8 @@
       "commontype": "0",
       "firstyearofproduction": "2013",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
-      "url": "http://www.nzaerosports.com/canopies/daedalus-matrix2"
+      "url": "http://www.nzaerosports.com/canopies/daedalus-matrix2",
+      "xbraced": true
     },
     {
       "id": "107633B0-202B-4625-9CD4-8AFE131C5D10",
@@ -909,7 +985,8 @@
       "minsize": "89",
       "planform": "13.3",
       "planformcells": "4",
-      "url": "http://www.performancedesigns.com/stiletto.aspx"
+      "url": "http://www.performancedesigns.com/stiletto.aspx",
+      "xbraced": false
     },
     {
       "id": "F0B876B6-F2C6-4560-BF4D-A22DD3C070ED",
@@ -917,7 +994,8 @@
       "category": "4",
       "cells": "9",
       "commontype": "0",
-      "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768"
+      "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
+      "xbraced": false
     },
     {
       "id": "A088AE69-7D61-45A5-9919-BF2328F836BE",
@@ -928,7 +1006,8 @@
       "dropzoneid": "49",
       "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
       "planform": "28.0",
-      "planformcells": "8"
+      "planformcells": "8",
+      "xbraced": false
     },
     {
       "id": "85990128-ED3F-442D-9D76-373E3F267CDA",
@@ -936,7 +1015,8 @@
       "category": "4",
       "cells": "9",
       "commontype": "1",
-      "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768"
+      "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
+      "xbraced": false
     },
     {
       "id": "04B47713-9ACE-4E57-851F-137DE23CD4E5",
@@ -949,7 +1029,8 @@
       "minsize": "110",
       "planform": "28.0",
       "planformcells": "8",
-      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy"
+      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy",
+      "xbraced": false
     },
     {
       "id": "2A2D16C5-D208-44AB-AF97-1398405EC1A5",
@@ -958,7 +1039,8 @@
       "cells": "9",
       "commontype": "0",
       "dropzoneid": "25",
-      "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6"
+      "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
+      "xbraced": false
     },
     {
       "id": "7428649F-5425-4F5A-A704-14DC383611C9",
@@ -966,14 +1048,16 @@
       "category": "4",
       "cells": "9",
       "commontype": "0",
-      "manufacturerid": "97AD094C-A001-4928-8B4E-792EC76EFBCB"
+      "manufacturerid": "97AD094C-A001-4928-8B4E-792EC76EFBCB",
+      "xbraced": false
     },
     {
       "id": "F0C4AF1D-A9BE-4560-B8E4-4F38616B30D4",
       "name": "Ace",
       "category": "4",
       "commontype": "1",
-      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D"
+      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
+      "xbraced": false
     },
     {
       "id": "9634AACA-2A16-42B6-A687-6536DE20D3F7",
@@ -982,7 +1066,8 @@
       "cells": "9",
       "commontype": "1",
       "dropzoneid": "32",
-      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D"
+      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
+      "xbraced": false
     },
     {
       "id": "C5820EA7-FD28-48D5-9BEC-0D830639B02A",
@@ -991,7 +1076,8 @@
       "cells": "9",
       "commontype": "0",
       "dropzoneid": "34",
-      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D"
+      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
+      "xbraced": false
     },
     {
       "id": "620114F1-70C7-474A-B996-318B49AA2D9F",
@@ -1000,14 +1086,16 @@
       "cells": "9",
       "commontype": "0",
       "dropzoneid": "33",
-      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D"
+      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
+      "xbraced": false
     },
     {
       "id": "772004AF-78F6-4E1E-ADAD-DC1E3187CC7E",
       "name": "Impulse",
       "category": "4",
       "commontype": "0",
-      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D"
+      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
+      "xbraced": false
     },
     {
       "id": "38533C8E-BAA0-4BC5-B12F-FE0E0E88C471",
@@ -1022,7 +1110,8 @@
       "maxsize": "210",
       "minsize": "90",
       "planform": "15.5",
-      "planformcells": "6"
+      "planformcells": "6",
+      "xbraced": false
     },
     {
       "id": "C5479C12-84C5-4FB9-BBBB-E7A9202EE41A",
@@ -1037,7 +1126,8 @@
       "maxsize": "190",
       "minsize": "88",
       "planform": "10.7",
-      "planformcells": "4"
+      "planformcells": "4",
+      "xbraced": false
     },
     {
       "id": "6B6EEC2A-31FE-4112-9200-3F74B3E6D119",
@@ -1057,14 +1147,16 @@
           "title": "aerodyne zulu (152ft) test jump",
           "id": "aGzmbjk30KU"
         }
-      ]
+      ],
+      "xbraced": false
     },
     {
       "id": "66EE6227-E990-4451-B134-43D0D51715C6",
       "name": "Pro serie",
       "category": "4",
       "commontype": "0",
-      "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F"
+      "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
+      "xbraced": false
     },
     {
       "id": "FF9B09BF-27F1-4072-B0FB-1801C0A9B89E",
@@ -1078,22 +1170,25 @@
       "remarks": {
         "en": "There is a 'Rage' from Paratec too",
         "nl": "Er bestaat ook een 'Rage' van Paratec",
-        "url": "http://flightconceptsint.com/zp-main/rage"
-      }
+        "url": "http://flightconcepts.com/the-rage/"
+      },
+      "xbraced": false
     },
     {
       "id": "DD5B5953-DDC5-49E1-995D-1997794694D3",
       "name": "Fandango",
       "category": "4",
       "commontype": "0",
-      "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67"
+      "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
+      "xbraced": false
     },
     {
       "id": "8B779965-13DC-4836-825F-96360ADEA300",
       "name": "Contrail",
       "category": "4",
       "commontype": "0",
-      "manufacturerid": "7AE2A118-7566-456B-9D73-2E6751BF7D7A"
+      "manufacturerid": "7AE2A118-7566-456B-9D73-2E6751BF7D7A",
+      "xbraced": false
     },
     {
       "id": "5A77CCA4-6BCF-4A6D-87BA-091CE6397E24",
@@ -1101,7 +1196,8 @@
       "category": "4",
       "cells": "9",
       "commontype": "0",
-      "manufacturerid": "E0E33BAB-7067-42EC-96E3-FD6B35926A11"
+      "manufacturerid": "E0E33BAB-7067-42EC-96E3-FD6B35926A11",
+      "xbraced": false
     },
     {
       "id": "CBA0E65A-1984-436E-A35F-AD2C5DECB853",
@@ -1113,7 +1209,8 @@
       "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
       "maxsize": "170",
       "minsize": "95",
-      "url": "http://www.parachutesystems.co.za/hurricane_elliptical"
+      "url": "http://www.parachutesystems.co.za/hurricane_elliptical",
+      "xbraced": false
     },
     {
       "id": "F9F3F9F7-04E3-4E60-BFE8-A07A517550FE",
@@ -1123,14 +1220,16 @@
       "commontype": "0",
       "dropzoneid": "948",
       "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
-      "url": "http://www.parachutesystemseurope.com/eng/zp.php"
+      "url": "http://www.parachutesystemseurope.com/eng/zp.php",
+      "xbraced": false
     },
     {
       "id": "6188C8D0-8CF4-4BE4-86FE-268862413701",
       "name": "Vixen",
       "category": "4",
       "commontype": "0",
-      "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12"
+      "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
+      "xbraced": false
     },
     {
       "id": "8BF69609-7C2D-4EF6-97F8-8A0530893D02",
@@ -1142,7 +1241,8 @@
       "manufacturerid": "ACCD2816-15E8-4668-B217-3F345AA6854F",
       "maxsize": "396",
       "minsize": "84",
-      "url": "http://www.jumpshack.com/firebolt.htm"
+      "url": "http://www.jumpshack.com/firebolt.htm",
+      "xbraced": false
     },
     {
       "id": "1FB6128A-0203-44D9-9C55-06E4289D1540",
@@ -1156,7 +1256,8 @@
       "remarks": {
         "en": "Crossfire 2 was introduced in 2001",
         "nl": "Crossfire 2 werd geintroduceerd in 2001"
-      }
+      },
+      "xbraced": false
     },
     {
       "id": "909AAB5D-37EA-447A-A850-4AEEE03CF1D2",
@@ -1175,8 +1276,13 @@
         {
           "title": "7 minutes packing crossfire 2 99",
           "id": "Yo5us-fTU34"
+        },
+        {
+          "title": "First jump on 119 sqft Cross Fire 2",
+          "id": "Ni-O-iaya9s"
         }
-      ]
+      ],
+      "xbraced": false
     },
     {
       "id": "E761C654-5896-4903-8929-581C229EE0C3",
@@ -1187,7 +1293,9 @@
       "dropzoneid": "73",
       "manufacturerid": "5947BBA8-8DE6-4F61-AB89-B0B77A74B1EB",
       "maxsize": "170",
-      "minsize": "95"
+      "minsize": "95",
+      "url": "http://www.bigairsportz.com/samurai.php",
+      "xbraced": false
     },
     {
       "id": "918A79DF-E421-4207-ADFD-C15C64194642",
@@ -1195,7 +1303,8 @@
       "category": "5",
       "cells": "9",
       "commontype": "0",
-      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D"
+      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
+      "xbraced": false
     },
     {
       "id": "4B50B9FE-8895-4454-A94B-4860E664883C",
@@ -1207,14 +1316,16 @@
       "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
       "maxsize": "170",
       "minsize": "85",
-      "url": "http://www.basetroll.com/products_3.html"
+      "url": "http://www.basetroll.com/products_3.html",
+      "xbraced": false
     },
     {
       "id": "9EE6B1E3-564D-4310-81FC-8BD152FD7B61",
       "name": "Jedei",
       "category": "5",
       "commontype": "0",
-      "manufacturerid": "97AD094C-A001-4928-8B4E-792EC76EFBCB"
+      "manufacturerid": "97AD094C-A001-4928-8B4E-792EC76EFBCB",
+      "xbraced": false
     },
     {
       "id": "CB0F9AD7-83BF-4555-B749-09A5BC0868B7",
@@ -1224,17 +1335,20 @@
       "manufacturerid": "7AE2A118-7566-456B-9D73-2E6751BF7D7A",
       "maxsize": "130",
       "minsize": "60",
-      "url": "http://www.flyfirebird.com/catalog/product_info.php/products_id/61"
+      "url": "http://www.flyfirebird.com/catalog/product_info.php/products_id/61",
+      "xbraced": null
     },
     {
       "id": "D7165D47-1EAA-49C9-8B53-A47CA6F30572",
       "name": "Chilli",
       "category": "5",
+      "cells": "9",
       "commontype": "0",
       "manufacturerid": "7AE2A118-7566-456B-9D73-2E6751BF7D7A",
       "maxsize": "150",
       "minsize": "80",
-      "url": "http://www.flyfirebird.com/catalog/product_info.php/cPath/90_21_159/products_id/659"
+      "url": "http://www.flyfirebird.com/catalog/product_info.php/cPath/90_21_159/products_id/659",
+      "xbraced": false
     },
     {
       "id": "3CADD8FE-CBFE-4390-9306-DB453623D44C",
@@ -1253,7 +1367,8 @@
           "title": "PD Katana 120 openings & landings ",
           "id": "0az6PofPjck"
         }
-      ]
+      ],
+      "xbraced": false
     },
     {
       "id": "639CE7C8-8907-4F07-9AE6-C5D61B7E8341",
@@ -1268,7 +1383,8 @@
       "remarks": {
         "en": "Airlocked",
         "nl": "Airlocked"
-      }
+      },
+      "xbraced": false
     },
     {
       "id": "3E43D7CE-DDFD-446F-B6D4-BB793ABB46A6",
@@ -1276,7 +1392,8 @@
       "category": "5",
       "commontype": "0",
       "dropzoneid": "453",
-      "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67"
+      "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
+      "xbraced": false
     },
     {
       "id": "BBF8B6D2-AD53-45AF-98E5-CBD30A00ED50",
@@ -1291,7 +1408,8 @@
         "en": "There is a Rage from Flight Concepts too",
         "nl": "Er bestaat ook een Rage van Flight Concepts",
         "url": "http://www.paratec.de/?page_id=4253"
-      }
+      },
+      "xbraced": false
     },
     {
       "id": "51970E29-3AFA-4668-9641-4F5281140168",
@@ -1299,7 +1417,8 @@
       "category": "5",
       "cells": "9",
       "commontype": "0",
-      "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768"
+      "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
+      "xbraced": false
     },
     {
       "id": "116DA4A7-448E-4E49-849C-9457E292E1AC",
@@ -1310,7 +1429,8 @@
       "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
       "maxsize": "110",
       "minsize": "80",
-      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy"
+      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy",
+      "xbraced": false
     },
     {
       "id": "613D4345-0C3F-4BE2-AC7D-28D209F159BA",
@@ -1322,7 +1442,8 @@
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "170",
       "minsize": "78",
-      "url": "http://www.precision.aero/xaos-21.htm"
+      "url": "http://www.precision.aero/xaos-21.htm",
+      "xbraced": true
     },
     {
       "id": "3F35D12C-4BBA-400D-BA7F-BC13512B22EB",
@@ -1335,7 +1456,8 @@
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "150",
       "minsize": "90",
-      "url": "http://www.flyaerodyne.com/mamba.asp"
+      "url": "http://www.flyaerodyne.com/mamba.asp",
+      "xbraced": false
     },
     {
       "id": "0858835E-BC3A-43D9-A085-3DF96D70D3ED",
@@ -1358,7 +1480,8 @@
           "title": "Sensei canopies for ToraTora",
           "id": "uwShpnBkA10"
         }
-      ]
+      ],
+      "xbraced": true
     },
     {
       "id": "858EEBF3-169F-4AE7-99A2-A7CC8D025D4E",
@@ -1368,7 +1491,8 @@
       "commontype": "0",
       "dropzoneid": "700",
       "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
-      "url": "http://www.parachutesystems.co.za/max_crossed"
+      "url": "http://www.parachutesystems.co.za/max_crossed",
+      "xbraced": true
     },
     {
       "id": "EB83326F-B055-46C7-8754-74C9033EE41E",
@@ -1387,7 +1511,8 @@
           "title": "How to fly and and Velocity 103",
           "id": "3E7EYnOOTL0"
         }
-      ]
+      ],
+      "xbraced": true
     },
     {
       "id": "EA08A05D-B79A-4687-AED8-AFB272287ADA",
@@ -1400,7 +1525,8 @@
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "111",
       "minsize": "71",
-      "url": "http://www.performancedesigns.com/compvelocity.aspx"
+      "url": "http://www.performancedesigns.com/compvelocity.aspx",
+      "xbraced": true
     },
     {
       "id": "1931C950-68C7-11E2-BCFD-0800200C9A66",
@@ -1427,7 +1553,8 @@
           "title": "Peregrine XRW (met wingsuit)",
           "id": "dPAcENXxtnw"
         }
-      ]
+      ],
+      "xbraced": true
     },
     {
       "id": "23498D9C-045C-4D99-AAD7-E01CFDBC717B",
@@ -1450,22 +1577,26 @@
           "title": "Flight of the Valkyries",
           "id": "rrr4BlBLFTY"
         }
-      ]
+      ],
+      "xbraced": true
     },
     {
       "id": "F566B784-F61C-49A6-89A1-BEFF497487D2",
       "name": "Ninja",
       "category": "6",
+      "cells": "9", // Note: review at dropzone says 7 cell....
       "commontype": "0",
       "dropzoneid": "265",
-      "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768"
+      "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
+      "xbraced": null
     },
     {
       "id": "136EE958-6048-4129-B1B1-D0E4B11147EC",
       "name": "Ninja 2",
       "category": "6",
       "commontype": "0",
-      "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768"
+      "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
+      "xbraced": true
     },
     {
       "id": "67E749A9-324E-4322-B0D2-015974DD31A7",
@@ -1477,7 +1608,8 @@
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "135",
       "minsize": "68",
-      "url": "http://www.precision.aero/xaos-21.htm"
+      "url": "http://www.precision.aero/xaos-21.htm",
+      "xbraced": true
     },
     {
       "id": "B8B42051-2947-4461-A1A8-439BE861DB39",
@@ -1489,7 +1621,8 @@
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "118",
       "minsize": "58",
-      "url": "http://www.precision.aero/xaos-27.htm"
+      "url": "http://www.precision.aero/xaos-27.htm",
+      "xbraced": true
     },
     {
       "id": "084EE6A7-9F1B-4102-ABF3-8F80E4E83132",
@@ -1506,7 +1639,8 @@
         "en": "Daedalus JVX was introduced in 2005",
         "nl": "Daedalus JVX werd geintroduceerd in 2005"
       },
-      "url": "http://www.nzaerosports.com/canopies/icarus-VX"
+      "url": "http://www.nzaerosports.com/canopies/icarus-VX",
+      "xbraced": true
     },
     {
       "id": "65BE2372-98A5-4109-9D88-16550BD74A3D",
@@ -1523,7 +1657,8 @@
         "en": "Daedalus JFX was introduced in 2010",
         "nl": "Daedalus JFX werd geintroduceerd in 2010"
       },
-      "url": "http://www.nzaerosports.com/canopies/icarus-FX"
+      "url": "http://www.nzaerosports.com/canopies/icarus-FX",
+      "xbraced": true
     },
     {
       "id": "F996C3D1-5684-45BF-9B30-9B0ADEC987C2",
@@ -1535,7 +1670,8 @@
       "manufacturerid": "29A49954-54B1-4F77-A399-CCEFCCC9B3B9",
       "maxsize": "119",
       "minsize": "59",
-      "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=19&Itemid=18"
+      "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=19&Itemid=18",
+      "xbraced": true
     },
     {
       "id": "86F21B4A-D883-4391-A792-D2F43259942B",
@@ -1547,7 +1683,8 @@
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "maxsize": "119",
       "minsize": "59",
-      "url": "http://www.nzaerosports.com/canopies/daedalus-JVX"
+      "url": "http://www.nzaerosports.com/canopies/daedalus-JVX",
+      "xbraced": true
     },
     {
       "id": "AD3229CE-7B38-4BC8-A1C6-73D6DF651198",
@@ -1565,7 +1702,8 @@
           "title": "Daedalus JFX Opening: Camera by Nick Batsch",
           "id": "IK3uWGdh6eA"
         }
-      ]
+      ],
+      "xbraced": true
     },
     {
       "id": "0b8688c1-bb96-41d4-ac0f-8c9c71f54eda",
@@ -1597,7 +1735,8 @@
       "remarks": {
         "en": "To order NZA requires at least 1500 jumps, of which at least 300 on a crossbraced canopy with a similar wing loading than the Leia odered; 150 jumps in the last 6 months; 2 references from coach or Petra/Peregrine jumper.",
         "nl": "Om te bestellen eist NZA minimaal 1500 sprongen, waarvan minstens 300 onder een crossbraced koepel met een soorgelijke wingload als de bestelde Leia; 150 sprongen in de laatste 6 maanden; 2 referenties van een coach of Petra/Peregrine springer."
-      }
+      },
+      "xbraced": true
     },
     {
       "id": "de98ce5e-513e-454a-bfdb-fc8ff93ee92e",
@@ -1617,7 +1756,8 @@
       "remarks": {
         "en": "To order NZA requires at least 1500 jumps, of which at least 300 on a crossbraced canopy with a similar wing loading than the Leia odered; 150 jumps in the last 6 months.",
         "nl": "Om te bestellen eist NZA minimaal 1500 sprongen, waarvan minstens 300 onder een crossbraced koepel met een soorgelijke wingload als de bestelde Leia; 150 sprongen in de laatste 6 maanden."
-      }
+      },
+      "xbraced": true
     },
     {
       "id": "3193501C-9111-4782-B0EC-778CD6923E08",
@@ -1625,7 +1765,8 @@
       "category": "6",
       "commontype": "0",
       "dropzoneid": "473",
-      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D"
+      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
+      "xbraced": false
     },
     {
       "id": "2351611F-068C-4901-820D-26EC38FC36D9",
@@ -1636,7 +1777,8 @@
       "minsize": "116",
       "commontype": "0",
       "manufacturerid": "CD51335E-1304-4391-9672-A6058F97C352",
-      "url": "https://squirrel.ws/parachutes/skydiving/epicene"
+      "url": "https://squirrel.ws/parachutes/skydiving/epicene",
+      "xbraced": false
     },
     {
       "id": "65A55BBF-5E9E-4ACC-BD87-723BD3CB3ACF",
@@ -1648,7 +1790,8 @@
       "category": "",
       "commontype": "0",
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
-      "url": "http://www.fluidwings.com/#!prime/ct0a"
+      "url": "http://www.fluidwings.com/#!prime/ct0a",
+      "xbraced": false
     },
     {
       "id": "30592423-330F-4E41-9BCD-9CA85E06D425",
@@ -1660,7 +1803,8 @@
       "dropzoneid": "972",
       "commontype": "0",
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
-      "url": "http://www.fluidwings.com/#!helix/cczj"
+      "url": "http://www.fluidwings.com/#!helix/cczj",
+      "xbraced": true
     },
     {
       "id": "E20AECA2-ECF5-4985-9EF2-0A01130B084B",
@@ -1672,7 +1816,8 @@
       "dropzoneid": "974",
       "commontype": "0",
       "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
-      "url": "http://parachutesystems.com/ventus"
+      "url": "http://parachutesystems.com/ventus",
+      "xbraced": false
     },
     {
       "id": "A8C274D3-DE56-413D-AAA2-C8EE6D7CA3BE",
@@ -1683,7 +1828,8 @@
       "category": "",
       "commontype": "0",
       "manufacturerid": "A82F2C34-DBA9-4A4B-8DE7-7319B00C7DB4",
-      "url": "http://www.jojowing.com/cs/sonic/"
+      "url": "http://www.jojowing.com/cs/sonic/",
+      "xbraced": false
     },
     {
       "id": "CDC9F86A-5F6C-4334-8887-4A4AC7D6C24E",
@@ -1694,7 +1840,8 @@
       "category": "",
       "commontype": "0",
       "manufacturerid": "A82F2C34-DBA9-4A4B-8DE7-7319B00C7DB4",
-      "url": "http://www.jojowing.com/cs/raptor/"
+      "url": "http://www.jojowing.com/cs/raptor/",
+      "xbraced": false
     },
     {
       "id": "89DA27EF-860B-4FF9-9917-EF81A266FAFB",
@@ -1705,7 +1852,8 @@
       "category": "",
       "commontype": "0",
       "manufacturerid": "A82F2C34-DBA9-4A4B-8DE7-7319B00C7DB4",
-      "url": "http://www.jojowing.com/cs/xf15/"
+      "url": "http://www.jojowing.com/cs/xf15/",
+      "xbraced": true
     }
   ]
 }
