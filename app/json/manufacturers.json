@@ -162,6 +162,13 @@
       "countrycode": "us",
       "shortname": "Fluid",
       "url": "http://www.fluidwings.com/"
+    },
+    {
+      "id": "A82F2C34-DBA9-4A4B-8DE7-7319B00C7DB4",
+      "name": "Jojowings",
+      "countrycode": "cz",
+      "shortname": "Jojo",
+      "url": "http://www.jojowing.com/"
     }
   ]
 }

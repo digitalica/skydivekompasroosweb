@@ -1673,6 +1673,41 @@
       "commontype": "0",
       "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
       "url": "http://parachutesystems.com/ventus"
+    },
+    {
+      "id": "A8C274D3-DE56-413D-AAA2-C8EE6D7CA3BE",
+      "name": "Sonic",
+      "cells": "9",
+      "maxsize": "220",
+      "minsize": "120",
+      "category": "",
+      "commontype": "0",
+      "manufacturerid": "A82F2C34-DBA9-4A4B-8DE7-7319B00C7DB4",
+      "url": "http://www.jojowing.com/cs/sonic/"
+    },
+    {
+      "id": "CDC9F86A-5F6C-4334-8887-4A4AC7D6C24E",
+      "name": "Raptor",
+      "cells": "9",
+      "maxsize": "170",
+      "minsize": "108",
+      "category": "",
+      "commontype": "0",
+      "manufacturerid": "A82F2C34-DBA9-4A4B-8DE7-7319B00C7DB4",
+      "url": "http://www.jojowing.com/cs/raptor/"
+    },
+    {
+      "id": "89DA27EF-860B-4FF9-9917-EF81A266FAFB",
+      "name": "XF15",
+      "cells": "21",
+      "maxsize": "115",
+      "minsize": "85",
+      "category": "",
+      "commontype": "0",
+      "manufacturerid": "A82F2C34-DBA9-4A4B-8DE7-7319B00C7DB4",
+      "url": "http://www.jojowing.com/cs/xf15/"
     }
   ]
 }
+
+
