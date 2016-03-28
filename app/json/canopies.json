@@ -1584,7 +1584,7 @@
       "id": "F566B784-F61C-49A6-89A1-BEFF497487D2",
       "name": "Ninja",
       "category": "6",
-      "cells": "9", // Note: review at dropzone says 7 cell....
+      "cells": "9",
       "commontype": "0",
       "dropzoneid": "265",
       "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
