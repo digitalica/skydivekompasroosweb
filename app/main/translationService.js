@@ -122,8 +122,8 @@ translationServices.service('translationService', function () {
         en.LIST_NOTCATEGORIZEDYET = 'Not categorized yet. Until then:';
 
         // categorieen
-        nl.NOTCATEGORIZEDYET = '6 (nog niet ingedeeld)';
-        en.NOTCATEGORIZEDYET = '6 (not categorized yet)';
+        nl.NOTCATEGORIZEDYET = 'Nog niet ingedeeld';
+        en.NOTCATEGORIZEDYET = 'Not categorized yet';
 
         nl.JUMPERCATEGORIES = [
             "Unknown",

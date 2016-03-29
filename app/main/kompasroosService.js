@@ -42,7 +42,7 @@ kompasroosServices.factory('KompasroosData', ['$resource', function ($resource) 
                                 'name': org.name,
                                 'category': parseInt(org.category), // we need to compare as nr
                                 'displaycategory': org.category ? parseInt(org.category) : '?',
-                                calculationcategory: org.category ? parseInt(org.category) : 6,
+                                calculationcategory: org.category ? parseInt(org.category) : (org.xbraced ? 7 : 6),
                                 'cells': org.cells,
                                 'commontype': org.commontype,
                                 'dropzoneid': org.dropzoneid,
