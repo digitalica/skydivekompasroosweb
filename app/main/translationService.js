@@ -118,6 +118,9 @@ translationServices.service('translationService', function () {
         nl.LIST_REMARKS = 'Opmerkingen';
         en.LIST_REMARKS = 'Remarks';
 
+        nl.LIST_NOTCATEGORIZEDYET = 'Nog niet ingedeeld. Tot die tijd geldt:';
+        en.LIST_NOTCATEGORIZEDYET = 'Not categorized yet. Until then:';
+
         // categorieen
         nl.NOTCATEGORIZEDYET = '6 (nog niet ingedeeld)';
         en.NOTCATEGORIZEDYET = '6 (not categorized yet)';

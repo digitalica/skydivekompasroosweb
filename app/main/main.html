@@ -196,12 +196,13 @@
                     </td>
                 </tr>
 
-                <tr ng-if="currentCanopy.category">
+                <tr>
                     <td valign="top">
                         <span class="hidden-xs hidden-sm">{{translation.LIST_EXPERIENCENEEDED_L}}:&nbsp;</span>
                         <span class="visible-xs visible-sm">{{translation.LIST_EXPERIENCENEEDED_S}}:&nbsp;</span>
                     </td>
                     <td valign="top">
+                        <span ng-if="!currentCanopy.category">{{translation.LIST_NOTCATEGORIZEDYET}}</span>
                         {{translation.NEEDEDEXPERIENCE[currentCanopy.calculationcategory]}}
                     </td>
                 </tr>
@@ -732,12 +733,13 @@
                                     </td>
                                 </tr>
 
-                                <tr ng-if="canopy.category">
+                                <tr>
                                     <td valign="top">
                                         <span class="hidden-xs hidden-sm">{{translation.LIST_EXPERIENCENEEDED_L}}:&nbsp;</span>
                                         <span class="visible-xs visible-sm">{{translation.LIST_EXPERIENCENEEDED_S}}:&nbsp;</span>
                                     </td>
                                     <td valign="top">
+                                        <span ng-if="!canopy.category">{{translation.LIST_NOTCATEGORIZEDYET}}</span>
                                         {{translation.NEEDEDEXPERIENCE[canopy.calculationcategory]}}
                                     </td>
                                 </tr>
