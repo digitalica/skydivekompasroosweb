@@ -51,7 +51,7 @@ kompasroosServices.factory('KompasroosData', ['$resource', function ($resource) 
                                 'manufacturerid': org.manufacturerid,
                                 'maxsize': org.maxsize,
                                 'minsize': org.minsize,
-                                'youtube': org.youtube,
+                                'links': org.links,
                                 'url': org.url,
                                 'remarks': org.remarks
                             };

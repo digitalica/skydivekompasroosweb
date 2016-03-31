@@ -12,7 +12,7 @@
       "maxsize": "300",
       "minsize": "200",
       "url": "http://www.performancedesigns.com/navigator.aspx",
-      "youtube": [
+      "links": [
         {
           "title": "Test Navigator 240 sq ft",
           "id": "KALCUff9Tx4"
@@ -336,7 +336,7 @@
       "maxsize": "320",
       "minsize": "185",
       "url": "http://flightconceptsint.com/zp-main/zp-manta",
-      "youtube": [
+      "links": [
         {
           "title": "Parachute inflation of Flight Concepts fully zero porosity Manta",
           "id": "wfaDnBkO6iI"
@@ -456,7 +456,7 @@
       "planform": "6.7",
       "planformcells": "4",
       "url": "http://www.flyaerodyne.com/pilot.asp",
-      "youtube": [
+      "links": [
         {
           "title": "Parachute Opening - Aerodyne Pilot 168 ",
           "id": "6QgnKTmS0lA"
@@ -530,7 +530,7 @@
       "maxsize": "230",
       "minsize": "97",
       "url": "http://www.performancedesigns.com/spectre.aspx",
-      "youtube": [
+      "links": [
         {
           "title": "How to land Spectre 190",
           "id": "nwALHH1Nhdk"
@@ -564,7 +564,7 @@
       "maxsize": "260",
       "minsize": "107",
       "url": "http://www.performancedesigns.com/pulse.aspx",
-      "youtube": [
+      "links": [
         {
           "title": "PD Pulse promo",
           "id": "lWM-r67r-9Y"
@@ -690,7 +690,7 @@
       "planform": "5.4",
       "planformcells": "6",
       "url": "http://www.performancedesigns.com/sabre2.aspx",
-      "youtube": [
+      "links": [
         {
           "title": "PD Sabre 2 promo",
           "id": "VKxMN8C3TtE"
@@ -726,7 +726,7 @@
       "maxsize": "253",
       "minsize": "113",
       "url": "http://www.performancedesigns.com/lightning.aspx",
-      "youtube": [
+      "links": [
         {
           "title": "Canopy Formation 100 way world record 2007",
           "id": "Fggc3B5u5Ck"
@@ -754,7 +754,7 @@
       "maxsize": "230",
       "minsize": "97",
       "url": "http://www.performancedesigns.com/storm.asp",
-      "youtube": [
+      "links": [
         {
           "title": "PD Storm promo",
           "id": "pO8dlRu24Kc"
@@ -817,7 +817,7 @@
       "planform": "16.4",
       "planformcells": "8",
       "url": "http://www.nzaerosports.com/canopies/icarus-safire",
-      "youtube": [
+      "links": [
         {
           "title": "Icarus Safire2 149",
           "id": "DI3cjt3Wbrk"
@@ -862,7 +862,7 @@
       "commontype": "0",
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
       "url": "http://www.paratec.de/?page_id=4243",
-      "youtube": [
+      "links": [
         {
           "title": "NRG Opening",
           "id": "2S9Hwnk-qI4"
@@ -953,7 +953,7 @@
       "commontype": "0",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "url": "http://www.nzaerosports.com/canopies/icarus-matrix",
-      "youtube": [
+      "links": [
         {
           "title": "Matrix Reloaded",
           "id": "tLOqd1VYI2w"
@@ -1142,7 +1142,7 @@
       "minsize": "102",
       "planform": "10",
       "url": "http://www.flyaerodyne.com/zulu.asp",
-      "youtube": [
+      "links": [
         {
           "title": "aerodyne zulu (152ft) test jump",
           "id": "aGzmbjk30KU"
@@ -1272,7 +1272,7 @@
       "planform": "21.6",
       "planformcells": "8",
       "url": "http://www.nzaerosports.com/canopies/icarus-crossfire",
-      "youtube": [
+      "links": [
         {
           "title": "7 minutes packing crossfire 2 99",
           "id": "Yo5us-fTU34"
@@ -1362,7 +1362,7 @@
       "maxsize": "170",
       "minsize": "83",
       "url": "http://www.performancedesigns.com/katana.aspx",
-      "youtube": [
+      "links": [
         {
           "title": "PD Katana 120 openings & landings ",
           "id": "0az6PofPjck"
@@ -1471,7 +1471,7 @@
       "maxsize": "121",
       "minsize": "71",
       "url": "http://www.flyaerodyne.com/sensei.asp",
-      "youtube": [
+      "links": [
         {
           "title": "Test Piloting the Sensei 91 Parachute",
           "id": "AQLM9ZLpBMw"
@@ -1506,7 +1506,7 @@
       "maxsize": "120",
       "minsize": "75",
       "url": "http://www.performancedesigns.com/velocity.aspx",
-      "youtube": [
+      "links": [
         {
           "title": "How to fly and and Velocity 103",
           "id": "3E7EYnOOTL0"
@@ -1540,7 +1540,7 @@
         "nl": "Niet vrij beschikbaar"
       },
       "url": "http://www.performancedesigns.com/peregrine.aspx",
-      "youtube": [
+      "links": [
         {
           "title": "PD Peregrine promo",
           "id": "Tj3U5QJbaAc"
@@ -1568,7 +1568,7 @@
       "maxsize": "103",
       "minsize": "67",
       "url": "http://www.performancedesigns.com/valkyrie.aspx",
-      "youtube": [
+      "links": [
         {
           "title": "PD Valkyrie promo",
           "id": "LJr70PKbgOE"
@@ -1697,7 +1697,7 @@
       "maxsize": "119",
       "minsize": "59",
       "url": "http://www.nzaerosports.com/canopies/daedalus-JFX",
-      "youtube": [
+      "links": [
         {
           "title": "Daedalus JFX Opening: Camera by Nick Batsch",
           "id": "IK3uWGdh6eA"
@@ -1714,7 +1714,7 @@
       "firstyearofproduction": "2013",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "url": "http://www.nzaerosports.com/gallery/jpx-petra",
-      "youtube": [
+      "links": [
         {
           "title": "Petra 69 Project: new canopy flown by Nick Batsch",
           "id": "n_oMXHn427w"
@@ -1747,7 +1747,7 @@
       "firstyearofproduction": "2014",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "url": "http://www.nzaerosports.com/gallery/daedalus-leia",
-      "youtube": [
+      "links": [
         {
           "title": "Petra Project Episode II: Leia",
           "id": "zomcgbDLTPI"

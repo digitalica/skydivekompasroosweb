@@ -246,7 +246,7 @@
                         {{currentCanopy.remarks[settings.language]}}
                     </td>
                 </tr>
-                <tr ng-if="currentCanopy.url || currentCanopy.manufacturer.url || currentCanopy.dropzoneid || currentCanopy.youtube">
+                <tr ng-if="currentCanopy.url || currentCanopy.manufacturer.url || currentCanopy.dropzoneid || currentCanopy.links">
                     <td valign="top" colspan="2">
                         <div class="row">
                             <div class="col-sm-4 col-xs-6 text-center" ng-if="currentCanopy.manufacturer.url">
@@ -265,9 +265,9 @@
                                     <br><i class="link glyphicon glyphicon-globe"></i><br>dropzone.com
                                 </a>
                             </div>
-                            <div ng-repeat="ytmovie in currentCanopy.youtube" class="col-sm-4 col-xs-6 text-center">
-                                <a target="_blank" href="http://www.youtube.com/watch?v={{ytmovie.id}}">
-                                    <br><i class="link glyphicon glyphicon-play"></i><br>{{ytmovie.title}}
+                            <div ng-repeat="link in currentCanopy.links" class="col-sm-4 col-xs-6 text-center">
+                                <a target="_blank" href="http://www.youtube.com/watch?v={{link.id}}">
+                                    <br><i class="link glyphicon glyphicon-play"></i><br>{{link.title}}
                                 </a>
                             </div>
                         </div>
@@ -784,7 +784,7 @@
                                     </td>
                                 </tr>
 
-                                <tr ng-if="canopy.url || canopy.manufacturer.url || canopy.dropzoneid || canopy.youtube">
+                                <tr ng-if="canopy.url || canopy.manufacturer.url || canopy.dropzoneid || canopy.links">
                                     <td valign="top" colspan="2">
                                         <div class="row">
                                             <div class="col-sm-4 col-xs-6 text-center" ng-if="canopy.manufacturer.url">
@@ -803,10 +803,10 @@
                                                     <br><i class="link glyphicon glyphicon-globe"></i><br>dropzone.com
                                                 </a>
                                             </div>
-                                            <div ng-repeat="ytmovie in canopy.youtube"
+                                            <div ng-repeat="link in canopy.links"
                                                  class="col-sm-4 col-xs-6 text-center">
-                                                <a target="_blank" href="http://www.youtube.com/watch?v={{ytmovie.id}}">
-                                                    <br><i class="link glyphicon glyphicon-play"></i><br>{{ytmovie.title}}
+                                                <a target="_blank" href="http://www.youtube.com/watch?v={{link.id}}">
+                                                    <br><i class="link glyphicon glyphicon-play"></i><br>{{link.title}}
                                                 </a>
                                             </div>
                                         </div>
