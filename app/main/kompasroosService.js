@@ -37,6 +37,18 @@ kompasroosServices.factory('KompasroosData', ['$resource', function ($resource) 
                         kompasroosdata.canopiesBySearchname = [];
                         for (var cid in kompasroosdata.canopiesFromFile) {
                             var org = kompasroosdata.canopiesFromFile[cid];
+                            var links = org.links;
+                            if (org.links) {
+                                for (var li = 0; li < links.length; li++) {
+                                    var url = links[li].url;
+                                    switch (links[li].type) {
+                                        case 'youtube':
+                                            url = "http://www.youtube.com/watch?v=" + links[li].id;
+                                            break;
+                                    }
+                                    links[li].url = url
+                                }
+                            }
                             var canopy = {
                                 'id': org.id,
                                 'name': org.name,
@@ -51,7 +63,7 @@ kompasroosServices.factory('KompasroosData', ['$resource', function ($resource) 
                                 'manufacturerid': org.manufacturerid,
                                 'maxsize': org.maxsize,
                                 'minsize': org.minsize,
-                                'links': org.links,
+                                'links': links,
                                 'url': org.url,
                                 'remarks': org.remarks
                             };
