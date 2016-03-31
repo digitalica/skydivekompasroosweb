@@ -45,6 +45,9 @@ kompasroosServices.factory('KompasroosData', ['$resource', function ($resource) 
                                         case 'youtube':
                                             url = "http://www.youtube.com/watch?v=" + links[li].id;
                                             break;
+                                        case 'vimeo':
+                                            url = "https://vimeo.com/" + links[li].id;
+                                            break;
                                     }
                                     links[li].url = url
                                 }

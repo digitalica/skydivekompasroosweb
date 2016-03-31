@@ -1814,6 +1814,13 @@
       "commontype": "0",
       "manufacturerid": "CD51335E-1304-4391-9672-A6058F97C352",
       "url": "https://squirrel.ws/parachutes/skydiving/epicene",
+      "links": [
+        {
+          "type": "vimeo",
+          "title": "Epicene promo video",
+          "id": "113977394"
+        }
+      ],
       "xbraced": false
     },
     {
@@ -1842,6 +1849,13 @@
       "commontype": "0",
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
       "url": "http://www.fluidwings.com/#!helix/cczj",
+      "links": [
+        {
+          "type": "vimeo",
+          "title": "Helix release video",
+          "id": "134061502"
+        }
+      ],
       "xbraced": true
     },
     {
