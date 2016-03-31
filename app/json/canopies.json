@@ -1856,6 +1856,18 @@
       "manufacturerid": "A82F2C34-DBA9-4A4B-8DE7-7319B00C7DB4",
       "url": "http://www.jojowing.com/cs/xf15/",
       "xbraced": true
+    },
+    {
+      "id": "A23740C3-2E70-4B87-8326-C9A88F4CD66E",
+      "name": "Winx",
+      "cells": "7",
+      "maxsize": "210",
+      "minsize": "120",
+      "category": "",
+      "commontype": "0",
+      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
+      "url": "http://www.basetroll.com/products/winx/",
+      "xbraced": false
     }
   ]
 }
