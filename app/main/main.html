@@ -267,7 +267,7 @@
                             </div>
                             <div ng-repeat="link in currentCanopy.links" class="col-sm-4 col-xs-6 text-center">
                                 <a target="_blank" href="{{link.url}}">
-                                    <br><i class="link glyphicon glyphicon-play"></i><br>{{link.title}}
+                                    <br><i class="link glyphicon" ng-class="link.icon"></i><br>{{link.title}}
                                 </a>
                             </div>
                         </div>
@@ -806,7 +806,7 @@
                                             <div ng-repeat="link in canopy.links"
                                                  class="col-sm-4 col-xs-6 text-center">
                                                 <a target="_blank" href="{{link.url}}">
-                                                    <br><i class="link glyphicon glyphicon-play"></i><br>{{link.title}}
+                                                    <br><i class="link glyphicon" ng-class="link.icon"></i><br>{{link.title}}
                                                 </a>
                                             </div>
                                         </div>

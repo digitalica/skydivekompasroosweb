@@ -538,6 +538,11 @@
           "type": "youtube",
           "title": "How to land Spectre 190",
           "id": "nwALHH1Nhdk"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag review",
+          "id": "pd-spectre-predictable-and-versatile"
         }
       ],
       "xbraced": false
@@ -1165,6 +1170,11 @@
           "type": "youtube",
           "title": "aerodyne zulu (152ft) test jump",
           "id": "aGzmbjk30KU"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag review",
+          "id": "zulu"
         }
       ],
       "xbraced": false
@@ -1503,6 +1513,11 @@
           "type": "youtube",
           "title": "Sensei canopies for ToraTora",
           "id": "uwShpnBkA10"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag review",
+          "id": "20131002-the-sensei"
         }
       ],
       "xbraced": true
@@ -1535,6 +1550,11 @@
           "type": "youtube",
           "title": "How to fly and and Velocity 103",
           "id": "3E7EYnOOTL0"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag review",
+          "id": "20131115-velocity-103"
         }
       ],
       "xbraced": true
@@ -1551,6 +1571,13 @@
       "maxsize": "111",
       "minsize": "71",
       "url": "http://www.performancedesigns.com/compvelocity.aspx",
+      "links": [
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag review",
+          "id": "20130815-competition-velocity"
+        }
+      ],
       "xbraced": true
     },
     {

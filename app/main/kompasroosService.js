@@ -41,15 +41,23 @@ kompasroosServices.factory('KompasroosData', ['$resource', function ($resource) 
                             if (org.links) {
                                 for (var li = 0; li < links.length; li++) {
                                     var url = links[li].url;
+                                    var icon =  "glyphicon-globe";
                                     switch (links[li].type) {
                                         case 'youtube':
                                             url = "http://www.youtube.com/watch?v=" + links[li].id;
+                                            icon =  "glyphicon-play";
                                             break;
                                         case 'vimeo':
                                             url = "https://vimeo.com/" + links[li].id;
+                                            icon =  "glyphicon-play";
+                                            break;
+                                        case 'skydivemag':
+                                            url = "http://www.skydivemag.com/article/" + links[li].id;
+                                            icon =  "glyphicon-book";
                                             break;
                                     }
-                                    links[li].url = url
+                                    links[li].url = url;
+                                    links[li].icon = icon;
                                 }
                             }
                             var canopy = {
