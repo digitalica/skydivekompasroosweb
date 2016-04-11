@@ -61,6 +61,10 @@
       "name": "Flight Concepts",
       "countrycode": "us",
       "shortname": "Flight Concepts",
+      "remarks": {
+        "en": "Flight Concepts was called Glide Path originally.",
+        "nl": "Flight Concepts heette voorheen Glide Path."
+      },
       "url": "http://flightconceptsint.com/"
     },
     {
@@ -129,8 +133,8 @@
       "name": "PISA",
       "countrycode": "sa",
       "remarks": {
-        "en": "PISA is no longer active",
-        "nl": "PISA is niet meer actief"
+        "en": "PISA (Parachute Industries of South Africa) is no longer active",
+        "nl": "PISA (Parachute Industries of South Africa) is niet meer actief"
       },
       "shortname": "PISA",
       "url": "http://www.pisa.co.za/"

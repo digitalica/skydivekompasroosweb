@@ -55,6 +55,10 @@ kompasroosServices.factory('KompasroosData', ['$resource', function ($resource) 
                                             url = "http://www.skydivemag.com/article/" + links[li].id;
                                             icon =  "glyphicon-book";
                                             break;
+                                        case 'pdf':
+                                            url = links[li].id;
+                                            icon =  "glyphicon-book";
+                                            break;
                                     }
                                     links[li].url = url;
                                     links[li].icon = icon;
