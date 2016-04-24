@@ -750,6 +750,11 @@
           "type": "youtube",
           "title": "PD Sabre 2 pro pack door Nick Grillet 3/3",
           "id": "pHSpnXCShs0"
+        },
+        {
+          "type": "youtube",
+          "title": "Sabre 2 150 - Deployments",
+          "id": "19uMK1SN5kU"
         }
       ],
       "xbraced": false
@@ -861,16 +866,43 @@
       "planform": "16.4",
       "planformcells": "8",
       "url": "http://www.nzaerosports.com/canopies/icarus-safire",
+      "remarks": {
+        "en": "Safire 3 was introduced in 2016",
+        "nl": "Safire 3 werd geintroduceerd in 2016"
+      },
       "links": [
         {
           "type": "youtube",
           "title": "Icarus Safire2 149",
           "id": "DI3cjt3Wbrk"
+        }
+      ],
+      "xbraced": false
+    },
+    {
+      "id": "83654CC3-4296-445B-863C-A5CC09185945",
+      "name": "Safire 3",
+      "category": "",
+      "cells": "9",
+      "commontype": "1",
+      "firstyearofproduction": "2016",
+      "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
+      "url": "http://www.nzaerosports.com/canopies/icarus-safire3",
+      "links": [
+        {
+          "type": "youtube",
+          "title": "The story",
+          "id": "ySkbuQ16H7I"
         },
         {
           "type": "youtube",
-          "title": "Sabre 2 150 - Deployments",
-          "id": "19uMK1SN5kU"
+          "title": "The saffire 3",
+          "id": "UKi43C3NEUI"
+        },
+        {
+          "type": "youtube",
+          "title": "Openings",
+          "id": "QuNRQplQOhA"
         }
       ],
       "xbraced": false
