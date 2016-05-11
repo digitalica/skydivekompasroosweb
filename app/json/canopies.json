@@ -435,7 +435,7 @@
     {
       "id": "D5522A6B-5A85-4C59-A0E7-D424A96E94E4",
       "name": "Icarus Student",
-      "category": "",
+      "category": "1",
       "firstyearofproduction": "2015",
       "cells": "9",
       "commontype": "0",
@@ -490,6 +490,20 @@
           "id": "6QgnKTmS0lA"
         }
       ],
+      "xbraced": false
+    },
+    {
+      "id": "E0F993E0-766D-4FEB-86E1-DE06748F912C",
+      "name": "Pilot7",
+      "category": "2",
+      "cells": "7",
+      "commontype": "1",
+      "dropzoneid": "980",
+      "firstyearofproduction": "2016",
+      "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
+      "maxsize": "247",
+      "minsize": "117",
+      "url": "http://www.flyaerodyne.com/pilot7.asp",
       "xbraced": false
     },
     {
@@ -882,7 +896,7 @@
     {
       "id": "83654CC3-4296-445B-863C-A5CC09185945",
       "name": "Safire 3",
-      "category": "",
+      "category": "3",
       "cells": "9",
       "commontype": "1",
       "firstyearofproduction": "2016",
@@ -1332,7 +1346,7 @@
     {
       "id": "F9F3F9F7-04E3-4E60-BFE8-A07A517550FE",
       "name": "ZP",
-      "category": "",
+      "category": "1",
       "cells": "9",
       "commontype": "0",
       "dropzoneid": "948",
@@ -1947,7 +1961,7 @@
     {
       "id": "2351611F-068C-4901-820D-26EC38FC36D9",
       "name": "Epicene",
-      "category": "",
+      "category": "3",
       "cells": "7",
       "maxsize": "210",
       "minsize": "116",
@@ -1971,7 +1985,7 @@
       "cells": "9",
       "firstyearofproduction": "2014",
       "dropzoneid": "978",
-      "category": "",
+      "category": "2",
       "commontype": "0",
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
       "url": "http://www.fluidwings.com/#!prime/ct0a",
@@ -2004,7 +2018,7 @@
       "cells": "9",
       "maxsize": "170",
       "minsize": "105",
-      "category": "",
+      "category": "4",
       "dropzoneid": "974",
       "commontype": "0",
       "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
@@ -2053,7 +2067,7 @@
       "cells": "7",
       "maxsize": "210",
       "minsize": "120",
-      "category": "",
+      "category": "3",
       "commontype": "0",
       "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
       "url": "http://www.basetroll.com/products/winx/",
