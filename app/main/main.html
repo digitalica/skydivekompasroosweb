@@ -354,7 +354,7 @@
                     <span ng-show="sliders.totalValue==sliderOptions.totalMax">+</span>
                     / {{sliders.last12MonthsValue}}
                     <span ng-show="sliders.last12MonthsValue==sliderOptions.last12MonthsMax">+</span>
-                     <span ng-show="sliders.totalValue>=1000">
+                     <span ng-show="sliders.totalValue>=1200 && sliders.last12MonthsValue>=100">
                         / {{sliders.xbracedValue}}
                         <span ng-show="sliders.xbracedValue==sliderOptions.xbracedMax">+</span>
                     </span>
@@ -485,7 +485,7 @@
                         </tr>
                     </table>
 
-                    <table width="100%" ng-show="sliders.totalValue>=1000">
+                    <table width="100%" ng-show="sliders.totalValue>=1200 && sliders.last12MonthsValue>=100">
                         <tr>
                             <td class="hidden-xs hidden-sm">
                                 <button class="btn btn-default" ng-click="incXbraced(-5)">- 5</button>
