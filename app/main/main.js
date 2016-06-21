@@ -817,6 +817,7 @@ angular.module('myApp.main', ['ngRoute'])
                 $scope.settings = $cookies.getObject('skydivekompasroossettings');
                 $scope.sliders.totalValue = $scope.settings.jumpsTotal;
                 $scope.sliders.last12MonthsValue = $scope.settings.jumpsLastYear;
+                $scope.sliders.xbracedValue = $scope.settings.xbraced;
                 $scope.sliders.weightValue = $scope.settings.weight;
                 $scope.setLanguage($scope.settings.language);
             } else {
