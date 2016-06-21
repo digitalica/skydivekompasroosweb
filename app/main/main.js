@@ -18,7 +18,7 @@ angular.module('myApp.main', ['ngRoute'])
         this.WEIGHT_FACTOR_KG_TO_LBS = 2.20462262185;
 
         this.MINIMUMTOTALJUMPS = [0, 0, 25, 100, 400, 700, 1000, 1200];
-        this.MINIMUMJUMPSLAST12MONTHS = [0, 0, 10, 25, 50, 100, 0, 0];
+        this.MINIMUMJUMPSLAST12MONTHS = [0, 0, 10, 25, 50, 75, 100, 100];
 
         this.ACC_ACCEPTABLE = 1;
         this.ACC_NEEDEDSIZENOTAVAILABLE = 2;
@@ -57,14 +57,16 @@ angular.module('myApp.main', ['ngRoute'])
                 categoryBasedOnJumpsLast12Months = 4;
             } else if (jumpsLast12Months < this.MINIMUMJUMPSLAST12MONTHS[6]) {
                 categoryBasedOnJumpsLast12Months = 5;
-            } else {
+            } else if (jumpsLast12Months < this.MINIMUMJUMPSLAST12MONTHS[7]) {
                 categoryBasedOnJumpsLast12Months = 6;
+            } else {
+                categoryBasedOnJumpsLast12Months = 7;
             }
 
             var jumperCategory;
-            if (categoryBasedOnTotalJumps == 6) {
+            if (categoryBasedOnTotalJumps >= 6 && categoryBasedOnJumpsLast12Months >= 6) {
                 // if 1000 jumps, no recent exp needed.
-                if (xbracedjumps < 200 || totalJumps < 1200) {
+                if (xbracedjumps < 200 || totalJumps < 1200 || jumpsLast12Months < 100) {
                     jumperCategory = 6;
                 } else {
                     jumperCategory = 7;

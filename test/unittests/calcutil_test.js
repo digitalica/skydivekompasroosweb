@@ -78,28 +78,32 @@ describe('Calc Service', function () {
 
         expect(calcUtil.jumperCategory(400, 50, 0)).toBe(4);
         expect(calcUtil.jumperCategory(699, 100, 0)).toBe(4);
-        expect(calcUtil.jumperCategory(700, 99, 0)).toBe(4);
-        expect(calcUtil.jumperCategory(999, 99, 0)).toBe(4);
-        expect(calcUtil.jumperCategory(999, 99, 333)).toBe(4);
+        expect(calcUtil.jumperCategory(700, 74, 0)).toBe(4);
+        expect(calcUtil.jumperCategory(999, 74, 0)).toBe(4);
+        expect(calcUtil.jumperCategory(999, 74, 333)).toBe(4);
 
         expect(calcUtil.jumperCategory(700, 100, 0)).toBe(5);
         expect(calcUtil.jumperCategory(999, 100, 0)).toBe(5);
         expect(calcUtil.jumperCategory(999, 200, 0)).toBe(5);
         expect(calcUtil.jumperCategory(999, 200, 666)).toBe(5);
 
-        expect(calcUtil.jumperCategory(1000, 0, 0)).toBe(6);
-        expect(calcUtil.jumperCategory(1000, 10, 0)).toBe(6);
-        expect(calcUtil.jumperCategory(1000, 100, 0)).toBe(6);
+        expect(calcUtil.jumperCategory(1000, 0, 0)).toBe(1);  // not current any more
+        expect(calcUtil.jumperCategory(1000, 10, 0)).toBe(2); // not (really) current any more
+        expect(calcUtil.jumperCategory(1000, 100, 0)).toBe(6);  // current enough
         expect(calcUtil.jumperCategory(1000, 1000, 0)).toBe(6);
         expect(calcUtil.jumperCategory(1199, 1000, 500)).toBe(6);
         expect(calcUtil.jumperCategory(1200, 1000, 199)).toBe(6);
         expect(calcUtil.jumperCategory(2000, 1000, 0)).toBe(6); // sky god
-        expect(calcUtil.jumperCategory(2000, 0, 0)).toBe(6); // jump vacation
+        expect(calcUtil.jumperCategory(2000, 0, 0)).toBe(1); // jump vacation, not current any more
         expect(calcUtil.jumperCategory(2000, 1000, 199)).toBe(6); // sky god
+        expect(calcUtil.jumperCategory(1199, 100, 200)).toBe(6); // almost 7
+        expect(calcUtil.jumperCategory(1200, 99, 200)).toBe(5); // almost 7, but now not even enough for 6 ;-)
+        expect(calcUtil.jumperCategory(1200, 100, 199)).toBe(6); // almost 7
 
+        expect(calcUtil.jumperCategory(1200, 100, 200)).toBe(7);
         expect(calcUtil.jumperCategory(2000, 300, 200)).toBe(7);
-        expect(calcUtil.jumperCategory(2000, 0, 200)).toBe(7); // jump vacation
-        expect(calcUtil.jumperCategory(3000, 10, 2000)).toBe(7); // jump vacation
+        expect(calcUtil.jumperCategory(2000, 0, 200)).toBe(1); // jump vacation, not current any more
+        expect(calcUtil.jumperCategory(3000, 10, 2000)).toBe(2); // jump vacation, not current any more
 
     });
 
