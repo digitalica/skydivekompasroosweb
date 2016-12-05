@@ -1401,6 +1401,7 @@
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "maxsize": "169",
       "minsize": "89",
+      "firstyearofproduction": "2001",
       "planform": "21.6",
       "planformcells": "8",
       "url": "http://www.nzaerosports.com/canopies/icarus-crossfire",
@@ -1414,6 +1415,43 @@
           "type": "youtube",
           "title": "First jump on 119 sqft Cross Fire 2",
           "id": "Ni-O-iaya9s"
+        }
+      ],
+      "remarks": {
+        "en": "Crossfire 3 was introduced in 2016",
+        "nl": "Crossfire 3 werd geintroduceerd in 2016"
+      },
+      "xbraced": false
+    },
+    {
+      "id": "6F21BE85-8902-4392-967C-8DE5FAAD478C",
+      "name": "Crossfire 3",
+      "category": "",
+      "cells": "9",
+      "commontype": "1",
+      "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
+      "firstyearofproduction": "2016",
+      "url": "http://www.nzaerosports.com/canopies/icarus-crossfire3",
+      "links": [
+        {
+          "type": "vimeo",
+          "title": "Crossfire 3 trailer",
+          "id": "193450039"
+        },
+        {
+          "type": "vimeo",
+          "title": "Crossfire 3: Product video",
+          "id": "193607198"
+        },
+        {
+          "type": "vimeo",
+          "title": "Crossfire 3: Design, development and flight",
+          "id": "605014241"
+        },
+        {
+          "type": "vimeo",
+          "title": "Crossfire 3: openings and landings",
+          "id": "193448494"
         }
       ],
       "xbraced": false
@@ -1497,7 +1535,8 @@
           "title": "Manual",
           "id": "http://www.flyfirebird.com/fb/downloads/manuals/chilli.pdf"
         }
-      ],      "xbraced": false
+      ],
+      "xbraced": false
     },
     {
       "id": "3CADD8FE-CBFE-4390-9306-DB453623D44C",
