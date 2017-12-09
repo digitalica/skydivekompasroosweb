@@ -826,6 +826,27 @@
       "xbraced": false
     },
     {
+      "id": "BF1DAC87-02CD-4743-B715-62EFF23ECBED",
+      "name": "Horizon",
+      "category": "3",
+      "cells": "7",
+      "commontype": "1",
+      "dropzoneid": "1031",
+      "firstyearofproduction": "2017",
+      "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
+      "maxsize": "190",
+      "minsize": "120",
+      "url": "http://www.performancedesigns.com/products/horizon/",
+      "links": [
+        {
+          "type": "youtube",
+          "title": "PD Horizon promo",
+          "id": "a9wbmmY0IdI"
+        }
+      ],
+      "xbraced": false
+    },
+    {
       "id": "8A64E433-8856-4329-9B5E-2BF6F2D37632",
       "name": "Fusion",
       "category": "3",
@@ -889,6 +910,27 @@
           "type": "youtube",
           "title": "Icarus Safire2 149",
           "id": "DI3cjt3Wbrk"
+        }
+      ],
+      "xbraced": false
+    },
+    {
+      "id": "B831B534-D7A7-4063-A1C5-694D1FEE9F22",
+      "name": "S-fire",
+      "category": "3",
+      "cells": "9",
+      "commontype": "1",
+      "dropzoneid": "1028",
+      "firstyearofproduction": "2017",
+      "manufacturerid": "29A49954-54B1-4F77-A399-CCEFCCC9B3B9",
+      "maxsize": "229",
+      "minsize": "99",
+      "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=127&Itemid=673",
+      "links": [
+        {
+          "type": "youtube",
+          "title": "Landing Icarus S-fire 169",
+          "id": "NOmJjIOmSMk"
         }
       ],
       "xbraced": false
@@ -1379,7 +1421,7 @@
     {
       "id": "1FB6128A-0203-44D9-9C55-06E4289D1540",
       "name": "Crossfire",
-      "category": "5",
+      "category": "4",
       "cells": "9",
       "commontype": "1",
       "dropzoneid": "4",
@@ -1426,7 +1468,7 @@
     {
       "id": "6F21BE85-8902-4392-967C-8DE5FAAD478C",
       "name": "Crossfire 3",
-      "category": "",
+      "category": "5",
       "cells": "9",
       "commontype": "1",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
@@ -1454,6 +1496,26 @@
           "id": "193448494"
         }
       ],
+      "xbraced": false
+    },
+    {
+      "id": "B66CC389-2650-4205-B30B-5D279ACDE8AB",
+      "name": "X-fire",
+      "category": "5",
+      "cells": "9",
+      "commontype": "1",
+      "manufacturerid": "29A49954-54B1-4F77-A399-CCEFCCC9B3B9",
+      "firstyearofproduction": "2017",
+      "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=131&Itemid=675",
+      "links": [
+        {
+          "type": "youtube",
+          "title": "Icarus Xfire 92 openings & flight",
+          "id": "eTYCKHZHePQ"
+        }
+      ],
+      "maxsize": "168",
+      "minsize": "75",
       "xbraced": false
     },
     {
@@ -2024,10 +2086,24 @@
       "cells": "9",
       "firstyearofproduction": "2014",
       "dropzoneid": "978",
-      "category": "2",
+      "category": "3",
       "commontype": "0",
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
-      "url": "http://www.fluidwings.com/#!prime/ct0a",
+      "url": "http://www.fluidwings.com/prime",
+      "xbraced": false
+    },
+    {
+      "id": "6C91684B-857B-455F-9A6B-9DC15A31E98A",
+      "name": "Tesla",
+      "maxsize": "150",
+      "minsize": "97",
+      "cells": "9",
+      "firstyearofproduction": "2017",
+      "dropzoneid": "1036",
+      "category": "5",
+      "commontype": "0",
+      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
+      "url": "http://www.fluidwings.com/tesla",
       "xbraced": false
     },
     {
@@ -2049,6 +2125,59 @@
           "id": "134061502"
         }
       ],
+      "xbraced": true
+    },
+    {
+      "id": "AF1933DE-FA7F-4753-8DA1-713035A955DD",
+      "name": "HS",
+      "cells": "9",
+      "category": "7",
+      "dropzoneid": "1032",
+      "commontype": "0",
+      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
+      "url": "http://www.fluidwings.com/hs",
+      "xbraced": true
+    },
+    {
+      "id": "9E7E3E3C-F4DE-41EE-A08B-15E8CCA08B9A",
+      "name": "HK",
+      "cells": "27",
+      "maxsize": "84",
+      "minsize": "64",
+      "firstyearofproduction": "2017",
+      "category": "7",
+      "dropzoneid": "1033",
+      "commontype": "0",
+      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
+      "url": "http://www.fluidwings.com/hk",
+      "xbraced": true
+    },
+    {
+      "id": "DC694B4B-EF96-4E4C-993C-601929279178",
+      "name": "HK Terminal",
+      "cells": "27",
+      "maxsize": "84",
+      "minsize": "64",
+      "firstyearofproduction": "2017",
+      "category": "7",
+      "dropzoneid": "1034",
+      "commontype": "0",
+      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
+      "url": "http://www.fluidwings.com/hkterminal",
+      "xbraced": true
+    },
+    {
+      "id": "E0142D15-96D2-461C-8915-9C1625C9C5EB",
+      "name": "Airwolf",
+      "cells": "7",
+      "maxsize": "96",
+      "minsize": "67",
+      "firstyearofproduction": "2017",
+      "category": "7",
+      "dropzoneid": "1035",
+      "commontype": "0",
+      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
+      "url": "http://www.fluidwings.com/airwolf",
       "xbraced": true
     },
     {
