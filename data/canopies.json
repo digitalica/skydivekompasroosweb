@@ -883,7 +883,7 @@
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "remarks": {
         "en": "Safire 2 was introduced in 2001",
-        "nl": "Safire 2 werd geintroduceerd in 2001"
+        "nl": "Safire 2 werd geïntroduceerd in 2001"
       },
       "xbraced": false
     },
@@ -903,7 +903,7 @@
       "url": "http://www.nzaerosports.com/canopies/icarus-safire",
       "remarks": {
         "en": "Safire 3 was introduced in 2016",
-        "nl": "Safire 3 werd geintroduceerd in 2016"
+        "nl": "Safire 3 werd geïntroduceerd in 2016"
       },
       "links": [
         {
@@ -1429,7 +1429,7 @@
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "remarks": {
         "en": "Crossfire 2 was introduced in 2001",
-        "nl": "Crossfire 2 werd geintroduceerd in 2001"
+        "nl": "Crossfire 2 werd geïntroduceerd in 2001"
       },
       "xbraced": false
     },
@@ -1461,7 +1461,7 @@
       ],
       "remarks": {
         "en": "Crossfire 3 was introduced in 2016",
-        "nl": "Crossfire 3 werd geintroduceerd in 2016"
+        "nl": "Crossfire 3 werd geïntroduceerd in 2016"
       },
       "xbraced": false
     },
@@ -1917,7 +1917,7 @@
       "minsize": "59",
       "remarks": {
         "en": "Daedalus JVX was introduced in 2005",
-        "nl": "Daedalus JVX werd geintroduceerd in 2005"
+        "nl": "Daedalus JVX werd geïntroduceerd in 2005"
       },
       "url": "http://www.nzaerosports.com/canopies/icarus-VX",
       "xbraced": true
@@ -1935,7 +1935,7 @@
       "minsize": "59",
       "remarks": {
         "en": "Daedalus JFX was introduced in 2010",
-        "nl": "Daedalus JFX werd geintroduceerd in 2010"
+        "nl": "Daedalus JFX werd geïntroduceerd in 2010"
       },
       "url": "http://www.nzaerosports.com/canopies/icarus-FX",
       "xbraced": true
@@ -1986,6 +1986,19 @@
           "id": "IK3uWGdh6eA"
         }
       ],
+      "xbraced": true
+    },
+    {
+      "id": "47F5A0C0-1B04-4F5F-B9BF-6569E72C6121",
+      "name": "Icarus JFX 2",
+      "category": "6",
+      "cells": "21",
+      "commontype": "0",
+      "firstyearofproduction": "2018",
+      "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
+      "maxsize": "119",
+      "minsize": "59",
+      "url": "http://www.nzaerosports.com/canopies/icarus-jfx2",
       "xbraced": true
     },
     {
@@ -2043,6 +2056,21 @@
           "id": "zomcgbDLTPI"
         }
       ],
+      "remarks": {
+        "en": "To order NZA requires at least 1500 jumps, of which at least 300 on a crossbraced canopy with a similar wing loading than the Leia odered; 150 jumps in the last 6 months.",
+        "nl": "Om te bestellen eist NZA minimaal 1500 sprongen, waarvan minstens 300 onder een crossbraced koepel met een soorgelijke wingload als de bestelde Leia; 150 sprongen in de laatste 6 maanden."
+      },
+      "xbraced": true
+    },
+    {
+      "id": "6334C760-93BD-41D1-90B7-4A63678177E7",
+      "name": "SLeia",
+      "category": "7",
+      "cells": "21",
+      "commontype": "0",
+      "firstyearofproduction": "2018",
+      "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
+      "url": "http://www.nzaerosports.com/canopies/daedalus-sleia/",
       "remarks": {
         "en": "To order NZA requires at least 1500 jumps, of which at least 300 on a crossbraced canopy with a similar wing loading than the Leia odered; 150 jumps in the last 6 months.",
         "nl": "Om te bestellen eist NZA minimaal 1500 sprongen, waarvan minstens 300 onder een crossbraced koepel met een soorgelijke wingload als de bestelde Leia; 150 sprongen in de laatste 6 maanden."
