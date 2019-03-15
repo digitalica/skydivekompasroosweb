@@ -100,7 +100,9 @@ class TopAppBar extends React.Component {
   };
 
   openMenu = event => {
-    this.setState({anchorEl: event.currentTarget});
+    if (!this.props.showWelcome) {
+      this.setState({anchorEl: event.currentTarget});
+    }
   };
 
   closeMenu = () => {
@@ -115,9 +117,11 @@ class TopAppBar extends React.Component {
 
   goSearch = () => {
     console.log('go search ' + this.state.showSearch);
-    this.setState({showSearch: true});
-    if (this.props.location.pathname !== "/") {
-      this.props.history.push('/');
+    if (!this.props.showWelcome) {
+      this.setState({showSearch: true});
+      if (this.props.location.pathname !== "/") {
+        this.props.history.push('/');
+      }
     }
   };
 

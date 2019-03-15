@@ -137,6 +137,7 @@ class KompasroosApp extends Component {
               language={this.state.language}
               searchText={this.state.searchText}
               onSearchChange={this.updateSearchText}
+              showWelcome={this.state.showWelcome}
             />
             <Route exact path="/" render={(props) => <Main
               {...props}
@@ -207,6 +208,7 @@ class KompasroosApp extends Component {
               totalJumps={this.state.totalJumps}
               jumpsLast12Months={this.state.jumpsLast12Months}
               xbracedJumps={this.state.xbracedJumps}
+              showWelcome={this.state.showWelcome}
             />
           </div>
         </MuiThemeProvider>

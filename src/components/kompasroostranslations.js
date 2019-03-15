@@ -166,8 +166,8 @@ nl.NOLIMIT = 'Geen limiet';
 en.NOLIMIT = 'No limit';
 
 
-nl.EXPERIENCE_DONE = 'Klaar';
-en.EXPERIENCE_DONE = 'Done';
+nl.EXPERIENCE_DONE = 'Klaar, mijn ervaring is ingesteld!';
+en.EXPERIENCE_DONE = 'Done, my experience is set!';
 
 
 // nl.RESULT_BEGINNER = 'Beginner';

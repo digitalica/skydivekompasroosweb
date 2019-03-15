@@ -1,6 +1,7 @@
 import React from "react";
-import Button from '@material-ui/core/Button';
+import Fab from '@material-ui/core/Fab';
 import {withStyles} from '@material-ui/core/styles';
+import DoneAllIcon from '@material-ui/icons/DoneAll';
 
 import Summary from "./summary";
 import KompasroosSlider from "./kompasroosslider";
@@ -15,6 +16,14 @@ const styles = theme => ({
     textAlign: "left",
     paddingTop: 64,
     paddingBottom: 150,
+  },
+  fab: {
+    margin: theme.spacing.unit,
+    backgroundColor: theme.palette.good[C.BGICONCOLORSHADE]
+
+  },
+  extendedIcon: {
+    marginRight: theme.spacing.unit,
   },
   welcome: {
     marginBottom: "25px"
@@ -149,9 +158,14 @@ class SetJumps extends React.Component {
       );
       doneButton = (
         <div className={classes.text}>
-          <Button variant="contained" color="primary" className={classes.button} onClick={this.props.welcomeDone}>
+          <Fab variant="extended" color="primary" aria-label="Done" className={classes.fab} onClick={this.props.welcomeDone}>
+            <DoneAllIcon className={classes.extendedIcon} />
             {T[language].EXPERIENCE_DONE}
-          </Button>
+          </Fab>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
         </div>
       );
     }
@@ -165,11 +179,11 @@ class SetJumps extends React.Component {
         {totalJumpsSlider}
         {jumpsLast12MonthsSlider}
         {xbracedJumpsSlider}
+        {doneButton}
         <Summary
           language={language}
           category={this.props.category}
         />
-        {doneButton}
       </div>
     )
   }
