@@ -5,8 +5,8 @@
 
 
 
-var canopies = require('./app/json/canopies.json').canopies;
-var manufacturers = require('./app/json/manufacturers.json').manufacturers;
+var canopies = require('./canopies.json').canopies;
+var manufacturers = require('./manufacturers.json').manufacturers;
 
 function csvfield(text) {
     if (text !== null && text !== '') {
