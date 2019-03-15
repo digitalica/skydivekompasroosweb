@@ -54,7 +54,7 @@ function About(props) {
               <a target="_blank" rel="noopener noreferrer" href={C.BVR_BIJLAGE_A_URL}>{C.filenameFromPath(C.BVR_BIJLAGE_A_URL)}</a>
             </p>
 
-            <p>BVR Bijlage B, Indeling hoofdparachutes, versie 2018:<br/>
+            <p>BVR Bijlage B, Indeling hoofdparachutes, versie februari 2019:<br/>
               <a target="_blank" rel="noopener noreferrer"
                  href={C.BVR_BIJLAGE_B_URL}>{C.filenameFromPath(C.BVR_BIJLAGE_B_URL)}</a>
             </p>
@@ -103,7 +103,7 @@ function About(props) {
               <a target="_blank" rel="noopener noreferrer" href={C.BVR_BIJLAGE_A_URL}>{C.filenameFromPath(C.BVR_BIJLAGE_A_URL)}</a>
             </p>
 
-            <p>BVR annex B, main canopy categories, version 2018:<br/>
+            <p>BVR annex B, main canopy categories, version februari 2019:<br/>
               <a target="_blank" rel="noopener noreferrer" href={C.BVR_BIJLAGE_B_URL}>{C.filenameFromPath(C.BVR_BIJLAGE_B_URL)}</a>
             </p>
 

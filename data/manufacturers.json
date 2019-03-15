@@ -173,6 +173,13 @@
       "countrycode": "cz",
       "shortname": "Jojo",
       "url": "http://www.jojowing.com/"
+    },
+    {
+      "id": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
+      "name": "Skylark Parachutes",
+      "countrycode": "ua",
+      "shortname": "Skylark",
+      "url": "http://skylarkparachutes.com/"
     }
   ]
 }

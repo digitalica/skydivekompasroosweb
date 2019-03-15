@@ -21,6 +21,7 @@ nl.COUNTRIES = {
   "nl": "Nederland",
   "nz": "Nieuw Zeeland",
   "sa": "Zuid Afrika",
+  "ua": "Oekraïne",
   "us": "Verenigde Staten"
 };
 en.COUNTRIES = {
@@ -31,6 +32,7 @@ en.COUNTRIES = {
   "nl": "The Netherlands",
   "nz": "New Sealand",
   "sa": "South Africa",
+  "ua": "Ukraine",
   "us": "United States"
 };
 nl.EXITWEIGHT = 'Exitgewicht';

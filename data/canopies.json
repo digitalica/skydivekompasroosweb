@@ -726,6 +726,19 @@
       "xbraced": false
     },
     {
+      "id": "21BD9B3B-77E6-4605-B89A-0B118C97C960",
+      "name": "Commodore",
+      "category": "2",
+      "cells": "9",
+      "commontype": "0",
+      "dropzoneid": "615",
+      "manufacturerid": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
+      "maxsize": "190",
+      "minsize": "290",
+      "url": "http://skylarkparachutes.com/commodore",
+      "xbraced": false
+    },
+    {
       "id": "46281C3A-4286-422D-B8F4-8D9015AB96BB",
       "name": "Sabre 2",
       "category": "3",
@@ -1126,6 +1139,56 @@
       "xbraced": true
     },
     {
+      "id": "3EF9E44E-900D-40CC-9916-DFC4560F377C",
+      "name": "Skipper",
+      "category": "3",
+      "cells": "7",
+      "commontype": "0",
+      "dropzoneid": "612",
+      "manufacturerid": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
+      "maxsize": "190",
+      "minsize": "110",
+      "url": "http://skylarkparachutes.com/skipper/",
+      "xbraced": false
+    },
+    {
+      "id": "9B56DFEE-C85E-4DD7-B828-19D232C323BA",
+      "name": "Skipper EVO",
+      "category": "3",
+      "cells": "7",
+      "commontype": "0",
+      "manufacturerid": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
+      "maxsize": "185",
+      "minsize": "95",
+      "url": "http://skylarkparachutes.com/skipper-evo/",
+      "xbraced": false
+    },
+    {
+      "id": "C3165B46-F1F8-4524-9D50-46ADD9B1E86F",
+      "name": "Magellan",
+      "category": "3",
+      "cells": "9",
+      "commontype": "0",
+      "dropzoneid": "613",
+      "manufacturerid": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
+      "maxsize": "190",
+      "minsize": "100",
+      "url": "http://skylarkparachutes.com/magellan/",
+      "xbraced": false
+    },
+    {
+      "id": "9661B8FA-BD0D-4C75-9F0A-0409C3121B37",
+      "name": "Magellan EVO",
+      "category": "3",
+      "cells": "9",
+      "commontype": "0",
+      "manufacturerid": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
+      "maxsize": "185",
+      "minsize": "95",
+      "url": "http://skylarkparachutes.com/magellan-evo/",
+      "xbraced": false
+    },
+    {
       "id": "107633B0-202B-4625-9CD4-8AFE131C5D10",
       "name": "Stiletto",
       "category": "4",
@@ -1431,6 +1494,31 @@
         "en": "Crossfire 2 was introduced in 2001",
         "nl": "Crossfire 2 werd geïntroduceerd in 2001"
       },
+      "xbraced": false
+    },
+    {
+      "id": "C0785556-9B3B-431E-95A0-39911DB1DBD0",
+      "name": "Odyssey",
+      "category": "5",
+      "cells": "9",
+      "commontype": "0",
+      "dropzoneid": "614",
+      "manufacturerid": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
+      "maxsize": "150",
+      "minsize": "85",
+      "url": "http://skylarkparachutes.com/odyssey/",
+      "xbraced": false
+    },
+    {
+      "id": "19982FDF-FB8B-4178-8F34-127E40964A12",
+      "name": "Odyssey EVO",
+      "category": "5",
+      "cells": "9",
+      "commontype": "0",
+      "manufacturerid": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
+      "maxsize": "135",
+      "minsize": "75",
+      "url": "http://skylarkparachutes.com/odyssey-evo/",
       "xbraced": false
     },
     {
@@ -2268,6 +2356,19 @@
       "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
       "url": "http://www.basetroll.com/products/winx/",
       "xbraced": false
+    },
+    {
+      "id": "A2252BB9-ED7C-4EEF-AB7B-18B6B4DC774E",
+      "name": "Scirocco",
+      "category": "7",
+      "cells": "30",
+      "commontype": "0",
+      "dropzoneid": "636",
+      "manufacturerid": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
+      "maxsize": "124",
+      "minsize": "64",
+      "url": "http://skylarkparachutes.com/scirocco",
+      "xbraced": true
     }
   ]
 }
