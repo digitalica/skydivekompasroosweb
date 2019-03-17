@@ -1,6 +1,7 @@
 import React from "react";
-import {Link} from "react-router-dom";
 import {withStyles} from '@material-ui/core/styles';
+import {withRouter} from "react-router-dom";
+
 import GoodIcon from '@material-ui/icons/Done'; // checkmark
 import BadIcon from '@material-ui/icons/Clear'; // cross
 import WarnIcon from '@material-ui/icons/CropSquare'; // block
@@ -195,13 +196,13 @@ function Canopy(props) {
   let wingloadWarningRow = null;
 
   if (acceptability === C.ACC_NEEDEDSIZENOTAVAILABLE) {
-    wingloadWarningRow =(
-        <tr className={classes[classAcceptability]}>
-          <td className={classes.canopycategory}>{T[language].CANOPY_BEWARE}:</td>
-          <td className={classes.canopydetails}>{T[language].CANOPY_WINGLOADWARNING}</td>
-          <td></td>
-        </tr>
-      );
+    wingloadWarningRow = (
+      <tr className={classes[classAcceptability]}>
+        <td className={classes.canopycategory}>{T[language].CANOPY_BEWARE}:</td>
+        <td className={classes.canopydetails}>{T[language].CANOPY_WINGLOADWARNING}</td>
+        <td></td>
+      </tr>
+    );
   }
 
   if (canopy.minsize && canopy.minsize === canopy.maxsize) {
@@ -263,16 +264,14 @@ function Canopy(props) {
           <table className={classes.table}>
             <tbody>
             {wingloadWarningRow}
-            <tr className={classes.linkrow}>
+            <tr className={classes.linkrow}
+                onClick={() => props.history.push("/manufacturer/" + canopy.manufacturerslug)}>
               <td className={classes.canopycategory}>{T[language].CANOPY_MANUFACTURER}:</td>
               <td className={classes.canopydetails}>
-                <Link className={classes.link} to={"/manufacturer/" + canopy.manufacturerslug}>
-                  {canopy.manufacturername}
-                </Link></td>
+                {canopy.manufacturername}
+              </td>
               <td>
-                <Link className={classes.link} to={"/manufacturer/" + canopy.manufacturerslug}>
-                  <ArrowIcon/>
-                </Link>
+                <ArrowIcon/>
               </td>
 
             </tr>
@@ -296,18 +295,17 @@ function Canopy(props) {
             </tbody>
           </table>
         </div>
-        <
-        /div>
-        )
-        } else {
-        return (
-        <div className={classes.root}>
+      </div>
+    )
+  } else {
+    return (
+      <div className={classes.root}>
         Canopy not found
-        </div>
-        )
-      }
+      </div>
+    )
+  }
 
-        }
+}
 
-        export default withStyles(styles)(Canopy);
+export default withRouter(withStyles(styles)(Canopy));
 
