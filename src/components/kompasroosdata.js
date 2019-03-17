@@ -3249,6 +3249,23 @@ let kompasroosData = {
       "search": "icarusjfx2|nzaerosports",
       "slug": "nz_aerosports-icarus_jfx_2"
     },
+    "3193501C-9111-4782-B0EC-778CD6923E08": {
+      "id": "3193501C-9111-4782-B0EC-778CD6923E08",
+      "name": "Onyx",
+      "cells": "27",
+      "category": 6,
+      "commontype": 0,
+      "dropzoneid": "473",
+      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
+      "xbraced": true,
+      "links": [],
+      "displaycategory": 6,
+      "calculationcategory": 6,
+      "manufacturername": "Atair Aerodynamics",
+      "manufacturerslug": "atair_aerodynamics",
+      "search": "onyx|atairaerodynamics",
+      "slug": "atair_aerodynamics-onyx"
+    },
     "13C2B0F2-82C3-4996-A8D8-D42872879587": {
       "id": "13C2B0F2-82C3-4996-A8D8-D42872879587",
       "name": "Gangster",
@@ -3307,23 +3324,6 @@ let kompasroosData = {
       "manufacturerslug": "performance_designs",
       "search": "peregrine|performancedesigns",
       "slug": "performance_designs-peregrine"
-    },
-    "3193501C-9111-4782-B0EC-778CD6923E08": {
-      "id": "3193501C-9111-4782-B0EC-778CD6923E08",
-      "name": "Onyx",
-      "cells": "27",
-      "category": 6,
-      "commontype": 0,
-      "dropzoneid": "473",
-      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
-      "xbraced": true,
-      "links": [],
-      "displaycategory": 6,
-      "calculationcategory": 6,
-      "manufacturername": "Atair Aerodynamics",
-      "manufacturerslug": "atair_aerodynamics",
-      "search": "onyx|atairaerodynamics",
-      "slug": "atair_aerodynamics-onyx"
     },
     "23498D9C-045C-4D99-AAD7-E01CFDBC717B": {
       "id": "23498D9C-045C-4D99-AAD7-E01CFDBC717B",
@@ -4287,9 +4287,9 @@ let kompasroosData = {
     "nz_aerosports-daedalus_jvx": "86F21B4A-D883-4391-A792-D2F43259942B",
     "nz_aerosports-daedalus_jfx": "AD3229CE-7B38-4BC8-A1C6-73D6DF651198",
     "nz_aerosports-icarus_jfx_2": "47F5A0C0-1B04-4F5F-B9BF-6569E72C6121",
+    "atair_aerodynamics-onyx": "3193501C-9111-4782-B0EC-778CD6923E08",
     "fluid_wings-gangster": "13C2B0F2-82C3-4996-A8D8-D42872879587",
     "performance_designs-peregrine": "1931C950-68C7-11E2-BCFD-0800200C9A66",
-    "atair_aerodynamics-onyx": "3193501C-9111-4782-B0EC-778CD6923E08",
     "performance_designs-valkyrie": "23498D9C-045C-4D99-AAD7-E01CFDBC717B",
     "nz_aerosports-petra": "0b8688c1-bb96-41d4-ac0f-8c9c71f54eda",
     "nz_aerosports-leia": "de98ce5e-513e-454a-bfdb-fc8ff93ee92e",

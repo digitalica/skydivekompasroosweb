@@ -2104,6 +2104,16 @@
       "xbraced": true
     },
     {
+      "id": "3193501C-9111-4782-B0EC-778CD6923E08",
+      "name": "Onyx",
+      "cells": "27",
+      "category": "6",
+      "commontype": "0",
+      "dropzoneid": "473",
+      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
+      "xbraced": true
+    },
+    {
       "id": "13C2B0F2-82C3-4996-A8D8-D42872879587",
       "name": "Gangster",
       "maxsize": "135",
@@ -2150,16 +2160,6 @@
           "id": "dPAcENXxtnw"
         }
       ],
-      "xbraced": true
-    },
-    {
-      "id": "3193501C-9111-4782-B0EC-778CD6923E08",
-      "name": "Onyx",
-      "cells": "27",
-      "category": "6",
-      "commontype": "0",
-      "dropzoneid": "473",
-      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
       "xbraced": true
     },
     {
