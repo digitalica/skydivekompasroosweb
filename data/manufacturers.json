@@ -180,6 +180,16 @@
       "countrycode": "ua",
       "shortname": "Skylark",
       "url": "http://skylarkparachutes.com/"
+    },
+    {
+      "id": "571E4861-2CCE-4276-A5B2-046A38F4870E",
+      "name": "Para-Flite",
+      "countrycode": "us",
+      "shortname": "Para-Flite",
+      "remarks": {
+        "en": "Para-Flite is no longer active. It became part of Airborne systems around 2006",
+        "nl": "Para-Flite is niet meer actief. Het is onderdeel geworden van Airborne systems rond 2006"
+      }
     }
   ]
 }

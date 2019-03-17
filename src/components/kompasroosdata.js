@@ -204,6 +204,17 @@ let kompasroosData = {
       "shortname": "Skylark",
       "url": "http://skylarkparachutes.com/",
       "slug": "skylark_parachutes"
+    },
+    "571E4861-2CCE-4276-A5B2-046A38F4870E": {
+      "id": "571E4861-2CCE-4276-A5B2-046A38F4870E",
+      "name": "Para-Flite",
+      "countrycode": "us",
+      "shortname": "Para-Flite",
+      "remarks": {
+        "en": "Para-Flite is no longer active. It became part of Airborne systems around 2006",
+        "nl": "Para-Flite is niet meer actief. Het is onderdeel geworden van Airborne systems rond 2006"
+      },
+      "slug": "para-flite"
     }
   },
   "canopies": {
@@ -1341,6 +1352,36 @@ let kompasroosData = {
       "manufacturerslug": "skylark_parachutes",
       "search": "commodore|skylarkparachutes",
       "slug": "skylark_parachutes-commodore"
+    },
+    "3F5AAAF5-64FD-435D-81C8-17EF54119440": {
+      "id": "3F5AAAF5-64FD-435D-81C8-17EF54119440",
+      "name": "Turbo Z",
+      "category": 2,
+      "commontype": 0,
+      "manufacturerid": "571E4861-2CCE-4276-A5B2-046A38F4870E",
+      "xbraced": false,
+      "links": [],
+      "displaycategory": 2,
+      "calculationcategory": 2,
+      "manufacturername": "Para-Flite",
+      "manufacturerslug": "para-flite",
+      "search": "turboz|paraflite",
+      "slug": "para-flite-turbo_z"
+    },
+    "6BC329AA-C9C7-4372-990E-46E3CA20ECF2": {
+      "id": "6BC329AA-C9C7-4372-990E-46E3CA20ECF2",
+      "name": "Turbo ZX",
+      "category": 2,
+      "commontype": 0,
+      "manufacturerid": "571E4861-2CCE-4276-A5B2-046A38F4870E",
+      "xbraced": false,
+      "links": [],
+      "displaycategory": 2,
+      "calculationcategory": 2,
+      "manufacturername": "Para-Flite",
+      "manufacturerslug": "para-flite",
+      "search": "turbozx|paraflite",
+      "slug": "para-flite-turbo_zx"
     },
     "46281C3A-4286-422D-B8F4-8D9015AB96BB": {
       "id": "46281C3A-4286-422D-B8F4-8D9015AB96BB",
@@ -3792,6 +3833,8 @@ let kompasroosData = {
     "6C91684B-857B-455F-9A6B-9DC15A31E98A",
     "02BFB95A-E433-4A02-A6A1-3F8593BFDC90",
     "54BB53BC-E33D-4FCF-8C7C-2211FF09F57C",
+    "3F5AAAF5-64FD-435D-81C8-17EF54119440",
+    "6BC329AA-C9C7-4372-990E-46E3CA20ECF2",
     "858EEBF3-169F-4AE7-99A2-A7CC8D025D4E",
     "23498D9C-045C-4D99-AAD7-E01CFDBC717B",
     "EB83326F-B055-46C7-8754-74C9033EE41E",
@@ -3903,6 +3946,8 @@ let kompasroosData = {
     "83654CC3-4296-445B-863C-A5CC09185945",
     "6334C760-93BD-41D1-90B7-4A63678177E7",
     "86A007AE-A9FE-404E-9BF6-AD880D4F8568",
+    "3F5AAAF5-64FD-435D-81C8-17EF54119440",
+    "6BC329AA-C9C7-4372-990E-46E3CA20ECF2",
     "CBA0E65A-1984-436E-A35F-AD2C5DECB853",
     "858EEBF3-169F-4AE7-99A2-A7CC8D025D4E",
     "E20AECA2-ECF5-4985-9EF2-0A01130B084B",
@@ -4035,6 +4080,8 @@ let kompasroosData = {
     "49B5D670-24BF-4392-B6D5-3426A88DC2AC",
     "8C4442DA-BBEF-4C3A-A95C-F45CE891F407",
     "02BFB95A-E433-4A02-A6A1-3F8593BFDC90",
+    "3F5AAAF5-64FD-435D-81C8-17EF54119440",
+    "6BC329AA-C9C7-4372-990E-46E3CA20ECF2",
     "8544A47F-DF6D-4B07-A0D9-FF85800E8BB1",
     "2351611F-068C-4901-820D-26EC38FC36D9",
     "C6C59DF8-9127-4BCA-B320-2BFE21AAA1A8",
@@ -4165,6 +4212,7 @@ let kompasroosData = {
     "fluid_wings": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
     "jojowings": "A82F2C34-DBA9-4A4B-8DE7-7319B00C7DB4",
     "skylark_parachutes": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
+    "para-flite": "571E4861-2CCE-4276-A5B2-046A38F4870E",
     "performance_designs-navigator": "CB50EA97-DACF-4CCB-9D09-BA89C6C4B967",
     "performance_designs-pd_f111_serie_7_cell": "3231807B-22F3-4D6B-A490-403CC0018042",
     "performance_designs-pd_f111_serie_9_cell": "393488EE-E78B-4DFB-9995-0E44AB538F42",
@@ -4222,6 +4270,8 @@ let kompasroosData = {
     "north_american_aerodynamics_inc-parafoil": "24924509-5EF2-473C-863C-6B43BF64FE09",
     "eiff_aerodynamics-classic": "7017A355-35E0-4578-A81D-89CE8F021AAA",
     "skylark_parachutes-commodore": "21BD9B3B-77E6-4605-B89A-0B118C97C960",
+    "para-flite-turbo_z": "3F5AAAF5-64FD-435D-81C8-17EF54119440",
+    "para-flite-turbo_zx": "6BC329AA-C9C7-4372-990E-46E3CA20ECF2",
     "performance_designs-sabre_2": "46281C3A-4286-422D-B8F4-8D9015AB96BB",
     "performance_designs-lightning": "1EE39B10-69B0-4434-BCA1-5A26BADAFD27",
     "performance_designs-storm": "A982E92C-85D9-480B-98CE-A2F2BF80380C",
