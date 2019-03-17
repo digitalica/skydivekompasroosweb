@@ -1245,6 +1245,19 @@
       "xbraced": false
     },
     {
+      "id": "CD87EF17-F2AC-429D-A8D5-5443485A6BF3",
+      "name": "Nexus",
+      "maxsize": "190",
+      "minsize": "79",
+      "cells": "9",
+      "firstyearofproduction": "2017",
+      "category": "3",
+      "commontype": "0",
+      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
+      "url": "https://www.fluidwings.com/nexus",
+      "xbraced": false
+    },
+    {
       "id": "107633B0-202B-4625-9CD4-8AFE131C5D10",
       "name": "Stiletto",
       "category": "4",
