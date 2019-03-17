@@ -124,6 +124,7 @@ for (let c in canopiesArray) {
   cObject.displaycategory = cObject.category ? cObject.category : '?';
   cObject.calculationcategory = cObject.category ? cObject.category : cObject.xbraced ? 7 : 6;
   cObject.manufacturername = manufacturers[cObject.manufacturerid].name;
+  cObject.manufacturerurl = manufacturers[cObject.manufacturerid].url;
   cObject.manufacturerslug = manufacturers[cObject.manufacturerid].slug;
   cObject.search = cleanForSearch(cObject.name) + "|" + cleanForSearch(cObject.manufacturername);
   cObject.slug = slugify(cObject.manufacturername) + "-" + slugify(cObject.name);

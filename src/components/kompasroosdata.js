@@ -240,6 +240,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Performance Designs",
+      "manufacturerurl": "http://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "navigator|performancedesigns",
       "slug": "performance_designs-navigator"
@@ -261,6 +262,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Performance Designs",
+      "manufacturerurl": "http://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "pdf111serie7cell|performancedesigns",
       "slug": "performance_designs-pd_f111_serie_7_cell"
@@ -282,6 +284,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Performance Designs",
+      "manufacturerurl": "http://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "pdf111serie9cell|performancedesigns",
       "slug": "performance_designs-pd_f111_serie_9_cell"
@@ -303,6 +306,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Performance Designs",
+      "manufacturerurl": "http://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "sabrestudent|performancedesigns",
       "slug": "performance_designs-sabre_student"
@@ -324,6 +328,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Aerodyne Research",
+      "manufacturerurl": "http://www.flyaerodyne.com",
       "manufacturerslug": "aerodyne_research",
       "search": "solo|aerodyneresearch",
       "slug": "aerodyne_research-solo"
@@ -343,6 +348,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Firebird",
+      "manufacturerurl": "http://www.flyfirebird.com/",
       "manufacturerslug": "firebird",
       "search": "exitone|firebird",
       "slug": "firebird-exit_one"
@@ -358,6 +364,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Firebird",
+      "manufacturerurl": "http://www.flyfirebird.com/",
       "manufacturerslug": "firebird",
       "search": "sparkstudenthybride|firebird",
       "slug": "firebird-spark_student_hybride"
@@ -378,6 +385,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Parachutes de France",
+      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "prima|parachutesdefrance",
       "slug": "parachutes_de_france-prima"
@@ -395,6 +403,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Parachutes de France",
+      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "drakkar|parachutesdefrance",
       "slug": "parachutes_de_france-drakkar"
@@ -411,6 +420,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Parachutes de France",
+      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "turbo|parachutesdefrance",
       "slug": "parachutes_de_france-turbo"
@@ -430,6 +440,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Parachutes de France",
+      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "prime|parachutesdefrance",
       "slug": "parachutes_de_france-prime"
@@ -446,6 +457,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Precision Aerodynamics",
+      "manufacturerurl": "http://www.precision.aero/",
       "manufacturerslug": "precision_aerodynamics",
       "search": "raven|precisionaerodynamics",
       "slug": "precision_aerodynamics-raven"
@@ -465,6 +477,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Precision Aerodynamics",
+      "manufacturerurl": "http://www.precision.aero/",
       "manufacturerslug": "precision_aerodynamics",
       "search": "superraven|precisionaerodynamics",
       "slug": "precision_aerodynamics-super_raven"
@@ -484,6 +497,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Precision Aerodynamics",
+      "manufacturerurl": "http://www.precision.aero/",
       "manufacturerslug": "precision_aerodynamics",
       "search": "falcon|precisionaerodynamics",
       "slug": "precision_aerodynamics-falcon"
@@ -499,6 +513,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Precision Aerodynamics",
+      "manufacturerurl": "http://www.precision.aero/",
       "manufacturerslug": "precision_aerodynamics",
       "search": "voyagerstudent|precisionaerodynamics",
       "slug": "precision_aerodynamics-voyager_student"
@@ -518,6 +533,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "PISA",
+      "manufacturerurl": "http://www.pisa.co.za/",
       "manufacturerslug": "pisa",
       "search": "skymaster|pisa",
       "slug": "pisa-skymaster"
@@ -538,6 +554,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Paratec",
+      "manufacturerurl": "http://www.paratec.de/",
       "manufacturerslug": "paratec",
       "search": "balance|paratec",
       "slug": "paratec-balance"
@@ -557,6 +574,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Paratec",
+      "manufacturerurl": "http://www.paratec.de/",
       "manufacturerslug": "paratec",
       "search": "element|paratec",
       "slug": "paratec-element"
@@ -577,6 +595,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Flight Concepts",
+      "manufacturerurl": "http://flightconceptsint.com/",
       "manufacturerslug": "flight_concepts",
       "search": "maverick|flightconcepts",
       "slug": "flight_concepts-maverick"
@@ -597,6 +616,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Flight Concepts",
+      "manufacturerurl": "http://flightconceptsint.com/",
       "manufacturerslug": "flight_concepts",
       "search": "fury|flightconcepts",
       "slug": "flight_concepts-fury"
@@ -617,6 +637,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Flight Concepts",
+      "manufacturerurl": "http://flightconceptsint.com/",
       "manufacturerslug": "flight_concepts",
       "search": "firelite|flightconcepts",
       "slug": "flight_concepts-firelite"
@@ -637,6 +658,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Flight Concepts",
+      "manufacturerurl": "http://flightconceptsint.com/",
       "manufacturerslug": "flight_concepts",
       "search": "cricket|flightconcepts",
       "slug": "flight_concepts-cricket"
@@ -656,6 +678,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Flight Concepts",
+      "manufacturerurl": "http://flightconceptsint.com/",
       "manufacturerslug": "flight_concepts",
       "search": "startrac|flightconcepts",
       "slug": "flight_concepts-startrac"
@@ -676,6 +699,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Flight Concepts",
+      "manufacturerurl": "http://flightconceptsint.com/",
       "manufacturerslug": "flight_concepts",
       "search": "sharpchuter|flightconcepts",
       "slug": "flight_concepts-sharpchuter"
@@ -696,6 +720,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Flight Concepts",
+      "manufacturerurl": "http://flightconceptsint.com/",
       "manufacturerslug": "flight_concepts",
       "search": "raider|flightconcepts",
       "slug": "flight_concepts-raider"
@@ -716,6 +741,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Flight Concepts",
+      "manufacturerurl": "http://flightconceptsint.com/",
       "manufacturerslug": "flight_concepts",
       "search": "maverone|flightconcepts",
       "slug": "flight_concepts-maverone"
@@ -736,6 +762,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Flight Concepts",
+      "manufacturerurl": "http://flightconceptsint.com/",
       "manufacturerslug": "flight_concepts",
       "search": "clipper|flightconcepts",
       "slug": "flight_concepts-clipper"
@@ -755,6 +782,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Flight Concepts",
+      "manufacturerurl": "http://flightconceptsint.com/",
       "manufacturerslug": "flight_concepts",
       "search": "manta|flightconcepts",
       "slug": "flight_concepts-manta"
@@ -780,6 +808,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Flight Concepts",
+      "manufacturerurl": "http://flightconceptsint.com/",
       "manufacturerslug": "flight_concepts",
       "search": "mantazp|flightconcepts",
       "slug": "flight_concepts-manta_zp"
@@ -795,6 +824,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Flight Concepts",
+      "manufacturerurl": "http://flightconceptsint.com/",
       "manufacturerslug": "flight_concepts",
       "search": "cruiselite|flightconcepts",
       "slug": "flight_concepts-cruiselite"
@@ -812,6 +842,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "NZ Aerosports",
+      "manufacturerurl": "http://www.nzaerosports.com",
       "manufacturerslug": "nz_aerosports",
       "search": "studentzp7|nzaerosports",
       "slug": "nz_aerosports-student_zp7"
@@ -832,6 +863,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Icarus Canopies",
+      "manufacturerurl": "http://www.icaruscanopies.aero/",
       "manufacturerslug": "icarus_canopies",
       "search": "equinox|icaruscanopies",
       "slug": "icarus_canopies-equinox"
@@ -848,6 +880,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Parachute Systems",
+      "manufacturerurl": "http://www.parachutesystems.co.za/",
       "manufacturerslug": "parachute_systems",
       "search": "zepostudent|parachutesystems",
       "slug": "parachute_systems-zepo_student"
@@ -867,6 +900,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "North American Aerodynamics, Inc.",
+      "manufacturerurl": "http://www.naaero.com/",
       "manufacturerslug": "north_american_aerodynamics_inc",
       "search": "eagle7cell|northamericanaerodynamicsinc.",
       "slug": "north_american_aerodynamics_inc-eagle_7-cell"
@@ -887,6 +921,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "North American Aerodynamics, Inc.",
+      "manufacturerurl": "http://www.naaero.com/",
       "manufacturerslug": "north_american_aerodynamics_inc",
       "search": "eagle9cell|northamericanaerodynamicsinc.",
       "slug": "north_american_aerodynamics_inc-eagle_9-cell"
@@ -906,6 +941,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "NZ Aerosports",
+      "manufacturerurl": "http://www.nzaerosports.com",
       "manufacturerslug": "nz_aerosports",
       "search": "icarusstudent|nzaerosports",
       "slug": "nz_aerosports-icarus_student"
@@ -924,6 +960,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Parachute Systems",
+      "manufacturerurl": "http://www.parachutesystems.co.za/",
       "manufacturerslug": "parachute_systems",
       "search": "zp|parachutesystems",
       "slug": "parachute_systems-zp"
@@ -946,6 +983,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Parachutes de France",
+      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "electra|parachutesdefrance",
       "slug": "parachutes_de_france-electra"
@@ -963,6 +1001,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Parachutes de France",
+      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "merit|parachutesdefrance",
       "slug": "parachutes_de_france-merit"
@@ -991,6 +1030,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Aerodyne Research",
+      "manufacturerurl": "http://www.flyaerodyne.com",
       "manufacturerslug": "aerodyne_research",
       "search": "pilot|aerodyneresearch",
       "slug": "aerodyne_research-pilot"
@@ -1012,6 +1052,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Aerodyne Research",
+      "manufacturerurl": "http://www.flyaerodyne.com",
       "manufacturerslug": "aerodyne_research",
       "search": "pilot7|aerodyneresearch",
       "slug": "aerodyne_research-pilot7"
@@ -1033,6 +1074,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Aerodyne Research",
+      "manufacturerurl": "http://www.flyaerodyne.com",
       "manufacturerslug": "aerodyne_research",
       "search": "triathlon|aerodyneresearch",
       "slug": "aerodyne_research-triathlon"
@@ -1049,6 +1091,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Paratec",
+      "manufacturerurl": "http://www.paratec.de/",
       "manufacturerslug": "paratec",
       "search": "super7|paratec",
       "slug": "paratec-super_7"
@@ -1066,6 +1109,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Paratec",
+      "manufacturerurl": "http://www.paratec.de/",
       "manufacturerslug": "paratec",
       "search": "quadravtec|paratec",
       "slug": "paratec-quadra_v-tec"
@@ -1087,6 +1131,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Performance Designs",
+      "manufacturerurl": "http://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "sabre|performancedesigns",
       "slug": "performance_designs-sabre"
@@ -1117,6 +1162,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Performance Designs",
+      "manufacturerurl": "http://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "spectre|performancedesigns",
       "slug": "performance_designs-spectre"
@@ -1138,6 +1184,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Performance Designs",
+      "manufacturerurl": "http://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "silhouette|performancedesigns",
       "slug": "performance_designs-silhouette"
@@ -1164,6 +1211,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Performance Designs",
+      "manufacturerurl": "http://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "pulse|performancedesigns",
       "slug": "performance_designs-pulse"
@@ -1185,6 +1233,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Performance Designs",
+      "manufacturerurl": "http://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "zero|performancedesigns",
       "slug": "performance_designs-zero"
@@ -1205,6 +1254,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Precision Aerodynamics",
+      "manufacturerurl": "http://www.precision.aero/",
       "manufacturerslug": "precision_aerodynamics",
       "search": "synergy|precisionaerodynamics",
       "slug": "precision_aerodynamics-synergy"
@@ -1225,6 +1275,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "NZ Aerosports",
+      "manufacturerurl": "http://www.nzaerosports.com",
       "manufacturerslug": "nz_aerosports",
       "search": "omni|nzaerosports",
       "slug": "nz_aerosports-omni"
@@ -1246,6 +1297,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "NZ Aerosports",
+      "manufacturerurl": "http://www.nzaerosports.com",
       "manufacturerslug": "nz_aerosports",
       "search": "omega|nzaerosports",
       "slug": "nz_aerosports-omega"
@@ -1270,6 +1322,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Firebird",
+      "manufacturerurl": "http://www.flyfirebird.com/",
       "manufacturerslug": "firebird",
       "search": "cayenne|firebird",
       "slug": "firebird-cayenne"
@@ -1290,6 +1343,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Atair Aerodynamics",
+      "manufacturerurl": "http://www.atair.com/parachutes/",
       "manufacturerslug": "atair_aerodynamics",
       "search": "dragon|atairaerodynamics",
       "slug": "atair_aerodynamics-dragon"
@@ -1310,6 +1364,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "North American Aerodynamics, Inc.",
+      "manufacturerurl": "http://www.naaero.com/",
       "manufacturerslug": "north_american_aerodynamics_inc",
       "search": "parafoil|northamericanaerodynamicsinc.",
       "slug": "north_american_aerodynamics_inc-parafoil"
@@ -1329,6 +1384,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Eiff Aerodynamics",
+      "manufacturerurl": "http://eiff.com",
       "manufacturerslug": "eiff_aerodynamics",
       "search": "classic|eiffaerodynamics",
       "slug": "eiff_aerodynamics-classic"
@@ -1349,6 +1405,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Skylark Parachutes",
+      "manufacturerurl": "http://skylarkparachutes.com/",
       "manufacturerslug": "skylark_parachutes",
       "search": "commodore|skylarkparachutes",
       "slug": "skylark_parachutes-commodore"
@@ -1427,6 +1484,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Performance Designs",
+      "manufacturerurl": "http://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "sabre2|performancedesigns",
       "slug": "performance_designs-sabre_2"
@@ -1461,6 +1519,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Performance Designs",
+      "manufacturerurl": "http://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "lightning|performancedesigns",
       "slug": "performance_designs-lightning"
@@ -1487,6 +1546,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Performance Designs",
+      "manufacturerurl": "http://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "storm|performancedesigns",
       "slug": "performance_designs-storm"
@@ -1513,6 +1573,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Performance Designs",
+      "manufacturerurl": "http://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "horizon|performancedesigns",
       "slug": "performance_designs-horizon"
@@ -1533,6 +1594,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Precision Aerodynamics",
+      "manufacturerurl": "http://www.precision.aero/",
       "manufacturerslug": "precision_aerodynamics",
       "search": "fusion|precisionaerodynamics",
       "slug": "precision_aerodynamics-fusion"
@@ -1553,6 +1615,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Big-air sportz",
+      "manufacturerurl": "http://www.bigairsportz.com/",
       "manufacturerslug": "big-air_sportz",
       "search": "lotus|bigairsportz",
       "slug": "big-air_sportz-lotus"
@@ -1575,6 +1638,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "NZ Aerosports",
+      "manufacturerurl": "http://www.nzaerosports.com",
       "manufacturerslug": "nz_aerosports",
       "search": "safire1|nzaerosports",
       "slug": "nz_aerosports-safire_1"
@@ -1607,6 +1671,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "NZ Aerosports",
+      "manufacturerurl": "http://www.nzaerosports.com",
       "manufacturerslug": "nz_aerosports",
       "search": "safire2|nzaerosports",
       "slug": "nz_aerosports-safire_2"
@@ -1633,6 +1698,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Icarus Canopies",
+      "manufacturerurl": "http://www.icaruscanopies.aero/",
       "manufacturerslug": "icarus_canopies",
       "search": "sfire|icaruscanopies",
       "slug": "icarus_canopies-s-fire"
@@ -1664,6 +1730,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "NZ Aerosports",
+      "manufacturerurl": "http://www.nzaerosports.com",
       "manufacturerslug": "nz_aerosports",
       "search": "safire3|nzaerosports",
       "slug": "nz_aerosports-safire_3"
@@ -1684,6 +1751,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Strong Enterprises",
+      "manufacturerurl": "http://www.strongparachutes.com/",
       "manufacturerslug": "strong_enterprises",
       "search": "zpo|strongenterprises",
       "slug": "strong_enterprises-z-po"
@@ -1703,6 +1771,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Paratec",
+      "manufacturerurl": "http://www.paratec.de/",
       "manufacturerslug": "paratec",
       "search": "faqtor|paratec",
       "slug": "paratec-faqtor"
@@ -1725,6 +1794,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Paratec",
+      "manufacturerurl": "http://www.paratec.de/",
       "manufacturerslug": "paratec",
       "search": "nrg|paratec",
       "slug": "paratec-nrg"
@@ -1742,6 +1812,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "PISA",
+      "manufacturerurl": "http://www.pisa.co.za/",
       "manufacturerslug": "pisa",
       "search": "hornet|pisa",
       "slug": "pisa-hornet"
@@ -1759,6 +1830,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Parachute Systems",
+      "manufacturerurl": "http://www.parachutesystems.co.za/",
       "manufacturerslug": "parachute_systems",
       "search": "zepoexe|parachutesystems",
       "slug": "parachute_systems-zepo_exe"
@@ -1779,6 +1851,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Parachute Systems",
+      "manufacturerurl": "http://www.parachutesystems.co.za/",
       "manufacturerslug": "parachute_systems",
       "search": "volt|parachutesystems",
       "slug": "parachute_systems-volt"
@@ -1802,6 +1875,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Firebird",
+      "manufacturerurl": "http://www.flyfirebird.com/",
       "manufacturerslug": "firebird",
       "search": "spark|firebird",
       "slug": "firebird-spark"
@@ -1822,6 +1896,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Flight Concepts",
+      "manufacturerurl": "http://flightconceptsint.com/",
       "manufacturerslug": "flight_concepts",
       "search": "express|flightconcepts",
       "slug": "flight_concepts-express"
@@ -1842,6 +1917,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Flight Concepts",
+      "manufacturerurl": "http://flightconceptsint.com/",
       "manufacturerslug": "flight_concepts",
       "search": "prodigy|flightconcepts",
       "slug": "flight_concepts-prodigy"
@@ -1862,6 +1938,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Flight Concepts",
+      "manufacturerurl": "http://flightconceptsint.com/",
       "manufacturerslug": "flight_concepts",
       "search": "sentry|flightconcepts",
       "slug": "flight_concepts-sentry"
@@ -1885,6 +1962,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "NZ Aerosports",
+      "manufacturerurl": "http://www.nzaerosports.com",
       "manufacturerslug": "nz_aerosports",
       "search": "matrix|nzaerosports",
       "slug": "nz_aerosports-matrix"
@@ -1904,6 +1982,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "NZ Aerosports",
+      "manufacturerurl": "http://www.nzaerosports.com",
       "manufacturerslug": "nz_aerosports",
       "search": "matrix2|nzaerosports",
       "slug": "nz_aerosports-matrix_2"
@@ -1924,6 +2003,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Skylark Parachutes",
+      "manufacturerurl": "http://skylarkparachutes.com/",
       "manufacturerslug": "skylark_parachutes",
       "search": "skipper|skylarkparachutes",
       "slug": "skylark_parachutes-skipper"
@@ -1943,6 +2023,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Skylark Parachutes",
+      "manufacturerurl": "http://skylarkparachutes.com/",
       "manufacturerslug": "skylark_parachutes",
       "search": "skipperevo|skylarkparachutes",
       "slug": "skylark_parachutes-skipper_evo"
@@ -1963,6 +2044,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Skylark Parachutes",
+      "manufacturerurl": "http://skylarkparachutes.com/",
       "manufacturerslug": "skylark_parachutes",
       "search": "magellan|skylarkparachutes",
       "slug": "skylark_parachutes-magellan"
@@ -1982,6 +2064,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Skylark Parachutes",
+      "manufacturerurl": "http://skylarkparachutes.com/",
       "manufacturerslug": "skylark_parachutes",
       "search": "magellanevo|skylarkparachutes",
       "slug": "skylark_parachutes-magellan_evo"
@@ -2006,6 +2089,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Squirrel",
+      "manufacturerurl": "https://squirrel.ws/",
       "manufacturerslug": "squirrel",
       "search": "epicene|squirrel",
       "slug": "squirrel-epicene"
@@ -2027,6 +2111,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Fluid Wings",
+      "manufacturerurl": "http://www.fluidwings.com/",
       "manufacturerslug": "fluid_wings",
       "search": "prime|fluidwings",
       "slug": "fluid_wings-prime"
@@ -2046,6 +2131,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Atair Aerodynamics",
+      "manufacturerurl": "http://www.atair.com/parachutes/",
       "manufacturerslug": "atair_aerodynamics",
       "search": "winx|atairaerodynamics",
       "slug": "atair_aerodynamics-winx"
@@ -2066,6 +2152,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Fluid Wings",
+      "manufacturerurl": "http://www.fluidwings.com/",
       "manufacturerslug": "fluid_wings",
       "search": "nexus|fluidwings",
       "slug": "fluid_wings-nexus"
@@ -2089,6 +2176,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Performance Designs",
+      "manufacturerurl": "http://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "stiletto|performancedesigns",
       "slug": "performance_designs-stiletto"
@@ -2105,6 +2193,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Parachutes de France",
+      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "bt|parachutesdefrance",
       "slug": "parachutes_de_france-bt"
@@ -2124,6 +2213,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Parachutes de France",
+      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "springo|parachutesdefrance",
       "slug": "parachutes_de_france-springo"
@@ -2140,6 +2230,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Parachutes de France",
+      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "electraxs|parachutesdefrance",
       "slug": "parachutes_de_france-electra_xs"
@@ -2161,6 +2252,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Parachutes de France",
+      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "springong|parachutesdefrance",
       "slug": "parachutes_de_france-springo_ng"
@@ -2178,6 +2270,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Precision Aerodynamics",
+      "manufacturerurl": "http://www.precision.aero/",
       "manufacturerslug": "precision_aerodynamics",
       "search": "batwing|precisionaerodynamics",
       "slug": "precision_aerodynamics-batwing"
@@ -2209,6 +2302,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Atair Aerodynamics",
+      "manufacturerurl": "http://www.atair.com/parachutes/",
       "manufacturerslug": "atair_aerodynamics",
       "search": "ace|atairaerodynamics",
       "slug": "atair_aerodynamics-ace"
@@ -2226,6 +2320,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Atair Aerodynamics",
+      "manufacturerurl": "http://www.atair.com/parachutes/",
       "manufacturerslug": "atair_aerodynamics",
       "search": "cobalt|atairaerodynamics",
       "slug": "atair_aerodynamics-cobalt"
@@ -2243,6 +2338,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Atair Aerodynamics",
+      "manufacturerurl": "http://www.atair.com/parachutes/",
       "manufacturerslug": "atair_aerodynamics",
       "search": "alpha|atairaerodynamics",
       "slug": "atair_aerodynamics-alpha"
@@ -2260,6 +2356,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Atair Aerodynamics",
+      "manufacturerurl": "http://www.atair.com/parachutes/",
       "manufacturerslug": "atair_aerodynamics",
       "search": "space|atairaerodynamics",
       "slug": "atair_aerodynamics-space"
@@ -2276,6 +2373,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Atair Aerodynamics",
+      "manufacturerurl": "http://www.atair.com/parachutes/",
       "manufacturerslug": "atair_aerodynamics",
       "search": "impulse|atairaerodynamics",
       "slug": "atair_aerodynamics-impulse"
@@ -2299,6 +2397,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Aerodyne Research",
+      "manufacturerurl": "http://www.flyaerodyne.com",
       "manufacturerslug": "aerodyne_research",
       "search": "vision|aerodyneresearch",
       "slug": "aerodyne_research-vision"
@@ -2322,6 +2421,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Aerodyne Research",
+      "manufacturerurl": "http://www.flyaerodyne.com",
       "manufacturerslug": "aerodyne_research",
       "search": "diablo|aerodyneresearch",
       "slug": "aerodyne_research-diablo"
@@ -2353,6 +2453,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Aerodyne Research",
+      "manufacturerurl": "http://www.flyaerodyne.com",
       "manufacturerslug": "aerodyne_research",
       "search": "zulu|aerodyneresearch",
       "slug": "aerodyne_research-zulu"
@@ -2368,6 +2469,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Flight Concepts",
+      "manufacturerurl": "http://flightconceptsint.com/",
       "manufacturerslug": "flight_concepts",
       "search": "proserie|flightconcepts",
       "slug": "flight_concepts-pro_serie"
@@ -2392,6 +2494,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Flight Concepts",
+      "manufacturerurl": "http://flightconceptsint.com/",
       "manufacturerslug": "flight_concepts",
       "search": "rage|flightconcepts",
       "slug": "flight_concepts-rage"
@@ -2409,6 +2512,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Paratec",
+      "manufacturerurl": "http://www.paratec.de/",
       "manufacturerslug": "paratec",
       "search": "fandango|paratec",
       "slug": "paratec-fandango"
@@ -2432,6 +2536,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Firebird",
+      "manufacturerurl": "http://www.flyfirebird.com/",
       "manufacturerslug": "firebird",
       "search": "contrail|firebird",
       "slug": "firebird-contrail"
@@ -2448,6 +2553,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "PISA",
+      "manufacturerurl": "http://www.pisa.co.za/",
       "manufacturerslug": "pisa",
       "search": "heatwave|pisa",
       "slug": "pisa-heatwave"
@@ -2468,6 +2574,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Parachute Systems",
+      "manufacturerurl": "http://www.parachutesystems.co.za/",
       "manufacturerslug": "parachute_systems",
       "search": "hurricane|parachutesystems",
       "slug": "parachute_systems-hurricane"
@@ -2484,6 +2591,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Parachute Systems",
+      "manufacturerurl": "http://www.parachutesystems.co.za/",
       "manufacturerslug": "parachute_systems",
       "search": "vixen|parachutesystems",
       "slug": "parachute_systems-vixen"
@@ -2504,6 +2612,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Jump Shack",
+      "manufacturerurl": "http://www.jumpshack.com/",
       "manufacturerslug": "jump_shack",
       "search": "firebolt|jumpshack",
       "slug": "jump_shack-firebolt"
@@ -2526,6 +2635,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "NZ Aerosports",
+      "manufacturerurl": "http://www.nzaerosports.com",
       "manufacturerslug": "nz_aerosports",
       "search": "crossfire|nzaerosports",
       "slug": "nz_aerosports-crossfire"
@@ -2546,6 +2656,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Parachute Systems",
+      "manufacturerurl": "http://www.parachutesystems.co.za/",
       "manufacturerslug": "parachute_systems",
       "search": "ventushybrid|parachutesystems",
       "slug": "parachute_systems-ventus_hybrid"
@@ -2566,6 +2677,7 @@ let kompasroosData = {
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Skylark Parachutes",
+      "manufacturerurl": "http://skylarkparachutes.com/",
       "manufacturerslug": "skylark_parachutes",
       "search": "odyssey|skylarkparachutes",
       "slug": "skylark_parachutes-odyssey"
@@ -2585,6 +2697,7 @@ let kompasroosData = {
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Skylark Parachutes",
+      "manufacturerurl": "http://skylarkparachutes.com/",
       "manufacturerslug": "skylark_parachutes",
       "search": "odysseyevo|skylarkparachutes",
       "slug": "skylark_parachutes-odyssey_evo"
@@ -2621,6 +2734,7 @@ let kompasroosData = {
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "NZ Aerosports",
+      "manufacturerurl": "http://www.nzaerosports.com",
       "manufacturerslug": "nz_aerosports",
       "search": "crossfire2|nzaerosports",
       "slug": "nz_aerosports-crossfire_2"
@@ -2656,6 +2770,7 @@ let kompasroosData = {
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "NZ Aerosports",
+      "manufacturerurl": "http://www.nzaerosports.com",
       "manufacturerslug": "nz_aerosports",
       "search": "crossfire3|nzaerosports",
       "slug": "nz_aerosports-crossfire_3"
@@ -2681,6 +2796,7 @@ let kompasroosData = {
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Icarus Canopies",
+      "manufacturerurl": "http://www.icaruscanopies.aero/",
       "manufacturerslug": "icarus_canopies",
       "search": "xfire|icaruscanopies",
       "slug": "icarus_canopies-x-fire"
@@ -2701,6 +2817,7 @@ let kompasroosData = {
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Big-air sportz",
+      "manufacturerurl": "http://www.bigairsportz.com/",
       "manufacturerslug": "big-air_sportz",
       "search": "samurai|bigairsportz",
       "slug": "big-air_sportz-samurai"
@@ -2717,6 +2834,7 @@ let kompasroosData = {
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Atair Aerodynamics",
+      "manufacturerurl": "http://www.atair.com/parachutes/",
       "manufacturerslug": "atair_aerodynamics",
       "search": "cobaltcompetition|atairaerodynamics",
       "slug": "atair_aerodynamics-cobalt_competition"
@@ -2737,6 +2855,7 @@ let kompasroosData = {
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Atair Aerodynamics",
+      "manufacturerurl": "http://www.atair.com/parachutes/",
       "manufacturerslug": "atair_aerodynamics",
       "search": "radical|atairaerodynamics",
       "slug": "atair_aerodynamics-radical"
@@ -2777,6 +2896,7 @@ let kompasroosData = {
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Firebird",
+      "manufacturerurl": "http://www.flyfirebird.com/",
       "manufacturerslug": "firebird",
       "search": "demon|firebird",
       "slug": "firebird-demon"
@@ -2801,6 +2921,7 @@ let kompasroosData = {
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Firebird",
+      "manufacturerurl": "http://www.flyfirebird.com/",
       "manufacturerslug": "firebird",
       "search": "chilli|firebird",
       "slug": "firebird-chilli"
@@ -2827,6 +2948,7 @@ let kompasroosData = {
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Performance Designs",
+      "manufacturerurl": "http://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "katana|performancedesigns",
       "slug": "performance_designs-katana"
@@ -2850,6 +2972,7 @@ let kompasroosData = {
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Performance Designs",
+      "manufacturerurl": "http://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "vengeance|performancedesigns",
       "slug": "performance_designs-vengeance"
@@ -2867,6 +2990,7 @@ let kompasroosData = {
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Paratec",
+      "manufacturerurl": "http://www.paratec.de/",
       "manufacturerslug": "paratec",
       "search": "xwing|paratec",
       "slug": "paratec-x-wing"
@@ -2891,6 +3015,7 @@ let kompasroosData = {
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Paratec",
+      "manufacturerurl": "http://www.paratec.de/",
       "manufacturerslug": "paratec",
       "search": "rage|paratec",
       "slug": "paratec-rage"
@@ -2907,6 +3032,7 @@ let kompasroosData = {
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Parachutes de France",
+      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "btpro|parachutesdefrance",
       "slug": "parachutes_de_france-bt_pro"
@@ -2926,6 +3052,7 @@ let kompasroosData = {
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Parachutes de France",
+      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "instinct|parachutesdefrance",
       "slug": "parachutes_de_france-instinct"
@@ -2946,6 +3073,7 @@ let kompasroosData = {
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Precision Aerodynamics",
+      "manufacturerurl": "http://www.precision.aero/",
       "manufacturerslug": "precision_aerodynamics",
       "search": "nitron|precisionaerodynamics",
       "slug": "precision_aerodynamics-nitron"
@@ -2967,6 +3095,7 @@ let kompasroosData = {
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Aerodyne Research",
+      "manufacturerurl": "http://www.flyaerodyne.com",
       "manufacturerslug": "aerodyne_research",
       "search": "mamba|aerodyneresearch",
       "slug": "aerodyne_research-mamba"
@@ -2988,6 +3117,7 @@ let kompasroosData = {
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Fluid Wings",
+      "manufacturerurl": "http://www.fluidwings.com/",
       "manufacturerslug": "fluid_wings",
       "search": "tesla|fluidwings",
       "slug": "fluid_wings-tesla"
@@ -3022,6 +3152,7 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Aerodyne Research",
+      "manufacturerurl": "http://www.flyaerodyne.com",
       "manufacturerslug": "aerodyne_research",
       "search": "sensei|aerodyneresearch",
       "slug": "aerodyne_research-sensei"
@@ -3040,6 +3171,7 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Parachute Systems",
+      "manufacturerurl": "http://www.parachutesystems.co.za/",
       "manufacturerslug": "parachute_systems",
       "search": "vmax|parachutesystems",
       "slug": "parachute_systems-v-max"
@@ -3070,6 +3202,7 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Performance Designs",
+      "manufacturerurl": "http://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "velocity|performancedesigns",
       "slug": "performance_designs-velocity"
@@ -3096,6 +3229,7 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Performance Designs",
+      "manufacturerurl": "http://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "compvelocity|performancedesigns",
       "slug": "performance_designs-comp_velocity"
@@ -3113,6 +3247,7 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Parachutes de France",
+      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "ninja|parachutesdefrance",
       "slug": "parachutes_de_france-ninja"
@@ -3129,6 +3264,7 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Parachutes de France",
+      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "ninja2|parachutesdefrance",
       "slug": "parachutes_de_france-ninja_2"
@@ -3149,6 +3285,7 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Precision Aerodynamics",
+      "manufacturerurl": "http://www.precision.aero/",
       "manufacturerslug": "precision_aerodynamics",
       "search": "xaos21|precisionaerodynamics",
       "slug": "precision_aerodynamics-xaos-21"
@@ -3169,6 +3306,7 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Precision Aerodynamics",
+      "manufacturerurl": "http://www.precision.aero/",
       "manufacturerslug": "precision_aerodynamics",
       "search": "xaos27|precisionaerodynamics",
       "slug": "precision_aerodynamics-xaos-27"
@@ -3194,6 +3332,7 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "NZ Aerosports",
+      "manufacturerurl": "http://www.nzaerosports.com",
       "manufacturerslug": "nz_aerosports",
       "search": "extremevx|nzaerosports",
       "slug": "nz_aerosports-extreme_vx"
@@ -3219,6 +3358,7 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "NZ Aerosports",
+      "manufacturerurl": "http://www.nzaerosports.com",
       "manufacturerslug": "nz_aerosports",
       "search": "extremefx|nzaerosports",
       "slug": "nz_aerosports-extreme_fx"
@@ -3239,6 +3379,7 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Icarus Canopies",
+      "manufacturerurl": "http://www.icaruscanopies.aero/",
       "manufacturerslug": "icarus_canopies",
       "search": "neos|icaruscanopies",
       "slug": "icarus_canopies-neos"
@@ -3260,6 +3401,7 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "NZ Aerosports",
+      "manufacturerurl": "http://www.nzaerosports.com",
       "manufacturerslug": "nz_aerosports",
       "search": "daedalusjvx|nzaerosports",
       "slug": "nz_aerosports-daedalus_jvx"
@@ -3286,6 +3428,7 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "NZ Aerosports",
+      "manufacturerurl": "http://www.nzaerosports.com",
       "manufacturerslug": "nz_aerosports",
       "search": "daedalusjfx|nzaerosports",
       "slug": "nz_aerosports-daedalus_jfx"
@@ -3306,6 +3449,7 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "NZ Aerosports",
+      "manufacturerurl": "http://www.nzaerosports.com",
       "manufacturerslug": "nz_aerosports",
       "search": "icarusjfx2|nzaerosports",
       "slug": "nz_aerosports-icarus_jfx_2"
@@ -3323,6 +3467,7 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Atair Aerodynamics",
+      "manufacturerurl": "http://www.atair.com/parachutes/",
       "manufacturerslug": "atair_aerodynamics",
       "search": "onyx|atairaerodynamics",
       "slug": "atair_aerodynamics-onyx"
@@ -3347,6 +3492,7 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Fluid Wings",
+      "manufacturerurl": "http://www.fluidwings.com/",
       "manufacturerslug": "fluid_wings",
       "search": "gangster|fluidwings",
       "slug": "fluid_wings-gangster"
@@ -3382,6 +3528,7 @@ let kompasroosData = {
       "displaycategory": 7,
       "calculationcategory": 7,
       "manufacturername": "Performance Designs",
+      "manufacturerurl": "http://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "peregrine|performancedesigns",
       "slug": "performance_designs-peregrine"
@@ -3412,6 +3559,7 @@ let kompasroosData = {
       "displaycategory": 7,
       "calculationcategory": 7,
       "manufacturername": "Performance Designs",
+      "manufacturerurl": "http://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "valkyrie|performancedesigns",
       "slug": "performance_designs-valkyrie"
@@ -3452,6 +3600,7 @@ let kompasroosData = {
       "displaycategory": 7,
       "calculationcategory": 7,
       "manufacturername": "NZ Aerosports",
+      "manufacturerurl": "http://www.nzaerosports.com",
       "manufacturerslug": "nz_aerosports",
       "search": "petra|nzaerosports",
       "slug": "nz_aerosports-petra"
@@ -3480,6 +3629,7 @@ let kompasroosData = {
       "displaycategory": 7,
       "calculationcategory": 7,
       "manufacturername": "NZ Aerosports",
+      "manufacturerurl": "http://www.nzaerosports.com",
       "manufacturerslug": "nz_aerosports",
       "search": "leia|nzaerosports",
       "slug": "nz_aerosports-leia"
@@ -3502,6 +3652,7 @@ let kompasroosData = {
       "displaycategory": 7,
       "calculationcategory": 7,
       "manufacturername": "NZ Aerosports",
+      "manufacturerurl": "http://www.nzaerosports.com",
       "manufacturerslug": "nz_aerosports",
       "search": "sleia|nzaerosports",
       "slug": "nz_aerosports-sleia"
@@ -3528,6 +3679,7 @@ let kompasroosData = {
       "displaycategory": 7,
       "calculationcategory": 7,
       "manufacturername": "Fluid Wings",
+      "manufacturerurl": "http://www.fluidwings.com/",
       "manufacturerslug": "fluid_wings",
       "search": "helix|fluidwings",
       "slug": "fluid_wings-helix"
@@ -3546,6 +3698,7 @@ let kompasroosData = {
       "displaycategory": 7,
       "calculationcategory": 7,
       "manufacturername": "Fluid Wings",
+      "manufacturerurl": "http://www.fluidwings.com/",
       "manufacturerslug": "fluid_wings",
       "search": "hs|fluidwings",
       "slug": "fluid_wings-hs"
@@ -3567,6 +3720,7 @@ let kompasroosData = {
       "displaycategory": 7,
       "calculationcategory": 7,
       "manufacturername": "Fluid Wings",
+      "manufacturerurl": "http://www.fluidwings.com/",
       "manufacturerslug": "fluid_wings",
       "search": "hk|fluidwings",
       "slug": "fluid_wings-hk"
@@ -3588,6 +3742,7 @@ let kompasroosData = {
       "displaycategory": 7,
       "calculationcategory": 7,
       "manufacturername": "Fluid Wings",
+      "manufacturerurl": "http://www.fluidwings.com/",
       "manufacturerslug": "fluid_wings",
       "search": "hkterminal|fluidwings",
       "slug": "fluid_wings-hk_terminal"
@@ -3609,6 +3764,7 @@ let kompasroosData = {
       "displaycategory": 7,
       "calculationcategory": 7,
       "manufacturername": "Fluid Wings",
+      "manufacturerurl": "http://www.fluidwings.com/",
       "manufacturerslug": "fluid_wings",
       "search": "airwolf|fluidwings",
       "slug": "fluid_wings-airwolf"
@@ -3628,6 +3784,7 @@ let kompasroosData = {
       "displaycategory": "?",
       "calculationcategory": 6,
       "manufacturername": "Jojowings",
+      "manufacturerurl": "http://www.jojowing.com/",
       "manufacturerslug": "jojowings",
       "search": "sonic|jojowings",
       "slug": "jojowings-sonic"
@@ -3647,6 +3804,7 @@ let kompasroosData = {
       "displaycategory": "?",
       "calculationcategory": 6,
       "manufacturername": "Jojowings",
+      "manufacturerurl": "http://www.jojowing.com/",
       "manufacturerslug": "jojowings",
       "search": "raptor|jojowings",
       "slug": "jojowings-raptor"
@@ -3666,6 +3824,7 @@ let kompasroosData = {
       "displaycategory": "?",
       "calculationcategory": 7,
       "manufacturername": "Jojowings",
+      "manufacturerurl": "http://www.jojowing.com/",
       "manufacturerslug": "jojowings",
       "search": "xf15|jojowings",
       "slug": "jojowings-xf15"
@@ -3686,6 +3845,7 @@ let kompasroosData = {
       "displaycategory": 7,
       "calculationcategory": 7,
       "manufacturername": "Skylark Parachutes",
+      "manufacturerurl": "http://skylarkparachutes.com/",
       "manufacturerslug": "skylark_parachutes",
       "search": "scirocco|skylarkparachutes",
       "slug": "skylark_parachutes-scirocco"

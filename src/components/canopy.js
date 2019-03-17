@@ -6,6 +6,9 @@ import GoodIcon from '@material-ui/icons/Done'; // checkmark
 import BadIcon from '@material-ui/icons/Clear'; // cross
 import WarnIcon from '@material-ui/icons/CropSquare'; // block
 import ArrowIcon from '@material-ui/icons/KeyboardArrowRight'; // checkmark
+import LinkIcon from '@material-ui/icons/Link';
+import PlayIcon from '@material-ui/icons/PlayArrow';
+
 import Typography from '@material-ui/core/Typography/Typography'
 
 import kompasroosData from "./kompasroosdata";
@@ -135,6 +138,10 @@ function getIcon(acceptability) {
 }
 
 
+function openBlank(url) {
+  window.open(url, '_blank');
+}
+
 function Canopy(props) {
   const {classes, language, slug, category, exitWeight} = props;
   console.log(JSON.stringify(props));
@@ -238,6 +245,31 @@ function Canopy(props) {
     }
   }
 
+  let canopyLinkRow = null;
+  if (canopy.url) {
+    canopyLinkRow = (
+      <tr className={classes.linkrow}
+          onClick={() => openBlank(canopy.url)}>
+        <td><LinkIcon/></td>
+        <td className={classes.canopydetails}>{canopy.name}</td>
+        <td><ArrowIcon/></td>
+      </tr>
+    );
+  }
+
+
+  let manufacturerLinkRow = null;
+  if (canopy.manufacturerurl) {
+    manufacturerLinkRow = (
+      <tr className={classes.linkrow}
+          onClick={() => openBlank(canopy.manufacturerurl)}>
+        <td><LinkIcon/></td>
+        <td className={classes.canopydetails}>{canopy.manufacturername}</td>
+        <td><ArrowIcon/></td>
+      </tr>
+    );
+  }
+
 
   console.log('canopy: ' + acceptability + ' ' + classAcceptability);
 
@@ -292,6 +324,8 @@ function Canopy(props) {
             {minsizeRow}
             {maxsizeRow}
             {remarksRow}
+            {canopyLinkRow}
+            {manufacturerLinkRow}
             </tbody>
           </table>
         </div>
