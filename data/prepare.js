@@ -82,6 +82,7 @@ for (let m in manufacturersArray) {
 
 
 // create canopies Object
+let currentCategory = 0;
 for (let c in canopiesArray) {
   let cObject = canopiesArray[c];
   let id = cObject.id;
@@ -135,6 +136,12 @@ for (let c in canopiesArray) {
   canopiesByName.push(id);
   canopiesByManufacturer.push(id);
   canopiesByCategory.push(id);
+  if (cObject.category < currentCategory) {
+    console.log('category out of order for: ' + cObject.name + ' by ' + cObject.manufacturername);
+  }
+  if (cObject.calculationcategory > currentCategory) {
+    currentCategory = cObject.calculationcategory;
+  }
 }
 
 

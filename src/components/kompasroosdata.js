@@ -899,6 +899,24 @@ let kompasroosData = {
       "search": "icarusstudent|nzaerosports",
       "slug": "nz_aerosports-icarus_student"
     },
+    "F9F3F9F7-04E3-4E60-BFE8-A07A517550FE": {
+      "id": "F9F3F9F7-04E3-4E60-BFE8-A07A517550FE",
+      "name": "ZP",
+      "category": 1,
+      "cells": "9",
+      "commontype": 0,
+      "dropzoneid": "948",
+      "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
+      "url": "http://www.parachutesystemseurope.com/eng/zp.php",
+      "xbraced": false,
+      "links": [],
+      "displaycategory": 1,
+      "calculationcategory": 1,
+      "manufacturername": "Parachute Systems",
+      "manufacturerslug": "parachute_systems",
+      "search": "zp|parachutesystems",
+      "slug": "parachute_systems-zp"
+    },
     "9BADF237-317E-4B64-BF72-9A476F85CA6B": {
       "id": "9BADF237-317E-4B64-BF72-9A476F85CA6B",
       "name": "Electra",
@@ -1927,6 +1945,70 @@ let kompasroosData = {
       "search": "magellanevo|skylarkparachutes",
       "slug": "skylark_parachutes-magellan_evo"
     },
+    "2351611F-068C-4901-820D-26EC38FC36D9": {
+      "id": "2351611F-068C-4901-820D-26EC38FC36D9",
+      "name": "Epicene",
+      "category": 3,
+      "cells": "7",
+      "maxsize": "210",
+      "minsize": "116",
+      "commontype": 0,
+      "manufacturerid": "CD51335E-1304-4391-9672-A6058F97C352",
+      "url": "https://squirrel.ws/parachutes/skydiving/epicene",
+      "links": [
+        {
+          "type": "vimeo",
+          "url": "https://vimeo.com/113977394"
+        }
+      ],
+      "xbraced": false,
+      "displaycategory": 3,
+      "calculationcategory": 3,
+      "manufacturername": "Squirrel",
+      "manufacturerslug": "squirrel",
+      "search": "epicene|squirrel",
+      "slug": "squirrel-epicene"
+    },
+    "65A55BBF-5E9E-4ACC-BD87-723BD3CB3ACF": {
+      "id": "65A55BBF-5E9E-4ACC-BD87-723BD3CB3ACF",
+      "name": "Prime",
+      "maxsize": "190",
+      "minsize": "120",
+      "cells": "9",
+      "firstyearofproduction": "2014",
+      "dropzoneid": "978",
+      "category": 3,
+      "commontype": 0,
+      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
+      "url": "http://www.fluidwings.com/prime",
+      "xbraced": false,
+      "links": [],
+      "displaycategory": 3,
+      "calculationcategory": 3,
+      "manufacturername": "Fluid Wings",
+      "manufacturerslug": "fluid_wings",
+      "search": "prime|fluidwings",
+      "slug": "fluid_wings-prime"
+    },
+    "A23740C3-2E70-4B87-8326-C9A88F4CD66E": {
+      "id": "A23740C3-2E70-4B87-8326-C9A88F4CD66E",
+      "name": "Winx",
+      "cells": "7",
+      "maxsize": "210",
+      "minsize": "120",
+      "category": 3,
+      "commontype": 0,
+      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
+      "url": "http://www.basetroll.com/products/winx/",
+      "xbraced": false,
+      "links": [],
+      "displaycategory": 3,
+      "calculationcategory": 3,
+      "manufacturername": "Atair Aerodynamics",
+      "manufacturerslug": "atair_aerodynamics",
+      "search": "winx|atairaerodynamics",
+      "slug": "atair_aerodynamics-winx"
+    },
     "107633B0-202B-4625-9CD4-8AFE131C5D10": {
       "id": "107633B0-202B-4625-9CD4-8AFE131C5D10",
       "name": "Stiletto",
@@ -2329,24 +2411,6 @@ let kompasroosData = {
       "search": "hurricane|parachutesystems",
       "slug": "parachute_systems-hurricane"
     },
-    "F9F3F9F7-04E3-4E60-BFE8-A07A517550FE": {
-      "id": "F9F3F9F7-04E3-4E60-BFE8-A07A517550FE",
-      "name": "ZP",
-      "category": 1,
-      "cells": "9",
-      "commontype": 0,
-      "dropzoneid": "948",
-      "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
-      "url": "http://www.parachutesystemseurope.com/eng/zp.php",
-      "xbraced": false,
-      "links": [],
-      "displaycategory": 1,
-      "calculationcategory": 1,
-      "manufacturername": "Parachute Systems",
-      "manufacturerslug": "parachute_systems",
-      "search": "zp|parachutesystems",
-      "slug": "parachute_systems-zp"
-    },
     "6188C8D0-8CF4-4BE4-86FE-268862413701": {
       "id": "6188C8D0-8CF4-4BE4-86FE-268862413701",
       "name": "Vixen",
@@ -2404,6 +2468,26 @@ let kompasroosData = {
       "manufacturerslug": "nz_aerosports",
       "search": "crossfire|nzaerosports",
       "slug": "nz_aerosports-crossfire"
+    },
+    "E20AECA2-ECF5-4985-9EF2-0A01130B084B": {
+      "id": "E20AECA2-ECF5-4985-9EF2-0A01130B084B",
+      "name": "Ventus Hybrid",
+      "cells": "9",
+      "maxsize": "170",
+      "minsize": "105",
+      "category": 4,
+      "dropzoneid": "974",
+      "commontype": 0,
+      "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
+      "url": "http://parachutesystems.com/ventus",
+      "xbraced": false,
+      "links": [],
+      "displaycategory": 4,
+      "calculationcategory": 4,
+      "manufacturername": "Parachute Systems",
+      "manufacturerslug": "parachute_systems",
+      "search": "ventushybrid|parachutesystems",
+      "slug": "parachute_systems-ventus_hybrid"
     },
     "C0785556-9B3B-431E-95A0-39911DB1DBD0": {
       "id": "C0785556-9B3B-431E-95A0-39911DB1DBD0",
@@ -2826,6 +2910,27 @@ let kompasroosData = {
       "search": "mamba|aerodyneresearch",
       "slug": "aerodyne_research-mamba"
     },
+    "6C91684B-857B-455F-9A6B-9DC15A31E98A": {
+      "id": "6C91684B-857B-455F-9A6B-9DC15A31E98A",
+      "name": "Tesla",
+      "maxsize": "150",
+      "minsize": "97",
+      "cells": "9",
+      "firstyearofproduction": "2017",
+      "dropzoneid": "1036",
+      "category": 5,
+      "commontype": 0,
+      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
+      "url": "http://www.fluidwings.com/tesla",
+      "xbraced": false,
+      "links": [],
+      "displaycategory": 5,
+      "calculationcategory": 5,
+      "manufacturername": "Fluid Wings",
+      "manufacturerslug": "fluid_wings",
+      "search": "tesla|fluidwings",
+      "slug": "fluid_wings-tesla"
+    },
     "0858835E-BC3A-43D9-A085-3DF96D70D3ED": {
       "id": "0858835E-BC3A-43D9-A085-3DF96D70D3ED",
       "name": "Sensei",
@@ -2933,71 +3038,6 @@ let kompasroosData = {
       "manufacturerslug": "performance_designs",
       "search": "compvelocity|performancedesigns",
       "slug": "performance_designs-comp_velocity"
-    },
-    "1931C950-68C7-11E2-BCFD-0800200C9A66": {
-      "id": "1931C950-68C7-11E2-BCFD-0800200C9A66",
-      "name": "Peregrine",
-      "category": 7,
-      "cells": "27",
-      "commontype": 0,
-      "dropzoneid": "897",
-      "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
-      "remarks": {
-        "en": "Not freely available",
-        "nl": "Niet vrij beschikbaar"
-      },
-      "url": "http://www.performancedesigns.com/products/peregrine/",
-      "links": [
-        {
-          "type": "youtube",
-          "url": "http://www.youtube.com/watch?v=Tj3U5QJbaAc"
-        },
-        {
-          "type": "youtube",
-          "url": "http://www.youtube.com/watch?v=ewQdizH4oaM"
-        },
-        {
-          "type": "youtube",
-          "url": "http://www.youtube.com/watch?v=dPAcENXxtnw"
-        }
-      ],
-      "xbraced": true,
-      "displaycategory": 7,
-      "calculationcategory": 7,
-      "manufacturername": "Performance Designs",
-      "manufacturerslug": "performance_designs",
-      "search": "peregrine|performancedesigns",
-      "slug": "performance_designs-peregrine"
-    },
-    "23498D9C-045C-4D99-AAD7-E01CFDBC717B": {
-      "id": "23498D9C-045C-4D99-AAD7-E01CFDBC717B",
-      "name": "Valkyrie",
-      "category": 7,
-      "cells": "21",
-      "commontype": 0,
-      "dropzoneid": "971",
-      "firstyearofproduction": "2014",
-      "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
-      "maxsize": "103",
-      "minsize": "67",
-      "url": "http://www.performancedesigns.com/products/valkyrie/",
-      "links": [
-        {
-          "type": "youtube",
-          "url": "http://www.youtube.com/watch?v=LJr70PKbgOE"
-        },
-        {
-          "type": "youtube",
-          "url": "http://www.youtube.com/watch?v=rrr4BlBLFTY"
-        }
-      ],
-      "xbraced": true,
-      "displaycategory": 7,
-      "calculationcategory": 7,
-      "manufacturername": "Performance Designs",
-      "manufacturerslug": "performance_designs",
-      "search": "valkyrie|performancedesigns",
-      "slug": "performance_designs-valkyrie"
     },
     "F566B784-F61C-49A6-89A1-BEFF497487D2": {
       "id": "F566B784-F61C-49A6-89A1-BEFF497487D2",
@@ -3209,6 +3249,88 @@ let kompasroosData = {
       "search": "icarusjfx2|nzaerosports",
       "slug": "nz_aerosports-icarus_jfx_2"
     },
+    "1931C950-68C7-11E2-BCFD-0800200C9A66": {
+      "id": "1931C950-68C7-11E2-BCFD-0800200C9A66",
+      "name": "Peregrine",
+      "category": 7,
+      "cells": "27",
+      "commontype": 0,
+      "dropzoneid": "897",
+      "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
+      "remarks": {
+        "en": "Not freely available",
+        "nl": "Niet vrij beschikbaar"
+      },
+      "url": "http://www.performancedesigns.com/products/peregrine/",
+      "links": [
+        {
+          "type": "youtube",
+          "url": "http://www.youtube.com/watch?v=Tj3U5QJbaAc"
+        },
+        {
+          "type": "youtube",
+          "url": "http://www.youtube.com/watch?v=ewQdizH4oaM"
+        },
+        {
+          "type": "youtube",
+          "url": "http://www.youtube.com/watch?v=dPAcENXxtnw"
+        }
+      ],
+      "xbraced": true,
+      "displaycategory": 7,
+      "calculationcategory": 7,
+      "manufacturername": "Performance Designs",
+      "manufacturerslug": "performance_designs",
+      "search": "peregrine|performancedesigns",
+      "slug": "performance_designs-peregrine"
+    },
+    "3193501C-9111-4782-B0EC-778CD6923E08": {
+      "id": "3193501C-9111-4782-B0EC-778CD6923E08",
+      "name": "Onyx",
+      "cells": "27",
+      "category": 6,
+      "commontype": 0,
+      "dropzoneid": "473",
+      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
+      "xbraced": true,
+      "links": [],
+      "displaycategory": 6,
+      "calculationcategory": 6,
+      "manufacturername": "Atair Aerodynamics",
+      "manufacturerslug": "atair_aerodynamics",
+      "search": "onyx|atairaerodynamics",
+      "slug": "atair_aerodynamics-onyx"
+    },
+    "23498D9C-045C-4D99-AAD7-E01CFDBC717B": {
+      "id": "23498D9C-045C-4D99-AAD7-E01CFDBC717B",
+      "name": "Valkyrie",
+      "category": 7,
+      "cells": "21",
+      "commontype": 0,
+      "dropzoneid": "971",
+      "firstyearofproduction": "2014",
+      "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
+      "maxsize": "103",
+      "minsize": "67",
+      "url": "http://www.performancedesigns.com/products/valkyrie/",
+      "links": [
+        {
+          "type": "youtube",
+          "url": "http://www.youtube.com/watch?v=LJr70PKbgOE"
+        },
+        {
+          "type": "youtube",
+          "url": "http://www.youtube.com/watch?v=rrr4BlBLFTY"
+        }
+      ],
+      "xbraced": true,
+      "displaycategory": 7,
+      "calculationcategory": 7,
+      "manufacturername": "Performance Designs",
+      "manufacturerslug": "performance_designs",
+      "search": "valkyrie|performancedesigns",
+      "slug": "performance_designs-valkyrie"
+    },
     "0b8688c1-bb96-41d4-ac0f-8c9c71f54eda": {
       "id": "0b8688c1-bb96-41d4-ac0f-8c9c71f54eda",
       "name": "Petra",
@@ -3298,89 +3420,6 @@ let kompasroosData = {
       "manufacturerslug": "nz_aerosports",
       "search": "sleia|nzaerosports",
       "slug": "nz_aerosports-sleia"
-    },
-    "3193501C-9111-4782-B0EC-778CD6923E08": {
-      "id": "3193501C-9111-4782-B0EC-778CD6923E08",
-      "name": "Onyx",
-      "cells": "27",
-      "category": 6,
-      "commontype": 0,
-      "dropzoneid": "473",
-      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
-      "xbraced": true,
-      "links": [],
-      "displaycategory": 6,
-      "calculationcategory": 6,
-      "manufacturername": "Atair Aerodynamics",
-      "manufacturerslug": "atair_aerodynamics",
-      "search": "onyx|atairaerodynamics",
-      "slug": "atair_aerodynamics-onyx"
-    },
-    "2351611F-068C-4901-820D-26EC38FC36D9": {
-      "id": "2351611F-068C-4901-820D-26EC38FC36D9",
-      "name": "Epicene",
-      "category": 3,
-      "cells": "7",
-      "maxsize": "210",
-      "minsize": "116",
-      "commontype": 0,
-      "manufacturerid": "CD51335E-1304-4391-9672-A6058F97C352",
-      "url": "https://squirrel.ws/parachutes/skydiving/epicene",
-      "links": [
-        {
-          "type": "vimeo",
-          "url": "https://vimeo.com/113977394"
-        }
-      ],
-      "xbraced": false,
-      "displaycategory": 3,
-      "calculationcategory": 3,
-      "manufacturername": "Squirrel",
-      "manufacturerslug": "squirrel",
-      "search": "epicene|squirrel",
-      "slug": "squirrel-epicene"
-    },
-    "65A55BBF-5E9E-4ACC-BD87-723BD3CB3ACF": {
-      "id": "65A55BBF-5E9E-4ACC-BD87-723BD3CB3ACF",
-      "name": "Prime",
-      "maxsize": "190",
-      "minsize": "120",
-      "cells": "9",
-      "firstyearofproduction": "2014",
-      "dropzoneid": "978",
-      "category": 3,
-      "commontype": 0,
-      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
-      "url": "http://www.fluidwings.com/prime",
-      "xbraced": false,
-      "links": [],
-      "displaycategory": 3,
-      "calculationcategory": 3,
-      "manufacturername": "Fluid Wings",
-      "manufacturerslug": "fluid_wings",
-      "search": "prime|fluidwings",
-      "slug": "fluid_wings-prime"
-    },
-    "6C91684B-857B-455F-9A6B-9DC15A31E98A": {
-      "id": "6C91684B-857B-455F-9A6B-9DC15A31E98A",
-      "name": "Tesla",
-      "maxsize": "150",
-      "minsize": "97",
-      "cells": "9",
-      "firstyearofproduction": "2017",
-      "dropzoneid": "1036",
-      "category": 5,
-      "commontype": 0,
-      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
-      "url": "http://www.fluidwings.com/tesla",
-      "xbraced": false,
-      "links": [],
-      "displaycategory": 5,
-      "calculationcategory": 5,
-      "manufacturername": "Fluid Wings",
-      "manufacturerslug": "fluid_wings",
-      "search": "tesla|fluidwings",
-      "slug": "fluid_wings-tesla"
     },
     "30592423-330F-4E41-9BCD-9CA85E06D425": {
       "id": "30592423-330F-4E41-9BCD-9CA85E06D425",
@@ -3489,26 +3528,6 @@ let kompasroosData = {
       "search": "airwolf|fluidwings",
       "slug": "fluid_wings-airwolf"
     },
-    "E20AECA2-ECF5-4985-9EF2-0A01130B084B": {
-      "id": "E20AECA2-ECF5-4985-9EF2-0A01130B084B",
-      "name": "Ventus Hybrid",
-      "cells": "9",
-      "maxsize": "170",
-      "minsize": "105",
-      "category": 4,
-      "dropzoneid": "974",
-      "commontype": 0,
-      "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
-      "url": "http://parachutesystems.com/ventus",
-      "xbraced": false,
-      "links": [],
-      "displaycategory": 4,
-      "calculationcategory": 4,
-      "manufacturername": "Parachute Systems",
-      "manufacturerslug": "parachute_systems",
-      "search": "ventushybrid|parachutesystems",
-      "slug": "parachute_systems-ventus_hybrid"
-    },
     "A8C274D3-DE56-413D-AAA2-C8EE6D7CA3BE": {
       "id": "A8C274D3-DE56-413D-AAA2-C8EE6D7CA3BE",
       "name": "Sonic",
@@ -3565,25 +3584,6 @@ let kompasroosData = {
       "manufacturerslug": "jojowings",
       "search": "xf15|jojowings",
       "slug": "jojowings-xf15"
-    },
-    "A23740C3-2E70-4B87-8326-C9A88F4CD66E": {
-      "id": "A23740C3-2E70-4B87-8326-C9A88F4CD66E",
-      "name": "Winx",
-      "cells": "7",
-      "maxsize": "210",
-      "minsize": "120",
-      "category": 3,
-      "commontype": 0,
-      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
-      "url": "http://www.basetroll.com/products/winx/",
-      "xbraced": false,
-      "links": [],
-      "displaycategory": 3,
-      "calculationcategory": 3,
-      "manufacturername": "Atair Aerodynamics",
-      "manufacturerslug": "atair_aerodynamics",
-      "search": "winx|atairaerodynamics",
-      "slug": "atair_aerodynamics-winx"
     },
     "A2252BB9-ED7C-4EEF-AB7B-18B6B4DC774E": {
       "id": "A2252BB9-ED7C-4EEF-AB7B-18B6B4DC774E",
@@ -4151,6 +4151,7 @@ let kompasroosData = {
     "north_american_aerodynamics_inc-eagle_7-cell": "747B45F3-B12C-4743-A5F8-2D90C20F22F1",
     "north_american_aerodynamics_inc-eagle_9-cell": "128B96F9-DAC3-4297-8329-FC24CCF9E781",
     "nz_aerosports-icarus_student": "D5522A6B-5A85-4C59-A0E7-D424A96E94E4",
+    "parachute_systems-zp": "F9F3F9F7-04E3-4E60-BFE8-A07A517550FE",
     "parachutes_de_france-electra": "9BADF237-317E-4B64-BF72-9A476F85CA6B",
     "parachutes_de_france-merit": "69B03296-4EDD-4823-BDAF-DD91604F9587",
     "aerodyne_research-pilot": "F32C85D5-615A-4CDA-A7AD-F2F27985E283",
@@ -4197,6 +4198,9 @@ let kompasroosData = {
     "skylark_parachutes-skipper_evo": "9B56DFEE-C85E-4DD7-B828-19D232C323BA",
     "skylark_parachutes-magellan": "C3165B46-F1F8-4524-9D50-46ADD9B1E86F",
     "skylark_parachutes-magellan_evo": "9661B8FA-BD0D-4C75-9F0A-0409C3121B37",
+    "squirrel-epicene": "2351611F-068C-4901-820D-26EC38FC36D9",
+    "fluid_wings-prime": "65A55BBF-5E9E-4ACC-BD87-723BD3CB3ACF",
+    "atair_aerodynamics-winx": "A23740C3-2E70-4B87-8326-C9A88F4CD66E",
     "performance_designs-stiletto": "107633B0-202B-4625-9CD4-8AFE131C5D10",
     "parachutes_de_france-bt": "F0B876B6-F2C6-4560-BF4D-A22DD3C070ED",
     "parachutes_de_france-springo": "A088AE69-7D61-45A5-9919-BF2328F836BE",
@@ -4218,10 +4222,10 @@ let kompasroosData = {
     "firebird-contrail": "8B779965-13DC-4836-825F-96360ADEA300",
     "pisa-heatwave": "5A77CCA4-6BCF-4A6D-87BA-091CE6397E24",
     "parachute_systems-hurricane": "CBA0E65A-1984-436E-A35F-AD2C5DECB853",
-    "parachute_systems-zp": "F9F3F9F7-04E3-4E60-BFE8-A07A517550FE",
     "parachute_systems-vixen": "6188C8D0-8CF4-4BE4-86FE-268862413701",
     "jump_shack-firebolt": "8BF69609-7C2D-4EF6-97F8-8A0530893D02",
     "nz_aerosports-crossfire": "1FB6128A-0203-44D9-9C55-06E4289D1540",
+    "parachute_systems-ventus_hybrid": "E20AECA2-ECF5-4985-9EF2-0A01130B084B",
     "skylark_parachutes-odyssey": "C0785556-9B3B-431E-95A0-39911DB1DBD0",
     "skylark_parachutes-odyssey_evo": "19982FDF-FB8B-4178-8F34-127E40964A12",
     "nz_aerosports-crossfire_2": "909AAB5D-37EA-447A-A850-4AEEE03CF1D2",
@@ -4241,12 +4245,11 @@ let kompasroosData = {
     "parachutes_de_france-instinct": "116DA4A7-448E-4E49-849C-9457E292E1AC",
     "precision_aerodynamics-nitron": "613D4345-0C3F-4BE2-AC7D-28D209F159BA",
     "aerodyne_research-mamba": "3F35D12C-4BBA-400D-BA7F-BC13512B22EB",
+    "fluid_wings-tesla": "6C91684B-857B-455F-9A6B-9DC15A31E98A",
     "aerodyne_research-sensei": "0858835E-BC3A-43D9-A085-3DF96D70D3ED",
     "parachute_systems-v-max": "858EEBF3-169F-4AE7-99A2-A7CC8D025D4E",
     "performance_designs-velocity": "EB83326F-B055-46C7-8754-74C9033EE41E",
     "performance_designs-comp_velocity": "EA08A05D-B79A-4687-AED8-AFB272287ADA",
-    "performance_designs-peregrine": "1931C950-68C7-11E2-BCFD-0800200C9A66",
-    "performance_designs-valkyrie": "23498D9C-045C-4D99-AAD7-E01CFDBC717B",
     "parachutes_de_france-ninja": "F566B784-F61C-49A6-89A1-BEFF497487D2",
     "parachutes_de_france-ninja_2": "136EE958-6048-4129-B1B1-D0E4B11147EC",
     "precision_aerodynamics-xaos-21": "67E749A9-324E-4322-B0D2-015974DD31A7",
@@ -4257,23 +4260,20 @@ let kompasroosData = {
     "nz_aerosports-daedalus_jvx": "86F21B4A-D883-4391-A792-D2F43259942B",
     "nz_aerosports-daedalus_jfx": "AD3229CE-7B38-4BC8-A1C6-73D6DF651198",
     "nz_aerosports-icarus_jfx_2": "47F5A0C0-1B04-4F5F-B9BF-6569E72C6121",
+    "performance_designs-peregrine": "1931C950-68C7-11E2-BCFD-0800200C9A66",
+    "atair_aerodynamics-onyx": "3193501C-9111-4782-B0EC-778CD6923E08",
+    "performance_designs-valkyrie": "23498D9C-045C-4D99-AAD7-E01CFDBC717B",
     "nz_aerosports-petra": "0b8688c1-bb96-41d4-ac0f-8c9c71f54eda",
     "nz_aerosports-leia": "de98ce5e-513e-454a-bfdb-fc8ff93ee92e",
     "nz_aerosports-sleia": "6334C760-93BD-41D1-90B7-4A63678177E7",
-    "atair_aerodynamics-onyx": "3193501C-9111-4782-B0EC-778CD6923E08",
-    "squirrel-epicene": "2351611F-068C-4901-820D-26EC38FC36D9",
-    "fluid_wings-prime": "65A55BBF-5E9E-4ACC-BD87-723BD3CB3ACF",
-    "fluid_wings-tesla": "6C91684B-857B-455F-9A6B-9DC15A31E98A",
     "fluid_wings-helix": "30592423-330F-4E41-9BCD-9CA85E06D425",
     "fluid_wings-hs": "AF1933DE-FA7F-4753-8DA1-713035A955DD",
     "fluid_wings-hk": "9E7E3E3C-F4DE-41EE-A08B-15E8CCA08B9A",
     "fluid_wings-hk_terminal": "DC694B4B-EF96-4E4C-993C-601929279178",
     "fluid_wings-airwolf": "E0142D15-96D2-461C-8915-9C1625C9C5EB",
-    "parachute_systems-ventus_hybrid": "E20AECA2-ECF5-4985-9EF2-0A01130B084B",
     "jojowings-sonic": "A8C274D3-DE56-413D-AAA2-C8EE6D7CA3BE",
     "jojowings-raptor": "CDC9F86A-5F6C-4334-8887-4A4AC7D6C24E",
     "jojowings-xf15": "89DA27EF-860B-4FF9-9917-EF81A266FAFB",
-    "atair_aerodynamics-winx": "A23740C3-2E70-4B87-8326-C9A88F4CD66E",
     "skylark_parachutes-scirocco": "A2252BB9-ED7C-4EEF-AB7B-18B6B4DC774E"
   }
 };

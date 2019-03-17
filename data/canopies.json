@@ -445,6 +445,17 @@
       "xbraced": false
     },
     {
+      "id": "F9F3F9F7-04E3-4E60-BFE8-A07A517550FE",
+      "name": "ZP",
+      "category": "1",
+      "cells": "9",
+      "commontype": "0",
+      "dropzoneid": "948",
+      "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
+      "url": "http://www.parachutesystemseurope.com/eng/zp.php",
+      "xbraced": false
+    },
+    {
       "id": "9BADF237-317E-4B64-BF72-9A476F85CA6B",
       "name": "Electra",
       "category": "2",
@@ -1189,6 +1200,51 @@
       "xbraced": false
     },
     {
+      "id": "2351611F-068C-4901-820D-26EC38FC36D9",
+      "name": "Epicene",
+      "category": "3",
+      "cells": "7",
+      "maxsize": "210",
+      "minsize": "116",
+      "commontype": "0",
+      "manufacturerid": "CD51335E-1304-4391-9672-A6058F97C352",
+      "url": "https://squirrel.ws/parachutes/skydiving/epicene",
+      "links": [
+        {
+          "type": "vimeo",
+          "title": "Epicene promo video",
+          "id": "113977394"
+        }
+      ],
+      "xbraced": false
+    },
+    {
+      "id": "65A55BBF-5E9E-4ACC-BD87-723BD3CB3ACF",
+      "name": "Prime",
+      "maxsize": "190",
+      "minsize": "120",
+      "cells": "9",
+      "firstyearofproduction": "2014",
+      "dropzoneid": "978",
+      "category": "3",
+      "commontype": "0",
+      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
+      "url": "http://www.fluidwings.com/prime",
+      "xbraced": false
+    },
+    {
+      "id": "A23740C3-2E70-4B87-8326-C9A88F4CD66E",
+      "name": "Winx",
+      "cells": "7",
+      "maxsize": "210",
+      "minsize": "120",
+      "category": "3",
+      "commontype": "0",
+      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
+      "url": "http://www.basetroll.com/products/winx/",
+      "xbraced": false
+    },
+    {
       "id": "107633B0-202B-4625-9CD4-8AFE131C5D10",
       "name": "Stiletto",
       "category": "4",
@@ -1449,17 +1505,6 @@
       "xbraced": false
     },
     {
-      "id": "F9F3F9F7-04E3-4E60-BFE8-A07A517550FE",
-      "name": "ZP",
-      "category": "1",
-      "cells": "9",
-      "commontype": "0",
-      "dropzoneid": "948",
-      "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
-      "url": "http://www.parachutesystemseurope.com/eng/zp.php",
-      "xbraced": false
-    },
-    {
       "id": "6188C8D0-8CF4-4BE4-86FE-268862413701",
       "name": "Vixen",
       "cells": 9,
@@ -1494,6 +1539,19 @@
         "en": "Crossfire 2 was introduced in 2001",
         "nl": "Crossfire 2 werd geïntroduceerd in 2001"
       },
+      "xbraced": false
+    },
+    {
+      "id": "E20AECA2-ECF5-4985-9EF2-0A01130B084B",
+      "name": "Ventus Hybrid",
+      "cells": "9",
+      "maxsize": "170",
+      "minsize": "105",
+      "category": "4",
+      "dropzoneid": "974",
+      "commontype": "0",
+      "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
+      "url": "http://parachutesystems.com/ventus",
       "xbraced": false
     },
     {
@@ -1801,6 +1859,20 @@
       "xbraced": false
     },
     {
+      "id": "6C91684B-857B-455F-9A6B-9DC15A31E98A",
+      "name": "Tesla",
+      "maxsize": "150",
+      "minsize": "97",
+      "cells": "9",
+      "firstyearofproduction": "2017",
+      "dropzoneid": "1036",
+      "category": "5",
+      "commontype": "0",
+      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
+      "url": "http://www.fluidwings.com/tesla",
+      "xbraced": false
+    },
+    {
       "id": "0858835E-BC3A-43D9-A085-3DF96D70D3ED",
       "name": "Sensei",
       "category": "6",
@@ -1885,64 +1957,6 @@
           "type": "skydivemag",
           "title": "Skydivemag review",
           "id": "20130815-competition-velocity"
-        }
-      ],
-      "xbraced": true
-    },
-    {
-      "id": "1931C950-68C7-11E2-BCFD-0800200C9A66",
-      "name": "Peregrine",
-      "category": "7",
-      "cells": "27",
-      "commontype": "0",
-      "dropzoneid": "897",
-      "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
-      "remarks": {
-        "en": "Not freely available",
-        "nl": "Niet vrij beschikbaar"
-      },
-      "url": "http://www.performancedesigns.com/products/peregrine/",
-      "links": [
-        {
-          "type": "youtube",
-          "title": "PD Peregrine promo",
-          "id": "Tj3U5QJbaAc"
-        },
-        {
-          "type": "youtube",
-          "title": "Distance swoop Peregrine 61",
-          "id": "ewQdizH4oaM"
-        },
-        {
-          "type": "youtube",
-          "title": "Peregrine XRW (met wingsuit)",
-          "id": "dPAcENXxtnw"
-        }
-      ],
-      "xbraced": true
-    },
-    {
-      "id": "23498D9C-045C-4D99-AAD7-E01CFDBC717B",
-      "name": "Valkyrie",
-      "category": "7",
-      "cells": "21",
-      "commontype": "0",
-      "dropzoneid": "971",
-      "firstyearofproduction": "2014",
-      "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
-      "maxsize": "103",
-      "minsize": "67",
-      "url": "http://www.performancedesigns.com/products/valkyrie/",
-      "links": [
-        {
-          "type": "youtube",
-          "title": "PD Valkyrie promo",
-          "id": "LJr70PKbgOE"
-        },
-        {
-          "type": "youtube",
-          "title": "Flight of the Valkyries",
-          "id": "rrr4BlBLFTY"
         }
       ],
       "xbraced": true
@@ -2090,6 +2104,74 @@
       "xbraced": true
     },
     {
+      "id": "1931C950-68C7-11E2-BCFD-0800200C9A66",
+      "name": "Peregrine",
+      "category": "7",
+      "cells": "27",
+      "commontype": "0",
+      "dropzoneid": "897",
+      "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
+      "remarks": {
+        "en": "Not freely available",
+        "nl": "Niet vrij beschikbaar"
+      },
+      "url": "http://www.performancedesigns.com/products/peregrine/",
+      "links": [
+        {
+          "type": "youtube",
+          "title": "PD Peregrine promo",
+          "id": "Tj3U5QJbaAc"
+        },
+        {
+          "type": "youtube",
+          "title": "Distance swoop Peregrine 61",
+          "id": "ewQdizH4oaM"
+        },
+        {
+          "type": "youtube",
+          "title": "Peregrine XRW (met wingsuit)",
+          "id": "dPAcENXxtnw"
+        }
+      ],
+      "xbraced": true
+    },
+    {
+      "id": "3193501C-9111-4782-B0EC-778CD6923E08",
+      "name": "Onyx",
+      "cells": "27",
+      "category": "6",
+      "commontype": "0",
+      "dropzoneid": "473",
+      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
+      "xbraced": true
+    },
+    {
+      "id": "23498D9C-045C-4D99-AAD7-E01CFDBC717B",
+      "name": "Valkyrie",
+      "category": "7",
+      "cells": "21",
+      "commontype": "0",
+      "dropzoneid": "971",
+      "firstyearofproduction": "2014",
+      "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
+      "maxsize": "103",
+      "minsize": "67",
+      "url": "http://www.performancedesigns.com/products/valkyrie/",
+      "links": [
+        {
+          "type": "youtube",
+          "title": "PD Valkyrie promo",
+          "id": "LJr70PKbgOE"
+        },
+        {
+          "type": "youtube",
+          "title": "Flight of the Valkyries",
+          "id": "rrr4BlBLFTY"
+        }
+      ],
+      "xbraced": true
+    },
+    {
       "id": "0b8688c1-bb96-41d4-ac0f-8c9c71f54eda",
       "name": "Petra",
       "category": "7",
@@ -2166,63 +2248,6 @@
       "xbraced": true
     },
     {
-      "id": "3193501C-9111-4782-B0EC-778CD6923E08",
-      "name": "Onyx",
-      "cells": "27",
-      "category": "6",
-      "commontype": "0",
-      "dropzoneid": "473",
-      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
-      "xbraced": true
-    },
-    {
-      "id": "2351611F-068C-4901-820D-26EC38FC36D9",
-      "name": "Epicene",
-      "category": "3",
-      "cells": "7",
-      "maxsize": "210",
-      "minsize": "116",
-      "commontype": "0",
-      "manufacturerid": "CD51335E-1304-4391-9672-A6058F97C352",
-      "url": "https://squirrel.ws/parachutes/skydiving/epicene",
-      "links": [
-        {
-          "type": "vimeo",
-          "title": "Epicene promo video",
-          "id": "113977394"
-        }
-      ],
-      "xbraced": false
-    },
-    {
-      "id": "65A55BBF-5E9E-4ACC-BD87-723BD3CB3ACF",
-      "name": "Prime",
-      "maxsize": "190",
-      "minsize": "120",
-      "cells": "9",
-      "firstyearofproduction": "2014",
-      "dropzoneid": "978",
-      "category": "3",
-      "commontype": "0",
-      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
-      "url": "http://www.fluidwings.com/prime",
-      "xbraced": false
-    },
-    {
-      "id": "6C91684B-857B-455F-9A6B-9DC15A31E98A",
-      "name": "Tesla",
-      "maxsize": "150",
-      "minsize": "97",
-      "cells": "9",
-      "firstyearofproduction": "2017",
-      "dropzoneid": "1036",
-      "category": "5",
-      "commontype": "0",
-      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
-      "url": "http://www.fluidwings.com/tesla",
-      "xbraced": false
-    },
-    {
       "id": "30592423-330F-4E41-9BCD-9CA85E06D425",
       "name": "Helix",
       "cells": "21",
@@ -2297,19 +2322,6 @@
       "xbraced": true
     },
     {
-      "id": "E20AECA2-ECF5-4985-9EF2-0A01130B084B",
-      "name": "Ventus Hybrid",
-      "cells": "9",
-      "maxsize": "170",
-      "minsize": "105",
-      "category": "4",
-      "dropzoneid": "974",
-      "commontype": "0",
-      "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
-      "url": "http://parachutesystems.com/ventus",
-      "xbraced": false
-    },
-    {
       "id": "A8C274D3-DE56-413D-AAA2-C8EE6D7CA3BE",
       "name": "Sonic",
       "cells": "9",
@@ -2344,18 +2356,6 @@
       "manufacturerid": "A82F2C34-DBA9-4A4B-8DE7-7319B00C7DB4",
       "url": "http://www.jojowing.com/cs/xf15/",
       "xbraced": true
-    },
-    {
-      "id": "A23740C3-2E70-4B87-8326-C9A88F4CD66E",
-      "name": "Winx",
-      "cells": "7",
-      "maxsize": "210",
-      "minsize": "120",
-      "category": "3",
-      "commontype": "0",
-      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
-      "url": "http://www.basetroll.com/products/winx/",
-      "xbraced": false
     },
     {
       "id": "A2252BB9-ED7C-4EEF-AB7B-18B6B4DC774E",
