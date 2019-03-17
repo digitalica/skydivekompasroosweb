@@ -2104,6 +2104,23 @@
       "xbraced": true
     },
     {
+      "id": "13C2B0F2-82C3-4996-A8D8-D42872879587",
+      "name": "Gangster",
+      "maxsize": "135",
+      "minsize": "69",
+      "cells": "21",
+      "firstyearofproduction": "2017",
+      "category": "6",
+      "commontype": "0",
+      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
+      "url": "https://www.fluidwings.com/gangster",
+      "xbraced": true,
+      "remarks": {
+        "en": "Partially braced",
+        "nl": "Partially braced "
+      }
+    },
+    {
       "id": "1931C950-68C7-11E2-BCFD-0800200C9A66",
       "name": "Peregrine",
       "category": "7",
