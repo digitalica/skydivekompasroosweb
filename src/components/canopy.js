@@ -6,8 +6,11 @@ import GoodIcon from '@material-ui/icons/Done'; // checkmark
 import BadIcon from '@material-ui/icons/Clear'; // cross
 import WarnIcon from '@material-ui/icons/CropSquare'; // block
 import ArrowIcon from '@material-ui/icons/KeyboardArrowRight'; // checkmark
+import OpenInNewIcon from '@material-ui/icons/OpenInNew'; // checkmark
 import LinkIcon from '@material-ui/icons/Link';
 import PlayIcon from '@material-ui/icons/PlayArrow';
+import PdfIcon from '@material-ui/icons/PictureAsPdf';
+import Bookmark from '@material-ui/icons/Bookmark';
 
 import Typography from '@material-ui/core/Typography/Typography'
 
@@ -252,7 +255,7 @@ function Canopy(props) {
           onClick={() => openBlank(canopy.url)}>
         <td><LinkIcon/></td>
         <td className={classes.canopydetails}>{canopy.name}</td>
-        <td><ArrowIcon/></td>
+        <td><OpenInNewIcon/></td>
       </tr>
     );
   }
@@ -265,9 +268,46 @@ function Canopy(props) {
           onClick={() => openBlank(canopy.manufacturerurl)}>
         <td><LinkIcon/></td>
         <td className={classes.canopydetails}>{canopy.manufacturername}</td>
-        <td><ArrowIcon/></td>
+        <td><OpenInNewIcon/></td>
       </tr>
     );
+  }
+
+  let linkRows = [];
+  if (canopy.links) {
+    for (let li = 0; li < canopy.links.length; li++) {
+      let link = canopy.links[li];
+      let url = link.url;
+      let icon = <LinkIcon/>;
+      let name = '';
+      switch (link.type) {
+        case 'youtube':
+          icon = <PlayIcon/>;
+          name = "Youtube: " + link.title;
+          break;
+        case 'vimeo':
+          icon = <PlayIcon/>;
+          name = "Vimeo: " + link.title;
+          break;
+        case 'skydivemag':
+          icon = <Bookmark/>;
+          name = "Skydive Magazine";
+          break;
+        case 'pdf':
+          icon = <PdfIcon/>;
+          name = "PDF";
+          break;
+      }
+      linkRows.push(
+        <tr className={classes.linkrow}
+            onClick={() => openBlank(link.url)}>
+          <td>{icon}</td>
+          <td className={classes.canopydetails}>{name}</td>
+          <td><OpenInNewIcon/></td>
+        </tr>
+      );
+    }
+
   }
 
 
@@ -326,6 +366,7 @@ function Canopy(props) {
             {remarksRow}
             {canopyLinkRow}
             {manufacturerLinkRow}
+            {linkRows}
             </tbody>
           </table>
         </div>

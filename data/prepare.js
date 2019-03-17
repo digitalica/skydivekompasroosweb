@@ -98,6 +98,7 @@ for (let c in canopiesArray) {
       let link = {};
       let url;
       link.type = cObject.links[li].type;
+      link.title = cObject.links[li].title;
       switch (link.type) {
         case 'youtube':
           url = "http://www.youtube.com/watch?v=" + cObject.links[li].id;
