@@ -7,7 +7,7 @@ let kompasroosData = {
       "name": "Aerodyne Research",
       "countrycode": "us",
       "shortname": "Aerodyne",
-      "url": "http://www.flyaerodyne.com",
+      "url": "https://www.flyaerodyne.com",
       "slug": "aerodyne_research"
     },
     "97AD094C-A001-4928-8B4E-792EC76EFBCB": {
@@ -323,13 +323,13 @@ let kompasroosData = {
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "290",
       "minsize": "190",
-      "url": "http://www.flyaerodyne.com/solo.asp",
+      "url": "https://www.flyaerodyne.com/solo.asp",
       "xbraced": false,
       "links": [],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Aerodyne Research",
-      "manufacturerurl": "http://www.flyaerodyne.com",
+      "manufacturerurl": "https://www.flyaerodyne.com",
       "manufacturerslug": "aerodyne_research",
       "search": "solo|aerodyneresearch",
       "slug": "aerodyne_research-solo"
@@ -1021,7 +1021,7 @@ let kompasroosData = {
       "minsize": "90",
       "planform": "6.7",
       "planformcells": "4",
-      "url": "http://www.flyaerodyne.com/pilot.asp",
+      "url": "https://www.flyaerodyne.com/pilot.asp",
       "links": [
         {
           "type": "youtube",
@@ -1033,7 +1033,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Aerodyne Research",
-      "manufacturerurl": "http://www.flyaerodyne.com",
+      "manufacturerurl": "https://www.flyaerodyne.com",
       "manufacturerslug": "aerodyne_research",
       "search": "pilot|aerodyneresearch",
       "slug": "aerodyne_research-pilot"
@@ -1049,7 +1049,7 @@ let kompasroosData = {
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "247",
       "minsize": "117",
-      "url": "http://www.flyaerodyne.com/pilot7.asp",
+      "url": "https://www.flyaerodyne.com/pilot7.asp",
       "xbraced": false,
       "links": [
         {
@@ -1066,7 +1066,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Aerodyne Research",
-      "manufacturerurl": "http://www.flyaerodyne.com",
+      "manufacturerurl": "https://www.flyaerodyne.com",
       "manufacturerslug": "aerodyne_research",
       "search": "pilot7|aerodyneresearch",
       "slug": "aerodyne_research-pilot7"
@@ -1082,7 +1082,7 @@ let kompasroosData = {
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "260",
       "minsize": "99",
-      "url": "http://www.flyaerodyne.com/triathlon.asp",
+      "url": "https://www.flyaerodyne.com/triathlon.asp",
       "xbraced": false,
       "links": [
         {
@@ -1104,7 +1104,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Aerodyne Research",
-      "manufacturerurl": "http://www.flyaerodyne.com",
+      "manufacturerurl": "https://www.flyaerodyne.com",
       "manufacturerslug": "aerodyne_research",
       "search": "triathlon|aerodyneresearch",
       "slug": "aerodyne_research-triathlon"
@@ -2472,7 +2472,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Aerodyne Research",
-      "manufacturerurl": "http://www.flyaerodyne.com",
+      "manufacturerurl": "https://www.flyaerodyne.com",
       "manufacturerslug": "aerodyne_research",
       "search": "vision|aerodyneresearch",
       "slug": "aerodyne_research-vision"
@@ -2496,7 +2496,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Aerodyne Research",
-      "manufacturerurl": "http://www.flyaerodyne.com",
+      "manufacturerurl": "https://www.flyaerodyne.com",
       "manufacturerslug": "aerodyne_research",
       "search": "diablo|aerodyneresearch",
       "slug": "aerodyne_research-diablo"
@@ -2513,7 +2513,7 @@ let kompasroosData = {
       "maxsize": "152",
       "minsize": "102",
       "planform": "10",
-      "url": "http://www.flyaerodyne.com/zulu.asp",
+      "url": "https://www.flyaerodyne.com/zulu.asp",
       "links": [
         {
           "type": "youtube",
@@ -2530,7 +2530,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Aerodyne Research",
-      "manufacturerurl": "http://www.flyaerodyne.com",
+      "manufacturerurl": "https://www.flyaerodyne.com",
       "manufacturerslug": "aerodyne_research",
       "search": "zulu|aerodyneresearch",
       "slug": "aerodyne_research-zulu"
@@ -3182,13 +3182,13 @@ let kompasroosData = {
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "150",
       "minsize": "90",
-      "url": "http://www.flyaerodyne.com/mamba.asp",
+      "url": "https://www.flyaerodyne.com/mamba.asp",
       "xbraced": false,
       "links": [],
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Aerodyne Research",
-      "manufacturerurl": "http://www.flyaerodyne.com",
+      "manufacturerurl": "https://www.flyaerodyne.com",
       "manufacturerslug": "aerodyne_research",
       "search": "mamba|aerodyneresearch",
       "slug": "aerodyne_research-mamba"
@@ -3242,7 +3242,7 @@ let kompasroosData = {
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "121",
       "minsize": "71",
-      "url": "http://www.flyaerodyne.com/sensei.asp",
+      "url": "https://www.flyaerodyne.com/sensei.asp",
       "links": [
         {
           "type": "youtube",
@@ -3264,7 +3264,7 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Aerodyne Research",
-      "manufacturerurl": "http://www.flyaerodyne.com",
+      "manufacturerurl": "https://www.flyaerodyne.com",
       "manufacturerslug": "aerodyne_research",
       "search": "sensei|aerodyneresearch",
       "slug": "aerodyne_research-sensei"

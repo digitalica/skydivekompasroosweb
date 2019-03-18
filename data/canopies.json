@@ -74,7 +74,7 @@
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "290",
       "minsize": "190",
-      "url": "http://www.flyaerodyne.com/solo.asp",
+      "url": "https://www.flyaerodyne.com/solo.asp",
       "xbraced": false
     },
     {
@@ -493,7 +493,7 @@
       "minsize": "90",
       "planform": "6.7",
       "planformcells": "4",
-      "url": "http://www.flyaerodyne.com/pilot.asp",
+      "url": "https://www.flyaerodyne.com/pilot.asp",
       "links": [
         {
           "type": "youtube",
@@ -514,7 +514,7 @@
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "247",
       "minsize": "117",
-      "url": "http://www.flyaerodyne.com/pilot7.asp",
+      "url": "https://www.flyaerodyne.com/pilot7.asp",
       "xbraced": false,
       "links": [
         {
@@ -540,7 +540,7 @@
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "260",
       "minsize": "99",
-      "url": "http://www.flyaerodyne.com/triathlon.asp",
+      "url": "https://www.flyaerodyne.com/triathlon.asp",
       "xbraced": false,
       "links": [
         {
@@ -1493,7 +1493,7 @@
       "maxsize": "152",
       "minsize": "102",
       "planform": "10",
-      "url": "http://www.flyaerodyne.com/zulu.asp",
+      "url": "https://www.flyaerodyne.com/zulu.asp",
       "links": [
         {
           "type": "youtube",
@@ -1939,7 +1939,7 @@
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "150",
       "minsize": "90",
-      "url": "http://www.flyaerodyne.com/mamba.asp",
+      "url": "https://www.flyaerodyne.com/mamba.asp",
       "xbraced": false
     },
     {
@@ -1984,7 +1984,7 @@
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "121",
       "minsize": "71",
-      "url": "http://www.flyaerodyne.com/sensei.asp",
+      "url": "https://www.flyaerodyne.com/sensei.asp",
       "links": [
         {
           "type": "youtube",
