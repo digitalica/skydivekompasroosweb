@@ -142,7 +142,7 @@ let kompasroosData = {
       "name": "Performance Designs",
       "countrycode": "us",
       "shortname": "PD",
-      "url": "http://www.performancedesigns.com/",
+      "url": "https://www.performancedesigns.com/",
       "slug": "performance_designs"
     },
     "E0E33BAB-7067-42EC-96E3-FD6B35926A11": {
@@ -229,7 +229,7 @@ let kompasroosData = {
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "300",
       "minsize": "200",
-      "url": "http://www.performancedesigns.com/products/navigator/",
+      "url": "https://www.performancedesigns.com/products/navigator/",
       "links": [
         {
           "type": "youtube",
@@ -241,7 +241,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Performance Designs",
-      "manufacturerurl": "http://www.performancedesigns.com/",
+      "manufacturerurl": "https://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "navigator|performancedesigns",
       "slug": "performance_designs-navigator"
@@ -263,7 +263,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Performance Designs",
-      "manufacturerurl": "http://www.performancedesigns.com/",
+      "manufacturerurl": "https://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "pdf111serie7cell|performancedesigns",
       "slug": "performance_designs-pd_f111_serie_7_cell"
@@ -285,7 +285,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Performance Designs",
-      "manufacturerurl": "http://www.performancedesigns.com/",
+      "manufacturerurl": "https://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "pdf111serie9cell|performancedesigns",
       "slug": "performance_designs-pd_f111_serie_9_cell"
@@ -307,7 +307,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Performance Designs",
-      "manufacturerurl": "http://www.performancedesigns.com/",
+      "manufacturerurl": "https://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "sabrestudent|performancedesigns",
       "slug": "performance_designs-sabre_student"
@@ -1161,7 +1161,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Performance Designs",
-      "manufacturerurl": "http://www.performancedesigns.com/",
+      "manufacturerurl": "https://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "sabre|performancedesigns",
       "slug": "performance_designs-sabre"
@@ -1177,7 +1177,7 @@ let kompasroosData = {
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "230",
       "minsize": "97",
-      "url": "http://www.performancedesigns.com/products/spectre/",
+      "url": "https://www.performancedesigns.com/products/spectre/",
       "links": [
         {
           "type": "youtube",
@@ -1194,7 +1194,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Performance Designs",
-      "manufacturerurl": "http://www.performancedesigns.com/",
+      "manufacturerurl": "https://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "spectre|performancedesigns",
       "slug": "performance_designs-spectre"
@@ -1210,13 +1210,13 @@ let kompasroosData = {
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "260",
       "minsize": "135",
-      "url": "http://www.performancedesigns.com/products/silhouette/",
+      "url": "https://www.performancedesigns.com/products/silhouette/",
       "xbraced": false,
       "links": [],
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Performance Designs",
-      "manufacturerurl": "http://www.performancedesigns.com/",
+      "manufacturerurl": "https://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "silhouette|performancedesigns",
       "slug": "performance_designs-silhouette"
@@ -1232,7 +1232,7 @@ let kompasroosData = {
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "260",
       "minsize": "107",
-      "url": "http://www.performancedesigns.com/products/pulse/",
+      "url": "https://www.performancedesigns.com/products/pulse/",
       "links": [
         {
           "type": "youtube",
@@ -1244,7 +1244,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Performance Designs",
-      "manufacturerurl": "http://www.performancedesigns.com/",
+      "manufacturerurl": "https://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "pulse|performancedesigns",
       "slug": "performance_designs-pulse"
@@ -1260,13 +1260,13 @@ let kompasroosData = {
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "305",
       "minsize": "205",
-      "url": "http://www.performancedesigns.com/products/zero/",
+      "url": "https://www.performancedesigns.com/products/zero/",
       "xbraced": false,
       "links": [],
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Performance Designs",
-      "manufacturerurl": "http://www.performancedesigns.com/",
+      "manufacturerurl": "https://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "zero|performancedesigns",
       "slug": "performance_designs-zero"
@@ -1487,7 +1487,7 @@ let kompasroosData = {
       "minsize": "97",
       "planform": "5.4",
       "planformcells": "6",
-      "url": "http://www.performancedesigns.com/products/sabre2/",
+      "url": "https://www.performancedesigns.com/products/sabre2/",
       "links": [
         {
           "type": "youtube",
@@ -1524,7 +1524,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Performance Designs",
-      "manufacturerurl": "http://www.performancedesigns.com/",
+      "manufacturerurl": "https://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "sabre2|performancedesigns",
       "slug": "performance_designs-sabre_2"
@@ -1540,7 +1540,7 @@ let kompasroosData = {
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "253",
       "minsize": "113",
-      "url": "http://www.performancedesigns.com/products/lightning/",
+      "url": "https://www.performancedesigns.com/products/lightning/",
       "links": [
         {
           "type": "youtube",
@@ -1562,7 +1562,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Performance Designs",
-      "manufacturerurl": "http://www.performancedesigns.com/",
+      "manufacturerurl": "https://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "lightning|performancedesigns",
       "slug": "performance_designs-lightning"
@@ -1578,7 +1578,7 @@ let kompasroosData = {
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "230",
       "minsize": "97",
-      "url": "http://www.performancedesigns.com/products/storm/",
+      "url": "https://www.performancedesigns.com/products/storm/",
       "links": [
         {
           "type": "youtube",
@@ -1590,7 +1590,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Performance Designs",
-      "manufacturerurl": "http://www.performancedesigns.com/",
+      "manufacturerurl": "https://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "storm|performancedesigns",
       "slug": "performance_designs-storm"
@@ -1606,7 +1606,7 @@ let kompasroosData = {
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "190",
       "minsize": "120",
-      "url": "http://www.performancedesigns.com/products/horizon/",
+      "url": "https://www.performancedesigns.com/products/horizon/",
       "links": [
         {
           "type": "youtube",
@@ -1618,7 +1618,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Performance Designs",
-      "manufacturerurl": "http://www.performancedesigns.com/",
+      "manufacturerurl": "https://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "horizon|performancedesigns",
       "slug": "performance_designs-horizon"
@@ -2245,13 +2245,13 @@ let kompasroosData = {
       "minsize": "89",
       "planform": "13.3",
       "planformcells": "4",
-      "url": "http://www.performancedesigns.com/products/stiletto/",
+      "url": "https://www.performancedesigns.com/products/stiletto/",
       "xbraced": false,
       "links": [],
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Performance Designs",
-      "manufacturerurl": "http://www.performancedesigns.com/",
+      "manufacturerurl": "https://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "stiletto|performancedesigns",
       "slug": "performance_designs-stiletto"
@@ -3029,7 +3029,7 @@ let kompasroosData = {
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "170",
       "minsize": "83",
-      "url": "http://www.performancedesigns.com/products/katana/",
+      "url": "https://www.performancedesigns.com/products/katana/",
       "links": [
         {
           "type": "youtube",
@@ -3041,7 +3041,7 @@ let kompasroosData = {
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Performance Designs",
-      "manufacturerurl": "http://www.performancedesigns.com/",
+      "manufacturerurl": "https://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "katana|performancedesigns",
       "slug": "performance_designs-katana"
@@ -3065,7 +3065,7 @@ let kompasroosData = {
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Performance Designs",
-      "manufacturerurl": "http://www.performancedesigns.com/",
+      "manufacturerurl": "https://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "vengeance|performancedesigns",
       "slug": "performance_designs-vengeance"
@@ -3299,7 +3299,7 @@ let kompasroosData = {
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "120",
       "minsize": "75",
-      "url": "http://www.performancedesigns.com/products/velocity/",
+      "url": "https://www.performancedesigns.com/products/velocity/",
       "links": [
         {
           "type": "youtube",
@@ -3316,7 +3316,7 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Performance Designs",
-      "manufacturerurl": "http://www.performancedesigns.com/",
+      "manufacturerurl": "https://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "velocity|performancedesigns",
       "slug": "performance_designs-velocity"
@@ -3332,7 +3332,7 @@ let kompasroosData = {
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "111",
       "minsize": "71",
-      "url": "http://www.performancedesigns.com/products/compvelocity/",
+      "url": "https://www.performancedesigns.com/products/compvelocity/",
       "links": [
         {
           "type": "skydivemag",
@@ -3344,7 +3344,7 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Performance Designs",
-      "manufacturerurl": "http://www.performancedesigns.com/",
+      "manufacturerurl": "https://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "compvelocity|performancedesigns",
       "slug": "performance_designs-comp_velocity"
@@ -3625,7 +3625,7 @@ let kompasroosData = {
         "en": "Not freely available",
         "nl": "Niet vrij beschikbaar"
       },
-      "url": "http://www.performancedesigns.com/products/peregrine/",
+      "url": "https://www.performancedesigns.com/products/peregrine/",
       "links": [
         {
           "type": "youtube",
@@ -3652,7 +3652,7 @@ let kompasroosData = {
       "displaycategory": 7,
       "calculationcategory": 7,
       "manufacturername": "Performance Designs",
-      "manufacturerurl": "http://www.performancedesigns.com/",
+      "manufacturerurl": "https://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "peregrine|performancedesigns",
       "slug": "performance_designs-peregrine"
@@ -3668,7 +3668,7 @@ let kompasroosData = {
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "103",
       "minsize": "67",
-      "url": "http://www.performancedesigns.com/products/valkyrie/",
+      "url": "https://www.performancedesigns.com/products/valkyrie/",
       "links": [
         {
           "type": "youtube",
@@ -3690,7 +3690,7 @@ let kompasroosData = {
       "displaycategory": 7,
       "calculationcategory": 7,
       "manufacturername": "Performance Designs",
-      "manufacturerurl": "http://www.performancedesigns.com/",
+      "manufacturerurl": "https://www.performancedesigns.com/",
       "manufacturerslug": "performance_designs",
       "search": "valkyrie|performancedesigns",
       "slug": "performance_designs-valkyrie"
