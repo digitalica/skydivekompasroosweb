@@ -101,7 +101,7 @@ for (let c in canopiesArray) {
       link.title = cObject.links[li].title;
       switch (link.type) {
         case 'youtube':
-          url = "http://www.youtube.com/watch?v=" + cObject.links[li].id;
+          url = "https://www.youtube.com/watch?v=" + cObject.links[li].id;
           break;
         case 'vimeo':
           url = "https://vimeo.com/" + cObject.links[li].id;
