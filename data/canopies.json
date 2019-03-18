@@ -984,7 +984,8 @@
           "type": "youtube",
           "title": "NEW ICARUS CANOPIES SAFIRE2 119 sqft OPENING & LANDING",
           "id": "3RWf974sCtk"
-        },        {
+        },
+        {
           "type": "skydivemag",
           "title": "Skydivemag review",
           "id": "icarus-canopies-by-nz-aerosports-reviewi"
@@ -2154,7 +2155,14 @@
       "maxsize": "119",
       "minsize": "59",
       "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=19&Itemid=18",
-      "xbraced": true
+      "xbraced": true,
+      "links": [
+        {
+          "type": "youtube",
+          "title": "Swoop Neos",
+          "id": "QWTfOFW4YgA"
+        }
+      ]
     },
     {
       "id": "86F21B4A-D883-4391-A792-D2F43259942B",
@@ -2168,7 +2176,15 @@
       "maxsize": "119",
       "minsize": "59",
       "url": "http://www.nzaerosports.com/canopies/daedalus-JVX",
-      "xbraced": true
+      "xbraced": true,
+      "links": [
+        {
+          "type": "youtube",
+          "title": "The World's Smallest Parachute",
+          "id": "yW3pimvJSro"
+        }
+      ]
+
     },
     {
       "id": "AD3229CE-7B38-4BC8-A1C6-73D6DF651198",

@@ -234,7 +234,7 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "Test Navigator 240 sq ft",
-          "url": "http://www.youtube.com/watch?v=KALCUff9Tx4"
+          "url": "https://www.youtube.com/watch?v=KALCUff9Tx4"
         }
       ],
       "xbraced": false,
@@ -803,7 +803,7 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "Parachute inflation of Flight Concepts fully zero porosity Manta",
-          "url": "http://www.youtube.com/watch?v=wfaDnBkO6iI"
+          "url": "https://www.youtube.com/watch?v=wfaDnBkO6iI"
         }
       ],
       "xbraced": false,
@@ -1026,7 +1026,7 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "Parachute Opening - Aerodyne Pilot 168",
-          "url": "http://www.youtube.com/watch?v=6QgnKTmS0lA"
+          "url": "https://www.youtube.com/watch?v=6QgnKTmS0lA"
         }
       ],
       "xbraced": false,
@@ -1055,7 +1055,7 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "Pilot 7",
-          "url": "http://www.youtube.com/watch?v=aXn0yqapUbE"
+          "url": "https://www.youtube.com/watch?v=aXn0yqapUbE"
         },
         {
           "type": "skydivemag",
@@ -1088,17 +1088,17 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "Slo-Motion Parachute Canopy triathlon 190 deployment",
-          "url": "http://www.youtube.com/watch?v=7MoCrLpsJJY"
+          "url": "https://www.youtube.com/watch?v=7MoCrLpsJJY"
         },
         {
           "type": "youtube",
           "title": "Triathlon 160",
-          "url": "http://www.youtube.com/watch?v=IwAUp_nO-3M"
+          "url": "https://www.youtube.com/watch?v=IwAUp_nO-3M"
         },
         {
           "type": "youtube",
           "title": "CRW canopy packing (Triathlon Aerodyne 135 sq ft.)",
-          "url": "http://www.youtube.com/watch?v=ykDh2bp0Qp4"
+          "url": "https://www.youtube.com/watch?v=ykDh2bp0Qp4"
         }
       ],
       "displaycategory": 2,
@@ -1182,7 +1182,7 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "How to land Spectre 190",
-          "url": "http://www.youtube.com/watch?v=nwALHH1Nhdk"
+          "url": "https://www.youtube.com/watch?v=nwALHH1Nhdk"
         },
         {
           "type": "skydivemag",
@@ -1237,7 +1237,7 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "PD Pulse promo",
-          "url": "http://www.youtube.com/watch?v=lWM-r67r-9Y"
+          "url": "https://www.youtube.com/watch?v=lWM-r67r-9Y"
         }
       ],
       "xbraced": false,
@@ -1492,32 +1492,32 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "PD Sabre 2 promo",
-          "url": "http://www.youtube.com/watch?v=VKxMN8C3TtE"
+          "url": "https://www.youtube.com/watch?v=VKxMN8C3TtE"
         },
         {
           "type": "youtube",
           "title": "Sabre2 150 - flight performance and landings ",
-          "url": "http://www.youtube.com/watch?v=kZ3gsPSAvvc"
+          "url": "https://www.youtube.com/watch?v=kZ3gsPSAvvc"
         },
         {
           "type": "youtube",
           "title": "PD Sabre 2 pro pack door Nick Grillet 1/3",
-          "url": "http://www.youtube.com/watch?v=vhEHdKemr1M"
+          "url": "https://www.youtube.com/watch?v=vhEHdKemr1M"
         },
         {
           "type": "youtube",
           "title": "PD Sabre 2 pro pack door Nick Grillet 2/3",
-          "url": "http://www.youtube.com/watch?v=jqNsFPbKIw8"
+          "url": "https://www.youtube.com/watch?v=jqNsFPbKIw8"
         },
         {
           "type": "youtube",
           "title": "PD Sabre 2 pro pack door Nick Grillet 3/3",
-          "url": "http://www.youtube.com/watch?v=pHSpnXCShs0"
+          "url": "https://www.youtube.com/watch?v=pHSpnXCShs0"
         },
         {
           "type": "youtube",
           "title": "Sabre 2 150 - Deployments",
-          "url": "http://www.youtube.com/watch?v=19uMK1SN5kU"
+          "url": "https://www.youtube.com/watch?v=19uMK1SN5kU"
         }
       ],
       "xbraced": false,
@@ -1545,17 +1545,17 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "Canopy Formation 100 way world record 2007",
-          "url": "http://www.youtube.com/watch?v=Fggc3B5u5Ck"
+          "url": "https://www.youtube.com/watch?v=Fggc3B5u5Ck"
         },
         {
           "type": "youtube",
           "title": "44 way Australian CRW record",
-          "url": "http://www.youtube.com/watch?v=jo6KpVO72UQ"
+          "url": "https://www.youtube.com/watch?v=jo6KpVO72UQ"
         },
         {
           "type": "youtube",
           "title": "Thread the Needle",
-          "url": "http://www.youtube.com/watch?v=3MwrNPx5ciY"
+          "url": "https://www.youtube.com/watch?v=3MwrNPx5ciY"
         }
       ],
       "xbraced": false,
@@ -1583,7 +1583,7 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "PD Storm promo",
-          "url": "http://www.youtube.com/watch?v=pO8dlRu24Kc"
+          "url": "https://www.youtube.com/watch?v=pO8dlRu24Kc"
         }
       ],
       "xbraced": false,
@@ -1611,7 +1611,7 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "PD Horizon promo",
-          "url": "http://www.youtube.com/watch?v=a9wbmmY0IdI"
+          "url": "https://www.youtube.com/watch?v=a9wbmmY0IdI"
         }
       ],
       "xbraced": false,
@@ -1710,12 +1710,12 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "Icarus Safire2 149",
-          "url": "http://www.youtube.com/watch?v=DI3cjt3Wbrk"
+          "url": "https://www.youtube.com/watch?v=DI3cjt3Wbrk"
         },
         {
           "type": "youtube",
           "title": "NEW ICARUS CANOPIES SAFIRE2 119 sqft OPENING & LANDING",
-          "url": "http://www.youtube.com/watch?v=3RWf974sCtk"
+          "url": "https://www.youtube.com/watch?v=3RWf974sCtk"
         },
         {
           "type": "skydivemag",
@@ -1748,7 +1748,7 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "Landing Icarus S-fire 169",
-          "url": "http://www.youtube.com/watch?v=NOmJjIOmSMk"
+          "url": "https://www.youtube.com/watch?v=NOmJjIOmSMk"
         },
         {
           "type": "skydivemag",
@@ -1778,17 +1778,17 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "The story",
-          "url": "http://www.youtube.com/watch?v=ySkbuQ16H7I"
+          "url": "https://www.youtube.com/watch?v=ySkbuQ16H7I"
         },
         {
           "type": "youtube",
           "title": "NZ Aerosports: The Safire 3",
-          "url": "http://www.youtube.com/watch?v=UKi43C3NEUI"
+          "url": "https://www.youtube.com/watch?v=UKi43C3NEUI"
         },
         {
           "type": "youtube",
           "title": "Openings",
-          "url": "http://www.youtube.com/watch?v=QuNRQplQOhA"
+          "url": "https://www.youtube.com/watch?v=QuNRQplQOhA"
         }
       ],
       "xbraced": false,
@@ -1853,7 +1853,7 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "NRG Opening",
-          "url": "http://www.youtube.com/watch?v=2S9Hwnk-qI4"
+          "url": "https://www.youtube.com/watch?v=2S9Hwnk-qI4"
         }
       ],
       "xbraced": false,
@@ -2023,7 +2023,7 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "Matrix Reloaded",
-          "url": "http://www.youtube.com/watch?v=tLOqd1VYI2w"
+          "url": "https://www.youtube.com/watch?v=tLOqd1VYI2w"
         }
       ],
       "xbraced": false,
@@ -2518,7 +2518,7 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "aerodyne zulu (152ft) test jump",
-          "url": "http://www.youtube.com/watch?v=aGzmbjk30KU"
+          "url": "https://www.youtube.com/watch?v=aGzmbjk30KU"
         },
         {
           "type": "skydivemag",
@@ -2798,12 +2798,12 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "7 minutes packing crossfire 2 99",
-          "url": "http://www.youtube.com/watch?v=Yo5us-fTU34"
+          "url": "https://www.youtube.com/watch?v=Yo5us-fTU34"
         },
         {
           "type": "youtube",
           "title": "First jump on 119 sqft Cross Fire 2",
-          "url": "http://www.youtube.com/watch?v=Ni-O-iaya9s"
+          "url": "https://www.youtube.com/watch?v=Ni-O-iaya9s"
         }
       ],
       "remarks": {
@@ -2877,7 +2877,7 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "Icarus Xfire 92 openings & flight",
-          "url": "http://www.youtube.com/watch?v=eTYCKHZHePQ"
+          "url": "https://www.youtube.com/watch?v=eTYCKHZHePQ"
         }
       ],
       "maxsize": "168",
@@ -3034,7 +3034,7 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "PD Katana 120 openings & landings ",
-          "url": "http://www.youtube.com/watch?v=0az6PofPjck"
+          "url": "https://www.youtube.com/watch?v=0az6PofPjck"
         }
       ],
       "xbraced": false,
@@ -3220,7 +3220,7 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "Fluid Wings Tesla 120 Openings",
-          "url": "http://www.youtube.com/watch?v=Iq3_vH_qk7U"
+          "url": "https://www.youtube.com/watch?v=Iq3_vH_qk7U"
         }
       ],
       "displaycategory": 5,
@@ -3247,12 +3247,12 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "Test Piloting the Sensei 91 Parachute",
-          "url": "http://www.youtube.com/watch?v=AQLM9ZLpBMw"
+          "url": "https://www.youtube.com/watch?v=AQLM9ZLpBMw"
         },
         {
           "type": "youtube",
           "title": "Sensei canopies for ToraTora",
-          "url": "http://www.youtube.com/watch?v=uwShpnBkA10"
+          "url": "https://www.youtube.com/watch?v=uwShpnBkA10"
         },
         {
           "type": "skydivemag",
@@ -3304,7 +3304,7 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "How to fly and and Velocity 103",
-          "url": "http://www.youtube.com/watch?v=3E7EYnOOTL0"
+          "url": "https://www.youtube.com/watch?v=3E7EYnOOTL0"
         },
         {
           "type": "skydivemag",
@@ -3490,7 +3490,13 @@ let kompasroosData = {
       "minsize": "59",
       "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=19&Itemid=18",
       "xbraced": true,
-      "links": [],
+      "links": [
+        {
+          "type": "youtube",
+          "title": "Swoop Neos",
+          "url": "https://www.youtube.com/watch?v=QWTfOFW4YgA"
+        }
+      ],
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Icarus Canopies",
@@ -3512,7 +3518,13 @@ let kompasroosData = {
       "minsize": "59",
       "url": "http://www.nzaerosports.com/canopies/daedalus-JVX",
       "xbraced": true,
-      "links": [],
+      "links": [
+        {
+          "type": "youtube",
+          "title": "The World's Smallest Parachute",
+          "url": "https://www.youtube.com/watch?v=yW3pimvJSro"
+        }
+      ],
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "NZ Aerosports",
@@ -3537,7 +3549,7 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "Daedalus JFX Opening: Camera by Nick Batsch",
-          "url": "http://www.youtube.com/watch?v=IK3uWGdh6eA"
+          "url": "https://www.youtube.com/watch?v=IK3uWGdh6eA"
         }
       ],
       "xbraced": true,
@@ -3630,17 +3642,17 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "PD Peregrine promo",
-          "url": "http://www.youtube.com/watch?v=Tj3U5QJbaAc"
+          "url": "https://www.youtube.com/watch?v=Tj3U5QJbaAc"
         },
         {
           "type": "youtube",
           "title": "Distance swoop Peregrine 61",
-          "url": "http://www.youtube.com/watch?v=ewQdizH4oaM"
+          "url": "https://www.youtube.com/watch?v=ewQdizH4oaM"
         },
         {
           "type": "youtube",
           "title": "Peregrine XRW (met wingsuit)",
-          "url": "http://www.youtube.com/watch?v=dPAcENXxtnw"
+          "url": "https://www.youtube.com/watch?v=dPAcENXxtnw"
         },
         {
           "type": "skydivemag",
@@ -3673,12 +3685,12 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "PD Valkyrie promo",
-          "url": "http://www.youtube.com/watch?v=LJr70PKbgOE"
+          "url": "https://www.youtube.com/watch?v=LJr70PKbgOE"
         },
         {
           "type": "youtube",
           "title": "Flight of the Valkyries",
-          "url": "http://www.youtube.com/watch?v=rrr4BlBLFTY"
+          "url": "https://www.youtube.com/watch?v=rrr4BlBLFTY"
         },
         {
           "type": "skydivemag",
@@ -3709,22 +3721,22 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "Petra 69 Project: new canopy flown by Nick Batsch",
-          "url": "http://www.youtube.com/watch?v=n_oMXHn427w"
+          "url": "https://www.youtube.com/watch?v=n_oMXHn427w"
         },
         {
           "type": "youtube",
           "title": "Petra Terminal Openings",
-          "url": "http://www.youtube.com/watch?v=ot7Bi5dpdRA"
+          "url": "https://www.youtube.com/watch?v=ot7Bi5dpdRA"
         },
         {
           "type": "youtube",
           "title": "Petra 86 Prototype: Flown by Patrick Boulongne",
-          "url": "http://www.youtube.com/watch?v=J2wKPYvNBdk"
+          "url": "https://www.youtube.com/watch?v=J2wKPYvNBdk"
         },
         {
           "type": "youtube",
           "title": "Tech Toys 360 preview: Petra Parachute",
-          "url": "http://www.youtube.com/watch?v=BetKPFN_VUY"
+          "url": "https://www.youtube.com/watch?v=BetKPFN_VUY"
         }
       ],
       "remarks": {
@@ -3754,7 +3766,7 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "Petra Project Episode II: Leia",
-          "url": "http://www.youtube.com/watch?v=zomcgbDLTPI"
+          "url": "https://www.youtube.com/watch?v=zomcgbDLTPI"
         }
       ],
       "remarks": {
@@ -3814,7 +3826,7 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "Fluid Wings Helix 84 SN:13",
-          "url": "http://www.youtube.com/watch?v=Q7m9OT3VSnE"
+          "url": "https://www.youtube.com/watch?v=Q7m9OT3VSnE"
         }
       ],
       "xbraced": true,
@@ -3862,7 +3874,7 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "Fluid Wings HK 60",
-          "url": "http://www.youtube.com/watch?v=XL_9JGr-a-o"
+          "url": "https://www.youtube.com/watch?v=XL_9JGr-a-o"
         },
         {
           "type": "skydivemag",
@@ -3922,17 +3934,17 @@ let kompasroosData = {
         {
           "type": "youtube",
           "title": "Airwolf 90",
-          "url": "http://www.youtube.com/watch?v=W6gnL5O5YtI"
+          "url": "https://www.youtube.com/watch?v=W6gnL5O5YtI"
         },
         {
           "type": "youtube",
           "title": "Fluid Wings Airwolf 79 @ 2.72",
-          "url": "http://www.youtube.com/watch?v=J1Wc2aSCv18"
+          "url": "https://www.youtube.com/watch?v=J1Wc2aSCv18"
         },
         {
           "type": "youtube",
           "title": "Fluid Wings AirWolf 90 2.7 loading",
-          "url": "http://www.youtube.com/watch?v=v569hpZwrmg"
+          "url": "https://www.youtube.com/watch?v=v569hpZwrmg"
         }
       ],
       "displaycategory": 7,
