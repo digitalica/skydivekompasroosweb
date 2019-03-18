@@ -93,6 +93,13 @@ for (let c in canopiesArray) {
 
   // complete URLS in the links array
   let links = [];
+  if (cObject.dropzoneid) {
+    links.push({
+      type: "dropzone.com",
+      title: "Dropzone.com",
+      url: 'https://www.dropzone.com/gear/Detailed/' + cObject.dropzoneid + '.html'
+    });
+  }
   if (cObject.links) {
     for (var li = 0; li < cObject.links.length; li++) {
       let link = {};

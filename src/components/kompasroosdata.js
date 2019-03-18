@@ -232,6 +232,11 @@ let kompasroosData = {
       "url": "https://www.performancedesigns.com/products/navigator/",
       "links": [
         {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/22.html"
+        },
+        {
           "type": "youtube",
           "title": "Test Navigator 240 sq ft",
           "url": "https://www.youtube.com/watch?v=KALCUff9Tx4"
@@ -259,7 +264,13 @@ let kompasroosData = {
       "maxsize": "253",
       "minsize": "143",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/20.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Performance Designs",
@@ -281,7 +292,13 @@ let kompasroosData = {
       "maxsize": "340",
       "minsize": "150",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/21.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Performance Designs",
@@ -303,7 +320,13 @@ let kompasroosData = {
       "maxsize": "230",
       "minsize": "97",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/17.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Performance Designs",
@@ -325,7 +348,13 @@ let kompasroosData = {
       "minsize": "190",
       "url": "https://www.flyaerodyne.com/solo.asp",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/421.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Aerodyne Research",
@@ -345,7 +374,13 @@ let kompasroosData = {
       "minsize": "210",
       "url": "http://www.flyfirebird.com/catalog/product_info.php/cPath/90_21_159/products_id/670",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/592.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Firebird",
@@ -382,7 +417,13 @@ let kompasroosData = {
       "minsize": "230",
       "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/47.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Parachutes de France",
@@ -400,7 +441,13 @@ let kompasroosData = {
       "dropzoneid": "52",
       "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/52.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Parachutes de France",
@@ -474,7 +521,13 @@ let kompasroosData = {
       "dropzoneid": "27",
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/27.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Precision Aerodynamics",
@@ -551,7 +604,13 @@ let kompasroosData = {
       "minsize": "150",
       "url": "http://www.paratec.de/?page_id=3653",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/448.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Paratec",
@@ -592,7 +651,13 @@ let kompasroosData = {
       "minsize": "200",
       "url": "http://flightconceptsint.com/classic/7-cell-classic",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/41.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Flight Concepts",
@@ -613,7 +678,13 @@ let kompasroosData = {
       "minsize": "200",
       "url": "http://flightconceptsint.com/classic/7-cell-classic",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/41.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Flight Concepts",
@@ -634,7 +705,13 @@ let kompasroosData = {
       "minsize": "175",
       "url": "http://flightconceptsint.com/classic/7-cell-classic",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/41.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Flight Concepts",
@@ -655,7 +732,13 @@ let kompasroosData = {
       "minsize": "145",
       "url": "http://flightconceptsint.com/classic/7-cell-classic",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/41.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Flight Concepts",
@@ -696,7 +779,13 @@ let kompasroosData = {
       "minsize": "245",
       "url": "http://flightconceptsint.com/classic/7-cell-classic",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/41.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Flight Concepts",
@@ -717,7 +806,13 @@ let kompasroosData = {
       "minsize": "220",
       "url": "http://flightconceptsint.com/classic/9-cell-classic",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/40.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Flight Concepts",
@@ -738,7 +833,13 @@ let kompasroosData = {
       "minsize": "250",
       "url": "http://flightconceptsint.com/classic/9-cell-classic",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/40.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Flight Concepts",
@@ -759,7 +860,13 @@ let kompasroosData = {
       "dropzoneid": "40",
       "url": "http://flightconceptsint.com/classic/9-cell-classic",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/40.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Flight Concepts",
@@ -779,7 +886,13 @@ let kompasroosData = {
       "maxsize": "290",
       "minsize": "290",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/40.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Flight Concepts",
@@ -800,6 +913,11 @@ let kompasroosData = {
       "minsize": "185",
       "url": "http://flightconceptsint.com/zp-main/zp-manta",
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/691.html"
+        },
         {
           "type": "youtube",
           "title": "Parachute inflation of Flight Concepts fully zero porosity Manta",
@@ -840,7 +958,13 @@ let kompasroosData = {
       "dropzoneid": "6",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/6.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "NZ Aerosports",
@@ -861,7 +985,13 @@ let kompasroosData = {
       "minsize": "189",
       "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=20&Itemid=19",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/692.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Icarus Canopies",
@@ -898,7 +1028,13 @@ let kompasroosData = {
       "dropzoneid": "70",
       "manufacturerid": "2228CEB3-3246-47D8-A393-52FF9DFEBB45",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/70.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "North American Aerodynamics, Inc.",
@@ -919,7 +1055,13 @@ let kompasroosData = {
       "minsize": "110",
       "url": "http://www.naaero.com/sport/Eagle%209-cell.htm",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/71.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "North American Aerodynamics, Inc.",
@@ -939,7 +1081,13 @@ let kompasroosData = {
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "url": "http://www.nzaerosports.com/canopies/icarus-student",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/966.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "NZ Aerosports",
@@ -958,7 +1106,13 @@ let kompasroosData = {
       "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
       "url": "http://www.parachutesystemseurope.com/eng/zp.php",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/948.html"
+        }
+      ],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Parachute Systems",
@@ -981,7 +1135,13 @@ let kompasroosData = {
       "planformcells": "4",
       "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/292.html"
+        }
+      ],
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Parachutes de France",
@@ -999,7 +1159,13 @@ let kompasroosData = {
       "dropzoneid": "48",
       "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/48.html"
+        }
+      ],
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Parachutes de France",
@@ -1023,6 +1189,11 @@ let kompasroosData = {
       "planformcells": "4",
       "url": "https://www.flyaerodyne.com/pilot.asp",
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/420.html"
+        },
         {
           "type": "youtube",
           "title": "Parachute Opening - Aerodyne Pilot 168",
@@ -1052,6 +1223,11 @@ let kompasroosData = {
       "url": "https://www.flyaerodyne.com/pilot7.asp",
       "xbraced": false,
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/980.html"
+        },
         {
           "type": "youtube",
           "title": "Pilot 7",
@@ -1085,6 +1261,11 @@ let kompasroosData = {
       "url": "https://www.flyaerodyne.com/triathlon.asp",
       "xbraced": false,
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/36.html"
+        },
         {
           "type": "youtube",
           "title": "Slo-Motion Parachute Canopy triathlon 190 deployment",
@@ -1135,7 +1316,13 @@ let kompasroosData = {
       "dropzoneid": "450",
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/450.html"
+        }
+      ],
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Paratec",
@@ -1157,7 +1344,13 @@ let kompasroosData = {
       "maxsize": "230",
       "minsize": "97",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/17.html"
+        }
+      ],
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Performance Designs",
@@ -1179,6 +1372,11 @@ let kompasroosData = {
       "minsize": "97",
       "url": "https://www.performancedesigns.com/products/spectre/",
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/9.html"
+        },
         {
           "type": "youtube",
           "title": "How to land Spectre 190",
@@ -1212,7 +1410,13 @@ let kompasroosData = {
       "minsize": "135",
       "url": "https://www.performancedesigns.com/products/silhouette/",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/19.html"
+        }
+      ],
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Performance Designs",
@@ -1234,6 +1438,11 @@ let kompasroosData = {
       "minsize": "107",
       "url": "https://www.performancedesigns.com/products/pulse/",
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/585.html"
+        },
         {
           "type": "youtube",
           "title": "PD Pulse promo",
@@ -1262,7 +1471,13 @@ let kompasroosData = {
       "minsize": "205",
       "url": "https://www.performancedesigns.com/products/zero/",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/778.html"
+        }
+      ],
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Performance Designs",
@@ -1283,7 +1498,13 @@ let kompasroosData = {
       "minsize": "98",
       "url": "http://www.precision.aero/synergy.htm",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/285.html"
+        }
+      ],
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Precision Aerodynamics",
@@ -1304,7 +1525,13 @@ let kompasroosData = {
       "minsize": "99",
       "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=1&Itemid=11",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/300.html"
+        }
+      ],
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "NZ Aerosports",
@@ -1326,7 +1553,13 @@ let kompasroosData = {
       "minsize": "99",
       "url": "http://www.nzaerosports.com/canopies/icarus-omega",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/3.html"
+        }
+      ],
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "NZ Aerosports",
@@ -1346,6 +1579,11 @@ let kompasroosData = {
       "maxsize": "190",
       "minsize": "130",
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/590.html"
+        },
         {
           "type": "pdf",
           "title": "Manual",
@@ -1373,7 +1611,13 @@ let kompasroosData = {
       "minsize": "135",
       "url": "http://www.basetroll.com/products_4.html",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/706.html"
+        }
+      ],
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Atair Aerodynamics",
@@ -1394,7 +1638,13 @@ let kompasroosData = {
       "minsize": "220",
       "url": "http://www.naaero.com/sport/parafoil.htm",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/68.html"
+        }
+      ],
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "North American Aerodynamics, Inc.",
@@ -1414,7 +1664,13 @@ let kompasroosData = {
       "maxsize": "328",
       "minsize": "198",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/896.html"
+        }
+      ],
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Eiff Aerodynamics",
@@ -1435,7 +1691,13 @@ let kompasroosData = {
       "minsize": "290",
       "url": "http://skylarkparachutes.com/commodore",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/615.html"
+        }
+      ],
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Skylark Parachutes",
@@ -1490,6 +1752,11 @@ let kompasroosData = {
       "url": "https://www.performancedesigns.com/products/sabre2/",
       "links": [
         {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/267.html"
+        },
+        {
           "type": "youtube",
           "title": "PD Sabre 2 promo",
           "url": "https://www.youtube.com/watch?v=VKxMN8C3TtE"
@@ -1543,6 +1810,11 @@ let kompasroosData = {
       "url": "https://www.performancedesigns.com/products/lightning/",
       "links": [
         {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/18.html"
+        },
+        {
           "type": "youtube",
           "title": "Canopy Formation 100 way world record 2007",
           "url": "https://www.youtube.com/watch?v=Fggc3B5u5Ck"
@@ -1581,6 +1853,11 @@ let kompasroosData = {
       "url": "https://www.performancedesigns.com/products/storm/",
       "links": [
         {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/579.html"
+        },
+        {
           "type": "youtube",
           "title": "PD Storm promo",
           "url": "https://www.youtube.com/watch?v=pO8dlRu24Kc"
@@ -1609,6 +1886,11 @@ let kompasroosData = {
       "url": "https://www.performancedesigns.com/products/horizon/",
       "links": [
         {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/1031.html"
+        },
+        {
           "type": "youtube",
           "title": "PD Horizon promo",
           "url": "https://www.youtube.com/watch?v=a9wbmmY0IdI"
@@ -1635,7 +1917,13 @@ let kompasroosData = {
       "minsize": "89",
       "url": "http://www.precision.aero/fusion.htm",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/467.html"
+        }
+      ],
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Precision Aerodynamics",
@@ -1656,7 +1944,13 @@ let kompasroosData = {
       "minsize": "95",
       "url": "http://www.bigairsportz.com/lotus.php",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/74.html"
+        }
+      ],
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Big-air sportz",
@@ -1679,7 +1973,13 @@ let kompasroosData = {
         "nl": "Safire 2 werd geïntroduceerd in 2001"
       },
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/1.html"
+        }
+      ],
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "NZ Aerosports",
@@ -1707,6 +2007,11 @@ let kompasroosData = {
         "nl": "Safire 3 werd geïntroduceerd in 2016"
       },
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/301.html"
+        },
         {
           "type": "youtube",
           "title": "Icarus Safire2 149",
@@ -1745,6 +2050,11 @@ let kompasroosData = {
       "minsize": "99",
       "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=127&Itemid=673",
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/1028.html"
+        },
         {
           "type": "youtube",
           "title": "Landing Icarus S-fire 169",
@@ -1812,7 +2122,13 @@ let kompasroosData = {
       "minsize": "130",
       "url": "http://www.strongparachutes.com/pages/Sport/spmain.html",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/60.html"
+        }
+      ],
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Strong Enterprises",
@@ -1832,7 +2148,13 @@ let kompasroosData = {
       "maxsize": "150",
       "minsize": "97",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/451.html"
+        }
+      ],
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Paratec",
@@ -1874,7 +2196,13 @@ let kompasroosData = {
       "dropzoneid": "898",
       "manufacturerid": "E0E33BAB-7067-42EC-96E3-FD6B35926A11",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/898.html"
+        }
+      ],
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "PISA",
@@ -1892,7 +2220,13 @@ let kompasroosData = {
       "dropzoneid": "433",
       "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/433.html"
+        }
+      ],
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Parachute Systems",
@@ -1913,7 +2247,13 @@ let kompasroosData = {
       "minsize": "125",
       "url": "http://parachutesystems.com/volt",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/973.html"
+        }
+      ],
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Parachute Systems",
@@ -1959,7 +2299,13 @@ let kompasroosData = {
       "minsize": "125",
       "url": "http://flightconceptsint.com/zp-main/express",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/42.html"
+        }
+      ],
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Flight Concepts",
@@ -1980,7 +2326,13 @@ let kompasroosData = {
       "minsize": "150",
       "url": "http://flightconceptsint.com/zp-main/prodigy",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/43.html"
+        }
+      ],
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Flight Concepts",
@@ -2001,7 +2353,13 @@ let kompasroosData = {
       "minsize": "99",
       "url": "http://flightconceptsint.com/zp-main/sentry",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/690.html"
+        }
+      ],
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Flight Concepts",
@@ -2020,6 +2378,11 @@ let kompasroosData = {
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "url": "http://www.nzaerosports.com/canopies/icarus-matrix",
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/967.html"
+        },
         {
           "type": "youtube",
           "title": "Matrix Reloaded",
@@ -2046,7 +2409,13 @@ let kompasroosData = {
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "url": "http://www.nzaerosports.com/canopies/daedalus-matrix2",
       "xbraced": true,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/968.html"
+        }
+      ],
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "NZ Aerosports",
@@ -2067,7 +2436,13 @@ let kompasroosData = {
       "minsize": "110",
       "url": "http://skylarkparachutes.com/skipper/",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/612.html"
+        }
+      ],
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Skylark Parachutes",
@@ -2108,7 +2483,13 @@ let kompasroosData = {
       "minsize": "100",
       "url": "http://skylarkparachutes.com/magellan/",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/613.html"
+        }
+      ],
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Skylark Parachutes",
@@ -2176,7 +2557,13 @@ let kompasroosData = {
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
       "url": "http://www.fluidwings.com/prime",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/978.html"
+        }
+      ],
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Fluid Wings",
@@ -2247,7 +2634,13 @@ let kompasroosData = {
       "planformcells": "4",
       "url": "https://www.performancedesigns.com/products/stiletto/",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/16.html"
+        }
+      ],
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Performance Designs",
@@ -2284,7 +2677,13 @@ let kompasroosData = {
       "planform": "28.0",
       "planformcells": "8",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/49.html"
+        }
+      ],
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Parachutes de France",
@@ -2341,7 +2740,13 @@ let kompasroosData = {
       "dropzoneid": "25",
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/25.html"
+        }
+      ],
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Precision Aerodynamics",
@@ -2391,7 +2796,13 @@ let kompasroosData = {
       "dropzoneid": "32",
       "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/32.html"
+        }
+      ],
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Atair Aerodynamics",
@@ -2409,7 +2820,13 @@ let kompasroosData = {
       "dropzoneid": "34",
       "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/34.html"
+        }
+      ],
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Atair Aerodynamics",
@@ -2427,7 +2844,13 @@ let kompasroosData = {
       "dropzoneid": "33",
       "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/33.html"
+        }
+      ],
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Atair Aerodynamics",
@@ -2468,7 +2891,13 @@ let kompasroosData = {
       "planform": "15.5",
       "planformcells": "6",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/419.html"
+        }
+      ],
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Aerodyne Research",
@@ -2492,7 +2921,13 @@ let kompasroosData = {
       "planform": "10.7",
       "planformcells": "4",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/35.html"
+        }
+      ],
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Aerodyne Research",
@@ -2515,6 +2950,11 @@ let kompasroosData = {
       "planform": "10",
       "url": "https://www.flyaerodyne.com/zulu.asp",
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/931.html"
+        },
         {
           "type": "youtube",
           "title": "aerodyne zulu (152ft) test jump",
@@ -2567,7 +3007,13 @@ let kompasroosData = {
         "url": "http://flightconcepts.com/the-rage/"
       },
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/586.html"
+        }
+      ],
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Flight Concepts",
@@ -2585,7 +3031,13 @@ let kompasroosData = {
       "dropzoneid": "452",
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/452.html"
+        }
+      ],
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Paratec",
@@ -2648,7 +3100,13 @@ let kompasroosData = {
       "minsize": "95",
       "url": "http://parachutesystems.com/hurricane",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/432.html"
+        }
+      ],
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Parachute Systems",
@@ -2686,7 +3144,13 @@ let kompasroosData = {
       "minsize": "84",
       "url": "http://www.jumpshack.com/firebolt.htm",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/435.html"
+        }
+      ],
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Jump Shack",
@@ -2709,7 +3173,13 @@ let kompasroosData = {
         "nl": "Crossfire 2 werd geïntroduceerd in 2001"
       },
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/4.html"
+        }
+      ],
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "NZ Aerosports",
@@ -2730,7 +3200,13 @@ let kompasroosData = {
       "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
       "url": "http://parachutesystems.com/ventus",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/974.html"
+        }
+      ],
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Parachute Systems",
@@ -2751,7 +3227,13 @@ let kompasroosData = {
       "minsize": "85",
       "url": "http://skylarkparachutes.com/odyssey/",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/614.html"
+        }
+      ],
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Skylark Parachutes",
@@ -2795,6 +3277,11 @@ let kompasroosData = {
       "planformcells": "8",
       "url": "http://www.nzaerosports.com/canopies/icarus-crossfire",
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/302.html"
+        },
         {
           "type": "youtube",
           "title": "7 minutes packing crossfire 2 99",
@@ -2903,7 +3390,13 @@ let kompasroosData = {
       "minsize": "95",
       "url": "http://www.bigairsportz.com/samurai.php",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/73.html"
+        }
+      ],
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Big-air sportz",
@@ -2941,7 +3434,13 @@ let kompasroosData = {
       "minsize": "85",
       "url": "http://www.basetroll.com/products_3.html",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/705.html"
+        }
+      ],
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Atair Aerodynamics",
@@ -3004,6 +3503,11 @@ let kompasroosData = {
       "minsize": "80",
       "links": [
         {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/591.html"
+        },
+        {
           "type": "pdf",
           "title": "Manual",
           "url": "http://www.flyfirebird.com/fb/downloads/manuals/chilli.pdf"
@@ -3031,6 +3535,11 @@ let kompasroosData = {
       "minsize": "83",
       "url": "https://www.performancedesigns.com/products/katana/",
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/465.html"
+        },
         {
           "type": "youtube",
           "title": "PD Katana 120 openings & landings ",
@@ -3061,7 +3570,13 @@ let kompasroosData = {
         "nl": "Airlocked"
       },
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/23.html"
+        }
+      ],
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Performance Designs",
@@ -3079,7 +3594,13 @@ let kompasroosData = {
       "dropzoneid": "453",
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/453.html"
+        }
+      ],
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Paratec",
@@ -3104,7 +3625,13 @@ let kompasroosData = {
       },
       "url": "http://www.paratec.de/?page_id=4253",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/567.html"
+        }
+      ],
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Paratec",
@@ -3162,7 +3689,13 @@ let kompasroosData = {
       "minsize": "78",
       "url": "http://www.precision.aero/nitron.htm",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/268.html"
+        }
+      ],
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Precision Aerodynamics",
@@ -3184,7 +3717,13 @@ let kompasroosData = {
       "minsize": "90",
       "url": "https://www.flyaerodyne.com/mamba.asp",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/551.html"
+        }
+      ],
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Aerodyne Research",
@@ -3207,6 +3746,11 @@ let kompasroosData = {
       "url": "http://www.fluidwings.com/tesla",
       "xbraced": false,
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/1036.html"
+        },
         {
           "type": "vimeo",
           "title": "TESLA Release Video",
@@ -3245,6 +3789,11 @@ let kompasroosData = {
       "url": "https://www.flyaerodyne.com/sensei.asp",
       "links": [
         {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/761.html"
+        },
+        {
           "type": "youtube",
           "title": "Test Piloting the Sensei 91 Parachute",
           "url": "https://www.youtube.com/watch?v=AQLM9ZLpBMw"
@@ -3279,7 +3828,13 @@ let kompasroosData = {
       "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
       "url": "http://parachutesystems.com/vmax",
       "xbraced": true,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/700.html"
+        }
+      ],
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Parachute Systems",
@@ -3301,6 +3856,11 @@ let kompasroosData = {
       "minsize": "75",
       "url": "https://www.performancedesigns.com/products/velocity/",
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/8.html"
+        },
         {
           "type": "youtube",
           "title": "How to fly and and Velocity 103",
@@ -3335,6 +3895,11 @@ let kompasroosData = {
       "url": "https://www.performancedesigns.com/products/compvelocity/",
       "links": [
         {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/701.html"
+        },
+        {
           "type": "skydivemag",
           "title": "Skydivemag review",
           "url": "http://www.skydivemag.com/article/20130815-competition-velocity"
@@ -3358,7 +3923,13 @@ let kompasroosData = {
       "dropzoneid": "265",
       "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
       "xbraced": true,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/265.html"
+        }
+      ],
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Parachutes de France",
@@ -3396,7 +3967,13 @@ let kompasroosData = {
       "minsize": "68",
       "url": "http://www.precision.aero/xaos-21.htm",
       "xbraced": true,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/276.html"
+        }
+      ],
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Precision Aerodynamics",
@@ -3417,7 +3994,13 @@ let kompasroosData = {
       "minsize": "58",
       "url": "http://www.precision.aero/xaos-27.htm",
       "xbraced": true,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/426.html"
+        }
+      ],
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Precision Aerodynamics",
@@ -3443,7 +4026,13 @@ let kompasroosData = {
       },
       "url": "http://www.nzaerosports.com/canopies/icarus-VX",
       "xbraced": true,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/2.html"
+        }
+      ],
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "NZ Aerosports",
@@ -3469,7 +4058,13 @@ let kompasroosData = {
       },
       "url": "http://www.nzaerosports.com/canopies/icarus-FX",
       "xbraced": true,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/5.html"
+        }
+      ],
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "NZ Aerosports",
@@ -3491,6 +4086,11 @@ let kompasroosData = {
       "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=19&Itemid=18",
       "xbraced": true,
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/571.html"
+        },
         {
           "type": "youtube",
           "title": "Swoop Neos",
@@ -3520,6 +4120,11 @@ let kompasroosData = {
       "xbraced": true,
       "links": [
         {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/762.html"
+        },
+        {
           "type": "youtube",
           "title": "The World's Smallest Parachute",
           "url": "https://www.youtube.com/watch?v=yW3pimvJSro"
@@ -3546,6 +4151,11 @@ let kompasroosData = {
       "minsize": "59",
       "url": "http://www.nzaerosports.com/canopies/daedalus-JFX",
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/763.html"
+        },
         {
           "type": "youtube",
           "title": "Daedalus JFX Opening: Camera by Nick Batsch",
@@ -3591,7 +4201,13 @@ let kompasroosData = {
       "dropzoneid": "473",
       "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
       "xbraced": true,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/473.html"
+        }
+      ],
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Atair Aerodynamics",
@@ -3640,6 +4256,11 @@ let kompasroosData = {
       "url": "https://www.performancedesigns.com/products/peregrine/",
       "links": [
         {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/897.html"
+        },
+        {
           "type": "youtube",
           "title": "PD Peregrine promo",
           "url": "https://www.youtube.com/watch?v=Tj3U5QJbaAc"
@@ -3683,6 +4304,11 @@ let kompasroosData = {
       "url": "https://www.performancedesigns.com/products/valkyrie/",
       "links": [
         {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/971.html"
+        },
+        {
           "type": "youtube",
           "title": "PD Valkyrie promo",
           "url": "https://www.youtube.com/watch?v=LJr70PKbgOE"
@@ -3718,6 +4344,11 @@ let kompasroosData = {
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "url": "http://www.nzaerosports.com/gallery/jpx-petra",
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/965.html"
+        },
         {
           "type": "youtube",
           "title": "Petra 69 Project: new canopy flown by Nick Batsch",
@@ -3763,6 +4394,11 @@ let kompasroosData = {
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "url": "http://www.nzaerosports.com/gallery/daedalus-leia",
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/964.html"
+        },
         {
           "type": "youtube",
           "title": "Petra Project Episode II: Leia",
@@ -3819,6 +4455,11 @@ let kompasroosData = {
       "url": "http://www.fluidwings.com/#!helix/cczj",
       "links": [
         {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/972.html"
+        },
+        {
           "type": "vimeo",
           "title": "Helix release video",
           "url": "https://vimeo.com/134061502"
@@ -3848,7 +4489,13 @@ let kompasroosData = {
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
       "url": "http://www.fluidwings.com/hs",
       "xbraced": true,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/1032.html"
+        }
+      ],
       "displaycategory": 7,
       "calculationcategory": 7,
       "manufacturername": "Fluid Wings",
@@ -3871,6 +4518,11 @@ let kompasroosData = {
       "url": "http://www.fluidwings.com/hk",
       "xbraced": true,
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/1033.html"
+        },
         {
           "type": "youtube",
           "title": "Fluid Wings HK 60",
@@ -3903,7 +4555,13 @@ let kompasroosData = {
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
       "url": "http://www.fluidwings.com/hkterminal",
       "xbraced": true,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/1034.html"
+        }
+      ],
       "displaycategory": 7,
       "calculationcategory": 7,
       "manufacturername": "Fluid Wings",
@@ -3926,6 +4584,11 @@ let kompasroosData = {
       "url": "http://www.fluidwings.com/airwolf",
       "xbraced": true,
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/1035.html"
+        },
         {
           "type": "vimeo",
           "title": "AirWolf Release Video",
@@ -4027,7 +4690,13 @@ let kompasroosData = {
       "minsize": "64",
       "url": "http://skylarkparachutes.com/scirocco",
       "xbraced": true,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/636.html"
+        }
+      ],
       "displaycategory": 7,
       "calculationcategory": 7,
       "manufacturername": "Skylark Parachutes",

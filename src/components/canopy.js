@@ -281,6 +281,10 @@ function Canopy(props) {
       let icon = <LinkIcon/>;
       let name = '';
       switch (link.type) {
+        case 'dropzone.com':
+          icon = <Bookmark/>;
+          name = "Dropzone.com";
+          break;
         case 'youtube':
           icon = <PlayIcon/>;
           name = "Youtube: " + link.title;
@@ -291,7 +295,7 @@ function Canopy(props) {
           break;
         case 'skydivemag':
           icon = <Bookmark/>;
-          name = "Skydive Magazine";
+          name = "Skydive Magazine: " + link.title;
           break;
         case 'pdf':
           icon = <PdfIcon/>;
