@@ -1271,7 +1271,14 @@
       "commontype": "0",
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
       "url": "https://www.fluidwings.com/nexus",
-      "xbraced": false
+      "xbraced": false,
+      "links": [
+        {
+          "type": "vimeo",
+          "title": "NEXUS ~the next step~",
+          "id": "264115452"
+        }
+      ]
     },
     {
       "id": "107633B0-202B-4625-9CD4-8AFE131C5D10",
@@ -1899,7 +1906,24 @@
       "commontype": "0",
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
       "url": "http://www.fluidwings.com/tesla",
-      "xbraced": false
+      "xbraced": false,
+      "links": [
+        {
+          "type": "vimeo",
+          "title": "TESLA Release Video",
+          "id": "189958872"
+        },
+        {
+          "type": "vimeo",
+          "title": "Tesla Teaser",
+          "id": "180641619"
+        },
+        {
+          "type": "youtube",
+          "title": "Fluid Wings Tesla 120 Openings",
+          "id": "Iq3_vH_qk7U"
+        }
+      ]
     },
     {
       "id": "0858835E-BC3A-43D9-A085-3DF96D70D3ED",
@@ -2310,6 +2334,11 @@
           "type": "vimeo",
           "title": "Helix release video",
           "id": "134061502"
+        },
+        {
+          "type": "youtube",
+          "title": "Fluid Wings Helix 84 SN:13",
+          "id": "Q7m9OT3VSnE"
         }
       ],
       "xbraced": true
@@ -2337,7 +2366,14 @@
       "commontype": "0",
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
       "url": "http://www.fluidwings.com/hk",
-      "xbraced": true
+      "xbraced": true,
+      "links": [
+        {
+          "type": "youtube",
+          "title": "Fluid Wings HK 60",
+          "id": "XL_9JGr-a-o"
+        }
+      ]
     },
     {
       "id": "DC694B4B-EF96-4E4C-993C-601929279178",
@@ -2365,7 +2401,29 @@
       "commontype": "0",
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
       "url": "http://www.fluidwings.com/airwolf",
-      "xbraced": true
+      "xbraced": true,
+      "links": [
+        {
+          "type": "vimeo",
+          "title": "AirWolf Release Video",
+          "id": "221748201"
+        },
+        {
+          "type": "youtube",
+          "title": "Airwolf 90",
+          "id": "W6gnL5O5YtI"
+        },
+        {
+          "type": "youtube",
+          "title": "Fluid Wings Airwolf 79 @ 2.72",
+          "id": "J1Wc2aSCv18"
+        },
+        {
+          "type": "youtube",
+          "title": "Fluid Wings AirWolf 90 2.7 loading",
+          "id": "v569hpZwrmg"
+        }
+      ]
     },
     {
       "id": "A8C274D3-DE56-413D-AAA2-C8EE6D7CA3BE",

@@ -2175,7 +2175,13 @@ let kompasroosData = {
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
       "url": "https://www.fluidwings.com/nexus",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "vimeo",
+          "title": "NEXUS ~the next step~",
+          "url": "https://vimeo.com/264115452"
+        }
+      ],
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Fluid Wings",
@@ -3153,7 +3159,23 @@ let kompasroosData = {
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
       "url": "http://www.fluidwings.com/tesla",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "vimeo",
+          "title": "TESLA Release Video",
+          "url": "https://vimeo.com/189958872"
+        },
+        {
+          "type": "vimeo",
+          "title": "Tesla Teaser",
+          "url": "https://vimeo.com/180641619"
+        },
+        {
+          "type": "youtube",
+          "title": "Fluid Wings Tesla 120 Openings",
+          "url": "http://www.youtube.com/watch?v=Iq3_vH_qk7U"
+        }
+      ],
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Fluid Wings",
@@ -3731,6 +3753,11 @@ let kompasroosData = {
           "type": "vimeo",
           "title": "Helix release video",
           "url": "https://vimeo.com/134061502"
+        },
+        {
+          "type": "youtube",
+          "title": "Fluid Wings Helix 84 SN:13",
+          "url": "http://www.youtube.com/watch?v=Q7m9OT3VSnE"
         }
       ],
       "xbraced": true,
@@ -3774,7 +3801,13 @@ let kompasroosData = {
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
       "url": "http://www.fluidwings.com/hk",
       "xbraced": true,
-      "links": [],
+      "links": [
+        {
+          "type": "youtube",
+          "title": "Fluid Wings HK 60",
+          "url": "http://www.youtube.com/watch?v=XL_9JGr-a-o"
+        }
+      ],
       "displaycategory": 7,
       "calculationcategory": 7,
       "manufacturername": "Fluid Wings",
@@ -3818,7 +3851,28 @@ let kompasroosData = {
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
       "url": "http://www.fluidwings.com/airwolf",
       "xbraced": true,
-      "links": [],
+      "links": [
+        {
+          "type": "vimeo",
+          "title": "AirWolf Release Video",
+          "url": "https://vimeo.com/221748201"
+        },
+        {
+          "type": "youtube",
+          "title": "Airwolf 90",
+          "url": "http://www.youtube.com/watch?v=W6gnL5O5YtI"
+        },
+        {
+          "type": "youtube",
+          "title": "Fluid Wings Airwolf 79 @ 2.72",
+          "url": "http://www.youtube.com/watch?v=J1Wc2aSCv18"
+        },
+        {
+          "type": "youtube",
+          "title": "Fluid Wings AirWolf 90 2.7 loading",
+          "url": "http://www.youtube.com/watch?v=v569hpZwrmg"
+        }
+      ],
       "displaycategory": 7,
       "calculationcategory": 7,
       "manufacturername": "Fluid Wings",
