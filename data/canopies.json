@@ -529,7 +529,24 @@
       "maxsize": "260",
       "minsize": "99",
       "url": "http://www.flyaerodyne.com/triathlon.asp",
-      "xbraced": false
+      "xbraced": false,
+      "links": [
+        {
+          "type": "youtube",
+          "title": "Slo-Motion Parachute Canopy triathlon 190 deployment",
+          "id": "7MoCrLpsJJY"
+        },
+        {
+          "type": "youtube",
+          "title": "Triathlon 160",
+          "id": "IwAUp_nO-3M"
+        },
+        {
+          "type": "youtube",
+          "title": "CRW canopy packing (Triathlon Aerodyne 135 sq ft.)",
+          "id": "ykDh2bp0Qp4"
+        }
+      ]
     },
     {
       "id": "49B5D670-24BF-4392-B6D5-3426A88DC2AC",
@@ -950,6 +967,11 @@
           "type": "youtube",
           "title": "Icarus Safire2 149",
           "id": "DI3cjt3Wbrk"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag review",
+          "id": "icarus-canopies-by-nz-aerosports-reviewi"
         }
       ],
       "xbraced": false

@@ -1073,7 +1073,23 @@ let kompasroosData = {
       "minsize": "99",
       "url": "http://www.flyaerodyne.com/triathlon.asp",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "youtube",
+          "title": "Slo-Motion Parachute Canopy triathlon 190 deployment",
+          "url": "http://www.youtube.com/watch?v=7MoCrLpsJJY"
+        },
+        {
+          "type": "youtube",
+          "title": "Triathlon 160",
+          "url": "http://www.youtube.com/watch?v=IwAUp_nO-3M"
+        },
+        {
+          "type": "youtube",
+          "title": "CRW canopy packing (Triathlon Aerodyne 135 sq ft.)",
+          "url": "http://www.youtube.com/watch?v=ykDh2bp0Qp4"
+        }
+      ],
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Aerodyne Research",
@@ -1684,6 +1700,11 @@ let kompasroosData = {
           "type": "youtube",
           "title": "Icarus Safire2 149",
           "url": "http://www.youtube.com/watch?v=DI3cjt3Wbrk"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag review",
+          "url": "http://www.skydivemag.com/article/icarus-canopies-by-nz-aerosports-reviewi"
         }
       ],
       "xbraced": false,
