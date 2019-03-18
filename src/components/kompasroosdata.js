@@ -1025,7 +1025,7 @@ let kompasroosData = {
       "links": [
         {
           "type": "youtube",
-          "title": "Parachute Opening - Aerodyne Pilot 168 ",
+          "title": "Parachute Opening - Aerodyne Pilot 168",
           "url": "http://www.youtube.com/watch?v=6QgnKTmS0lA"
         }
       ],
@@ -1051,7 +1051,18 @@ let kompasroosData = {
       "minsize": "117",
       "url": "http://www.flyaerodyne.com/pilot7.asp",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "youtube",
+          "title": "Pilot 7",
+          "url": "http://www.youtube.com/watch?v=aXn0yqapUbE"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag Introducing the Pilot7",
+          "url": "http://www.skydivemag.com/article/introducing-the-pilot7"
+        }
+      ],
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Aerodyne Research",
@@ -1733,6 +1744,11 @@ let kompasroosData = {
           "type": "youtube",
           "title": "Landing Icarus S-fire 169",
           "url": "http://www.youtube.com/watch?v=NOmJjIOmSMk"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag review",
+          "url": "http://www.skydivemag.com/article/safire-3-review"
         }
       ],
       "xbraced": false,
@@ -2827,6 +2843,11 @@ let kompasroosData = {
           "type": "vimeo",
           "title": "Crossfire 3: openings and landings",
           "url": "https://vimeo.com/193448494"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag Crossfire 3 Insights",
+          "url": "http://www.skydivemag.com/article/crossfire-3-insights"
         }
       ],
       "xbraced": false,
@@ -3615,6 +3636,11 @@ let kompasroosData = {
           "type": "youtube",
           "title": "Peregrine XRW (met wingsuit)",
           "url": "http://www.youtube.com/watch?v=dPAcENXxtnw"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag: Peregrine Project | #SkydiveDubai",
+          "url": "http://www.skydivemag.com/article/peregrine-project-skydivedubai"
         }
       ],
       "xbraced": true,
@@ -3648,6 +3674,11 @@ let kompasroosData = {
           "type": "youtube",
           "title": "Flight of the Valkyries",
           "url": "http://www.youtube.com/watch?v=rrr4BlBLFTY"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag review",
+          "url": "http://www.skydivemag.com/article/valkyrie-review"
         }
       ],
       "xbraced": true,
@@ -3827,6 +3858,11 @@ let kompasroosData = {
           "type": "youtube",
           "title": "Fluid Wings HK 60",
           "url": "http://www.youtube.com/watch?v=XL_9JGr-a-o"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag Fluid Wings Releases Competition Wing",
+          "url": "http://www.skydivemag.com/article/fluid-wings-releases-competition-wing"
         }
       ],
       "displaycategory": 7,

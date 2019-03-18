@@ -497,7 +497,7 @@
       "links": [
         {
           "type": "youtube",
-          "title": "Parachute Opening - Aerodyne Pilot 168 ",
+          "title": "Parachute Opening - Aerodyne Pilot 168",
           "id": "6QgnKTmS0lA"
         }
       ],
@@ -515,7 +515,19 @@
       "maxsize": "247",
       "minsize": "117",
       "url": "http://www.flyaerodyne.com/pilot7.asp",
-      "xbraced": false
+      "xbraced": false,
+      "links": [
+        {
+          "type": "youtube",
+          "title": "Pilot 7",
+          "id": "aXn0yqapUbE"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag Introducing the Pilot7",
+          "id": "introducing-the-pilot7"
+        }
+      ]
     },
     {
       "id": "02BFB95A-E433-4A02-A6A1-3F8593BFDC90",
@@ -993,6 +1005,11 @@
           "type": "youtube",
           "title": "Landing Icarus S-fire 169",
           "id": "NOmJjIOmSMk"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag review",
+          "id": "safire-3-review"
         }
       ],
       "xbraced": false
@@ -1698,6 +1715,11 @@
           "type": "vimeo",
           "title": "Crossfire 3: openings and landings",
           "id": "193448494"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag Crossfire 3 Insights",
+          "id": "crossfire-3-insights"
         }
       ],
       "xbraced": false
@@ -2233,6 +2255,11 @@
           "type": "youtube",
           "title": "Peregrine XRW (met wingsuit)",
           "id": "dPAcENXxtnw"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag: Peregrine Project | #SkydiveDubai",
+          "id": "peregrine-project-skydivedubai"
         }
       ],
       "xbraced": true
@@ -2259,6 +2286,11 @@
           "type": "youtube",
           "title": "Flight of the Valkyries",
           "id": "rrr4BlBLFTY"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag review",
+          "id": "valkyrie-review"
         }
       ],
       "xbraced": true
@@ -2394,6 +2426,11 @@
           "type": "youtube",
           "title": "Fluid Wings HK 60",
           "id": "XL_9JGr-a-o"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag Fluid Wings Releases Competition Wing",
+          "id": "fluid-wings-releases-competition-wing"
         }
       ]
     },
