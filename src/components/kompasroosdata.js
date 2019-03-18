@@ -1713,6 +1713,11 @@ let kompasroosData = {
           "url": "http://www.youtube.com/watch?v=DI3cjt3Wbrk"
         },
         {
+          "type": "youtube",
+          "title": "NEW ICARUS CANOPIES SAFIRE2 119 sqft OPENING & LANDING",
+          "url": "http://www.youtube.com/watch?v=3RWf974sCtk"
+        },
+        {
           "type": "skydivemag",
           "title": "Skydivemag review",
           "url": "http://www.skydivemag.com/article/icarus-canopies-by-nz-aerosports-reviewi"
@@ -1777,7 +1782,7 @@ let kompasroosData = {
         },
         {
           "type": "youtube",
-          "title": "The saffire 3",
+          "title": "NZ Aerosports: The Safire 3",
           "url": "http://www.youtube.com/watch?v=UKi43C3NEUI"
         },
         {
