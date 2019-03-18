@@ -1,6 +1,5 @@
-var nl = {};
-var en = {};
-
+let nl = {};
+let en = {};
 
 nl.WEIGHT_INTRO = 'Stel uw exitgewicht in, en zie welke parachutes geschikt zijn volgens het BVR.';
 en.WEIGHT_INTRO = 'Set your exit weight and see what parachutes are allowed according to Dutch regulations.';
