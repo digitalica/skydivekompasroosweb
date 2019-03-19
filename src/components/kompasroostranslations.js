@@ -120,7 +120,7 @@ en.CANOPY_REMARKS = 'Remarks';
 nl.CANOPY_BEWARE = 'Let op';
 en.CANOPY_BEWARE = 'Beware';
 nl.CANOPY_WINGLOADWARNING = 'Dit levert je een te hoge wingload op, daarom mag je deze koepel ondanks de categorie toch niet springen.';
-en.CANOPY_WINGLOADWARNING = 'This results in the wingload being too high, so in spite of the category you\'re not allowrd to jump this parachute.';
+en.CANOPY_WINGLOADWARNING = 'This results in the wingload being too high, so in spite of the category you\'re not allowed to jump this parachute.';
 nl.CANOPY_NOTCATEGORIZEDYET = 'Nog niet ingedeeld. Tot die tijd geldt categorie: ';
 en.CANOPY_NOTCATEGORIZEDYET = 'Not categorized yet. Until then the category is: ';
 
