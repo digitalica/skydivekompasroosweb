@@ -107,7 +107,6 @@
       "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
       "maxsize": "290",
       "minsize": "230",
-      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy",
       "xbraced": false
     },
     {
@@ -138,7 +137,6 @@
       "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
       "maxsize": "280",
       "minsize": "200",
-      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy",
       "xbraced": false
     },
     {
@@ -467,7 +465,6 @@
       "minsize": "130",
       "planform": "9.5",
       "planformcells": "4",
-      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy",
       "xbraced": false
     },
     {
@@ -1380,7 +1377,6 @@
       "minsize": "110",
       "planform": "28.0",
       "planformcells": "8",
-      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy",
       "xbraced": false
     },
     {
@@ -1912,7 +1908,6 @@
       "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
       "maxsize": "110",
       "minsize": "80",
-      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy",
       "xbraced": false
     },
     {
@@ -2447,6 +2442,11 @@
           "id": "XL_9JGr-a-o"
         },
         {
+          "type": "youtube",
+          "title": "Canopy Action 2017, Timmi, Fly Fluid",
+          "id": "Day0Zqw-SqY"
+        },
+        {
           "type": "skydivemag",
           "title": "Skydivemag Fluid Wings Releases Competition Wing",
           "id": "fluid-wings-releases-competition-wing"
@@ -2554,5 +2554,4 @@
     }
   ]
 }
-
 

@@ -108,11 +108,10 @@
       "name": "Parachutes de France",
       "countrycode": "fr",
       "remarks": {
-        "en": "Parachutes de France was merged in Zodiac Aerospace around 2014.",
-        "nl": "Parachutes de France is rond 2014 opgegaan in Zodiac Aerospace."
+        "en": "Parachutes de France was merged in Zodiac Aerospace around 2014. In February 2018, Safran took control of Zodiac Aerospace.",
+        "nl": "Parachutes de France is rond 2014 opgegaan in Zodiac Aerospace. In februari 2018 heeft Safran Zodiac Aerospace overgenomen."
       },
-      "shortname": "PdF",
-      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems"
+      "shortname": "PdF"
     },
     {
       "id": "E1DA167E-6512-401E-9033-8621884D2C67",
