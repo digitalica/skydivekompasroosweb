@@ -974,6 +974,11 @@
       "links": [
         {
           "type": "youtube",
+          "title": "Safire 3 The Story",
+          "id": "ySkbuQ16H7I"
+        },
+        {
+          "type": "youtube",
           "title": "Icarus Safire2 149",
           "id": "DI3cjt3Wbrk"
         },
@@ -1007,6 +1012,11 @@
           "type": "youtube",
           "title": "Landing Icarus S-fire 169",
           "id": "NOmJjIOmSMk"
+        },
+        {
+          "type": "youtube",
+          "title": "ICARUS SFire 139 - Skydive - AIR 65",
+          "id": "Ik-HlZx_gok"
         },
         {
           "type": "skydivemag",
@@ -1117,6 +1127,13 @@
       "maxsize": "215",
       "minsize": "125",
       "url": "http://parachutesystems.com/volt",
+      "links": [
+        {
+          "type": "youtube",
+          "title": "Canopy deployment: Parachute Systems Volt",
+          "id": "lbvbXkjUxfE"
+        }
+      ],
       "xbraced": false
     },
     {
@@ -1577,6 +1594,18 @@
       "maxsize": "170",
       "minsize": "95",
       "url": "http://parachutesystems.com/hurricane",
+      "links": [
+        {
+          "type": "youtube",
+          "title": "parachute - fun in the clouds - Hurricane Parachute Systems",
+          "id": "XUQU6zattoE"
+        },
+        {
+          "type": "youtube",
+          "title": "Hurricane 120 - swoop No.1.",
+          "id": "4RH9G4zDxUM"
+        }
+      ],
       "xbraced": false
     },
     {
@@ -2178,7 +2207,6 @@
           "id": "yW3pimvJSro"
         }
       ]
-
     },
     {
       "id": "AD3229CE-7B38-4BC8-A1C6-73D6DF651198",

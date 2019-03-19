@@ -2004,6 +2004,11 @@ let kompasroosData = {
         },
         {
           "type": "youtube",
+          "title": "Safire 3 The Story",
+          "url": "https://www.youtube.com/watch?v=ySkbuQ16H7I"
+        },
+        {
+          "type": "youtube",
           "title": "Icarus Safire2 149",
           "url": "https://www.youtube.com/watch?v=DI3cjt3Wbrk"
         },
@@ -2049,6 +2054,11 @@ let kompasroosData = {
           "type": "youtube",
           "title": "Landing Icarus S-fire 169",
           "url": "https://www.youtube.com/watch?v=NOmJjIOmSMk"
+        },
+        {
+          "type": "youtube",
+          "title": "ICARUS SFire 139 - Skydive - AIR 65",
+          "url": "https://www.youtube.com/watch?v=Ik-HlZx_gok"
         },
         {
           "type": "skydivemag",
@@ -2236,14 +2246,19 @@ let kompasroosData = {
       "maxsize": "215",
       "minsize": "125",
       "url": "http://parachutesystems.com/volt",
-      "xbraced": false,
       "links": [
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
           "url": "https://www.dropzone.com/gear/Detailed/973.html"
+        },
+        {
+          "type": "youtube",
+          "title": "Canopy deployment: Parachute Systems Volt",
+          "url": "https://www.youtube.com/watch?v=lbvbXkjUxfE"
         }
       ],
+      "xbraced": false,
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Parachute Systems",
@@ -3077,14 +3092,24 @@ let kompasroosData = {
       "maxsize": "170",
       "minsize": "95",
       "url": "http://parachutesystems.com/hurricane",
-      "xbraced": false,
       "links": [
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
           "url": "https://www.dropzone.com/gear/Detailed/432.html"
+        },
+        {
+          "type": "youtube",
+          "title": "parachute - fun in the clouds - Hurricane Parachute Systems",
+          "url": "https://www.youtube.com/watch?v=XUQU6zattoE"
+        },
+        {
+          "type": "youtube",
+          "title": "Hurricane 120 - swoop No.1.",
+          "url": "https://www.youtube.com/watch?v=4RH9G4zDxUM"
         }
       ],
+      "xbraced": false,
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Parachute Systems",
