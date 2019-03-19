@@ -4529,6 +4529,11 @@ let kompasroosData = {
           "url": "https://www.youtube.com/watch?v=XL_9JGr-a-o"
         },
         {
+          "type": "youtube",
+          "title": "Canopy Action 2017, Timmi, Fly Fluid",
+          "url": "https://www.youtube.com/watch?v=Day0Zqw-SqY"
+        },
+        {
           "type": "skydivemag",
           "title": "Skydivemag Fluid Wings Releases Competition Wing",
           "url": "http://www.skydivemag.com/article/fluid-wings-releases-competition-wing"
