@@ -112,13 +112,13 @@ class TopAppBar extends React.Component {
   };
 
   clearSearch = () => {
-    console.log('clear search ' + this.state.showSearch);
+    // console.log('clear search ' + this.state.showSearch);
     this.props.onSearchChange({target: {value: ""}});
     this.setState({showSearch: false});
   };
 
   goSearch = () => {
-    console.log('go search ' + this.state.showSearch);
+    // console.log('go search ' + this.state.showSearch);
     if (!this.props.showWelcome) {
       this.setState({showSearch: true});
       if (this.props.location.pathname !== "/") {

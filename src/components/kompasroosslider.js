@@ -50,7 +50,7 @@ class KompasroosSlider extends React.Component {
 
   stepUp = () => {
     let newValue = this.props.value + 1;
-    console.log('step up ' + newValue);
+    // console.log('step up ' + newValue);
     if (newValue < this.props.min || newValue > this.props.max) {
       return;
     }
@@ -60,7 +60,7 @@ class KompasroosSlider extends React.Component {
 
   stepDown = () => {
     let newValue = this.props.value - 1;
-    console.log('step down ' + newValue);
+    // console.log('step down ' + newValue);
     if (newValue < this.props.min || newValue > this.props.max) {
       return;
     }

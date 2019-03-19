@@ -67,7 +67,7 @@ function debounce(func, wait, immediate) {
 class SetJumps extends React.Component {
   constructor(props) {
     super(props);
-    console.log('constructor');
+    // console.log('constructor');
     // Don't call this.setState() here!
     this.state = {
       totalJumps: this.props.totalJumps,

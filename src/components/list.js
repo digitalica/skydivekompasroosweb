@@ -43,7 +43,7 @@ class List extends React.Component {
 
 
   searchMatch(canopy, searchText) {
-    console.log('search: ' + searchText);
+    // console.log('search: ' + searchText);
     // no or short searchtext, all match
     if (!searchText || searchText.length < 3) {
       return true;
