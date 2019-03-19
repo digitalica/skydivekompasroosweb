@@ -139,6 +139,9 @@ for (let c in canopiesArray) {
   if (slugsSeen[cObject.slug]) {
     console.log('ERROR: Duplicate slug: ' + cObject.slug);
   }
+  if (cObject.displaycategory === '?') {
+    console.log('WARN: no category for: ' + cObject.manufacturername + ' ' + cObject.name);
+  }
   slugsSeen[cObject.slug] = cObject.id;
 
   canopies[id] = cObject;

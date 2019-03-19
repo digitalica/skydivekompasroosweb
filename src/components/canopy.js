@@ -353,12 +353,14 @@ function Canopy(props) {
             </tr>
             <tr>
               <td className={classes.canopycategory}>{T[language].CANOPY_CATEGORY}:</td>
-              <td className={classes.canopydetails}>{canopy.category}</td>
+              <td className={classes.canopydetails}>
+                {canopy.category ? canopy.category : T[language].CANOPY_NOTCATEGORIZEDYET + canopy.calculationcategory}
+              </td>
               <td></td>
             </tr>
             <tr>
               <td className={classes.canopycategory}>{T[language].CANOPY_EXPERIENCENEEDED_L}:</td>
-              <td className={classes.canopydetails}>{T[language].EXPERIENCE_NEEDED[canopy.category]}</td>
+              <td className={classes.canopydetails}>{T[language].EXPERIENCE_NEEDED[canopy.calculationcategory]}</td>
               <td></td>
             </tr>
             {canopyCellsRow}

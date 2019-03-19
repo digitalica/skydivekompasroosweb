@@ -121,6 +121,10 @@ nl.CANOPY_BEWARE = 'Let op';
 en.CANOPY_BEWARE = 'Beware';
 nl.CANOPY_WINGLOADWARNING = 'Dit levert je een te hoge wingload op, daarom mag je deze koepel ondanks de categorie toch niet springen.';
 en.CANOPY_WINGLOADWARNING = 'This results in the wingload being too high, so in spite of the category you\'re not allowrd to jump this canopy.';
+nl.CANOPY_NOTCATEGORIZEDYET = 'Nog niet ingedeeld. Tot die tijd geldt categorie: ';
+en.CANOPY_NOTCATEGORIZEDYET = 'Not categorized yet. Until then the category is: ';
+
+
 
 nl.MANUFACTURER_NAME = "Naam";
 en.MANUFACTURER_NAME = "Name";
@@ -266,9 +270,6 @@ module.exports = {
 // nl.WINGLOAD_TABLE = 'Wingload in lbs/sqft';
 // en.WINGLOAD_TABLE = 'Wingload in lbs/sqft';
 //
-//
-// nl.LIST_NOTCATEGORIZEDYET = 'Nog niet ingedeeld. Tot die tijd geldt:';
-// en.LIST_NOTCATEGORIZEDYET = 'Not categorized yet. Until then:';
 //
 // // categorieen
 // nl.NOTCATEGORIZEDYET = 'Nog niet ingedeeld';
