@@ -75,7 +75,7 @@ function Manufacturer(props) {
     const countries = manufacturer.countrycode.split(/ *, */);
     const country = countries.map((c) => T[language].COUNTRIES[c]).join(', ');
 
-    let remarksRow = "";
+    let remarksRow = null;
     if (manufacturer.remarks && manufacturer.remarks[language]) {
       remarksRow = (
         <tr>
@@ -85,7 +85,7 @@ function Manufacturer(props) {
       );
     }
 
-    const orderedCanopies = kompasroosData.canopiesByManufacturer;
+    const orderedCanopies = kompasroosData.canopiesByCategory;
     let canopyList = [];
     for (let f = 0; f < orderedCanopies.length; f++) {
       let canopy = kompasroosData.canopies[orderedCanopies[f]];
