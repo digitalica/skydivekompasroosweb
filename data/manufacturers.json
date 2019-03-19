@@ -132,11 +132,10 @@
       "name": "PISA",
       "countrycode": "sa",
       "remarks": {
-        "en": "PISA (Parachute Industries of South Africa) is no longer active",
-        "nl": "PISA (Parachute Industries of South Africa) is niet meer actief"
+        "en": "PISA (Parachute Industries of South Africa) is no longer active. In 2018 the website was not online any more.",
+        "nl": "PISA (Parachute Industries of South Africa) is niet meer actief. In 2018 was de website niet meer actief."
       },
-      "shortname": "PISA",
-      "url": "http://www.pisa.co.za/"
+      "shortname": "PISA"
     },
     {
       "id": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",

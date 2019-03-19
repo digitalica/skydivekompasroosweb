@@ -149,11 +149,10 @@ let kompasroosData = {
       "name": "PISA",
       "countrycode": "sa",
       "remarks": {
-        "en": "PISA (Parachute Industries of South Africa) is no longer active",
-        "nl": "PISA (Parachute Industries of South Africa) is niet meer actief"
+        "en": "PISA (Parachute Industries of South Africa) is no longer active. In 2018 the website was not online any more.",
+        "nl": "PISA (Parachute Industries of South Africa) is niet meer actief. In 2018 was de website niet meer actief."
       },
       "shortname": "PISA",
-      "url": "http://www.pisa.co.za/",
       "slug": "pisa"
     },
     "7D4DAE42-062F-42A6-AD27-187B0AECDDA6": {
@@ -574,13 +573,11 @@ let kompasroosData = {
       "manufacturerid": "E0E33BAB-7067-42EC-96E3-FD6B35926A11",
       "maxsize": "290",
       "minsize": "170",
-      "url": "http://www.pisa.co.za/default.aspx?id=31",
       "xbraced": false,
       "links": [],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "PISA",
-      "manufacturerurl": "http://www.pisa.co.za/",
       "manufacturerslug": "pisa",
       "search": "skymaster|pisa",
       "slug": "pisa-skymaster"
@@ -2206,7 +2203,6 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "PISA",
-      "manufacturerurl": "http://www.pisa.co.za/",
       "manufacturerslug": "pisa",
       "search": "hornet|pisa",
       "slug": "pisa-hornet"
@@ -3076,7 +3072,6 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "PISA",
-      "manufacturerurl": "http://www.pisa.co.za/",
       "manufacturerslug": "pisa",
       "search": "heatwave|pisa",
       "slug": "pisa-heatwave"
