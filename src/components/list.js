@@ -2,7 +2,7 @@ import React from "react";
 import {withStyles} from '@material-ui/core/styles';
 import Typography from "@material-ui/core/Typography/Typography";
 
-
+import Summary from "./summary";
 import kompasroosData from "./kompasroosdata";
 import C from "./kompasroosconstants";
 import T from "./kompasroostranslations";
@@ -22,6 +22,9 @@ const styles = theme => ({
     paddingBottom: 150,
   },
   text: {
+    maxWidth: C.MAXWIDTH,
+    marginLeft: "auto",
+    marginRight: "auto",
     paddingTop: theme.spacing.unit * 2,
     paddingLeft: theme.spacing.unit * 2,
     paddingRight: theme.spacing.unit * 2,
@@ -194,10 +197,17 @@ class List extends React.Component {
 
     return (
       <div className={classes.root}>
-        <ul className={classes.list}>
-          {canopyList}
-          {searchWarning}
-        </ul>
+        <div className={classes.text}>
+          <Typography variant="h6">{T[language].SUMMARY_TITLE}</Typography>
+          <Summary
+            language={language}
+            category={this.props.category}
+          />
+          <ul className={classes.list}>
+            {canopyList}
+            {searchWarning}
+          </ul>
+        </div>
       </div>
     )
 
