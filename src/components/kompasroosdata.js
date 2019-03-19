@@ -122,11 +122,10 @@ let kompasroosData = {
       "name": "Parachutes de France",
       "countrycode": "fr",
       "remarks": {
-        "en": "Parachutes de France was merged in Zodiac Aerospace around 2014.",
-        "nl": "Parachutes de France is rond 2014 opgegaan in Zodiac Aerospace."
+        "en": "Parachutes de France was merged in Zodiac Aerospace around 2014. In February 2018, Safran took control of Zodiac Aerospace.",
+        "nl": "Parachutes de France is rond 2014 opgegaan in Zodiac Aerospace. In februari 2018 heeft Safran Zodiac Aerospace overgenomen."
       },
       "shortname": "PdF",
-      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "slug": "parachutes_de_france"
     },
     "E1DA167E-6512-401E-9033-8621884D2C67": {
@@ -415,7 +414,6 @@ let kompasroosData = {
       "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
       "maxsize": "290",
       "minsize": "230",
-      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy",
       "xbraced": false,
       "links": [
         {
@@ -427,7 +425,6 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Parachutes de France",
-      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "prima|parachutesdefrance",
       "slug": "parachutes_de_france-prima"
@@ -451,7 +448,6 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Parachutes de France",
-      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "drakkar|parachutesdefrance",
       "slug": "parachutes_de_france-drakkar"
@@ -468,7 +464,6 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Parachutes de France",
-      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "turbo|parachutesdefrance",
       "slug": "parachutes_de_france-turbo"
@@ -482,13 +477,11 @@ let kompasroosData = {
       "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
       "maxsize": "280",
       "minsize": "200",
-      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy",
       "xbraced": false,
       "links": [],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Parachutes de France",
-      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "prime|parachutesdefrance",
       "slug": "parachutes_de_france-prime"
@@ -1133,7 +1126,6 @@ let kompasroosData = {
       "minsize": "130",
       "planform": "9.5",
       "planformcells": "4",
-      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy",
       "xbraced": false,
       "links": [
         {
@@ -1145,7 +1137,6 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Parachutes de France",
-      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "electra|parachutesdefrance",
       "slug": "parachutes_de_france-electra"
@@ -1169,7 +1160,6 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Parachutes de France",
-      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "merit|parachutesdefrance",
       "slug": "parachutes_de_france-merit"
@@ -2661,7 +2651,6 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Parachutes de France",
-      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "bt|parachutesdefrance",
       "slug": "parachutes_de_france-bt"
@@ -2687,7 +2676,6 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Parachutes de France",
-      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "springo|parachutesdefrance",
       "slug": "parachutes_de_france-springo"
@@ -2704,7 +2692,6 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Parachutes de France",
-      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "electraxs|parachutesdefrance",
       "slug": "parachutes_de_france-electra_xs"
@@ -2720,13 +2707,11 @@ let kompasroosData = {
       "minsize": "110",
       "planform": "28.0",
       "planformcells": "8",
-      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy",
       "xbraced": false,
       "links": [],
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Parachutes de France",
-      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "springong|parachutesdefrance",
       "slug": "parachutes_de_france-springo_ng"
@@ -3652,7 +3637,6 @@ let kompasroosData = {
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Parachutes de France",
-      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "btpro|parachutesdefrance",
       "slug": "parachutes_de_france-bt_pro"
@@ -3666,13 +3650,11 @@ let kompasroosData = {
       "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
       "maxsize": "110",
       "minsize": "80",
-      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy",
       "xbraced": false,
       "links": [],
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Parachutes de France",
-      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "instinct|parachutesdefrance",
       "slug": "parachutes_de_france-instinct"
@@ -3933,7 +3915,6 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Parachutes de France",
-      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "ninja|parachutesdefrance",
       "slug": "parachutes_de_france-ninja"
@@ -3950,7 +3931,6 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Parachutes de France",
-      "manufacturerurl": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems",
       "manufacturerslug": "parachutes_de_france",
       "search": "ninja2|parachutesdefrance",
       "slug": "parachutes_de_france-ninja_2"
