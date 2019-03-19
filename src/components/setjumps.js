@@ -119,29 +119,40 @@ class SetJumps extends React.Component {
     const {classes, language, showWelcome} = this.props;
 
     let totalJumpsSlider = (
-      <KompasroosSlider label={T[language].SLIDER_JUMPSTOTAL_L} value={this.state.totalJumps} min={C.TOTALJUMPS_MIN}
-                        max={C.TOTALJUMPS_MAX}
-                        onChange={this.updateTotalJumps}
-                        measure={T[language].MEASURE_JUMPS}
+      <KompasroosSlider
+        labels={T[language].SLIDER_JUMPSTOTAL_S}
+        labell={T[language].SLIDER_JUMPSTOTAL_L}
+        value={this.state.totalJumps}
+        min={C.TOTALJUMPS_MIN}
+        max={C.TOTALJUMPS_MAX}
+        onChange={this.updateTotalJumps}
+        measure={T[language].MEASURE_JUMPS}
       />
     );
 
     let jumpsLast12MonthsSlider = (
-      <KompasroosSlider label={T[language].SLIDER_JUMPSLAST12MONTHS_L} value={this.state.jumpsLast12Months}
-                        min={C.JUMPSLAST12MONTHS_MIN} max={C.JUMPSLAST12MONTHS_MAX}
-                        onChange={this.updateJumpsLast12Months}
-                        measure={T[language].MEASURE_JUMPS}
+      <KompasroosSlider
+        labels={T[language].SLIDER_JUMPSLAST12MONTHS_S}
+        labell={T[language].SLIDER_JUMPSLAST12MONTHS_L}
+        value={this.state.jumpsLast12Months}
+        min={C.JUMPSLAST12MONTHS_MIN}
+        max={C.JUMPSLAST12MONTHS_MAX}
+        onChange={this.updateJumpsLast12Months}
+        measure={T[language].MEASURE_JUMPS}
       />
     );
 
-    let xbracedJumpsSlider = "";
+    let xbracedJumpsSlider = null;
     if (C.isCrossBracedRelevant(this.state.totalJumps, this.state.jumpsLast12Months)) {
       xbracedJumpsSlider = (
-        <KompasroosSlider label={T[language].SLIDER_JUMPSXBRACED_L} value={this.state.xbracedJumps}
-                          min={C.JUMPSXBRACED_MIN}
-                          max={C.JUMPSXBRACED_MAX}
-                          onChange={this.updateXbracedJumps}
-                          measure={T[language].MEASURE_JUMPS}
+        <KompasroosSlider
+          labels={T[language].SLIDER_JUMPSXBRACED_S}
+          labell={T[language].SLIDER_JUMPSXBRACED_L}
+          value={this.state.xbracedJumps}
+          min={C.JUMPSXBRACED_MIN}
+          max={C.JUMPSXBRACED_MAX}
+          onChange={this.updateXbracedJumps}
+          measure={T[language].MEASURE_JUMPS}
         />
       );
     }
@@ -158,8 +169,9 @@ class SetJumps extends React.Component {
       );
       doneButton = (
         <div className={classes.text}>
-          <Fab variant="extended" color="primary" aria-label="Done" className={classes.fab} onClick={this.props.welcomeDone}>
-            <DoneAllIcon className={classes.extendedIcon} />
+          <Fab variant="extended" color="primary" aria-label="Done" className={classes.fab}
+               onClick={this.props.welcomeDone}>
+            <DoneAllIcon className={classes.extendedIcon}/>
             {T[language].EXPERIENCE_DONE}
           </Fab>
           <br/>

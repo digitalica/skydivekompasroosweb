@@ -1,6 +1,8 @@
 import React from "react";
 import {withStyles} from '@material-ui/core/styles';
 
+import Autotext from "./autotext";
+
 import C from "./kompasroosconstants";
 import T from "./kompasroostranslations";
 
@@ -41,15 +43,15 @@ class Summary extends React.Component {
         <table className={classes.summarytable}>
           <tbody>
           <tr>
-            <td>{T[language].RESULT_ALLOWED_L}:</td>
+            <td><Autotext short={T[language].RESULT_ALLOWED_S} long={T[language].RESULT_ALLOWED_L}/>:</td>
             <td>{T[language].RESULT_MAXCAT} {category}</td>
           </tr>
           <tr>
-            <td>{T[language].RESULT_MINAREA_L}:</td>
+            <td><Autotext short={T[language].RESULT_MINAREA_S} long={T[language].RESULT_MINAREA_L}/>:</td>
             <td>{C.minAreaBasedOnCategoryForDisplay(category, T[language].NOLIMIT)}</td>
           </tr>
           <tr>
-            <td>{T[language].RESULT_MAXWINGLOAD_L}:</td>
+            <td><Autotext short={T[language].RESULT_MAXWINGLOAD_S} long={T[language].RESULT_MAXWINGLOAD_L}/>:</td>
             <td>{C.maxWingLoadBasedOnCategoryForDisplay(category, T[language].NOLIMIT)}</td>
           </tr>
           </tbody>

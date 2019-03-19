@@ -220,8 +220,8 @@ nl.SLIDER_JUMPSXBRACED_S = 'X Braced';
 en.SLIDER_JUMPSXBRACED_S = 'X Braced';
 nl.SLIDER_JUMPSLAST12MONTHS_L = 'Aantal sprongen in de laatste 12 maanden';
 en.SLIDER_JUMPSLAST12MONTHS_L = 'Number of jumps in the last 12 months';
-nl.SLIDER_JUMPSLAST12MONTHS_S = 'Laatste jaar';
-en.SLIDER_JUMPSLAST12MONTHS_S = 'Last year';
+nl.SLIDER_JUMPSLAST12MONTHS_S = 'Laatste 12 maanden';
+en.SLIDER_JUMPSLAST12MONTHS_S = 'Last 12 months';
 
 nl.TABLE_WINGLOADTITLE = "Wingload in lbs/sqft";
 en.TABLE_WINGLOADTITLE = "Wingload in lbs/sqft";
