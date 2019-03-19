@@ -162,7 +162,7 @@ let kompasroosData = {
       "name": "Precision Aerodynamics",
       "countrycode": "us",
       "shortname": "Precision",
-      "url": "http://www.precision.aero/",
+      "url": "http://www.precision.net/",
       "slug": "precision_aerodynamics"
     },
     "ACD6855E-9F54-4E27-B498-14C9693FB7EF": {
@@ -505,7 +505,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Precision Aerodynamics",
-      "manufacturerurl": "http://www.precision.aero/",
+      "manufacturerurl": "http://www.precision.net/",
       "manufacturerslug": "precision_aerodynamics",
       "search": "raven|precisionaerodynamics",
       "slug": "precision_aerodynamics-raven"
@@ -531,7 +531,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Precision Aerodynamics",
-      "manufacturerurl": "http://www.precision.aero/",
+      "manufacturerurl": "http://www.precision.net/",
       "manufacturerslug": "precision_aerodynamics",
       "search": "superraven|precisionaerodynamics",
       "slug": "precision_aerodynamics-super_raven"
@@ -545,13 +545,13 @@ let kompasroosData = {
       "maxsize": "300",
       "minsize": "120",
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
-      "url": "http://www.precision.aero/falcon-9.htm",
+      "url": "http://www.precision.net/falcon-9.htm",
       "xbraced": false,
       "links": [],
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Precision Aerodynamics",
-      "manufacturerurl": "http://www.precision.aero/",
+      "manufacturerurl": "http://www.precision.net/",
       "manufacturerslug": "precision_aerodynamics",
       "search": "falcon|precisionaerodynamics",
       "slug": "precision_aerodynamics-falcon"
@@ -567,7 +567,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Precision Aerodynamics",
-      "manufacturerurl": "http://www.precision.aero/",
+      "manufacturerurl": "http://www.precision.net/",
       "manufacturerslug": "precision_aerodynamics",
       "search": "voyagerstudent|precisionaerodynamics",
       "slug": "precision_aerodynamics-voyager_student"
@@ -1496,7 +1496,7 @@ let kompasroosData = {
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "230",
       "minsize": "98",
-      "url": "http://www.precision.aero/synergy.htm",
+      "url": "http://www.precision.net/synergy.htm",
       "xbraced": false,
       "links": [
         {
@@ -1508,7 +1508,7 @@ let kompasroosData = {
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Precision Aerodynamics",
-      "manufacturerurl": "http://www.precision.aero/",
+      "manufacturerurl": "http://www.precision.net/",
       "manufacturerslug": "precision_aerodynamics",
       "search": "synergy|precisionaerodynamics",
       "slug": "precision_aerodynamics-synergy"
@@ -1915,7 +1915,7 @@ let kompasroosData = {
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "230",
       "minsize": "89",
-      "url": "http://www.precision.aero/fusion.htm",
+      "url": "http://www.precision.net/fusion.htm",
       "xbraced": false,
       "links": [
         {
@@ -1927,7 +1927,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Precision Aerodynamics",
-      "manufacturerurl": "http://www.precision.aero/",
+      "manufacturerurl": "http://www.precision.net/",
       "manufacturerslug": "precision_aerodynamics",
       "search": "fusion|precisionaerodynamics",
       "slug": "precision_aerodynamics-fusion"
@@ -2551,19 +2551,12 @@ let kompasroosData = {
       "minsize": "120",
       "cells": "9",
       "firstyearofproduction": "2014",
-      "dropzoneid": "978",
       "category": 3,
       "commontype": 0,
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
       "url": "http://www.fluidwings.com/prime",
       "xbraced": false,
-      "links": [
-        {
-          "type": "dropzone.com",
-          "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/978.html"
-        }
-      ],
+      "links": [],
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Fluid Wings",
@@ -2750,7 +2743,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Precision Aerodynamics",
-      "manufacturerurl": "http://www.precision.aero/",
+      "manufacturerurl": "http://www.precision.net/",
       "manufacturerslug": "precision_aerodynamics",
       "search": "batwing|precisionaerodynamics",
       "slug": "precision_aerodynamics-batwing"
@@ -3687,7 +3680,7 @@ let kompasroosData = {
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "170",
       "minsize": "78",
-      "url": "http://www.precision.aero/nitron.htm",
+      "url": "http://www.precision.net/nitron.htm",
       "xbraced": false,
       "links": [
         {
@@ -3699,7 +3692,7 @@ let kompasroosData = {
       "displaycategory": 5,
       "calculationcategory": 5,
       "manufacturername": "Precision Aerodynamics",
-      "manufacturerurl": "http://www.precision.aero/",
+      "manufacturerurl": "http://www.precision.net/",
       "manufacturerslug": "precision_aerodynamics",
       "search": "nitron|precisionaerodynamics",
       "slug": "precision_aerodynamics-nitron"
@@ -3965,7 +3958,7 @@ let kompasroosData = {
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "135",
       "minsize": "68",
-      "url": "http://www.precision.aero/xaos-21.htm",
+      "url": "http://www.precision.net/xaos-21.htm",
       "xbraced": true,
       "links": [
         {
@@ -3977,7 +3970,7 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Precision Aerodynamics",
-      "manufacturerurl": "http://www.precision.aero/",
+      "manufacturerurl": "http://www.precision.net/",
       "manufacturerslug": "precision_aerodynamics",
       "search": "xaos21|precisionaerodynamics",
       "slug": "precision_aerodynamics-xaos-21"
@@ -3992,7 +3985,7 @@ let kompasroosData = {
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "118",
       "minsize": "58",
-      "url": "http://www.precision.aero/xaos-27.htm",
+      "url": "http://www.precision.net/xaos-27.htm",
       "xbraced": true,
       "links": [
         {
@@ -4004,7 +3997,7 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Precision Aerodynamics",
-      "manufacturerurl": "http://www.precision.aero/",
+      "manufacturerurl": "http://www.precision.net/",
       "manufacturerslug": "precision_aerodynamics",
       "search": "xaos27|precisionaerodynamics",
       "slug": "precision_aerodynamics-xaos-27"

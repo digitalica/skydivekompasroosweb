@@ -171,7 +171,7 @@
       "maxsize": "300",
       "minsize": "120",
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
-      "url": "http://www.precision.aero/falcon-9.htm",
+      "url": "http://www.precision.net/falcon-9.htm",
       "xbraced": false
     },
     {
@@ -678,7 +678,7 @@
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "230",
       "minsize": "98",
-      "url": "http://www.precision.aero/synergy.htm",
+      "url": "http://www.precision.net/synergy.htm",
       "xbraced": false
     },
     {
@@ -925,7 +925,7 @@
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "230",
       "minsize": "89",
-      "url": "http://www.precision.aero/fusion.htm",
+      "url": "http://www.precision.net/fusion.htm",
       "xbraced": false
     },
     {
@@ -1285,7 +1285,6 @@
       "minsize": "120",
       "cells": "9",
       "firstyearofproduction": "2014",
-      "dropzoneid": "978",
       "category": "3",
       "commontype": "0",
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
@@ -1926,7 +1925,7 @@
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "170",
       "minsize": "78",
-      "url": "http://www.precision.aero/nitron.htm",
+      "url": "http://www.precision.net/nitron.htm",
       "xbraced": false
     },
     {
@@ -2092,7 +2091,7 @@
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "135",
       "minsize": "68",
-      "url": "http://www.precision.aero/xaos-21.htm",
+      "url": "http://www.precision.net/xaos-21.htm",
       "xbraced": true
     },
     {
@@ -2105,7 +2104,7 @@
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "118",
       "minsize": "58",
-      "url": "http://www.precision.aero/xaos-27.htm",
+      "url": "http://www.precision.net/xaos-27.htm",
       "xbraced": true
     },
     {
