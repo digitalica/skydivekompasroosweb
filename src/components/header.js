@@ -200,6 +200,7 @@ class TopAppBar extends React.Component {
             }}
             value={this.props.searchText}
             onChange={this.props.onSearchChange}
+            autoFocus={true}
           />
         </div>
       );
