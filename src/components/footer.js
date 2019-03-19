@@ -45,6 +45,9 @@ const styles = theme => ({
     right: 0,
     margin: '0 auto',
   },
+  singleline: {
+    lineHeight: 1
+  }
 });
 
 class BottomAppBar extends React.Component {
@@ -88,12 +91,12 @@ class BottomAppBar extends React.Component {
               <tbody>
               <tr>
                 <td>
-                  <Typography variant="caption" color="inherit">{T[language].EXITWEIGHT}</Typography>
+                  <Typography className={classes.singleline} variant="caption" color="inherit">{T[language].EXITWEIGHT}</Typography>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <Typography variant="h6" color="inherit">{weightText}</Typography>
+                  <Typography className={classes.singleline} variant="h6" color="inherit">{weightText}</Typography>
                 </td>
               </tr>
               </tbody>
@@ -104,12 +107,12 @@ class BottomAppBar extends React.Component {
               <tbody>
               <tr>
                 <td>
-                  <Typography variant="caption" color="inherit">{T[language].EXPERIENCE}</Typography>
+                  <Typography className={classes.singleline} variant="caption" color="inherit">{T[language].EXPERIENCE}</Typography>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <Typography variant="h6" color="inherit">{jumpsText}</Typography>
+                  <Typography className={classes.singleline} variant="h6" color="inherit">{jumpsText}</Typography>
                 </td>
               </tr>
               </tbody>
