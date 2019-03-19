@@ -592,7 +592,7 @@ let kompasroosData = {
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
       "maxsize": "280",
       "minsize": "150",
-      "url": "http://www.paratec.de/?page_id=3653",
+      "url": "http://www.paratec.de/legacy/?page_id=3653",
       "xbraced": false,
       "links": [
         {
@@ -618,7 +618,7 @@ let kompasroosData = {
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
       "maxsize": "260",
       "minsize": "160",
-      "url": "http://www.paratec.de/?page_id=4236",
+      "url": "http://www.paratec.de/legacy/?page_id=4236",
       "xbraced": false,
       "links": [],
       "displaycategory": 1,
@@ -2167,7 +2167,7 @@ let kompasroosData = {
       "cells": "9",
       "commontype": 0,
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
-      "url": "http://www.paratec.de/?page_id=4243",
+      "url": "http://www.paratec.de/legacy/?page_id=4243",
       "links": [
         {
           "type": "youtube",
@@ -3621,7 +3621,7 @@ let kompasroosData = {
         "en": "There is a Rage from Flight Concepts too",
         "nl": "Er bestaat ook een Rage van Flight Concepts"
       },
-      "url": "http://www.paratec.de/?page_id=4253",
+      "url": "http://www.paratec.de/legacy/?page_id=4253",
       "xbraced": false,
       "links": [
         {
