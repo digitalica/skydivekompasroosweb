@@ -16,6 +16,8 @@ import Typography from '@material-ui/core/Typography/Typography'
 
 import kompasroosData from "./kompasroosdata";
 
+import Autotext from "./autotext";
+
 import C from "./kompasroosconstants"
 import T from "./kompasroostranslations";
 
@@ -166,7 +168,7 @@ function Canopy(props) {
   if (canopy.firstyearofproduction) {
     firstyearofproductionRow = (
       <tr>
-        <td className={classes.canopycategory}>{T[language].CANOPY_FIRSTYEAR_L}:</td>
+        <td className={classes.canopycategory}><Autotext long={T[language].CANOPY_FIRSTYEAR_L} short={T[language].CANOPY_FIRSTYEAR_S}/>:</td>
         <td className={classes.canopydetails}>{canopy.firstyearofproduction}</td>
         <td></td>
       </tr>
@@ -177,7 +179,7 @@ function Canopy(props) {
   if (canopy.lastyearofproduction) {
     lastyearofproductionRow = (
       <tr>
-        <td className={classes.canopycategory}>{T[language].CANOPY_LASTYEAR_L}:</td>
+        <td className={classes.canopycategory}><Autotext long={T[language].CANOPY_LASTYEAR_L} short={T[language].CANOPY_LASTYEAR_S}/>:</td>
         <td className={classes.canopydetails}>{canopy.lastyearofproduction}</td>
         <td></td>
       </tr>
@@ -219,7 +221,7 @@ function Canopy(props) {
     // minsize en maxsize zijn gelijk
     sizeRow = (
       <tr>
-        <td className={classes.canopycategory}>{T[language].CANOPY_SIZE_L}:</td>
+        <td className={classes.canopycategory}>{T[language].CANOPY_SIZE}:</td>
         <td className={classes.canopydetails}>{canopy.minsize}</td>
         <td></td>
       </tr>
@@ -230,7 +232,7 @@ function Canopy(props) {
     if (canopy.minsize) {
       minsizeRow = (
         <tr>
-          <td className={classes.canopycategory}>{T[language].CANOPY_MINSIZE_L}:</td>
+          <td className={classes.canopycategory}><Autotext short={T[language].CANOPY_MINSIZE_S} long={T[language].CANOPY_MINSIZE_L}/>:</td>
           <td className={classes.canopydetails}>{canopy.minsize}</td>
           <td></td>
         </tr>
@@ -240,7 +242,7 @@ function Canopy(props) {
     if (canopy.minsize) {
       maxsizeRow = (
         <tr>
-          <td className={classes.canopycategory}>{T[language].CANOPY_MAXSIZE_L}:</td>
+          <td className={classes.canopycategory}><Autotext short={T[language].CANOPY_MAXSIZE_S} long={T[language].CANOPY_MAXSIZE_L}/>:</td>
           <td className={classes.canopydetails}>{canopy.maxsize}</td>
           <td></td>
         </tr>
@@ -359,7 +361,7 @@ function Canopy(props) {
               <td></td>
             </tr>
             <tr>
-              <td className={classes.canopycategory}>{T[language].CANOPY_EXPERIENCENEEDED_L}:</td>
+              <td className={classes.canopycategory}><Autotext long={T[language].CANOPY_EXPERIENCENEEDED_L} short={T[language].CANOPY_EXPERIENCENEEDED_S}/>:</td>
               <td className={classes.canopydetails}>{T[language].EXPERIENCE_NEEDED[canopy.calculationcategory]}</td>
               <td></td>
             </tr>

@@ -20,6 +20,8 @@ import {fade} from '@material-ui/core/styles/colorManipulator';
 import {withRouter} from 'react-router-dom'
 import {withStyles} from '@material-ui/core/styles';
 
+import Autotext from "./autotext";
+
 import T from "./kompasroostranslations";
 
 
@@ -43,7 +45,7 @@ const styles = theme => ({
   },
   title: {
     display: 'none',
-    [theme.breakpoints.up('sm')]: {
+    [theme.breakpoints.up('xs')]: {
       display: 'block',
     },
   },
@@ -208,7 +210,7 @@ class TopAppBar extends React.Component {
       headerCenter = (
         <Link className={classes.link} onClick={this.goBack}>
           <Typography variant="h6" color="inherit" className={classes.title}>
-            Skydive Kompasroos
+            <Autotext short="Kompasroos" long="Skydive Kompasroos"/>
           </Typography>
         </Link>
       )

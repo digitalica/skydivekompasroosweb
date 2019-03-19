@@ -4,12 +4,12 @@ import {withStyles} from '@material-ui/core/styles';
 
 const styles = theme => ({
   long: {
-    "@media (max-width: 480px)": {
+    [theme.breakpoints.down('xs')]: {
       display: "none"
     }
   },
   short: {
-    "@media (min-width: 480px)": {
+    [theme.breakpoints.up('sm')]: {
       display: "none"
     }
   }

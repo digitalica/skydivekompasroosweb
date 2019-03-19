@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Fragment} from "react";
 import {withStyles} from '@material-ui/core/styles';
 import Typography from "@material-ui/core/Typography/Typography";
 
@@ -190,19 +190,26 @@ class List extends React.Component {
       }
     }
 
-    let searchWarning = "";
+    let searchWarning = null;
     if (this.props.searchText && searchedCanopyHidden) {
       searchWarning = this.getHeader(T[language].SEARCH_FILTERWARNING);
+    }
+
+    let summary = null;
+    if (!this.props.searchText) {
+      summary = <Fragment>
+        <Typography variant="h6">{T[language].SUMMARY_TITLE}</Typography>
+        <Summary
+          language={language}
+          category={this.props.category}
+        />
+      </Fragment>
     }
 
     return (
       <div className={classes.root}>
         <div className={classes.text}>
-          <Typography variant="h6">{T[language].SUMMARY_TITLE}</Typography>
-          <Summary
-            language={language}
-            category={this.props.category}
-          />
+          {summary}
           <ul className={classes.list}>
             {canopyList}
             {searchWarning}
