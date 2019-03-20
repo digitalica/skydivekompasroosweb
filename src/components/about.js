@@ -32,7 +32,7 @@ function About(props) {
           <div className={classes.text}>
             <h3>Over Skydive Kompasroos</h3>
             <p>Skydive Kompasroos is een website om te helpen bij het kiezen van een passende parachute, volgens de
-              regels zoals vastgelegd in het <abbr title="Basis veiligheids reglement">BVR</abbr> van de afdeling
+              regels zoals vastgelegd in het <abbr title="Basis Veiligheids Reglement">BVR</abbr> van de afdeling
               parachutespringen van de <abbr
                 title="Koninklijke Nederlandse Vereniging voor de Luchtvaart">KNVvL</abbr>.
             </p>
@@ -79,11 +79,10 @@ function About(props) {
         <div className={classes.root}>
           <div className={classes.text}>
             <h3>About Skydive Kompasroos</h3>
-            <p>Skydive Kompasroos (kompasroos is Dutch for compass rose) is a website to help choosing a canopy matching
-              your experience, according to the rules set in the <abbr title="Basis veiligheids reglement">BVR</abbr>
-              (safety regulations) of the parachuting department of the
-              <abbr title="Koninklijke Nederlandse Vereniging voor de Luchtvaart">KNVvL</abbr> (Royal Dutch Aviation
-              society).
+            <p>Skydive Kompasroos (kompasroos is Dutch for compass rose) is a website to help
+              choosing a canopy matching your experience, according to the rules set in
+              the <abbr title="Basis Veiligheids Reglement">BVR</abbr> (safety regulations) ofthe parachuting department
+              of the <abbr title="Koninklijke Nederlandse Vereniging voor de Luchtvaart">KNVvL</abbr> (Royal Dutch Aviationsociety).
             </p>
 
             <p> Always consult a local instructor. He or she remains responsible. No rights can be obtained from this
