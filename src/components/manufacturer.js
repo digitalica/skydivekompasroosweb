@@ -93,6 +93,7 @@ function Manufacturer(props) {
         canopyList.push(
           <Listelement
             key={canopy.id}
+            language={language}
             canopy={canopy}
             category={category}
             exitWeigh={exitWeight}

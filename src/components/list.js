@@ -154,6 +154,7 @@ class List extends React.Component {
 
           canopyList.push(
             <Listelement
+              language={language}
               canopy={canopy}
               category={this.props.category}
               exitWeight={this.props.exitWeight}
