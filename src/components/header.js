@@ -226,7 +226,7 @@ class TopAppBar extends React.Component {
               id="simple-menu"
               anchorEl={anchorEl}
               open={Boolean(anchorEl)}
-              onClose={this.handleClose}
+              onClose={this.closeMenu}
             >
               <MenuItem onClick={this.goSettings}>
                 <ListItemIcon className={classes.icon}>
