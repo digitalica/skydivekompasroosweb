@@ -95,7 +95,7 @@ function About(props) {
               <a target="_blank" rel="noopener noreferrer" href={C.REGLEMENTEN_URL}>{C.filenameFromPath(C.REGLEMENTEN_URL)}</a>
             </p>
 
-            <p> The compas rose (kompasroos) itself:<br/>
+            <p> The compass rose (kompasroos) itself:<br/>
               <a target="_blank" rel="noopener noreferrer" href={C.KOMPASROOS_URL}>{C.filenameFromPath(C.KOMPASROOS_URL)}</a>
             </p>
 
