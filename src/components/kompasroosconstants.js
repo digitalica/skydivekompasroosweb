@@ -55,7 +55,7 @@ export default {
   COOKIE_XBRACEDJUMPS: 'xbracedjumps',
 
 
-  GITHUB_URL: "https://github.com/digitalica/skydivekompasroosweb", // TODO: fix
+  GITHUB_URL: "https://github.com/digitalica/skydivekompasroosweb",
   REGLEMENTEN_URL: "https://www.parachute.nl/bevoegdhedenregl.html",
   KOMPASROOS_URL: "https://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/kompasroos_2016.pdf",
   BVR_URL: "https://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/BVR_2018_inclusief_wijzigingen.pdf",
