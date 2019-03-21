@@ -71,15 +71,14 @@ export default {
   },
 
   kgToLbs(kg) {
-    var lbs = Math.round(kg * this.WEIGHT_FACTOR_KG_TO_LBS);
-    return lbs;
+    return Math.round(kg * this.WEIGHT_FACTOR_KG_TO_LBS);
   },
 
   getWingloadFor(area, weightInLbs) {
     if (!area) {
       return ''; // illegal value
     }
-    var wingload = weightInLbs / area;
+    let wingload = weightInLbs / area;
     return wingload.toFixed(2);
   },
 
@@ -159,14 +158,9 @@ export default {
     return jumperCategory;
   },
 
-
   acceptability(canopy, jumperCategory, exitWeightInKg) {
     // console.log('acceptability: ' + jumperCategory + ' ' + exitWeightInKg + ' ' + canopy.name);
-    let canopyCategory = canopy.category;
-    if (!canopyCategory) {
-      // TODO: crossbraced canopies gaan mis hier!!!!!
-      canopyCategory = 6; // unknown cat, works as 6. (we could use calculationcategory)
-    }
+    let canopyCategory = canopy.calculationcategory;
     if (jumperCategory < canopyCategory) {
       return this.ACC_CATEGORYTOOHIGH; // not acceptable
     }

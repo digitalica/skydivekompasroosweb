@@ -100,30 +100,30 @@ it('calculates jumper category', () => {
 });
 
 it('calculates acceptability', () => {
-  expect(C.acceptability({category: 1}, 2, 85)).toEqual(C.ACC_ACCEPTABLE);
-  expect(C.acceptability({category: 2}, 2, 85)).toEqual(C.ACC_ACCEPTABLE);
-  expect(C.acceptability({category: 3}, 2, 85)).toEqual(C.ACC_CATEGORYTOOHIGH);
-  expect(C.acceptability({category: 4}, 2, 85)).toEqual(C.ACC_CATEGORYTOOHIGH);
-  expect(C.acceptability({category: 5}, 2, 85)).toEqual(C.ACC_CATEGORYTOOHIGH);
-  expect(C.acceptability({category: 6}, 2, 85)).toEqual(C.ACC_CATEGORYTOOHIGH);
-  expect(C.acceptability({category: 7}, 2, 85)).toEqual(C.ACC_CATEGORYTOOHIGH);
+  expect(C.acceptability({calculationcategory: 1}, 2, 85)).toEqual(C.ACC_ACCEPTABLE);
+  expect(C.acceptability({calculationcategory: 2}, 2, 85)).toEqual(C.ACC_ACCEPTABLE);
+  expect(C.acceptability({calculationcategory: 3}, 2, 85)).toEqual(C.ACC_CATEGORYTOOHIGH);
+  expect(C.acceptability({calculationcategory: 4}, 2, 85)).toEqual(C.ACC_CATEGORYTOOHIGH);
+  expect(C.acceptability({calculationcategory: 5}, 2, 85)).toEqual(C.ACC_CATEGORYTOOHIGH);
+  expect(C.acceptability({calculationcategory: 6}, 2, 85)).toEqual(C.ACC_CATEGORYTOOHIGH);
+  expect(C.acceptability({calculationcategory: 7}, 2, 85)).toEqual(C.ACC_CATEGORYTOOHIGH);
 
-  expect(C.acceptability({category: 2, minsize: 100, maxsize: 300}, 2, 115)).toEqual(C.ACC_ACCEPTABLE);
-  expect(C.acceptability({category: 2, minsize: 100, maxsize: 120}, 2, 115)).toEqual(C.ACC_NEEDEDSIZENOTAVAILABLE);
+  expect(C.acceptability({calculationcategory: 2, minsize: 100, maxsize: 300}, 2, 115)).toEqual(C.ACC_ACCEPTABLE);
+  expect(C.acceptability({calculationcategory: 2, minsize: 100, maxsize: 120}, 2, 115)).toEqual(C.ACC_NEEDEDSIZENOTAVAILABLE);
 
-  expect(C.acceptability({category: 1}, 4, 85)).toEqual(C.ACC_ACCEPTABLE);
-  expect(C.acceptability({category: 2}, 4, 85)).toEqual(C.ACC_ACCEPTABLE);
-  expect(C.acceptability({category: 3}, 4, 85)).toEqual(C.ACC_ACCEPTABLE);
-  expect(C.acceptability({category: 4}, 4, 85)).toEqual(C.ACC_ACCEPTABLE);
-  expect(C.acceptability({category: 5}, 4, 85)).toEqual(C.ACC_CATEGORYTOOHIGH);
-  expect(C.acceptability({category: 6}, 4, 85)).toEqual(C.ACC_CATEGORYTOOHIGH);
-  expect(C.acceptability({category: 7}, 4, 85)).toEqual(C.ACC_CATEGORYTOOHIGH);
+  expect(C.acceptability({calculationcategory: 1}, 4, 85)).toEqual(C.ACC_ACCEPTABLE);
+  expect(C.acceptability({calculationcategory: 2}, 4, 85)).toEqual(C.ACC_ACCEPTABLE);
+  expect(C.acceptability({calculationcategory: 3}, 4, 85)).toEqual(C.ACC_ACCEPTABLE);
+  expect(C.acceptability({calculationcategory: 4}, 4, 85)).toEqual(C.ACC_ACCEPTABLE);
+  expect(C.acceptability({calculationcategory: 5}, 4, 85)).toEqual(C.ACC_CATEGORYTOOHIGH);
+  expect(C.acceptability({calculationcategory: 6}, 4, 85)).toEqual(C.ACC_CATEGORYTOOHIGH);
+  expect(C.acceptability({calculationcategory: 7}, 4, 85)).toEqual(C.ACC_CATEGORYTOOHIGH);
 });
 
 
 it('returns the correct availability for a CAT 2 canopy', function () {
   var testCanopy = {
-    category: '2',
+    calculationcategory: '2',
     maxsize: 280
   };
   expect(C.acceptability(testCanopy, 1, 50)).toEqual(C.ACC_CATEGORYTOOHIGH);
@@ -139,7 +139,7 @@ it('returns the correct availability for a CAT 2 canopy', function () {
 
 it('returns the correct availability for a CAT 4 canopy', function () {
   var testCanopy = {
-    category: '4',
+    calculationcategory: '4',
     maxsize: 280
   };
   expect(C.acceptability(testCanopy, 1, 50)).toEqual(C.ACC_CATEGORYTOOHIGH);
@@ -155,7 +155,7 @@ it('returns the correct availability for a CAT 4 canopy', function () {
 
 it('returns the correct availability for a CAT 6 canopy', function () {
   var testCanopy = {
-    category: '6',
+    calculationcategory: '6',
     maxsize: 170
   };
   expect(C.acceptability(testCanopy, 1, 50)).toEqual(C.ACC_CATEGORYTOOHIGH);
@@ -171,7 +171,7 @@ it('returns the correct availability for a CAT 6 canopy', function () {
 
 it('returns the correct availability for a CAT 7 canopy', function () {
   var testCanopy = {
-    category: '7',
+    calculationcategory: '7',
     maxsize: 120
   };
   expect(C.acceptability(testCanopy, 1, 50)).toEqual(C.ACC_CATEGORYTOOHIGH);
@@ -184,6 +184,10 @@ it('returns the correct availability for a CAT 7 canopy', function () {
   expect(C.acceptability(testCanopy, 6, 90)).toEqual(C.ACC_CATEGORYTOOHIGH);
   expect(C.acceptability(testCanopy, 7, 90)).toEqual(C.ACC_ACCEPTABLE);
 });
+
+
+
+
 
 
 it('checks correctly if a cookie is set', function () {
