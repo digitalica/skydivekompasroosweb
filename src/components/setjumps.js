@@ -191,11 +191,13 @@ class SetJumps extends React.Component {
         {totalJumpsSlider}
         {jumpsLast12MonthsSlider}
         {xbracedJumpsSlider}
-        {doneButton}
-        <Summary
-          language={language}
-          category={this.props.category}
-        />
+        <div className={classes.text}>
+          {doneButton}
+          <Summary
+            language={language}
+            category={this.props.category}
+          />
+        </div>
       </div>
     )
   }

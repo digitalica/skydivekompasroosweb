@@ -41,17 +41,19 @@ class SetWeight extends React.Component {
           onChange={this.props.updateExitWeight}
           measure={T[language].MEASURE_KG}
         />
-        <Wingloadtable
-          language={language}
-          exitWeight={this.props.exitWeight}
-          category={this.props.category}
-        />
-        <br/>
-        <br/>
-        <Summary
-          language={language}
-          category={this.props.category}
-        />
+        <div className={classes.text}>
+          <Wingloadtable
+            language={language}
+            exitWeight={this.props.exitWeight}
+            category={this.props.category}
+          />
+          <br/>
+          <br/>
+          <Summary
+            language={language}
+            category={this.props.category}
+          />
+        </div>
       </div>
     )
   }
