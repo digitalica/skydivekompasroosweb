@@ -82,7 +82,7 @@ function About(props) {
             <p>Skydive Kompasroos (kompasroos is Dutch for compass rose) is a website to help
               choosing a canopy matching your experience, according to the rules set in
               the <abbr title="Basis Veiligheids Reglement">BVR</abbr> (safety regulations) ofthe parachuting department
-              of the <abbr title="Koninklijke Nederlandse Vereniging voor de Luchtvaart">KNVvL</abbr> (Royal Dutch Aviationsociety).
+              of the <abbr title="Koninklijke Nederlandse Vereniging voor de Luchtvaart">KNVvL</abbr> (Royal Dutch Aviation Society).
             </p>
 
             <p> Always consult a local instructor. He or she remains responsible. No rights can be obtained from this
