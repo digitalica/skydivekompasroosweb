@@ -79,11 +79,9 @@ function About(props) {
         <div className={classes.root}>
           <div className={classes.text}>
             <h3>About Skydive Kompasroos</h3>
-            <p>Skydive Kompasroos (kompasroos is Dutch for compass rose) is a website to help choosing a canopy matching
-              your experience, according to the rules set in the <abbr title="Basis veiligheids reglement">BVR</abbr>
-              (safety regulations) of the parachuting department of the
-              <abbr title="Koninklijke Nederlandse Vereniging voor de Luchtvaart">KNVvL</abbr> (Royal Dutch Aviation
-              society).
+            <p>Skydive Kompasroos (kompasroos is Dutch for compass rose) is a website to help choosing a canopy matching your experience,
+              according to the rules set in the <abbr title="Basis veiligheids reglement">BVR</abbr> (safety regulations)
+              git of the parachuting department of the <abbr title="Koninklijke Nederlandse Vereniging voor de Luchtvaart">KNVvL</abbr> (Royal Dutch Aviation society).
             </p>
 
             <p> Always consult a local instructor. He or she remains responsible. No rights can be obtained from this
@@ -111,7 +109,7 @@ function About(props) {
               <a target="_blank" rel="noopener noreferrer" href={C.GITHUB_URL}>{C.filenameFromPath(C.GITHUB_URL)}</a>
             </p>
 
-            <p>Originally (until 2015), the Skydive Kompasroos was available as Android app. The Android version is now
+            <p>Originally (until 2015), the Skydive Kompasroos was available as an Android app. The Android version is now
               obsolete and no longer maintained.
               After that the first website was based on AngularJS.
               In 2019 the website was changed to React.
