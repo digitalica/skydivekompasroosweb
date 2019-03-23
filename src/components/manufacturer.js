@@ -1,12 +1,15 @@
-import Paper from "@material-ui/core/Paper/Paper";
 import React from "react";
 import {withStyles} from '@material-ui/core/styles';
 import kompasroosData from "./kompasroosdata";
+import Typography from "@material-ui/core/Typography/Typography";
+import GroupIcon from '@material-ui/icons/Group';
+import OpenInNewIcon from '@material-ui/icons/OpenInNew'; // checkmark
+import LinkIcon from '@material-ui/icons/Link';
+
+import Listelement from "./listelement";
 
 import C from "./kompasroosconstants";
 import T from "./kompasroostranslations";
-import Listelement from "./listelement";
-import Typography from "@material-ui/core/Typography/Typography";
 
 
 const styles = theme => ({
@@ -16,20 +19,29 @@ const styles = theme => ({
       textDecoration: 'none'
     }
   },
+  root: {
+    textAlign: "left",
+    paddingTop: 64,
+    paddingBottom: 150,
+  },
   text: {
+    maxWidth: C.MAXWIDTH,
+    marginLeft: "auto",
+    marginRight: "auto",
     paddingTop: theme.spacing.unit * 2,
     paddingLeft: theme.spacing.unit * 2,
     paddingRight: theme.spacing.unit * 2,
   },
-  paper: {
-    paddingTop: 50,
-    paddingBottom: 50,
-  },
   table: {
+    width: "100%",
     maxWidth: C.MAXWIDTH,
     textAlign: "left",
-    marginLeft: "auto",
-    marginRight: "auto"
+    marginLeft: "0",
+    border: "none",
+  },
+  manufacturerdetails: {
+    textAlign: "left",
+    width: "100%",
   },
   list: {
     padding: 0,
@@ -37,8 +49,22 @@ const styles = theme => ({
     maxWidth: C.MAXWIDTH,
     marginLeft: "auto",
     marginRight: "auto",
+  },
+  linkrow: {
+    verticalAlign: "middle",
+    backgroundColor: "lightgrey",
+    height: "40px",
+  },
+  canopylist: {
+    paddingTop: "50px"
   }
 });
+
+
+function openBlank(url) {
+  window.open(url, '_blank');
+}
+
 
 function Manufacturer(props) {
   const {classes, language, slug, category, exitWeight} = props;
@@ -49,7 +75,7 @@ function Manufacturer(props) {
     const countries = manufacturer.countrycode.split(/ *, */);
     const country = countries.map((c) => T[language].COUNTRIES[c]).join(', ');
 
-    let remarksRow = "";
+    let remarksRow = null;
     if (manufacturer.remarks && manufacturer.remarks[language]) {
       remarksRow = (
         <tr>
@@ -59,7 +85,7 @@ function Manufacturer(props) {
       );
     }
 
-    const orderedCanopies = kompasroosData.canopiesByManufacturer;
+    const orderedCanopies = kompasroosData.canopiesByCategory;
     let canopyList = [];
     for (let f = 0; f < orderedCanopies.length; f++) {
       let canopy = kompasroosData.canopies[orderedCanopies[f]];
@@ -67,6 +93,7 @@ function Manufacturer(props) {
         canopyList.push(
           <Listelement
             key={canopy.id}
+            language={language}
             canopy={canopy}
             category={category}
             exitWeigh={exitWeight}
@@ -77,52 +104,63 @@ function Manufacturer(props) {
     }
 
 
+    let manufacturerLinkRow = null;
+    if (manufacturer.url) {
+      manufacturerLinkRow = (
+        <tr className={classes.linkrow}
+            onClick={() => openBlank(manufacturer.url)}>
+          <td><LinkIcon/></td>
+          <td className={classes.canopydetails}>{manufacturer.name}</td>
+          <td><OpenInNewIcon/></td>
+        </tr>
+      );
+    }
+
+
     return (
-      <Paper className={classes.paper}>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <table className={classes.table}>
-          <tbody>
-          <tr>
-            <td>{T[language].MANUFACTURER_NAME}:</td>
-            <td>{manufacturer.name}</td>
-          </tr>
-          <tr>
-            <td>{T[language].MANUFACTURER_COUNTRY}:</td>
-            <td>{country}</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>{manufacturer.url}</td>
-          </tr>
-          {remarksRow}
-          </tbody>
-        </table>
-        <Typography variant="h6">{T[language].CANOPIESBYTITLE} {manufacturer.name}</Typography>
-        <ul className={classes.list}>
-          {canopyList}
-        </ul>
-      </Paper>
+      <div className={classes.root}>
+
+        <div className={classes.text}>
+          <div>
+            <table className={classes.table}>
+              <tbody>
+              <tr>
+                <td>
+                  <GroupIcon/>
+                </td>
+                <td className={classes.manufacturerdetails}>
+                  <Typography variant="h6" gutterBottom>
+                    {manufacturer.name}
+                  </Typography>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+          <table className={classes.table}>
+            <tbody>
+            {manufacturerLinkRow}
+            <tr>
+              <td>{T[language].MANUFACTURER_COUNTRY}:</td>
+              <td>{country}</td>
+            </tr>
+            {remarksRow}
+            </tbody>
+          </table>
+          <div className={classes.canopylist}>
+            <Typography variant="h6">{T[language].CANOPIESBYTITLE} {manufacturer.name}</Typography>
+            <ul className={classes.list}>
+              {canopyList}
+            </ul>
+          </div>
+        </div>
+      </div>
     )
   } else {
     return (
-      <Paper className={classes.paper}>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+      <div className={classes.paper}>
         manufacturer not found
-      </Paper>
+      </div>
 
     )
   }

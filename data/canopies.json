@@ -11,7 +11,7 @@
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "300",
       "minsize": "200",
-      "url": "http://www.performancedesigns.com/products/navigator/",
+      "url": "https://www.performancedesigns.com/products/navigator/",
       "links": [
         {
           "type": "youtube",
@@ -74,7 +74,7 @@
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "290",
       "minsize": "190",
-      "url": "http://www.flyaerodyne.com/solo.asp",
+      "url": "https://www.flyaerodyne.com/solo.asp",
       "xbraced": false
     },
     {
@@ -107,7 +107,6 @@
       "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
       "maxsize": "290",
       "minsize": "230",
-      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy",
       "xbraced": false
     },
     {
@@ -138,7 +137,6 @@
       "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
       "maxsize": "280",
       "minsize": "200",
-      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy",
       "xbraced": false
     },
     {
@@ -171,7 +169,7 @@
       "maxsize": "300",
       "minsize": "120",
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
-      "url": "http://www.precision.aero/falcon-9.htm",
+      "url": "http://www.precision.net/falcon-9.htm",
       "xbraced": false
     },
     {
@@ -191,7 +189,6 @@
       "manufacturerid": "E0E33BAB-7067-42EC-96E3-FD6B35926A11",
       "maxsize": "290",
       "minsize": "170",
-      "url": "http://www.pisa.co.za/default.aspx?id=31",
       "xbraced": false
     },
     {
@@ -204,7 +201,7 @@
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
       "maxsize": "280",
       "minsize": "150",
-      "url": "http://www.paratec.de/?page_id=3653",
+      "url": "http://www.paratec.de/legacy/?page_id=3653",
       "xbraced": false
     },
     {
@@ -216,7 +213,7 @@
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
       "maxsize": "260",
       "minsize": "160",
-      "url": "http://www.paratec.de/?page_id=4236",
+      "url": "http://www.paratec.de/legacy/?page_id=4236",
       "xbraced": false
     },
     {
@@ -445,6 +442,17 @@
       "xbraced": false
     },
     {
+      "id": "F9F3F9F7-04E3-4E60-BFE8-A07A517550FE",
+      "name": "ZP",
+      "category": "1",
+      "cells": "9",
+      "commontype": "0",
+      "dropzoneid": "948",
+      "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
+      "url": "http://www.parachutesystemseurope.com/eng/zp.php",
+      "xbraced": false
+    },
+    {
       "id": "9BADF237-317E-4B64-BF72-9A476F85CA6B",
       "name": "Electra",
       "category": "2",
@@ -456,7 +464,6 @@
       "minsize": "130",
       "planform": "9.5",
       "planformcells": "4",
-      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy",
       "xbraced": false
     },
     {
@@ -482,11 +489,11 @@
       "minsize": "90",
       "planform": "6.7",
       "planformcells": "4",
-      "url": "http://www.flyaerodyne.com/pilot.asp",
+      "url": "https://www.flyaerodyne.com/pilot.asp",
       "links": [
         {
           "type": "youtube",
-          "title": "Parachute Opening - Aerodyne Pilot 168 ",
+          "title": "Parachute Opening - Aerodyne Pilot 168",
           "id": "6QgnKTmS0lA"
         }
       ],
@@ -503,8 +510,20 @@
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "247",
       "minsize": "117",
-      "url": "http://www.flyaerodyne.com/pilot7.asp",
-      "xbraced": false
+      "url": "https://www.flyaerodyne.com/pilot7.asp",
+      "xbraced": false,
+      "links": [
+        {
+          "type": "youtube",
+          "title": "Pilot 7",
+          "id": "aXn0yqapUbE"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag Introducing the Pilot7",
+          "id": "introducing-the-pilot7"
+        }
+      ]
     },
     {
       "id": "02BFB95A-E433-4A02-A6A1-3F8593BFDC90",
@@ -517,8 +536,25 @@
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "260",
       "minsize": "99",
-      "url": "http://www.flyaerodyne.com/triathlon.asp",
-      "xbraced": false
+      "url": "https://www.flyaerodyne.com/triathlon.asp",
+      "xbraced": false,
+      "links": [
+        {
+          "type": "youtube",
+          "title": "Slo-Motion Parachute Canopy triathlon 190 deployment",
+          "id": "7MoCrLpsJJY"
+        },
+        {
+          "type": "youtube",
+          "title": "Triathlon 160",
+          "id": "IwAUp_nO-3M"
+        },
+        {
+          "type": "youtube",
+          "title": "CRW canopy packing (Triathlon Aerodyne 135 sq ft.)",
+          "id": "ykDh2bp0Qp4"
+        }
+      ]
     },
     {
       "id": "49B5D670-24BF-4392-B6D5-3426A88DC2AC",
@@ -564,7 +600,7 @@
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "230",
       "minsize": "97",
-      "url": "http://www.performancedesigns.com/products/spectre/",
+      "url": "https://www.performancedesigns.com/products/spectre/",
       "links": [
         {
           "type": "youtube",
@@ -590,7 +626,7 @@
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "260",
       "minsize": "135",
-      "url": "http://www.performancedesigns.com/products/silhouette/",
+      "url": "https://www.performancedesigns.com/products/silhouette/",
       "xbraced": false
     },
     {
@@ -604,7 +640,7 @@
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "260",
       "minsize": "107",
-      "url": "http://www.performancedesigns.com/products/pulse/",
+      "url": "https://www.performancedesigns.com/products/pulse/",
       "links": [
         {
           "type": "youtube",
@@ -625,7 +661,7 @@
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "305",
       "minsize": "205",
-      "url": "http://www.performancedesigns.com/products/zero/",
+      "url": "https://www.performancedesigns.com/products/zero/",
       "xbraced": false
     },
     {
@@ -638,7 +674,7 @@
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "230",
       "minsize": "98",
-      "url": "http://www.precision.aero/synergy.htm",
+      "url": "http://www.precision.net/synergy.htm",
       "xbraced": false
     },
     {
@@ -739,6 +775,22 @@
       "xbraced": false
     },
     {
+      "id": "3F5AAAF5-64FD-435D-81C8-17EF54119440",
+      "name": "Turbo Z",
+      "category": "2",
+      "commontype": "0",
+      "manufacturerid": "571E4861-2CCE-4276-A5B2-046A38F4870E",
+      "xbraced": false
+    },
+    {
+      "id": "6BC329AA-C9C7-4372-990E-46E3CA20ECF2",
+      "name": "Turbo ZX",
+      "category": "2",
+      "commontype": "0",
+      "manufacturerid": "571E4861-2CCE-4276-A5B2-046A38F4870E",
+      "xbraced": false
+    },
+    {
       "id": "46281C3A-4286-422D-B8F4-8D9015AB96BB",
       "name": "Sabre 2",
       "category": "3",
@@ -751,7 +803,7 @@
       "minsize": "97",
       "planform": "5.4",
       "planformcells": "6",
-      "url": "http://www.performancedesigns.com/products/sabre2/",
+      "url": "https://www.performancedesigns.com/products/sabre2/",
       "links": [
         {
           "type": "youtube",
@@ -797,7 +849,7 @@
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "253",
       "minsize": "113",
-      "url": "http://www.performancedesigns.com/products/lightning/",
+      "url": "https://www.performancedesigns.com/products/lightning/",
       "links": [
         {
           "type": "youtube",
@@ -828,7 +880,7 @@
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "230",
       "minsize": "97",
-      "url": "http://www.performancedesigns.com/products/storm/",
+      "url": "https://www.performancedesigns.com/products/storm/",
       "links": [
         {
           "type": "youtube",
@@ -849,7 +901,7 @@
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "190",
       "minsize": "120",
-      "url": "http://www.performancedesigns.com/products/horizon/",
+      "url": "https://www.performancedesigns.com/products/horizon/",
       "links": [
         {
           "type": "youtube",
@@ -869,7 +921,7 @@
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "230",
       "minsize": "89",
-      "url": "http://www.precision.aero/fusion.htm",
+      "url": "http://www.precision.net/fusion.htm",
       "xbraced": false
     },
     {
@@ -921,8 +973,23 @@
       "links": [
         {
           "type": "youtube",
+          "title": "Safire 3 The Story",
+          "id": "ySkbuQ16H7I"
+        },
+        {
+          "type": "youtube",
           "title": "Icarus Safire2 149",
           "id": "DI3cjt3Wbrk"
+        },
+        {
+          "type": "youtube",
+          "title": "NEW ICARUS CANOPIES SAFIRE2 119 sqft OPENING & LANDING",
+          "id": "3RWf974sCtk"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag review",
+          "id": "icarus-canopies-by-nz-aerosports-reviewi"
         }
       ],
       "xbraced": false
@@ -944,6 +1011,16 @@
           "type": "youtube",
           "title": "Landing Icarus S-fire 169",
           "id": "NOmJjIOmSMk"
+        },
+        {
+          "type": "youtube",
+          "title": "ICARUS SFire 139 - Skydive - AIR 65",
+          "id": "Ik-HlZx_gok"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag review",
+          "id": "safire-3-review"
         }
       ],
       "xbraced": false
@@ -965,7 +1042,7 @@
         },
         {
           "type": "youtube",
-          "title": "The saffire 3",
+          "title": "NZ Aerosports: The Safire 3",
           "id": "UKi43C3NEUI"
         },
         {
@@ -1008,7 +1085,7 @@
       "cells": "9",
       "commontype": "0",
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
-      "url": "http://www.paratec.de/?page_id=4243",
+      "url": "http://www.paratec.de/legacy/?page_id=4243",
       "links": [
         {
           "type": "youtube",
@@ -1049,6 +1126,13 @@
       "maxsize": "215",
       "minsize": "125",
       "url": "http://parachutesystems.com/volt",
+      "links": [
+        {
+          "type": "youtube",
+          "title": "Canopy deployment: Parachute Systems Volt",
+          "id": "lbvbXkjUxfE"
+        }
+      ],
       "xbraced": false
     },
     {
@@ -1189,6 +1273,70 @@
       "xbraced": false
     },
     {
+      "id": "2351611F-068C-4901-820D-26EC38FC36D9",
+      "name": "Epicene",
+      "category": "3",
+      "cells": "7",
+      "maxsize": "210",
+      "minsize": "116",
+      "commontype": "0",
+      "manufacturerid": "CD51335E-1304-4391-9672-A6058F97C352",
+      "url": "https://squirrel.ws/parachutes/skydiving/epicene",
+      "links": [
+        {
+          "type": "vimeo",
+          "title": "Epicene promo video",
+          "id": "113977394"
+        }
+      ],
+      "xbraced": false
+    },
+    {
+      "id": "65A55BBF-5E9E-4ACC-BD87-723BD3CB3ACF",
+      "name": "Prime",
+      "maxsize": "190",
+      "minsize": "120",
+      "cells": "9",
+      "firstyearofproduction": "2014",
+      "category": "3",
+      "commontype": "0",
+      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
+      "url": "http://www.fluidwings.com/prime",
+      "xbraced": false
+    },
+    {
+      "id": "A23740C3-2E70-4B87-8326-C9A88F4CD66E",
+      "name": "Winx",
+      "cells": "7",
+      "maxsize": "210",
+      "minsize": "120",
+      "category": "3",
+      "commontype": "0",
+      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
+      "url": "http://www.basetroll.com/products/winx/",
+      "xbraced": false
+    },
+    {
+      "id": "CD87EF17-F2AC-429D-A8D5-5443485A6BF3",
+      "name": "Nexus",
+      "maxsize": "190",
+      "minsize": "79",
+      "cells": "9",
+      "firstyearofproduction": "2017",
+      "category": "3",
+      "commontype": "0",
+      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
+      "url": "https://www.fluidwings.com/nexus",
+      "xbraced": false,
+      "links": [
+        {
+          "type": "vimeo",
+          "title": "NEXUS ~the next step~",
+          "id": "264115452"
+        }
+      ]
+    },
+    {
       "id": "107633B0-202B-4625-9CD4-8AFE131C5D10",
       "name": "Stiletto",
       "category": "4",
@@ -1201,7 +1349,7 @@
       "minsize": "89",
       "planform": "13.3",
       "planformcells": "4",
-      "url": "http://www.performancedesigns.com/products/stiletto/",
+      "url": "https://www.performancedesigns.com/products/stiletto/",
       "xbraced": false
     },
     {
@@ -1245,7 +1393,6 @@
       "minsize": "110",
       "planform": "28.0",
       "planformcells": "8",
-      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy",
       "xbraced": false
     },
     {
@@ -1358,7 +1505,7 @@
       "maxsize": "152",
       "minsize": "102",
       "planform": "10",
-      "url": "http://www.flyaerodyne.com/zulu.asp",
+      "url": "https://www.flyaerodyne.com/zulu.asp",
       "links": [
         {
           "type": "youtube",
@@ -1446,17 +1593,18 @@
       "maxsize": "170",
       "minsize": "95",
       "url": "http://parachutesystems.com/hurricane",
-      "xbraced": false
-    },
-    {
-      "id": "F9F3F9F7-04E3-4E60-BFE8-A07A517550FE",
-      "name": "ZP",
-      "category": "1",
-      "cells": "9",
-      "commontype": "0",
-      "dropzoneid": "948",
-      "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
-      "url": "http://www.parachutesystemseurope.com/eng/zp.php",
+      "links": [
+        {
+          "type": "youtube",
+          "title": "parachute - fun in the clouds - Hurricane Parachute Systems",
+          "id": "XUQU6zattoE"
+        },
+        {
+          "type": "youtube",
+          "title": "Hurricane 120 - swoop No.1.",
+          "id": "4RH9G4zDxUM"
+        }
+      ],
       "xbraced": false
     },
     {
@@ -1494,6 +1642,19 @@
         "en": "Crossfire 2 was introduced in 2001",
         "nl": "Crossfire 2 werd geïntroduceerd in 2001"
       },
+      "xbraced": false
+    },
+    {
+      "id": "E20AECA2-ECF5-4985-9EF2-0A01130B084B",
+      "name": "Ventus Hybrid",
+      "cells": "9",
+      "maxsize": "170",
+      "minsize": "105",
+      "category": "4",
+      "dropzoneid": "974",
+      "commontype": "0",
+      "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
+      "url": "http://parachutesystems.com/ventus",
       "xbraced": false
     },
     {
@@ -1582,6 +1743,11 @@
           "type": "vimeo",
           "title": "Crossfire 3: openings and landings",
           "id": "193448494"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag Crossfire 3 Insights",
+          "id": "crossfire-3-insights"
         }
       ],
       "xbraced": false
@@ -1699,7 +1865,7 @@
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "170",
       "minsize": "83",
-      "url": "http://www.performancedesigns.com/products/katana/",
+      "url": "https://www.performancedesigns.com/products/katana/",
       "links": [
         {
           "type": "youtube",
@@ -1749,7 +1915,7 @@
         "en": "There is a Rage from Flight Concepts too",
         "nl": "Er bestaat ook een Rage van Flight Concepts"
       },
-      "url": "http://www.paratec.de/?page_id=4253",
+      "url": "http://www.paratec.de/legacy/?page_id=4253",
       "xbraced": false
     },
     {
@@ -1770,7 +1936,6 @@
       "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
       "maxsize": "110",
       "minsize": "80",
-      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems/sport-parachutes/main-canopy",
       "xbraced": false
     },
     {
@@ -1783,7 +1948,7 @@
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "170",
       "minsize": "78",
-      "url": "http://www.precision.aero/nitron.htm",
+      "url": "http://www.precision.net/nitron.htm",
       "xbraced": false
     },
     {
@@ -1797,8 +1962,39 @@
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "150",
       "minsize": "90",
-      "url": "http://www.flyaerodyne.com/mamba.asp",
+      "url": "https://www.flyaerodyne.com/mamba.asp",
       "xbraced": false
+    },
+    {
+      "id": "6C91684B-857B-455F-9A6B-9DC15A31E98A",
+      "name": "Tesla",
+      "maxsize": "150",
+      "minsize": "97",
+      "cells": "9",
+      "firstyearofproduction": "2017",
+      "dropzoneid": "1036",
+      "category": "5",
+      "commontype": "0",
+      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
+      "url": "http://www.fluidwings.com/tesla",
+      "xbraced": false,
+      "links": [
+        {
+          "type": "vimeo",
+          "title": "TESLA Release Video",
+          "id": "189958872"
+        },
+        {
+          "type": "vimeo",
+          "title": "Tesla Teaser",
+          "id": "180641619"
+        },
+        {
+          "type": "youtube",
+          "title": "Fluid Wings Tesla 120 Openings",
+          "id": "Iq3_vH_qk7U"
+        }
+      ]
     },
     {
       "id": "0858835E-BC3A-43D9-A085-3DF96D70D3ED",
@@ -1811,7 +2007,7 @@
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "121",
       "minsize": "71",
-      "url": "http://www.flyaerodyne.com/sensei.asp",
+      "url": "https://www.flyaerodyne.com/sensei.asp",
       "links": [
         {
           "type": "youtube",
@@ -1853,7 +2049,7 @@
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "120",
       "minsize": "75",
-      "url": "http://www.performancedesigns.com/products/velocity/",
+      "url": "https://www.performancedesigns.com/products/velocity/",
       "links": [
         {
           "type": "youtube",
@@ -1879,70 +2075,12 @@
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "111",
       "minsize": "71",
-      "url": "http://www.performancedesigns.com/products/compvelocity/",
+      "url": "https://www.performancedesigns.com/products/compvelocity/",
       "links": [
         {
           "type": "skydivemag",
           "title": "Skydivemag review",
           "id": "20130815-competition-velocity"
-        }
-      ],
-      "xbraced": true
-    },
-    {
-      "id": "1931C950-68C7-11E2-BCFD-0800200C9A66",
-      "name": "Peregrine",
-      "category": "7",
-      "cells": "27",
-      "commontype": "0",
-      "dropzoneid": "897",
-      "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
-      "remarks": {
-        "en": "Not freely available",
-        "nl": "Niet vrij beschikbaar"
-      },
-      "url": "http://www.performancedesigns.com/products/peregrine/",
-      "links": [
-        {
-          "type": "youtube",
-          "title": "PD Peregrine promo",
-          "id": "Tj3U5QJbaAc"
-        },
-        {
-          "type": "youtube",
-          "title": "Distance swoop Peregrine 61",
-          "id": "ewQdizH4oaM"
-        },
-        {
-          "type": "youtube",
-          "title": "Peregrine XRW (met wingsuit)",
-          "id": "dPAcENXxtnw"
-        }
-      ],
-      "xbraced": true
-    },
-    {
-      "id": "23498D9C-045C-4D99-AAD7-E01CFDBC717B",
-      "name": "Valkyrie",
-      "category": "7",
-      "cells": "21",
-      "commontype": "0",
-      "dropzoneid": "971",
-      "firstyearofproduction": "2014",
-      "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
-      "maxsize": "103",
-      "minsize": "67",
-      "url": "http://www.performancedesigns.com/products/valkyrie/",
-      "links": [
-        {
-          "type": "youtube",
-          "title": "PD Valkyrie promo",
-          "id": "LJr70PKbgOE"
-        },
-        {
-          "type": "youtube",
-          "title": "Flight of the Valkyries",
-          "id": "rrr4BlBLFTY"
         }
       ],
       "xbraced": true
@@ -1976,7 +2114,7 @@
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "135",
       "minsize": "68",
-      "url": "http://www.precision.aero/xaos-21.htm",
+      "url": "http://www.precision.net/xaos-21.htm",
       "xbraced": true
     },
     {
@@ -1989,7 +2127,7 @@
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "118",
       "minsize": "58",
-      "url": "http://www.precision.aero/xaos-27.htm",
+      "url": "http://www.precision.net/xaos-27.htm",
       "xbraced": true
     },
     {
@@ -2039,7 +2177,14 @@
       "maxsize": "119",
       "minsize": "59",
       "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=19&Itemid=18",
-      "xbraced": true
+      "xbraced": true,
+      "links": [
+        {
+          "type": "youtube",
+          "title": "Swoop Neos",
+          "id": "QWTfOFW4YgA"
+        }
+      ]
     },
     {
       "id": "86F21B4A-D883-4391-A792-D2F43259942B",
@@ -2053,7 +2198,14 @@
       "maxsize": "119",
       "minsize": "59",
       "url": "http://www.nzaerosports.com/canopies/daedalus-JVX",
-      "xbraced": true
+      "xbraced": true,
+      "links": [
+        {
+          "type": "youtube",
+          "title": "The World's Smallest Parachute",
+          "id": "yW3pimvJSro"
+        }
+      ]
     },
     {
       "id": "AD3229CE-7B38-4BC8-A1C6-73D6DF651198",
@@ -2087,6 +2239,101 @@
       "maxsize": "119",
       "minsize": "59",
       "url": "http://www.nzaerosports.com/canopies/icarus-jfx2",
+      "xbraced": true
+    },
+    {
+      "id": "3193501C-9111-4782-B0EC-778CD6923E08",
+      "name": "Onyx",
+      "cells": "27",
+      "category": "6",
+      "commontype": "0",
+      "dropzoneid": "473",
+      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
+      "xbraced": true
+    },
+    {
+      "id": "13C2B0F2-82C3-4996-A8D8-D42872879587",
+      "name": "Gangster",
+      "maxsize": "135",
+      "minsize": "69",
+      "cells": "21",
+      "firstyearofproduction": "2017",
+      "category": "6",
+      "commontype": "0",
+      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
+      "url": "https://www.fluidwings.com/gangster",
+      "xbraced": true,
+      "remarks": {
+        "en": "Partially braced",
+        "nl": "Partially braced "
+      }
+    },
+    {
+      "id": "1931C950-68C7-11E2-BCFD-0800200C9A66",
+      "name": "Peregrine",
+      "category": "7",
+      "cells": "27",
+      "commontype": "0",
+      "dropzoneid": "897",
+      "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
+      "remarks": {
+        "en": "Not freely available",
+        "nl": "Niet vrij beschikbaar"
+      },
+      "url": "https://www.performancedesigns.com/products/peregrine/",
+      "links": [
+        {
+          "type": "youtube",
+          "title": "PD Peregrine promo",
+          "id": "Tj3U5QJbaAc"
+        },
+        {
+          "type": "youtube",
+          "title": "Distance swoop Peregrine 61",
+          "id": "ewQdizH4oaM"
+        },
+        {
+          "type": "youtube",
+          "title": "Peregrine XRW (met wingsuit)",
+          "id": "dPAcENXxtnw"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag: Peregrine Project | #SkydiveDubai",
+          "id": "peregrine-project-skydivedubai"
+        }
+      ],
+      "xbraced": true
+    },
+    {
+      "id": "23498D9C-045C-4D99-AAD7-E01CFDBC717B",
+      "name": "Valkyrie",
+      "category": "7",
+      "cells": "21",
+      "commontype": "0",
+      "dropzoneid": "971",
+      "firstyearofproduction": "2014",
+      "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
+      "maxsize": "103",
+      "minsize": "67",
+      "url": "https://www.performancedesigns.com/products/valkyrie/",
+      "links": [
+        {
+          "type": "youtube",
+          "title": "PD Valkyrie promo",
+          "id": "LJr70PKbgOE"
+        },
+        {
+          "type": "youtube",
+          "title": "Flight of the Valkyries",
+          "id": "rrr4BlBLFTY"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag review",
+          "id": "valkyrie-review"
+        }
+      ],
       "xbraced": true
     },
     {
@@ -2166,63 +2413,6 @@
       "xbraced": true
     },
     {
-      "id": "3193501C-9111-4782-B0EC-778CD6923E08",
-      "name": "Onyx",
-      "cells": "27",
-      "category": "6",
-      "commontype": "0",
-      "dropzoneid": "473",
-      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
-      "xbraced": true
-    },
-    {
-      "id": "2351611F-068C-4901-820D-26EC38FC36D9",
-      "name": "Epicene",
-      "category": "3",
-      "cells": "7",
-      "maxsize": "210",
-      "minsize": "116",
-      "commontype": "0",
-      "manufacturerid": "CD51335E-1304-4391-9672-A6058F97C352",
-      "url": "https://squirrel.ws/parachutes/skydiving/epicene",
-      "links": [
-        {
-          "type": "vimeo",
-          "title": "Epicene promo video",
-          "id": "113977394"
-        }
-      ],
-      "xbraced": false
-    },
-    {
-      "id": "65A55BBF-5E9E-4ACC-BD87-723BD3CB3ACF",
-      "name": "Prime",
-      "maxsize": "190",
-      "minsize": "120",
-      "cells": "9",
-      "firstyearofproduction": "2014",
-      "dropzoneid": "978",
-      "category": "3",
-      "commontype": "0",
-      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
-      "url": "http://www.fluidwings.com/prime",
-      "xbraced": false
-    },
-    {
-      "id": "6C91684B-857B-455F-9A6B-9DC15A31E98A",
-      "name": "Tesla",
-      "maxsize": "150",
-      "minsize": "97",
-      "cells": "9",
-      "firstyearofproduction": "2017",
-      "dropzoneid": "1036",
-      "category": "5",
-      "commontype": "0",
-      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
-      "url": "http://www.fluidwings.com/tesla",
-      "xbraced": false
-    },
-    {
       "id": "30592423-330F-4E41-9BCD-9CA85E06D425",
       "name": "Helix",
       "cells": "21",
@@ -2239,6 +2429,11 @@
           "type": "vimeo",
           "title": "Helix release video",
           "id": "134061502"
+        },
+        {
+          "type": "youtube",
+          "title": "Fluid Wings Helix 84 SN:13",
+          "id": "Q7m9OT3VSnE"
         }
       ],
       "xbraced": true
@@ -2266,7 +2461,24 @@
       "commontype": "0",
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
       "url": "http://www.fluidwings.com/hk",
-      "xbraced": true
+      "xbraced": true,
+      "links": [
+        {
+          "type": "youtube",
+          "title": "Fluid Wings HK 60",
+          "id": "XL_9JGr-a-o"
+        },
+        {
+          "type": "youtube",
+          "title": "Canopy Action 2017, Timmi, Fly Fluid",
+          "id": "Day0Zqw-SqY"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydivemag Fluid Wings Releases Competition Wing",
+          "id": "fluid-wings-releases-competition-wing"
+        }
+      ]
     },
     {
       "id": "DC694B4B-EF96-4E4C-993C-601929279178",
@@ -2294,20 +2506,29 @@
       "commontype": "0",
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
       "url": "http://www.fluidwings.com/airwolf",
-      "xbraced": true
-    },
-    {
-      "id": "E20AECA2-ECF5-4985-9EF2-0A01130B084B",
-      "name": "Ventus Hybrid",
-      "cells": "9",
-      "maxsize": "170",
-      "minsize": "105",
-      "category": "4",
-      "dropzoneid": "974",
-      "commontype": "0",
-      "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
-      "url": "http://parachutesystems.com/ventus",
-      "xbraced": false
+      "xbraced": true,
+      "links": [
+        {
+          "type": "vimeo",
+          "title": "AirWolf Release Video",
+          "id": "221748201"
+        },
+        {
+          "type": "youtube",
+          "title": "Airwolf 90",
+          "id": "W6gnL5O5YtI"
+        },
+        {
+          "type": "youtube",
+          "title": "Fluid Wings Airwolf 79 @ 2.72",
+          "id": "J1Wc2aSCv18"
+        },
+        {
+          "type": "youtube",
+          "title": "Fluid Wings AirWolf 90 2.7 loading",
+          "id": "v569hpZwrmg"
+        }
+      ]
     },
     {
       "id": "A8C274D3-DE56-413D-AAA2-C8EE6D7CA3BE",
@@ -2346,18 +2567,6 @@
       "xbraced": true
     },
     {
-      "id": "A23740C3-2E70-4B87-8326-C9A88F4CD66E",
-      "name": "Winx",
-      "cells": "7",
-      "maxsize": "210",
-      "minsize": "120",
-      "category": "3",
-      "commontype": "0",
-      "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
-      "url": "http://www.basetroll.com/products/winx/",
-      "xbraced": false
-    },
-    {
       "id": "A2252BB9-ED7C-4EEF-AB7B-18B6B4DC774E",
       "name": "Scirocco",
       "category": "7",
@@ -2372,5 +2581,4 @@
     }
   ]
 }
-
 

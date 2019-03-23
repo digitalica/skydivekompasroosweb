@@ -8,6 +8,7 @@ import WarnIcon from '@material-ui/icons/CropSquare'; // block
 import Typography from "@material-ui/core/Typography/Typography";
 
 import C from "./kompasroosconstants";
+import T from "./kompasroostranslations";
 
 const styles = theme => ({
   canopydetails: {
@@ -107,7 +108,7 @@ class ListElement extends React.Component {
 
 
   render() {
-    const {classes, canopy, category, exitWeight} = this.props;
+    const {classes, canopy, category, language, exitWeight} = this.props;
 
     // calculate acceptability
     let acceptability = C.acceptability(canopy, category, exitWeight);
@@ -123,7 +124,7 @@ class ListElement extends React.Component {
         let line2 = "";
 
         if (canopy.cells) {
-          line2 += canopy.cells + " cellen";
+          line2 += canopy.cells + " " + T[language].CANOPY_CELLS;
         }
         if (canopy.minsize && canopy.maxsize) {
           if (line2) {

@@ -20,6 +20,8 @@ import {fade} from '@material-ui/core/styles/colorManipulator';
 import {withRouter} from 'react-router-dom'
 import {withStyles} from '@material-ui/core/styles';
 
+import Autotext from "./autotext";
+
 import T from "./kompasroostranslations";
 
 
@@ -43,7 +45,7 @@ const styles = theme => ({
   },
   title: {
     display: 'none',
-    [theme.breakpoints.up('sm')]: {
+    [theme.breakpoints.up('xs')]: {
       display: 'block',
     },
   },
@@ -110,13 +112,13 @@ class TopAppBar extends React.Component {
   };
 
   clearSearch = () => {
-    console.log('clear search ' + this.state.showSearch);
+    // console.log('clear search ' + this.state.showSearch);
     this.props.onSearchChange({target: {value: ""}});
     this.setState({showSearch: false});
   };
 
   goSearch = () => {
-    console.log('go search ' + this.state.showSearch);
+    // console.log('go search ' + this.state.showSearch);
     if (!this.props.showWelcome) {
       this.setState({showSearch: true});
       if (this.props.location.pathname !== "/") {
@@ -200,6 +202,7 @@ class TopAppBar extends React.Component {
             }}
             value={this.props.searchText}
             onChange={this.props.onSearchChange}
+            autoFocus={true}
           />
         </div>
       );
@@ -207,7 +210,7 @@ class TopAppBar extends React.Component {
       headerCenter = (
         <Link className={classes.link} onClick={this.goBack}>
           <Typography variant="h6" color="inherit" className={classes.title}>
-            Skydive Kompasroos
+            <Autotext short="Kompasroos" long="Skydive Kompasroos"/>
           </Typography>
         </Link>
       )
@@ -223,7 +226,7 @@ class TopAppBar extends React.Component {
               id="simple-menu"
               anchorEl={anchorEl}
               open={Boolean(anchorEl)}
-              onClose={this.handleClose}
+              onClose={this.closeMenu}
             >
               <MenuItem onClick={this.goSettings}>
                 <ListItemIcon className={classes.icon}>

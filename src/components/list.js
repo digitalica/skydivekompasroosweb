@@ -1,8 +1,8 @@
-import React from "react";
+import React, {Fragment} from "react";
 import {withStyles} from '@material-ui/core/styles';
 import Typography from "@material-ui/core/Typography/Typography";
 
-
+import Summary from "./summary";
 import kompasroosData from "./kompasroosdata";
 import C from "./kompasroosconstants";
 import T from "./kompasroostranslations";
@@ -22,6 +22,9 @@ const styles = theme => ({
     paddingBottom: 150,
   },
   text: {
+    maxWidth: C.MAXWIDTH,
+    marginLeft: "auto",
+    marginRight: "auto",
     paddingTop: theme.spacing.unit * 2,
     paddingLeft: theme.spacing.unit * 2,
     paddingRight: theme.spacing.unit * 2,
@@ -40,7 +43,7 @@ class List extends React.Component {
 
 
   searchMatch(canopy, searchText) {
-    console.log('search: ' + searchText);
+    // console.log('search: ' + searchText);
     // no or short searchtext, all match
     if (!searchText || searchText.length < 3) {
       return true;
@@ -151,6 +154,7 @@ class List extends React.Component {
 
           canopyList.push(
             <Listelement
+              language={language}
               canopy={canopy}
               category={this.props.category}
               exitWeight={this.props.exitWeight}
@@ -187,17 +191,31 @@ class List extends React.Component {
       }
     }
 
-    let searchWarning = "";
+    let searchWarning = null;
     if (this.props.searchText && searchedCanopyHidden) {
       searchWarning = this.getHeader(T[language].SEARCH_FILTERWARNING);
     }
 
+    let summary = null;
+    if (!this.props.searchText) {
+      summary = <Fragment>
+        <Typography variant="h6">{T[language].SUMMARY_TITLE}</Typography>
+        <Summary
+          language={language}
+          category={this.props.category}
+        />
+      </Fragment>
+    }
+
     return (
       <div className={classes.root}>
-        <ul className={classes.list}>
-          {canopyList}
-          {searchWarning}
-        </ul>
+        <div className={classes.text}>
+          {summary}
+          <ul className={classes.list}>
+            {canopyList}
+            {searchWarning}
+          </ul>
+        </div>
       </div>
     )
 

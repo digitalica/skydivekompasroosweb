@@ -38,7 +38,7 @@ const styles = theme => ({
 class Wingloadtable extends React.Component {
 
   getClassArea(isAreaOk, isLoadOk) {
-    console.log('getclassarea');
+    // console.log('getclassarea');
     if (!isAreaOk) {
       return "bad";
     } else if (isLoadOk) {
@@ -49,7 +49,7 @@ class Wingloadtable extends React.Component {
   }
 
   getClassLoad(isAreaOk, isLoadOk) {
-    console.log('getclassload');
+    // console.log('getclassload');
     if (!isLoadOk) {
       return "bad";
     } else if (isAreaOk) {
@@ -68,7 +68,7 @@ class Wingloadtable extends React.Component {
 
     let minArea = C.MINAREA[category];
     let maxLoad = C.MAXWINGLOAD[category];
-    console.log(category + ' ' + minArea + ' ' + maxLoad);
+    // console.log(category + ' ' + minArea + ' ' + maxLoad);
     let weightInLbs = C.kgToLbs(this.props.exitWeight);
 
     for (let index in wingLoadAreas) {

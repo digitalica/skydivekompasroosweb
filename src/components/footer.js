@@ -1,13 +1,14 @@
+import React, {Fragment}  from "react";
 import AppBar from "@material-ui/core/AppBar/AppBar";
 import Toolbar from "@material-ui/core/Toolbar/Toolbar";
 import Typography from "@material-ui/core/Typography/Typography";
 import Button from "@material-ui/core/Button/Button";
-import React from "react";
 import {withStyles} from '@material-ui/core/styles';
 import {withRouter} from "react-router-dom";
 
 import C from "./kompasroosconstants";
 import T from "./kompasroostranslations";
+import Autotext from "./autotext";
 
 
 const styles = theme => ({
@@ -45,6 +46,9 @@ const styles = theme => ({
     right: 0,
     margin: '0 auto',
   },
+  singleline: {
+    lineHeight: 1
+  }
 });
 
 class BottomAppBar extends React.Component {
@@ -72,12 +76,20 @@ class BottomAppBar extends React.Component {
 
 
   render() {
-    const {classes, language} = this.props;
+    const {classes, language, totalJumps, jumpsLast12Months, xbracedJumps} = this.props;
 
     let weightText = this.props.exitWeight;
-    let jumpsText = this.props.totalJumps + " / " + this.props.jumpsLast12Months;
+    let jumpsText;
     if (C.isCrossBracedRelevant(this.props.totalJumps, this.props.jumpsLast12Months)) {
-      jumpsText += " / " + this.props.xbracedJumps;
+      jumpsText =
+        <Fragment>
+          {totalJumps}<Autotext short="/" long=" / "/>{jumpsLast12Months}<Autotext short="/" long=" / "/>{xbracedJumps}
+        </Fragment>
+    } else {
+      jumpsText =
+        <Fragment>
+          {totalJumps}<Autotext short="/" long=" / "/>{jumpsLast12Months}
+        </Fragment>
     }
 
     return (
@@ -88,12 +100,13 @@ class BottomAppBar extends React.Component {
               <tbody>
               <tr>
                 <td>
-                  <Typography variant="caption" color="inherit">{T[language].EXITWEIGHT}</Typography>
+                  <Typography className={classes.singleline} variant="caption"
+                              color="inherit">{T[language].EXITWEIGHT}</Typography>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <Typography variant="h6" color="inherit">{weightText}</Typography>
+                  <Typography className={classes.singleline} variant="h6" color="inherit">{weightText}</Typography>
                 </td>
               </tr>
               </tbody>
@@ -104,12 +117,13 @@ class BottomAppBar extends React.Component {
               <tbody>
               <tr>
                 <td>
-                  <Typography variant="caption" color="inherit">{T[language].EXPERIENCE}</Typography>
+                  <Typography className={classes.singleline} variant="caption"
+                              color="inherit">{T[language].EXPERIENCE}</Typography>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <Typography variant="h6" color="inherit">{jumpsText}</Typography>
+                  <Typography className={classes.singleline} variant="h6" color="inherit">{jumpsText}</Typography>
                 </td>
               </tr>
               </tbody>

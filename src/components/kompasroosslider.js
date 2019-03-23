@@ -7,6 +7,8 @@ import RemoveIcon from '@material-ui/icons/Remove';
 import Typography from "@material-ui/core/Typography/Typography";
 import Slider from '@material-ui/lab/Slider';
 
+import Autotext from "./autotext";
+
 // import C from "./kompasroosconstants";
 
 
@@ -38,8 +40,7 @@ const styles = theme => ({
   nobreak: {
     whiteSpace: "nowrap"
   },
-  leftAlign: {
-  },
+  leftAlign: {},
   rightAlign: {
     textAlign: "right"
   }
@@ -49,7 +50,7 @@ class KompasroosSlider extends React.Component {
 
   stepUp = () => {
     let newValue = this.props.value + 1;
-    console.log('step up ' + newValue);
+    // console.log('step up ' + newValue);
     if (newValue < this.props.min || newValue > this.props.max) {
       return;
     }
@@ -59,7 +60,7 @@ class KompasroosSlider extends React.Component {
 
   stepDown = () => {
     let newValue = this.props.value - 1;
-    console.log('step down ' + newValue);
+    // console.log('step down ' + newValue);
     if (newValue < this.props.min || newValue > this.props.max) {
       return;
     }
@@ -68,7 +69,7 @@ class KompasroosSlider extends React.Component {
 
 
   render() {
-    const {classes, value, min, max, label, onChange, measure} = this.props;
+    const {classes, value, min, max, labels, labell, onChange, measure} = this.props;
 
     return (
       <div className={classes.root}>
@@ -76,7 +77,7 @@ class KompasroosSlider extends React.Component {
           <tbody>
           <tr>
             <td width="100%">
-              <Typography variant="subtitle1" id={label}>{label}</Typography>
+              <Typography variant="subtitle1"><Autotext short={labels} long={labell}/></Typography>
             </td>
             <td className={classes.nobreak}>
               {value} {measure}
@@ -87,7 +88,7 @@ class KompasroosSlider extends React.Component {
               <Slider
                 classes={{container: classes.slider}}
                 value={value}
-                aria-labelledby={label}
+                aria-labelledby={labels}
                 onChange={onChange}
                 min={min}
                 max={max}

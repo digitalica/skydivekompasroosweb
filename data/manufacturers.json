@@ -5,7 +5,7 @@
       "name": "Aerodyne Research",
       "countrycode": "us",
       "shortname": "Aerodyne",
-      "url": "http://www.flyaerodyne.com"
+      "url": "https://www.flyaerodyne.com"
     },
     {
       "id": "97AD094C-A001-4928-8B4E-792EC76EFBCB",
@@ -108,11 +108,10 @@
       "name": "Parachutes de France",
       "countrycode": "fr",
       "remarks": {
-        "en": "Parachutes de France was merged in Zodiac Aerospace around 2014.",
-        "nl": "Parachutes de France is rond 2014 opgegaan in Zodiac Aerospace."
+        "en": "Parachutes de France was merged in Zodiac Aerospace around 2014. In February 2018, Safran took control of Zodiac Aerospace.",
+        "nl": "Parachutes de France is rond 2014 opgegaan in Zodiac Aerospace. In februari 2018 heeft Safran Zodiac Aerospace overgenomen."
       },
-      "shortname": "PdF",
-      "url": "http://www.zodiacaerospace.com/fr/products-services/aerosafety/parachute-protection/personal-parachute-systems"
+      "shortname": "PdF"
     },
     {
       "id": "E1DA167E-6512-401E-9033-8621884D2C67",
@@ -126,25 +125,24 @@
       "name": "Performance Designs",
       "countrycode": "us",
       "shortname": "PD",
-      "url": "http://www.performancedesigns.com/"
+      "url": "https://www.performancedesigns.com/"
     },
     {
       "id": "E0E33BAB-7067-42EC-96E3-FD6B35926A11",
       "name": "PISA",
       "countrycode": "sa",
       "remarks": {
-        "en": "PISA (Parachute Industries of South Africa) is no longer active",
-        "nl": "PISA (Parachute Industries of South Africa) is niet meer actief"
+        "en": "PISA (Parachute Industries of South Africa) is no longer active. In 2018 the website was not online any more.",
+        "nl": "PISA (Parachute Industries of South Africa) is niet meer actief. In 2018 was de website niet meer actief."
       },
-      "shortname": "PISA",
-      "url": "http://www.pisa.co.za/"
+      "shortname": "PISA"
     },
     {
       "id": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "name": "Precision Aerodynamics",
       "countrycode": "us",
       "shortname": "Precision",
-      "url": "http://www.precision.aero/"
+      "url": "http://www.precision.net/"
     },
     {
       "id": "ACD6855E-9F54-4E27-B498-14C9693FB7EF",
@@ -180,6 +178,16 @@
       "countrycode": "ua",
       "shortname": "Skylark",
       "url": "http://skylarkparachutes.com/"
+    },
+    {
+      "id": "571E4861-2CCE-4276-A5B2-046A38F4870E",
+      "name": "Para-Flite",
+      "countrycode": "us",
+      "shortname": "Para-Flite",
+      "remarks": {
+        "en": "Para-Flite is no longer active. It became part of Airborne systems around 2006",
+        "nl": "Para-Flite is niet meer actief. Het is onderdeel geworden van Airborne systems rond 2006"
+      }
     }
   ]
 }

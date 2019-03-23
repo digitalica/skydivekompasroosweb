@@ -82,6 +82,7 @@ for (let m in manufacturersArray) {
 
 
 // create canopies Object
+let currentCategory = 0;
 for (let c in canopiesArray) {
   let cObject = canopiesArray[c];
   let id = cObject.id;
@@ -92,14 +93,22 @@ for (let c in canopiesArray) {
 
   // complete URLS in the links array
   let links = [];
+  if (cObject.dropzoneid) {
+    links.push({
+      type: "dropzone.com",
+      title: "Dropzone.com",
+      url: 'https://www.dropzone.com/gear/Detailed/' + cObject.dropzoneid + '.html'
+    });
+  }
   if (cObject.links) {
     for (var li = 0; li < cObject.links.length; li++) {
       let link = {};
       let url;
       link.type = cObject.links[li].type;
+      link.title = cObject.links[li].title;
       switch (link.type) {
         case 'youtube':
-          url = "http://www.youtube.com/watch?v=" + cObject.links[li].id;
+          url = "https://www.youtube.com/watch?v=" + cObject.links[li].id;
           break;
         case 'vimeo':
           url = "https://vimeo.com/" + cObject.links[li].id;
@@ -123,11 +132,15 @@ for (let c in canopiesArray) {
   cObject.displaycategory = cObject.category ? cObject.category : '?';
   cObject.calculationcategory = cObject.category ? cObject.category : cObject.xbraced ? 7 : 6;
   cObject.manufacturername = manufacturers[cObject.manufacturerid].name;
+  cObject.manufacturerurl = manufacturers[cObject.manufacturerid].url;
   cObject.manufacturerslug = manufacturers[cObject.manufacturerid].slug;
   cObject.search = cleanForSearch(cObject.name) + "|" + cleanForSearch(cObject.manufacturername);
   cObject.slug = slugify(cObject.manufacturername) + "-" + slugify(cObject.name);
   if (slugsSeen[cObject.slug]) {
     console.log('ERROR: Duplicate slug: ' + cObject.slug);
+  }
+  if (cObject.displaycategory === '?') {
+    console.log('WARN: no category for: ' + cObject.manufacturername + ' ' + cObject.name);
   }
   slugsSeen[cObject.slug] = cObject.id;
 
@@ -135,6 +148,12 @@ for (let c in canopiesArray) {
   canopiesByName.push(id);
   canopiesByManufacturer.push(id);
   canopiesByCategory.push(id);
+  if (cObject.category < currentCategory) {
+    console.log('category out of order for: ' + cObject.name + ' by ' + cObject.manufacturername);
+  }
+  if (cObject.calculationcategory > currentCategory) {
+    currentCategory = cObject.calculationcategory;
+  }
 }
 
 
