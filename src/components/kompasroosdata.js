@@ -4693,6 +4693,16 @@ let kompasroosData = {
           "type": "dropzone.com",
           "title": "Dropzone.com",
           "url": "https://www.dropzone.com/gear/Detailed/636.html"
+        },
+        {
+          "type": "youtube",
+          "title": "Packing Scirocco",
+          "url": "https://www.youtube.com/watch?v=TyEshNybpng"
+        },
+        {
+          "type": "youtube",
+          "title": "Scirocco 2-way floсking",
+          "url": "https://www.youtube.com/watch?v=SEvR-pgquw8"
         }
       ],
       "displaycategory": 7,

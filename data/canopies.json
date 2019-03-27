@@ -2577,7 +2577,19 @@
       "maxsize": "124",
       "minsize": "64",
       "url": "http://skylarkparachutes.com/scirocco",
-      "xbraced": true
+      "xbraced": true,
+      "links": [
+        {
+          "type": "youtube",
+          "title": "Packing Scirocco",
+          "id": "TyEshNybpng"
+        },
+        {
+          "type": "youtube",
+          "title": "Scirocco 2-way floсking",
+          "id": "SEvR-pgquw8"
+        }
+      ]
     }
   ]
 }
