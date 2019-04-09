@@ -179,6 +179,7 @@ class KompasroosApp extends Component {
               xbracedJumps={this.state.xbracedJumps}
               showWelcome={this.state.showWelcome}
               welcomeDone={this.welcomeDone}
+              exitWeight={this.state.exitWeight}
             />}
             />
             <Route path="/setweight" render={(props) => <SetWeight

@@ -69,7 +69,7 @@ class Wingloadtable extends React.Component {
     let minArea = C.MINAREA[category];
     let maxLoad = C.MAXWINGLOAD[category];
     // console.log(category + ' ' + minArea + ' ' + maxLoad);
-    let weightInLbs = C.kgToLbs(this.props.exitWeight);
+    let weightInLbs = C.kgToLbsRounded(this.props.exitWeight);
 
     for (let index in wingLoadAreas) {
       let areaValue = wingLoadAreas[index];

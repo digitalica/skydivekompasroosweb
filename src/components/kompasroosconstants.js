@@ -70,8 +70,12 @@ export default {
     }
   },
 
-  kgToLbs(kg) {
-    return Math.round(kg * this.WEIGHT_FACTOR_KG_TO_LBS);
+  kgToLbsRounded(kg) {
+    return Math.round(this.kgToLbsExact(kg));
+  },
+
+  kgToLbsExact(kg) {
+    return kg * this.WEIGHT_FACTOR_KG_TO_LBS;
   },
 
   getWingloadFor(area, weightInLbs) {
@@ -114,6 +118,18 @@ export default {
     return maxWingLoad;
   },
 
+  effectiveMinAreaBasedOnCategoryAndExitWeight(jumperCategory, exitWeightInKg) {
+    let minArea = this.MINAREA[jumperCategory];
+    let maxWingLoad = this.MAXWINGLOAD[jumperCategory];
+    if (!minArea || !maxWingLoad) {
+      return null;
+    }
+    let effectiveMinArea = Math.round(Math.max(minArea, this.kgToLbsExact(exitWeightInKg) / maxWingLoad));
+    if (effectiveMinArea - minArea < 3) {
+      return null;
+    }
+    return effectiveMinArea;
+  },
 
   jumperCategory(totalJumps, jumpsLast12Months, xbracedjumps) {
     // TODO: below can be done in a simple loop
@@ -167,7 +183,7 @@ export default {
     if (canopy.maxsize !== "" && canopy.maxsize != null) {
       let maxLoad = this.MAXWINGLOAD[jumperCategory];
       if (maxLoad) {
-        let weightInLbs = this.kgToLbs(exitWeightInKg);
+        let weightInLbs = this.kgToLbsExact(exitWeightInKg);
         let wingLoad = this.getWingloadFor(canopy.maxsize, weightInLbs);
         if (wingLoad > maxLoad) {
           // console.log('acceptablity ' + canopy.maxsize + ' ' + wingLoad + ' ' + maxLoad);

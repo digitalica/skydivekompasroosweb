@@ -10,19 +10,19 @@ it('converst kg to lbs', () => {
 
 
 it('converst kg to lbs', () => {
-  expect(C.kgToLbs(0)).toEqual(0);
-  expect(C.kgToLbs(2)).toEqual(4);
-  expect(C.kgToLbs(99)).toEqual(218);
-  expect(C.kgToLbs(100)).toEqual(220);
-  expect(C.kgToLbs(101)).toEqual(223);
-  expect(C.kgToLbs(200)).toEqual(441);
-  expect(C.kgToLbs(201)).toEqual(443);
+  expect(C.kgToLbsRounded(0)).toEqual(0);
+  expect(C.kgToLbsRounded(2)).toEqual(4);
+  expect(C.kgToLbsRounded(99)).toEqual(218);
+  expect(C.kgToLbsRounded(100)).toEqual(220);
+  expect(C.kgToLbsRounded(101)).toEqual(223);
+  expect(C.kgToLbsRounded(200)).toEqual(441);
+  expect(C.kgToLbsRounded(201)).toEqual(443);
 });
 
 
 it('calculates wingload', () => {
-  expect(C.getWingloadFor(0, C.kgToLbs(115))).toEqual(""); // not very realistic ;-)
-  expect(C.getWingloadFor(190, C.kgToLbs(115))).toEqual("1.34");
+  expect(C.getWingloadFor(0, C.kgToLbsRounded(115))).toEqual(""); // not very realistic ;-)
+  expect(C.getWingloadFor(190, C.kgToLbsRounded(115))).toEqual("1.34");
   expect(C.getWingloadFor(1, 0)).toEqual('0.00');
   expect(C.getWingloadFor(10, 0)).toEqual('0.00');
   expect(C.getWingloadFor(999, 0)).toEqual('0.00');
@@ -109,7 +109,11 @@ it('calculates acceptability', () => {
   expect(C.acceptability({calculationcategory: 7}, 2, 85)).toEqual(C.ACC_CATEGORYTOOHIGH);
 
   expect(C.acceptability({calculationcategory: 2, minsize: 100, maxsize: 300}, 2, 115)).toEqual(C.ACC_ACCEPTABLE);
-  expect(C.acceptability({calculationcategory: 2, minsize: 100, maxsize: 120}, 2, 115)).toEqual(C.ACC_NEEDEDSIZENOTAVAILABLE);
+  expect(C.acceptability({
+    calculationcategory: 2,
+    minsize: 100,
+    maxsize: 120
+  }, 2, 115)).toEqual(C.ACC_NEEDEDSIZENOTAVAILABLE);
 
   expect(C.acceptability({calculationcategory: 1}, 4, 85)).toEqual(C.ACC_ACCEPTABLE);
   expect(C.acceptability({calculationcategory: 2}, 4, 85)).toEqual(C.ACC_ACCEPTABLE);
@@ -186,10 +190,6 @@ it('returns the correct availability for a CAT 7 canopy', function () {
 });
 
 
-
-
-
-
 it('checks correctly if a cookie is set', function () {
   expect(C.cookieSet("")).toEqual(false);
   expect(C.cookieSet(undefined)).toEqual(false);
@@ -211,3 +211,13 @@ it('returns a filename from a path', function () {
   expect(C.filenameFromPath("http://server.com/subdir/test.html")).toEqual("test.html");
 });
 
+
+it('returns a filename from a path', function () {
+  expect(C.effectiveMinAreaBasedOnCategoryAndExitWeight(4, 70)).toEqual(null); // 135, normal min.
+  expect(C.effectiveMinAreaBasedOnCategoryAndExitWeight(4, 80)).toEqual(null); // 135, normal min.
+  expect(C.effectiveMinAreaBasedOnCategoryAndExitWeight(4, 90)).toEqual(null); // 135, normal min.
+  expect(C.effectiveMinAreaBasedOnCategoryAndExitWeight(4, 95)).toEqual(140);
+  expect(C.effectiveMinAreaBasedOnCategoryAndExitWeight(4, 100)).toEqual(147);
+  expect(C.effectiveMinAreaBasedOnCategoryAndExitWeight(4, 110)).toEqual(162);
+  expect(C.effectiveMinAreaBasedOnCategoryAndExitWeight(4, 120)).toEqual(176);
+});

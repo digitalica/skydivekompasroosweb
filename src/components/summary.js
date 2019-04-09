@@ -36,6 +36,18 @@ class Summary extends React.Component {
   render() {
     const {classes, language} = this.props;
     const category = this.props.category;
+    const exitWeight = this.props.exitWeight
+
+    let effectiveMinArea = C.effectiveMinAreaBasedOnCategoryAndExitWeight(category, exitWeight);
+    let effectiveMinAreaRow = null;
+    if (effectiveMinArea) {
+      effectiveMinAreaRow = <tr>
+        <td><Autotext short={T[language].RESULT_EFFMINAREA_S} long={T[language].RESULT_EFFMINAREA_L}/> {exitWeight} kg:
+        </td>
+        <td>{effectiveMinArea} sqft</td>
+      </tr>
+    }
+
     return (
       <div className={classes.root}>
         {T[language].RESULT_CAT}: {category}<br/>
@@ -50,6 +62,7 @@ class Summary extends React.Component {
             <td><Autotext short={T[language].RESULT_MINAREA_S} long={T[language].RESULT_MINAREA_L}/>:</td>
             <td>{C.minAreaBasedOnCategoryForDisplay(category, T[language].NOLIMIT)}</td>
           </tr>
+          {effectiveMinAreaRow}
           <tr>
             <td><Autotext short={T[language].RESULT_MAXWINGLOAD_S} long={T[language].RESULT_MAXWINGLOAD_L}/>:</td>
             <td>{C.maxWingLoadBasedOnCategoryForDisplay(category, T[language].NOLIMIT)}</td>

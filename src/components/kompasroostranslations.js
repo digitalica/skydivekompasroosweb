@@ -125,7 +125,6 @@ nl.CANOPY_NOTCATEGORIZEDYET = 'Nog niet ingedeeld. Tot die tijd geldt categorie:
 en.CANOPY_NOTCATEGORIZEDYET = 'Not categorized yet. Until then the category is: ';
 
 
-
 nl.MANUFACTURER_NAME = "Naam";
 en.MANUFACTURER_NAME = "Name";
 nl.MANUFACTURER_COUNTRY = "Land";
@@ -156,6 +155,10 @@ nl.RESULT_MINAREA_L = 'Minimale maat';
 en.RESULT_MINAREA_L = 'Minimum size';
 nl.RESULT_MINAREA_S = 'Minimaal';
 en.RESULT_MINAREA_S = 'Minimum';
+nl.RESULT_EFFMINAREA_L = 'Min. bij';
+en.RESULT_EFFMINAREA_L = 'Min. at';
+nl.RESULT_EFFMINAREA_S = 'Bij ';
+en.RESULT_EFFMINAREA_S = 'At';
 nl.RESULT_MAXWINGLOAD_L = 'Maximale wingload';
 en.RESULT_MAXWINGLOAD_L = 'Maximum wingload';
 nl.RESULT_MAXWINGLOAD_S = 'Maximaal';

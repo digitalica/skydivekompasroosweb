@@ -52,6 +52,7 @@ class SetWeight extends React.Component {
           <Summary
             language={language}
             category={this.props.category}
+            exitWeight={this.props.exitWeight}
           />
         </div>
       </div>
