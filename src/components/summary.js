@@ -59,14 +59,14 @@ class Summary extends React.Component {
             <td>{T[language].RESULT_MAXCAT} {category}</td>
           </tr>
           <tr>
+            <td><Autotext short={T[language].RESULT_MAXWINGLOAD_S} long={T[language].RESULT_MAXWINGLOAD_L}/>:</td>
+            <td>{C.maxWingLoadBasedOnCategoryForDisplay(category, T[language].NOLIMIT)}</td>
+          </tr>
+          <tr>
             <td><Autotext short={T[language].RESULT_MINAREA_S} long={T[language].RESULT_MINAREA_L}/>:</td>
             <td>{C.minAreaBasedOnCategoryForDisplay(category, T[language].NOLIMIT)}</td>
           </tr>
           {effectiveMinAreaRow}
-          <tr>
-            <td><Autotext short={T[language].RESULT_MAXWINGLOAD_S} long={T[language].RESULT_MAXWINGLOAD_L}/>:</td>
-            <td>{C.maxWingLoadBasedOnCategoryForDisplay(category, T[language].NOLIMIT)}</td>
-          </tr>
           </tbody>
         </table>
       </div>
