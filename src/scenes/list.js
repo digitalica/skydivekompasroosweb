@@ -2,12 +2,12 @@ import React, {Fragment} from "react";
 import {withStyles} from '@material-ui/core/styles';
 import Typography from "@material-ui/core/Typography/Typography";
 
-import Summary from "./summary";
-import kompasroosData from "./kompasroosdata";
-import C from "./kompasroosconstants";
-import T from "./kompasroostranslations";
+import Summary from "../components/summary";
+import kompasroosData from "../services/kompasroosdata";
+import C from "../services/kompasroosconstants";
+import T from "../services/kompasroostranslations";
 
-import Listelement from "./listelement";
+import Listelement from "../components/listelement";
 
 const styles = theme => ({
   '@global': {

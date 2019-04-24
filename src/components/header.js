@@ -22,7 +22,7 @@ import {withStyles} from '@material-ui/core/styles';
 
 import Autotext from "./autotext";
 
-import T from "./kompasroostranslations";
+import T from "../services/kompasroostranslations";
 
 
 const styles = theme => ({

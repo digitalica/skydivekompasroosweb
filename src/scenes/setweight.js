@@ -1,12 +1,12 @@
 import React from "react";
 import {withStyles} from '@material-ui/core/styles';
 
-import KompasroosSlider from "./kompasroosslider";
-import Wingloadtable from "./wingloadtable";
-import Summary from "./summary";
+import KompasroosSlider from "../components/kompasroosslider";
+import Wingloadtable from "../components/wingloadtable";
+import Summary from "../components/summary";
 
-import C from "./kompasroosconstants";
-import T from "./kompasroostranslations";
+import C from "../services/kompasroosconstants";
+import T from "../services/kompasroostranslations";
 
 const styles = theme => ({
   root: {

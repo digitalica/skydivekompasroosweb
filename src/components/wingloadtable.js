@@ -1,8 +1,8 @@
 import React from "react";
 import {withStyles} from '@material-ui/core/styles';
 
-import C from "./kompasroosconstants";
-import T from "./kompasroostranslations";
+import C from "../services/kompasroosconstants";
+import T from "../services/kompasroostranslations";
 
 const styles = theme => ({
   root: {

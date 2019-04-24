@@ -1,15 +1,16 @@
 import React from "react";
 import {withStyles} from '@material-ui/core/styles';
-import kompasroosData from "./kompasroosdata";
 import Typography from "@material-ui/core/Typography/Typography";
 import GroupIcon from '@material-ui/icons/Group';
 import OpenInNewIcon from '@material-ui/icons/OpenInNew'; // checkmark
 import LinkIcon from '@material-ui/icons/Link';
 
-import Listelement from "./listelement";
+import Listelement from "../components/listelement";
 
-import C from "./kompasroosconstants";
-import T from "./kompasroostranslations";
+import kompasroosData from "../services/kompasroosdata";
+
+import C from "../services/kompasroosconstants";
+import T from "../services/kompasroostranslations";
 
 
 const styles = theme => ({

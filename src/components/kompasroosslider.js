@@ -9,7 +9,7 @@ import Slider from '@material-ui/lab/Slider';
 
 import Autotext from "./autotext";
 
-// import C from "./kompasroosconstants";
+// import C from "../services/kompasroosconstants";
 
 
 const styles = theme => ({

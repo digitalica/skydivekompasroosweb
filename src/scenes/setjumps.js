@@ -3,11 +3,11 @@ import Fab from '@material-ui/core/Fab';
 import {withStyles} from '@material-ui/core/styles';
 import DoneAllIcon from '@material-ui/icons/DoneAll';
 
-import Summary from "./summary";
-import KompasroosSlider from "./kompasroosslider";
+import Summary from "../components/summary";
+import KompasroosSlider from "../components/kompasroosslider";
 
-import C from "./kompasroosconstants";
-import T from "./kompasroostranslations";
+import C from "../services/kompasroosconstants";
+import T from "../services/kompasroostranslations";
 
 const DEBOUNCE_RATE_LIMIT = 250;
 

@@ -7,8 +7,8 @@ import BadIcon from '@material-ui/icons/Clear'; // cross
 import WarnIcon from '@material-ui/icons/CropSquare'; // block
 import Typography from "@material-ui/core/Typography/Typography";
 
-import C from "./kompasroosconstants";
-import T from "./kompasroostranslations";
+import C from "../services/kompasroosconstants";
+import T from "../services/kompasroostranslations";
 
 const styles = theme => ({
   canopydetails: {

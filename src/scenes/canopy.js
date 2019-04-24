@@ -14,12 +14,12 @@ import Bookmark from '@material-ui/icons/Bookmark';
 
 import Typography from '@material-ui/core/Typography/Typography'
 
-import kompasroosData from "./kompasroosdata";
+import Autotext from "../components/autotext";
 
-import Autotext from "./autotext";
+import kompasroosData from "../services/kompasroosdata";
 
-import C from "./kompasroosconstants"
-import T from "./kompasroostranslations";
+import C from "../services/kompasroosconstants"
+import T from "../services/kompasroostranslations";
 
 const styles = theme => ({
   root: {

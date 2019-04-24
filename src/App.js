@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 
 
-import KompasroosApp from './components/kompasroosapp'
+import KompasroosApp from './kompasroosapp'
 
 
 function App() {

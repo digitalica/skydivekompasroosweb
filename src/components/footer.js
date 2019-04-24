@@ -6,8 +6,8 @@ import Button from "@material-ui/core/Button/Button";
 import {withStyles} from '@material-ui/core/styles';
 import {withRouter} from "react-router-dom";
 
-import C from "./kompasroosconstants";
-import T from "./kompasroostranslations";
+import C from "../services/kompasroosconstants";
+import T from "../services/kompasroostranslations";
 import Autotext from "./autotext";
 
 

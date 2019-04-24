@@ -6,18 +6,18 @@ import {indigo, pink, red, green, yellow} from '@material-ui/core/colors';
 
 import {Route, BrowserRouter, Switch, Redirect} from 'react-router-dom'
 
-import Header from './header'
-import Footer from './footer'
-import Main from './main'
-import About from './about'
-import Settings from './settings'
-import SetJumps from './setjumps'
-import SetWeight from './setweight'
-import Canopy from './canopy'
-import GetExperience from './getexperience'
-import Manufacturer from './manufacturer'
+import Header from './components/header'
+import Footer from './components/footer'
+import Main from './scenes/main'
+import About from './scenes/about'
+import Settings from './scenes/settings'
+import SetJumps from './scenes/setjumps'
+import SetWeight from './scenes/setweight'
+import Canopy from './scenes/canopy'
+import GetExperience from './scenes/getexperience'
+import Manufacturer from './scenes/manufacturer'
 
-import C from "./kompasroosconstants";
+import C from "./services/kompasroosconstants";
 
 const theme = createMuiTheme({
   palette: {
