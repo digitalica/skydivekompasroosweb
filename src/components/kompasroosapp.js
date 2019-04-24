@@ -4,7 +4,7 @@ import {withCookies} from 'react-cookie';
 import {MuiThemeProvider, createMuiTheme} from '@material-ui/core/styles';
 import {indigo, pink, red, green, yellow} from '@material-ui/core/colors';
 
-import {Route, BrowserRouter as Router} from 'react-router-dom'
+import {Route, BrowserRouter, Switch, Redirect} from 'react-router-dom'
 
 import Header from './header'
 import Footer from './footer'
@@ -130,7 +130,7 @@ class KompasroosApp extends Component {
 
   render() {
     return (
-      <Router>
+      <BrowserRouter>
         <MuiThemeProvider theme={theme}>
           <div>
             <Header
@@ -139,70 +139,73 @@ class KompasroosApp extends Component {
               onSearchChange={this.updateSearchText}
               showWelcome={this.state.showWelcome}
             />
-            <Route exact path="/" render={(props) => <Main
-              {...props}
-              category={this.state.category}
-              exitWeight={this.state.exitWeight}
-              filter={this.state.filter}
-              language={this.state.language}
-              sorting={this.state.sorting}
-              searchText={this.state.searchText}
-              jumpsLast12Months={this.state.jumpsLast12Months}
-              totalJumps={this.state.totalJumps}
-              updateJumps={this.updateJumps}
-              xbracedJumps={this.state.xbracedJumps}
-              showWelcome={this.state.showWelcome}
-              welcomeDone={this.welcomeDone}
-            />}
-            />
-            <Route path="/about" render={(props) => <About
-              language={this.state.language}
-            />}
-            />
-            <Route path="/settings" render={(props) => <Settings
-              {...props}
-              category={this.state.category}
-              filter={this.state.filter}
-              language={this.state.language}
-              sorting={this.state.sorting}
-              updateSorting={this.updateSorting}
-              updateFilter={this.updateFilter}
-              updateLanguage={this.updateLanguage}
-            />}
-            />
-            <Route path="/setjumps" render={(props) => <SetJumps
-              category={this.state.category}
-              jumpsLast12Months={this.state.jumpsLast12Months}
-              language={this.state.language}
-              totalJumps={this.state.totalJumps}
-              updateJumps={this.updateJumps}
-              xbracedJumps={this.state.xbracedJumps}
-              showWelcome={this.state.showWelcome}
-              welcomeDone={this.welcomeDone}
-              exitWeight={this.state.exitWeight}
-            />}
-            />
-            <Route path="/setweight" render={(props) => <SetWeight
-              category={this.state.category}
-              exitWeight={this.state.exitWeight}
-              language={this.state.language}
-              updateExitWeight={this.updateExitWeight}
-            />}
-            />
-            <Route path="/canopy/:canopySlug" render={(props) => <Canopy
-              category={this.state.category}
-              exitWeight={this.state.exitWeight}
-              slug={props.match.params['canopySlug']}
-              language={this.state.language}
-            />}
-            />
-            <Route path="/manufacturer/:manufacturerSlug" render={(props) => <Manufacturer
-              slug={props.match.params.manufacturerSlug}
-              language={this.state.language}
-              category={this.state.category}
-              exitWeight={this.state.exitWeight}
-            />}
-            />
+            <Switch>
+              <Route exact path="/" render={(props) => <Main
+                {...props}
+                category={this.state.category}
+                exitWeight={this.state.exitWeight}
+                filter={this.state.filter}
+                language={this.state.language}
+                sorting={this.state.sorting}
+                searchText={this.state.searchText}
+                jumpsLast12Months={this.state.jumpsLast12Months}
+                totalJumps={this.state.totalJumps}
+                updateJumps={this.updateJumps}
+                xbracedJumps={this.state.xbracedJumps}
+                showWelcome={this.state.showWelcome}
+                welcomeDone={this.welcomeDone}
+              />}
+              />
+              <Route path="/about" render={(props) => <About
+                language={this.state.language}
+              />}
+              />
+              <Route path="/settings" render={(props) => <Settings
+                {...props}
+                category={this.state.category}
+                filter={this.state.filter}
+                language={this.state.language}
+                sorting={this.state.sorting}
+                updateSorting={this.updateSorting}
+                updateFilter={this.updateFilter}
+                updateLanguage={this.updateLanguage}
+              />}
+              />
+              <Route path="/setjumps" render={(props) => <SetJumps
+                category={this.state.category}
+                jumpsLast12Months={this.state.jumpsLast12Months}
+                language={this.state.language}
+                totalJumps={this.state.totalJumps}
+                updateJumps={this.updateJumps}
+                xbracedJumps={this.state.xbracedJumps}
+                showWelcome={this.state.showWelcome}
+                welcomeDone={this.welcomeDone}
+                exitWeight={this.state.exitWeight}
+              />}
+              />
+              <Route path="/setweight" render={(props) => <SetWeight
+                category={this.state.category}
+                exitWeight={this.state.exitWeight}
+                language={this.state.language}
+                updateExitWeight={this.updateExitWeight}
+              />}
+              />
+              <Route path="/canopy/:canopySlug" render={(props) => <Canopy
+                category={this.state.category}
+                exitWeight={this.state.exitWeight}
+                slug={props.match.params['canopySlug']}
+                language={this.state.language}
+              />}
+              />
+              <Route path="/manufacturer/:manufacturerSlug" render={(props) => <Manufacturer
+                slug={props.match.params.manufacturerSlug}
+                language={this.state.language}
+                category={this.state.category}
+                exitWeight={this.state.exitWeight}
+              />}
+              />
+              <Redirect to="/"/>
+            </Switch>
             <Footer
               language={this.state.language}
               exitWeight={this.state.exitWeight}
@@ -213,7 +216,7 @@ class KompasroosApp extends Component {
             />
           </div>
         </MuiThemeProvider>
-      </Router>
+      </BrowserRouter>
     );
   }
 }
