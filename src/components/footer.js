@@ -92,43 +92,51 @@ class BottomAppBar extends React.Component {
         </Fragment>
     }
 
+    let exitWeightButton = null;
+    let experienceButton = null;
+    if (!this.props.showWelcome) {
+      exitWeightButton = <Button className={classes.button} color="inherit" onClick={this.toggleSetWeight}>
+        <table>
+          <tbody>
+          <tr>
+            <td>
+              <Typography className={classes.singleline} variant="caption"
+                          color="inherit">{T[language].EXITWEIGHT}</Typography>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Typography className={classes.singleline} variant="h6" color="inherit">{weightText}</Typography>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </Button>;
+      experienceButton = <Button className={classes.button} color="inherit" onClick={this.toggleSetJumps}>
+        <table>
+          <tbody>
+          <tr>
+            <td>
+              <Typography className={classes.singleline} variant="caption"
+                          color="inherit">{T[language].EXPERIENCE}</Typography>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Typography className={classes.singleline} variant="h6" color="inherit">{jumpsText}</Typography>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </Button>;
+    }
+
+
     return (
       <AppBar position="fixed" color="primary" className={classes.appBar}>
         <Toolbar>
-          <Button className={classes.button} color="inherit" onClick={this.toggleSetWeight}>
-            <table>
-              <tbody>
-              <tr>
-                <td>
-                  <Typography className={classes.singleline} variant="caption"
-                              color="inherit">{T[language].EXITWEIGHT}</Typography>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <Typography className={classes.singleline} variant="h6" color="inherit">{weightText}</Typography>
-                </td>
-              </tr>
-              </tbody>
-            </table>
-          </Button>
-          <Button className={classes.button} color="inherit" onClick={this.toggleSetJumps}>
-            <table>
-              <tbody>
-              <tr>
-                <td>
-                  <Typography className={classes.singleline} variant="caption"
-                              color="inherit">{T[language].EXPERIENCE}</Typography>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <Typography className={classes.singleline} variant="h6" color="inherit">{jumpsText}</Typography>
-                </td>
-              </tr>
-              </tbody>
-            </table>
-          </Button>
+          {exitWeightButton}
+          {experienceButton}
         </Toolbar>
       </AppBar>
     )

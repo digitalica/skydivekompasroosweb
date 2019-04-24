@@ -149,46 +149,48 @@ class TopAppBar extends React.Component {
     const {anchorEl} = this.state;
 
 
-    let topLeftButton;
+    let topLeftButton = null;
     // console.log(this.props.location.pathname)
-    if (this.props.location.pathname === "/") {
-      // console.log('menu');
-      topLeftButton =
-        <IconButton className={classes.menuButton} color="inherit" aria-label="Menu" onClick={this.openMenu}>
-          <MenuIcon/>
-        </IconButton>
-    } else {
-      // console.log('back');
-      topLeftButton =
-        <IconButton className={classes.menuButton} color="inherit" aria-label="Back" onClick={this.goBack}>
-          <ArrowBackIcon/>
-        </IconButton>
+    if (!this.props.showWelcome) {
+      if (this.props.location.pathname === "/") {
+        // console.log('menu');
+        topLeftButton =
+          <IconButton className={classes.menuButton} color="inherit" aria-label="Menu" onClick={this.openMenu}>
+            <MenuIcon/>
+          </IconButton>
+      } else {
+        // console.log('back');
+        topLeftButton =
+          <IconButton className={classes.menuButton} color="inherit" aria-label="Back" onClick={this.goBack}>
+            <ArrowBackIcon/>
+          </IconButton>
+      }
     }
 
-
-    let topRightButton;
-    if (this.props.location.pathname === "/" && this.state.showSearch) {
-      topRightButton =
-        <IconButton
-          className={classes.searchButton}
-          color="inherit"
-          aria-label="Back"
-          onClick={this.clearSearch}
-        >
-          <CancelIcon/>
-        </IconButton>
-    } else {
-      topRightButton =
-        <IconButton
-          className={classes.searchButton}
-          color="inherit"
-          aria-label="Back"
-          onClick={this.goSearch}
-        >
-          <SearchIcon/>
-        </IconButton>
+    let topRightButton = null;
+    if (!this.props.showWelcome) {
+      if (this.props.location.pathname === "/" && this.state.showSearch) {
+        topRightButton =
+          <IconButton
+            className={classes.searchButton}
+            color="inherit"
+            aria-label="Back"
+            onClick={this.clearSearch}
+          >
+            <CancelIcon/>
+          </IconButton>
+      } else {
+        topRightButton =
+          <IconButton
+            className={classes.searchButton}
+            color="inherit"
+            aria-label="Back"
+            onClick={this.goSearch}
+          >
+            <SearchIcon/>
+          </IconButton>
+      }
     }
-
 
     let headerCenter;
     if (this.props.location.pathname === "/" && this.state.showSearch) {
