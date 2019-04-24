@@ -14,6 +14,7 @@ import Settings from './settings'
 import SetJumps from './setjumps'
 import SetWeight from './setweight'
 import Canopy from './canopy'
+import GetExperience from './getexperience'
 import Manufacturer from './manufacturer'
 
 import C from "./kompasroosconstants";
@@ -38,6 +39,17 @@ const theme = createMuiTheme({
     useNextVariants: true
   }
 });
+
+const RouteWithExperience = ({component: Component, ...rest}) => (
+  <Route {...rest} render={(props) => {
+    console.log(rest.showWelcome ? "show welcome" : "ready");
+    console.log(JSON.stringify(rest));
+    console.log(JSON.stringify(props));
+    return rest.showWelcome
+      ? <GetExperience {...rest} />
+      : <Component slug={props.match.params.slug} {...rest}/>
+  }}/>
+);
 
 
 class KompasroosApp extends Component {
@@ -140,69 +152,124 @@ class KompasroosApp extends Component {
               showWelcome={this.state.showWelcome}
             />
             <Switch>
-              <Route exact path="/" render={(props) => <Main
-                {...props}
-                category={this.state.category}
-                exitWeight={this.state.exitWeight}
-                filter={this.state.filter}
-                language={this.state.language}
-                sorting={this.state.sorting}
-                searchText={this.state.searchText}
-                jumpsLast12Months={this.state.jumpsLast12Months}
-                totalJumps={this.state.totalJumps}
-                updateJumps={this.updateJumps}
-                xbracedJumps={this.state.xbracedJumps}
+              <RouteWithExperience
+                exact path="/"
+                component={Main}
+
                 showWelcome={this.state.showWelcome}
                 welcomeDone={this.welcomeDone}
-              />}
-              />
-              <Route path="/about" render={(props) => <About
+
                 language={this.state.language}
-              />}
-              />
-              <Route path="/settings" render={(props) => <Settings
-                {...props}
+                totalJumps={this.state.totalJumps}
+                jumpsLast12Months={this.state.jumpsLast12Months}
+                xbracedJumps={this.state.xbracedJumps}
+                updateJumps={this.updateJumps}
                 category={this.state.category}
+                exitWeight={this.state.exitWeight}
+
                 filter={this.state.filter}
+                sorting={this.state.sorting}
+                searchText={this.state.searchText}
+              />
+              <RouteWithExperience
+                path="/about"
+                component={About}
+
+                showWelcome={this.state.showWelcome}
+                welcomeDone={this.welcomeDone}
+
                 language={this.state.language}
+                totalJumps={this.state.totalJumps}
+                jumpsLast12Months={this.state.jumpsLast12Months}
+                xbracedJumps={this.state.xbracedJumps}
+                updateJumps={this.updateJumps}
+                category={this.state.category}
+                exitWeight={this.state.exitWeight}
+
+              />}
+              />
+              <RouteWithExperience
+                path="/settings"
+                component={Settings}
+
+                showWelcome={this.state.showWelcome}
+                welcomeDone={this.welcomeDone}
+
+                language={this.state.language}
+                totalJumps={this.state.totalJumps}
+                jumpsLast12Months={this.state.jumpsLast12Months}
+                xbracedJumps={this.state.xbracedJumps}
+                updateJumps={this.updateJumps}
+                category={this.state.category}
+                exitWeight={this.state.exitWeight}
+
+                filter={this.state.filter}
                 sorting={this.state.sorting}
                 updateSorting={this.updateSorting}
                 updateFilter={this.updateFilter}
                 updateLanguage={this.updateLanguage}
-              />}
               />
-              <Route path="/setjumps" render={(props) => <SetJumps
-                category={this.state.category}
-                jumpsLast12Months={this.state.jumpsLast12Months}
-                language={this.state.language}
-                totalJumps={this.state.totalJumps}
-                updateJumps={this.updateJumps}
-                xbracedJumps={this.state.xbracedJumps}
+              <RouteWithExperience
+                path="/setjumps"
+                component={SetJumps}
+
                 showWelcome={this.state.showWelcome}
                 welcomeDone={this.welcomeDone}
-                exitWeight={this.state.exitWeight}
-              />}
-              />
-              <Route path="/setweight" render={(props) => <SetWeight
+
+                language={this.state.language}
+                totalJumps={this.state.totalJumps}
+                jumpsLast12Months={this.state.jumpsLast12Months}
+                xbracedJumps={this.state.xbracedJumps}
+                updateJumps={this.updateJumps}
                 category={this.state.category}
                 exitWeight={this.state.exitWeight}
+              />
+              <RouteWithExperience
+                path="/setweight"
+                component={SetWeight}
+
+                showWelcome={this.state.showWelcome}
+                welcomeDone={this.welcomeDone}
+
                 language={this.state.language}
+                totalJumps={this.state.totalJumps}
+                jumpsLast12Months={this.state.jumpsLast12Months}
+                xbracedJumps={this.state.xbracedJumps}
+                updateJumps={this.updateJumps}
+                category={this.state.category}
+                exitWeight={this.state.exitWeight}
+
                 updateExitWeight={this.updateExitWeight}
-              />}
               />
-              <Route path="/canopy/:canopySlug" render={(props) => <Canopy
+              <RouteWithExperience
+                path="/canopy/:slug"
+                component={Canopy}
+
+                showWelcome={this.state.showWelcome}
+                welcomeDone={this.welcomeDone}
+
+                language={this.state.language}
+                totalJumps={this.state.totalJumps}
+                jumpsLast12Months={this.state.jumpsLast12Months}
+                xbracedJumps={this.state.xbracedJumps}
+                updateJumps={this.updateJumps}
                 category={this.state.category}
                 exitWeight={this.state.exitWeight}
-                slug={props.match.params['canopySlug']}
-                language={this.state.language}
-              />}
               />
-              <Route path="/manufacturer/:manufacturerSlug" render={(props) => <Manufacturer
-                slug={props.match.params.manufacturerSlug}
+              <RouteWithExperience
+                path="/manufacturer/:slug"
+                component={Manufacturer}
+
+                showWelcome={this.state.showWelcome}
+                welcomeDone={this.welcomeDone}
+
                 language={this.state.language}
+                totalJumps={this.state.totalJumps}
+                jumpsLast12Months={this.state.jumpsLast12Months}
+                xbracedJumps={this.state.xbracedJumps}
+                updateJumps={this.updateJumps}
                 category={this.state.category}
                 exitWeight={this.state.exitWeight}
-              />}
               />
               <Redirect to="/"/>
             </Switch>
