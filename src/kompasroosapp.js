@@ -6,16 +6,16 @@ import {indigo, pink, red, green, yellow} from '@material-ui/core/colors';
 
 import {Route, BrowserRouter, Switch, Redirect} from 'react-router-dom'
 
-import Header from './components/header'
-import Footer from './components/footer'
-import Main from './scenes/main'
-import About from './scenes/about'
-import Settings from './scenes/settings'
-import SetJumps from './scenes/setjumps'
-import SetWeight from './scenes/setweight'
-import Canopy from './scenes/canopy'
-import GetExperience from './scenes/getexperience'
-import Manufacturer from './scenes/manufacturer'
+import Header from './components/header';
+import Footer from './components/footer';
+import List from './scenes/list';
+import About from './scenes/about';
+import Settings from './scenes/settings';
+import SetJumps from './scenes/setjumps';
+import SetWeight from './scenes/setweight';
+import Canopy from './scenes/canopy';
+import GetExperience from './scenes/getexperience';
+import Manufacturer from './scenes/manufacturer';
 
 import C from "./services/kompasroosconstants";
 
@@ -154,7 +154,7 @@ class KompasroosApp extends Component {
             <Switch>
               <RouteWithExperience
                 exact path="/"
-                component={Main}
+                component={List}
 
                 showWelcome={this.state.showWelcome}
                 welcomeDone={this.welcomeDone}
