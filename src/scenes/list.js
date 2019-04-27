@@ -197,20 +197,22 @@ class List extends React.Component {
     }
 
     let summary = null;
+    let title = null;
     if (!this.props.searchText) {
-      summary = <Fragment>
-        <Typography variant="h6">{T[language].SUMMARY_TITLE}</Typography>
-        <Summary
+      title = <Typography variant="h6">{T[language].SUMMARY_TITLE}</Typography>
+      if (this.props.isMobile) {
+        summary = <Summary
           language={language}
           category={this.props.category}
           exitWeight={this.props.exitWeight}
-        />
-      </Fragment>
+        />;
+      }
     }
 
     return (
       <div className={classes.root}>
         <div className={classes.text}>
+          {title}
           {summary}
           <ul className={classes.list}>
             {canopyList}

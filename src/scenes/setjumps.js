@@ -8,6 +8,7 @@ import KompasroosSlider from "../components/kompasroosslider";
 
 import C from "../services/kompasroosconstants";
 import T from "../services/kompasroostranslations";
+import Wingloadtable from "../components/wingloadtable";
 
 const DEBOUNCE_RATE_LIMIT = 250;
 
@@ -114,7 +115,6 @@ class SetJumps extends React.Component {
     debounce(this.props.updateJumps, DEBOUNCE_RATE_LIMIT)(jumps);
   };
 
-
   render() {
     const {classes, language, showWelcome} = this.props;
 
@@ -182,6 +182,27 @@ class SetJumps extends React.Component {
       );
     }
 
+    let weightSlider = null;
+    let wingloadTable = null;
+    if (!this.props.isMobile) {
+      weightSlider = <KompasroosSlider
+        labels={T[language].SLIDER_WEIGHT_S}
+        labell={T[language].SLIDER_WEIGHT_L}
+        value={this.props.exitWeight}
+        min={C.EXITWEIGHT_MIN}
+        max={C.EXITWEIGHT_MAX}
+        onChange={this.props.updateExitWeight}
+        measure={T[language].MEASURE_KG}
+      />;
+      wingloadTable = <Wingloadtable
+        language={language}
+        exitWeight={this.props.exitWeight}
+        category={this.props.category}
+      />;
+
+    }
+
+
     return (
       <div className={classes.root}>
         <div className={classes.text}>
@@ -191,8 +212,10 @@ class SetJumps extends React.Component {
         {totalJumpsSlider}
         {jumpsLast12MonthsSlider}
         {xbracedJumpsSlider}
+        {weightSlider}
         <div className={classes.text}>
           {doneButton}
+          {wingloadTable}
           <Summary
             language={language}
             category={this.props.category}

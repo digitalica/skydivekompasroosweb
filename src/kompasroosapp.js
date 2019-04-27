@@ -1,23 +1,15 @@
 import React, {Component} from 'react';
+
 import {withCookies} from 'react-cookie';
 
 import {MuiThemeProvider, createMuiTheme} from '@material-ui/core/styles';
 import {indigo, pink, red, green, yellow} from '@material-ui/core/colors';
 
-import {Route, BrowserRouter, Switch, Redirect} from 'react-router-dom'
-
-import Header from './components/header';
-import Footer from './components/footer';
-import List from './scenes/list';
-import About from './scenes/about';
-import Settings from './scenes/settings';
-import SetJumps from './scenes/setjumps';
-import SetWeight from './scenes/setweight';
-import Canopy from './scenes/canopy';
-import GetExperience from './scenes/getexperience';
-import Manufacturer from './scenes/manufacturer';
+import Media from 'react-media';
 
 import C from "./services/kompasroosconstants";
+import KompasroosMobile from "./kompasroosmobile";
+import KompasroosDesktop from "./kompasroosdesktop";
 
 const theme = createMuiTheme({
   palette: {
@@ -39,17 +31,6 @@ const theme = createMuiTheme({
     useNextVariants: true
   }
 });
-
-const RouteWithExperience = ({component: Component, ...rest}) => (
-  <Route {...rest} render={(props) => {
-    console.log(rest.showWelcome ? "show welcome" : "ready");
-    console.log(JSON.stringify(rest));
-    console.log(JSON.stringify(props));
-    return rest.showWelcome
-      ? <GetExperience {...rest} />
-      : <Component slug={props.match.params.slug} {...rest}/>
-  }}/>
-);
 
 
 class KompasroosApp extends Component {
@@ -142,148 +123,68 @@ class KompasroosApp extends Component {
 
   render() {
     return (
-      <BrowserRouter>
-        <MuiThemeProvider theme={theme}>
-          <div>
-            <Header
-              language={this.state.language}
-              searchText={this.state.searchText}
-              onSearchChange={this.updateSearchText}
-              showWelcome={this.state.showWelcome}
-            />
-            <Switch>
-              <RouteWithExperience
-                exact path="/"
-                component={List}
+      <MuiThemeProvider theme={theme}>
+        <Media query="(max-width: 1280px)">
+          {matches =>
+            matches ? (
+              <KompasroosMobile
+                theme={theme}
+
+                isMobile={false}
 
                 showWelcome={this.state.showWelcome}
                 welcomeDone={this.welcomeDone}
 
                 language={this.state.language}
-                totalJumps={this.state.totalJumps}
-                jumpsLast12Months={this.state.jumpsLast12Months}
-                xbracedJumps={this.state.xbracedJumps}
-                updateJumps={this.updateJumps}
-                category={this.state.category}
-                exitWeight={this.state.exitWeight}
-
                 filter={this.state.filter}
                 sorting={this.state.sorting}
-                searchText={this.state.searchText}
-              />
-              <RouteWithExperience
-                path="/about"
-                component={About}
 
-                showWelcome={this.state.showWelcome}
-                welcomeDone={this.welcomeDone}
-
-                language={this.state.language}
-                totalJumps={this.state.totalJumps}
-                jumpsLast12Months={this.state.jumpsLast12Months}
-                xbracedJumps={this.state.xbracedJumps}
-                updateJumps={this.updateJumps}
-                category={this.state.category}
-                exitWeight={this.state.exitWeight}
-
-              />}
-              />
-              <RouteWithExperience
-                path="/settings"
-                component={Settings}
-
-                showWelcome={this.state.showWelcome}
-                welcomeDone={this.welcomeDone}
-
-                language={this.state.language}
-                totalJumps={this.state.totalJumps}
-                jumpsLast12Months={this.state.jumpsLast12Months}
-                xbracedJumps={this.state.xbracedJumps}
-                updateJumps={this.updateJumps}
-                category={this.state.category}
-                exitWeight={this.state.exitWeight}
-
-                filter={this.state.filter}
-                sorting={this.state.sorting}
-                updateSorting={this.updateSorting}
-                updateFilter={this.updateFilter}
                 updateLanguage={this.updateLanguage}
-              />
-              <RouteWithExperience
-                path="/setjumps"
-                component={SetJumps}
+                updateFilter={this.updateFilter}
+                updateSorting={this.updateSorting}
 
-                showWelcome={this.state.showWelcome}
-                welcomeDone={this.welcomeDone}
+                searchText={this.state.searchText}
+                onSearchChange={this.updateSearchText}
 
-                language={this.state.language}
                 totalJumps={this.state.totalJumps}
                 jumpsLast12Months={this.state.jumpsLast12Months}
                 xbracedJumps={this.state.xbracedJumps}
                 updateJumps={this.updateJumps}
                 category={this.state.category}
                 exitWeight={this.state.exitWeight}
-              />
-              <RouteWithExperience
-                path="/setweight"
-                component={SetWeight}
-
-                showWelcome={this.state.showWelcome}
-                welcomeDone={this.welcomeDone}
-
-                language={this.state.language}
-                totalJumps={this.state.totalJumps}
-                jumpsLast12Months={this.state.jumpsLast12Months}
-                xbracedJumps={this.state.xbracedJumps}
-                updateJumps={this.updateJumps}
-                category={this.state.category}
-                exitWeight={this.state.exitWeight}
-
                 updateExitWeight={this.updateExitWeight}
               />
-              <RouteWithExperience
-                path="/canopy/:slug"
-                component={Canopy}
+            ) : (
+              <KompasroosDesktop
+                theme={theme}
+
+                isMobile={false}
 
                 showWelcome={this.state.showWelcome}
                 welcomeDone={this.welcomeDone}
 
                 language={this.state.language}
+                filter={this.state.filter}
+                sorting={this.state.sorting}
+
+                updateLanguage={this.updateLanguage}
+                updateFilter={this.updateFilter}
+                updateSorting={this.updateSorting}
+
+                searchText={this.state.searchText}
+                onSearchChange={this.updateSearchText}
+
                 totalJumps={this.state.totalJumps}
                 jumpsLast12Months={this.state.jumpsLast12Months}
                 xbracedJumps={this.state.xbracedJumps}
                 updateJumps={this.updateJumps}
                 category={this.state.category}
                 exitWeight={this.state.exitWeight}
+                updateExitWeight={this.updateExitWeight}
               />
-              <RouteWithExperience
-                path="/manufacturer/:slug"
-                component={Manufacturer}
-
-                showWelcome={this.state.showWelcome}
-                welcomeDone={this.welcomeDone}
-
-                language={this.state.language}
-                totalJumps={this.state.totalJumps}
-                jumpsLast12Months={this.state.jumpsLast12Months}
-                xbracedJumps={this.state.xbracedJumps}
-                updateJumps={this.updateJumps}
-                category={this.state.category}
-                exitWeight={this.state.exitWeight}
-              />
-              <Redirect to="/"/>
-            </Switch>
-            <Footer
-              language={this.state.language}
-              exitWeight={this.state.exitWeight}
-              totalJumps={this.state.totalJumps}
-              jumpsLast12Months={this.state.jumpsLast12Months}
-              xbracedJumps={this.state.xbracedJumps}
-              showWelcome={this.state.showWelcome}
-            />
-          </div>
-        </MuiThemeProvider>
-      </BrowserRouter>
+            )}
+        </Media>
+      </MuiThemeProvider>
     );
   }
 }

@@ -211,8 +211,10 @@ en.MEASURE_JUMPS = "jumps";
 nl.MEASURE_KG = "kg";
 en.MEASURE_KG = "kg";
 
-nl.SLIDER_WEIGHT = 'Exitgewicht';
-en.SLIDER_WEIGHT = 'Exit weight';
+nl.SLIDER_WEIGHT_L = 'Exitgewicht';
+en.SLIDER_WEIGHT_L = 'Exit weight';
+nl.SLIDER_WEIGHT_S = 'Gewicht';
+en.SLIDER_WEIGHT_S = 'Weight';
 nl.SLIDER_JUMPSTOTAL_L = 'Aantal sprongen totaal';
 en.SLIDER_JUMPSTOTAL_L = 'Total number of jumps';
 nl.SLIDER_JUMPSTOTAL_S = 'Totaal';

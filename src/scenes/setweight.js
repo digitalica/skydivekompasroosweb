@@ -34,7 +34,8 @@ class SetWeight extends React.Component {
           {T[language].WEIGHT_INTRO}
         </div>
         <KompasroosSlider
-          label={T[language].SLIDER_WEIGHT}
+          labels={T[language].SLIDER_WEIGHT_S}
+          labell={T[language].SLIDER_WEIGHT_L}
           value={this.props.exitWeight}
           min={C.EXITWEIGHT_MIN}
           max={C.EXITWEIGHT_MAX}
