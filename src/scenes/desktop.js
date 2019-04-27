@@ -21,6 +21,7 @@ function Desktop(props) {
   return (
     <div className={props.classes.row}>
       <div className={props.classes.column}>
+        <br/>
         <SetJumps
           {...props}
         />

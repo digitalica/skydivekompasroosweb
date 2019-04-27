@@ -57,11 +57,10 @@ const styles = theme => ({
       backgroundColor: fade(theme.palette.common.white, 0.25),
     },
     marginRight: theme.spacing.unit * 2,
-    marginLeft: 0,
+    marginLeft: "auto",
     width: '100%',
     maxWidth: '400px',
     [theme.breakpoints.up('sm')]: {
-      marginLeft: theme.spacing.unit,
       width: 'auto',
     },
   },
