@@ -20,6 +20,7 @@ import kompasroosData from "../services/kompasroosdata";
 
 import C from "../services/kompasroosconstants"
 import T from "../services/kompasroostranslations";
+import Summary from "../components/summary";
 
 const styles = theme => ({
   root: {
@@ -168,7 +169,9 @@ function Canopy(props) {
   if (canopy.firstyearofproduction) {
     firstyearofproductionRow = (
       <tr>
-        <td className={classes.canopycategory}><Autotext long={T[language].CANOPY_FIRSTYEAR_L} short={T[language].CANOPY_FIRSTYEAR_S}/>:</td>
+        <td className={classes.canopycategory}><Autotext long={T[language].CANOPY_FIRSTYEAR_L}
+                                                         short={T[language].CANOPY_FIRSTYEAR_S}/>:
+        </td>
         <td className={classes.canopydetails}>{canopy.firstyearofproduction}</td>
         <td></td>
       </tr>
@@ -179,7 +182,9 @@ function Canopy(props) {
   if (canopy.lastyearofproduction) {
     lastyearofproductionRow = (
       <tr>
-        <td className={classes.canopycategory}><Autotext long={T[language].CANOPY_LASTYEAR_L} short={T[language].CANOPY_LASTYEAR_S}/>:</td>
+        <td className={classes.canopycategory}><Autotext long={T[language].CANOPY_LASTYEAR_L}
+                                                         short={T[language].CANOPY_LASTYEAR_S}/>:
+        </td>
         <td className={classes.canopydetails}>{canopy.lastyearofproduction}</td>
         <td></td>
       </tr>
@@ -205,17 +210,34 @@ function Canopy(props) {
   let sizeRow = null;
   let minsizeRow = null;
   let maxsizeRow = null;
-  let wingloadWarningRow = null;
+  let warningRow = null;
 
   if (acceptability === C.ACC_NEEDEDSIZENOTAVAILABLE) {
-    wingloadWarningRow = (
+    warningRow = (
       <tr className={classes[classAcceptability]}>
         <td className={classes.canopycategory}>{T[language].CANOPY_BEWARE}:</td>
         <td className={classes.canopydetails}>{T[language].CANOPY_WINGLOADWARNING}</td>
         <td></td>
       </tr>
     );
+  } else if (acceptability === C.ACC_CATEGORYTOOHIGH) {
+    warningRow = (
+      <tr className={classes[classAcceptability]}>
+        <td className={classes.canopycategory}>{T[language].CANOPY_BEWARE}:</td>
+        <td className={classes.canopydetails}>{T[language].CANOPY_CATTOOHIGHWARNING}</td>
+        <td></td>
+      </tr>
+    );
+  } else if (acceptability === C.ACC_ACCEPTABLE) {
+    warningRow = (
+      <tr className={classes[classAcceptability]}>
+        <td className={classes.canopycategory}>{T[language].CANOPY_BEWARE}:</td>
+        <td className={classes.canopydetails}>{T[language].CANOPY_SIZEWARNING}</td>
+        <td></td>
+      </tr>
+    );
   }
+
 
   if (canopy.minsize && canopy.minsize === canopy.maxsize) {
     // minsize en maxsize zijn gelijk
@@ -232,7 +254,9 @@ function Canopy(props) {
     if (canopy.minsize) {
       minsizeRow = (
         <tr>
-          <td className={classes.canopycategory}><Autotext short={T[language].CANOPY_MINSIZE_S} long={T[language].CANOPY_MINSIZE_L}/>:</td>
+          <td className={classes.canopycategory}><Autotext short={T[language].CANOPY_MINSIZE_S}
+                                                           long={T[language].CANOPY_MINSIZE_L}/>:
+          </td>
           <td className={classes.canopydetails}>{canopy.minsize}</td>
           <td></td>
         </tr>
@@ -242,7 +266,9 @@ function Canopy(props) {
     if (canopy.minsize) {
       maxsizeRow = (
         <tr>
-          <td className={classes.canopycategory}><Autotext short={T[language].CANOPY_MAXSIZE_S} long={T[language].CANOPY_MAXSIZE_L}/>:</td>
+          <td className={classes.canopycategory}><Autotext short={T[language].CANOPY_MAXSIZE_S}
+                                                           long={T[language].CANOPY_MAXSIZE_L}/>:
+          </td>
           <td className={classes.canopydetails}>{canopy.maxsize}</td>
           <td></td>
         </tr>
@@ -341,7 +367,7 @@ function Canopy(props) {
           </div>
           <table className={classes.table}>
             <tbody>
-            {wingloadWarningRow}
+            {warningRow}
             <tr className={classes.linkrow}
                 onClick={() => props.history.push("/manufacturer/" + canopy.manufacturerslug)}>
               <td className={classes.canopycategory}>{T[language].CANOPY_MANUFACTURER}:</td>
@@ -361,7 +387,9 @@ function Canopy(props) {
               <td></td>
             </tr>
             <tr>
-              <td className={classes.canopycategory}><Autotext long={T[language].CANOPY_EXPERIENCENEEDED_L} short={T[language].CANOPY_EXPERIENCENEEDED_S}/>:</td>
+              <td className={classes.canopycategory}><Autotext long={T[language].CANOPY_EXPERIENCENEEDED_L}
+                                                               short={T[language].CANOPY_EXPERIENCENEEDED_S}/>:
+              </td>
               <td className={classes.canopydetails}>{T[language].EXPERIENCE_NEEDED[canopy.calculationcategory]}</td>
               <td></td>
             </tr>
@@ -377,6 +405,13 @@ function Canopy(props) {
             {linkRows}
             </tbody>
           </table>
+          <br/>
+          <br/>
+          <Summary
+            language={language}
+            category={props.category}
+            exitWeight={props.exitWeight}
+          />
         </div>
       </div>
     )

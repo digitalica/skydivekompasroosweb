@@ -121,6 +121,10 @@ nl.CANOPY_BEWARE = 'Let op';
 en.CANOPY_BEWARE = 'Beware';
 nl.CANOPY_WINGLOADWARNING = 'Dit levert je een te hoge wingload op, daarom mag je deze koepel ondanks de categorie toch niet springen.';
 en.CANOPY_WINGLOADWARNING = 'This results in the wingload being too high, so in spite of the category you\'re not allowed to jump this parachute.';
+nl.CANOPY_CATTOOHIGHWARNING = 'Je hebt nog onvoldoende ervaring om met deze parachute te vliegen. Hij is ingedeeld in een hogere categorie dan jij nu.';
+en.CANOPY_CATTOOHIGHWARNING = 'You lack the experience to fly this canopy. Its categorized higher then you at this point in your jumping career.';
+nl.CANOPY_SIZEWARNING = 'Deze parachute kan je vliegen, mits de wingload niet te hoog wordt. Let op je minimum maat.';
+en.CANOPY_SIZEWARNING = 'You can fly this canopy, as long as the wingload doesn\'t get too high. Take your minimum size into account';
 nl.CANOPY_NOTCATEGORIZEDYET = 'Nog niet ingedeeld. Tot die tijd geldt categorie: ';
 en.CANOPY_NOTCATEGORIZEDYET = 'Not categorized yet. Until then the category is: ';
 
