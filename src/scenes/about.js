@@ -37,20 +37,20 @@ function About(props) {
                 title="Koninklijke Nederlandse Vereniging voor de Luchtvaart">KNVvL</abbr>.
             </p>
 
-            <p> Vraag altijd ook advies aan een instructeur, hij of zij blijft eindverantwoordelijk. Aan deze website
+            <p>Vraag altijd ook advies aan een instructeur, hij of zij blijft eindverantwoordelijk. Aan deze website
               kunnen
               geen rechten worden ontleend, de officiële publicaties van de KNVvL zijn:
             </p>
 
-            <p> Voor het BVR en meer informatie:<br/>
+            <p>Voor het BVR en meer informatie:<br/>
               <a target="_blank" rel="noopener noreferrer" href={C.REGLEMENTEN_URL}>{C.filenameFromPath(C.REGLEMENTEN_URL)}</a>
             </p>
 
-            <p> De kompasroos zelf:<br/>
+            <p>De kompasroos zelf:<br/>
               <a target="_blank" rel="noopener noreferrer" href={C.KOMPASROOS_URL}>{C.filenameFromPath(C.KOMPASROOS_URL)}</a>
             </p>
 
-            <p> BVR Bijlage A, Regels voor Parachutekeuze, versie 2018:<br/>
+            <p>BVR Bijlage A, Regels voor Parachutekeuze, versie 2018:<br/>
               <a target="_blank" rel="noopener noreferrer" href={C.BVR_BIJLAGE_A_URL}>{C.filenameFromPath(C.BVR_BIJLAGE_A_URL)}</a>
             </p>
 
@@ -85,20 +85,20 @@ function About(props) {
               of the <abbr title="Koninklijke Nederlandse Vereniging voor de Luchtvaart">KNVvL</abbr> (Royal Dutch Aviation Society).
             </p>
 
-            <p> Always consult a local instructor. He or she remains responsible. No rights can be obtained from this
+            <p>Always consult a local instructor. He or she remains responsible. No rights can be obtained from this
               website.
               The official KNVvL documents are:
             </p>
 
-            <p> The BVR and other information:<br/>
+            <p>The BVR and other information:<br/>
               <a target="_blank" rel="noopener noreferrer" href={C.REGLEMENTEN_URL}>{C.filenameFromPath(C.REGLEMENTEN_URL)}</a>
             </p>
 
-            <p> The compass rose (kompasroos) itself:<br/>
+            <p>The compass rose (kompasroos) itself:<br/>
               <a target="_blank" rel="noopener noreferrer" href={C.KOMPASROOS_URL}>{C.filenameFromPath(C.KOMPASROOS_URL)}</a>
             </p>
 
-            <p> BVR annex A, Rules for canopy selection, version 2018:<br/>
+            <p>BVR annex A, Rules for canopy selection, version 2018:<br/>
               <a target="_blank" rel="noopener noreferrer" href={C.BVR_BIJLAGE_A_URL}>{C.filenameFromPath(C.BVR_BIJLAGE_A_URL)}</a>
             </p>
 
