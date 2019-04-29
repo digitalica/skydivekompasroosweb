@@ -16,6 +16,8 @@ export default {
 
   LANGUAGE_NL: "nl",
   LANGUAGE_EN: "en",
+  LANGUAGE_DE: "de",
+  LANGUAGE_FR: "fr",
 
   MINIMUMTOTALJUMPS: [0, 0, 25, 100, 400, 700, 1000, 1200],
   MINIMUMJUMPSLAST12MONTHS: [0, 0, 10, 25, 50, 75, 100, 200],

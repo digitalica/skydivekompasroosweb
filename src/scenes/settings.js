@@ -73,6 +73,8 @@ class Settings extends React.Component {
             >
               <FormControlLabel value={C.LANGUAGE_NL} control={<Radio/>} label={T[language].LANGUAGE_DUTCH}/>
               <FormControlLabel value={C.LANGUAGE_EN} control={<Radio/>} label={T[language].LANGUAGE_ENGLISH}/>
+              <FormControlLabel value={C.LANGUAGE_DE} control={<Radio/>} label={T[language].LANGUAGE_GERMAN}/>
+              <FormControlLabel value={C.LANGUAGE_FR} control={<Radio/>} label={T[language].LANGUAGE_FRENCH}/>
             </RadioGroup>
           </FormControl>
         </div>

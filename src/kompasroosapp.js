@@ -51,10 +51,25 @@ class KompasroosApp extends Component {
 
     const showList = C.cookieSet(cookieTotalJumps) && C.cookieSet(cookieJumpsLast12Months) && C.cookieSet(cookieXbracedJumps);
 
+    const browserLanguage = (navigator.languages && navigator.languages[0]) || navigator.language || navigator.userLanguage;
+    let defaultLanguage = C.LANGUAGE_EN;
+    switch (browserLanguage.toLowerCase().substring(0,2)) {
+      case "nl":
+        defaultLanguage = C.LANGUAGE_NL;
+        break;
+      case "fr":
+        defaultLanguage = C.LANGUAGE_FR;
+        break;
+      case "de":
+        defaultLanguage = C.LANGUAGE_DE;
+        break;
+    }
+    console.log('langs ' + browserLanguage +  "  " + defaultLanguage + " " + navigator.languages + " |  " + navigator.language +  " |  "+ navigator.userLanguage);
+
     this.state = {
       filter: cookies.get(C.COOKIE_FILTER) || C.FILTER_ALL,
       sorting: cookies.get(C.COOKIE_SORTING) || C.SORTING_NAME,
-      language: cookies.get(C.COOKIE_LANGUAGE) || C.LANGUAGE_EN,
+      language: cookies.get(C.COOKIE_LANGUAGE) || defaultLanguage ,
       showWelcome: !showList,
       searchText: '',
       exitWeight: exitWeght,
@@ -130,7 +145,7 @@ class KompasroosApp extends Component {
               <KompasroosMobile
                 theme={theme}
 
-                isMobile={false}
+                isMobile={true}
 
                 showWelcome={this.state.showWelcome}
                 welcomeDone={this.welcomeDone}
