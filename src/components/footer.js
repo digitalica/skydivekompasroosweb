@@ -1,4 +1,4 @@
-import React, {Fragment}  from "react";
+import React, {Fragment} from "react";
 import AppBar from "@material-ui/core/AppBar/AppBar";
 import Toolbar from "@material-ui/core/Toolbar/Toolbar";
 import Typography from "@material-ui/core/Typography/Typography";
@@ -104,6 +104,7 @@ class BottomAppBar extends React.Component {
 
     let exitWeightButton = null;
     let experienceButton = null;
+    let divider = null;
     if (!this.props.showWelcome) {
       exitWeightButton = <Button className={classes.button} color="inherit"
                                  border={4} borderColor="red"
@@ -112,7 +113,7 @@ class BottomAppBar extends React.Component {
           <tbody>
           <tr>
             <td rowSpan="2" className={classes.tuneicon}>
-              <TuneIcon fontSize="large" />
+              <TuneIcon fontSize="large"/>
             </td>
             <td>
               <Typography className={classes.singleline} variant="caption"
@@ -132,7 +133,7 @@ class BottomAppBar extends React.Component {
           <tbody>
           <tr>
             <td rowSpan="2" className={classes.tuneicon}>
-              <TuneIcon fontSize="large" />
+              <TuneIcon fontSize="large"/>
             </td>
             <td>
               <Typography className={classes.singleline} variant="caption"
@@ -147,6 +148,7 @@ class BottomAppBar extends React.Component {
           </tbody>
         </table>
       </Button>;
+      divider = <div className={classes.divider}/>;
     }
 
 
@@ -154,7 +156,7 @@ class BottomAppBar extends React.Component {
       <AppBar position="fixed" color="primary" className={classes.appBar}>
         <Toolbar>
           {exitWeightButton}
-          <div className={classes.divider}/>
+          {divider}
           {experienceButton}
         </Toolbar>
       </AppBar>
