@@ -4,7 +4,9 @@ import {withStyles} from "@material-ui/core";
 
 import Header from "./components/header";
 import About from "./scenes/about";
-import Settings from "./scenes/settings";
+import Setfilter from "./scenes/setfilter";
+import Setsorting from "./scenes/setsorting";
+import Setlanguage from "./scenes/setlanguage";
 import Canopy from "./scenes/canopy";
 import Desktop from "./scenes/desktop";
 import Manufacturer from "./scenes/manufacturer";
@@ -45,8 +47,20 @@ function KompasroosDesktop(props) {
             {...props}
           />
           <KompasroosRoute
-            path="/settings"
-            component={Settings}
+            path="/setfilter"
+            component={Setfilter}
+
+            {...props}
+          />
+          <KompasroosRoute
+            path="/setsorting"
+            component={Setsorting}
+
+            {...props}
+          />
+          <KompasroosRoute
+            path="/setlanguage"
+            component={Setlanguage}
 
             {...props}
           />

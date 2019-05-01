@@ -319,10 +319,6 @@ en.MENU_ABOUT = 'About';
 de.MENU_ABOUT = 'über';
 fr.MENU_ABOUT = 'A propos';
 
-nl.MENU_SETTINGS = 'Instellingen';
-en.MENU_SETTINGS = 'Settings';
-de.MENU_SETTINGS = 'Einstellungen';
-fr.MENU_SETTINGS = 'Paramètres';
 
 nl.MENU_HELP = 'Help';
 en.MENU_HELP = 'Help';

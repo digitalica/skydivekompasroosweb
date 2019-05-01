@@ -9,6 +9,9 @@ import SearchIcon from '@material-ui/icons/Search';
 import CancelIcon from '@material-ui/icons/Cancel';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import SettingsIcon from '@material-ui/icons/Settings';
+import FilterIcon from '@material-ui/icons/FilterList';
+import SortingIcon from '@material-ui/icons/Sort';
+import LanguageIcon from '@material-ui/icons/Language';
 import InfoIcon from '@material-ui/icons/Info';
 import HelpIcon from '@material-ui/icons/Help';
 import Typography from "@material-ui/core/Typography/Typography";
@@ -127,9 +130,19 @@ class TopAppBar extends React.Component {
   };
 
 
-  goSettings = () => {
+  goFilter = () => {
     this.closeMenu();
-    this.props.history.push('/settings')
+    this.props.history.push('/setfilter')
+  };
+
+  goSorting = () => {
+    this.closeMenu();
+    this.props.history.push('/setsorting')
+  };
+
+  goLanguage = () => {
+    this.closeMenu();
+    this.props.history.push('/setlanguage')
   };
 
   goAbout = () => {
@@ -229,11 +242,23 @@ class TopAppBar extends React.Component {
               open={Boolean(anchorEl)}
               onClose={this.closeMenu}
             >
-              <MenuItem onClick={this.goSettings}>
+              <MenuItem onClick={this.goFilter}>
                 <ListItemIcon className={classes.icon}>
-                  <SettingsIcon/>
+                  <FilterIcon/>
                 </ListItemIcon>
-                <ListItemText classes={{primary: classes.primary}} inset primary={T[language].MENU_SETTINGS}/>
+                <ListItemText classes={{primary: classes.primary}} inset primary={T[language].FILTER}/>
+              </MenuItem>
+              <MenuItem onClick={this.goSorting}>
+                <ListItemIcon className={classes.icon}>
+                  <SortingIcon/>
+                </ListItemIcon>
+                <ListItemText classes={{primary: classes.primary}} inset primary={T[language].SORTING}/>
+              </MenuItem>
+              <MenuItem onClick={this.goLanguage}>
+                <ListItemIcon className={classes.icon}>
+                  <LanguageIcon/>
+                </ListItemIcon>
+                <ListItemText classes={{primary: classes.primary}} inset primary={T[language].LANGUAGE}/>
               </MenuItem>
               <MenuItem onClick={this.goAbout}>
                 <ListItemIcon className={classes.icon}>
