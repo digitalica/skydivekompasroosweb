@@ -6,6 +6,8 @@ import Button from "@material-ui/core/Button/Button";
 import {withStyles} from '@material-ui/core/styles';
 import {withRouter} from "react-router-dom";
 
+import TuneIcon from '@material-ui/icons/Tune';
+
 import C from "../services/kompasroosconstants";
 import T from "../services/kompasroostranslations";
 import Autotext from "./autotext";
@@ -48,6 +50,14 @@ const styles = theme => ({
   },
   singleline: {
     lineHeight: 1
+  },
+  divider: {
+    width: "2px",
+    height: "100%",
+    backgroundColor: "white",
+  },
+  tuneicon: {
+    paddingRight: theme.spacing.unit * 2,
   }
 });
 
@@ -95,10 +105,15 @@ class BottomAppBar extends React.Component {
     let exitWeightButton = null;
     let experienceButton = null;
     if (!this.props.showWelcome) {
-      exitWeightButton = <Button className={classes.button} color="inherit" onClick={this.toggleSetWeight}>
+      exitWeightButton = <Button className={classes.button} color="inherit"
+                                 border={4} borderColor="red"
+                                 onClick={this.toggleSetWeight}>
         <table>
           <tbody>
           <tr>
+            <td rowSpan="2" className={classes.tuneicon}>
+              <TuneIcon fontSize="large" />
+            </td>
             <td>
               <Typography className={classes.singleline} variant="caption"
                           color="inherit">{T[language].EXITWEIGHT}</Typography>
@@ -116,6 +131,9 @@ class BottomAppBar extends React.Component {
         <table>
           <tbody>
           <tr>
+            <td rowSpan="2" className={classes.tuneicon}>
+              <TuneIcon fontSize="large" />
+            </td>
             <td>
               <Typography className={classes.singleline} variant="caption"
                           color="inherit">{T[language].EXPERIENCE}</Typography>
@@ -136,6 +154,7 @@ class BottomAppBar extends React.Component {
       <AppBar position="fixed" color="primary" className={classes.appBar}>
         <Toolbar>
           {exitWeightButton}
+          <div className={classes.divider}/>
           {experienceButton}
         </Toolbar>
       </AppBar>
