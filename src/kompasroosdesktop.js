@@ -8,7 +8,7 @@ import Setfilter from "./scenes/setfilter";
 import Setsorting from "./scenes/setsorting";
 import Setlanguage from "./scenes/setlanguage";
 import Canopy from "./scenes/canopy";
-import Desktop from "./scenes/desktop";
+import Main from "./scenes/main";
 import Manufacturer from "./scenes/manufacturer";
 
 import KompasroosRoute from "./kompasroosroute";
@@ -36,7 +36,7 @@ function KompasroosDesktop(props) {
         <Switch>
           <KompasroosRoute
             exact path="/"
-            component={Desktop}
+            component={Main}
 
             {...props}
           />

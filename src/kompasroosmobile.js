@@ -2,7 +2,7 @@ import React from "react";
 import {BrowserRouter, Redirect, Switch} from "react-router-dom";
 
 import Header from "./components/header";
-import List from "./scenes/list";
+import Main from "./scenes/main";
 import About from "./scenes/about";
 import Setfilter from "./scenes/setfilter";
 import Setsorting from "./scenes/setsorting";
@@ -25,7 +25,7 @@ function KompasroosMobile(props) {
         <Switch>
           <KompasroosRoute
             exact path="/"
-            component={List}
+            component={Main}
 
             {...props}
           />

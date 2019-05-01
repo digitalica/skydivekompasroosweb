@@ -16,19 +16,6 @@ const styles = theme => ({
       textDecoration: 'none'
     }
   },
-  root: {
-    textAlign: "left",
-    paddingTop: 64,
-    paddingBottom: 150,
-  },
-  text: {
-    maxWidth: C.MAXWIDTH,
-    marginLeft: "auto",
-    marginRight: "auto",
-    paddingTop: theme.spacing.unit * 2,
-    paddingLeft: theme.spacing.unit * 2,
-    paddingRight: theme.spacing.unit * 2,
-  },
   list: {
     padding: 0,
     listStyleType: "none",
@@ -199,7 +186,7 @@ class List extends React.Component {
     let summary = null;
     let title = null;
     if (!this.props.searchText) {
-      title = <Typography variant="h6">{T[language].SUMMARY_TITLE}</Typography>
+      title = <Typography variant="h6">{T[language].SUMMARY_TITLE}</Typography>;
       if (this.props.isMobile) {
         summary = <Summary
           language={language}
@@ -210,15 +197,13 @@ class List extends React.Component {
     }
 
     return (
-      <div className={classes.root}>
-        <div className={classes.text}>
-          {title}
-          {summary}
-          <ul className={classes.list}>
-            {canopyList}
-            {searchWarning}
-          </ul>
-        </div>
+      <div>
+        {title}
+        {summary}
+        <ul className={classes.list}>
+          {canopyList}
+          {searchWarning}
+        </ul>
       </div>
     )
 

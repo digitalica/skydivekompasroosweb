@@ -1,15 +1,11 @@
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import FormControl from '@material-ui/core/FormControl';
-import FormLabel from '@material-ui/core/FormLabel';
-import Radio from '@material-ui/core/Radio';
-import RadioGroup from '@material-ui/core/RadioGroup';
 import React from "react";
 import {withStyles} from '@material-ui/core/styles';
 
-import Flag from 'react-world-flags';
+import Sorting from '../components/sorting';
 
 import C from "../services/kompasroosconstants";
-import T from "../services/kompasroostranslations";
+import Filter from "../components/filter";
+import List from "../components/list";
 
 
 const styles = theme => ({
@@ -31,31 +27,41 @@ const styles = theme => ({
 class Setsorting extends React.Component {
 
   render() {
-    const {classes, language} = this.props;
+    const {classes} = this.props;
 
-    return (
-      <div className={classes.root}>
-        <div className={classes.text}>
-          <FormControl component="fieldset" className={classes.formControl}>
-
-            <FormLabel component="legend">{T[language].SORTING}</FormLabel>
-            <RadioGroup
-              aria-label={T[language].SORTING}
-              name={T[language].SORTING}
-              className={classes.group}
-              value={this.props.sorting}
-              onChange={this.props.updateSorting}
-            >
-              <FormControlLabel value={C.SORTING_NAME} control={<Radio/>} label={T[language].SORTING_NAME}/>
-              <FormControlLabel value={C.SORTING_MANUFACTURER} control={<Radio/>}
-                                label={T[language].SORTING_MANUFACTURER}/>
-              <FormControlLabel value={C.SORTING_CATEGORY} control={<Radio/>} label={T[language].SORTING_CATEGORY}/>
-            </RadioGroup>
-
-          </FormControl>
+    if (this.props.isMobile) {
+      return (
+        <div className={classes.root}>
+          <div className={classes.text}>
+            <Sorting {...this.props}/>
+          </div>
         </div>
-      </div>
-    )
+      )
+    } else {
+      return (
+        <div className={classes.root}>
+
+          <div className={this.props.classes.row}>
+            <div className={this.props.classes.column}>
+              <div className={classes.text}>
+                <br/>
+                <Sorting
+                  {...this.props}
+                />
+              </div>
+            </div>
+            <div className={this.props.classes.column}>
+              <div className={classes.text}>
+                <List
+                  {...this.props}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
 
   }
 

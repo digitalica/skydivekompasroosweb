@@ -4,11 +4,12 @@ import {withStyles} from '@material-ui/core/styles';
 import DoneAllIcon from '@material-ui/icons/DoneAll';
 
 import Summary from "../components/summary";
+import Language from "../components/language"
 import KompasroosSlider from "../components/kompasroosslider";
+import Wingloadtable from "../components/wingloadtable";
 
 import C from "../services/kompasroosconstants";
 import T from "../services/kompasroostranslations";
-import Wingloadtable from "../components/wingloadtable";
 
 const DEBOUNCE_RATE_LIMIT = 250;
 
@@ -157,9 +158,17 @@ class SetJumps extends React.Component {
       );
     }
 
-    let welcomeText;
-    let doneButton = "";
+    let languageSelect = null;
+    let welcomeText = null;
+    let doneButton = null;
     if (showWelcome) {
+      languageSelect = (
+        <div>
+          <Language {...this.props}/>
+          <br/>
+          <br/>
+        </div>
+      );
       welcomeText = (
         <div className={classes.welcome}>
           <b>{T[language].EXPERIENCE_WELCOME}</b>
@@ -207,6 +216,7 @@ class SetJumps extends React.Component {
       <div className={classes.root}>
         <div className={classes.text}>
           {welcomeText}
+          {languageSelect}
           {T[language].EXPERIENCE_INTRO}
         </div>
         {totalJumpsSlider}
