@@ -120,10 +120,10 @@ fr.EXPERIENCE_NEEDED = [
   'Minimun 1000 sauts',
   'Minimun 1200 sauts, dont minimum 200 avec un parachute "Cat VI cross-braced"'
 ];
-nl.FILTER = 'Filter';
-en.FILTER = 'Filter';
-de.FILTER = 'Filter';
-fr.FILTER = 'Filtre';
+nl.FILTER = 'Parachute Filter';
+en.FILTER = 'Canopy Model Filter';
+de.FILTER = 'Schirm Filter';
+fr.FILTER = 'Filtre de parachute';
 
 nl.FILTER_ALL = 'Alles';
 en.FILTER_ALL = 'All';
