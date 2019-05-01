@@ -73,7 +73,7 @@ fr.COUNTRIES = {
 nl.EXITWEIGHT = 'Exitgewicht';
 en.EXITWEIGHT = 'Exit weight';
 de.EXITWEIGHT = 'Absprung-Gewicht';
-fr.EXITWEIGHT = 'Poids de saut (parachutiste + équipement)';
+fr.EXITWEIGHT = 'Poids de saut';
 
 nl.EXPERIENCE = 'Ervaring';
 en.EXPERIENCE = 'Experience';
