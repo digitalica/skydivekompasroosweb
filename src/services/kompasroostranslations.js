@@ -3,8 +3,8 @@ let en = {};
 let de = {};
 let fr = {};
 
-nl.WEIGHT_INTRO = 'Stel uw exitgewicht in, en zie welke parachutes geschikt zijn volgens het BVR.';
-en.WEIGHT_INTRO = 'Set your exit weight and see what parachutes are allowed according to Dutch regulations.';
+nl.WEIGHT_INTRO = 'Stel uw exitgewicht in, en zie welke parachutes geschikt zijn volgens de regels van de afdeling para van de KNVvL (het BVR).';
+en.WEIGHT_INTRO = 'Set your exit weight and see what parachutes are allowed according to Dutch parachuting federation regulations.';
 de.WEIGHT_INTRO = 'Setze hier dein Absprung-Gewicht (Springer + Ausrüstung) um zu sehen, welche Schirme für dich geeignet sind gemäss den holländischen Richtlinien.';
 fr.WEIGHT_INTRO = 'Introduis ton poids de saut (parachutiste + équipement) et détermine quel parachute tu peux utiliser selon la réglementation hollandaise.';
 
