@@ -53,8 +53,7 @@ const styles = theme => ({
   },
   divider: {
     width: "2px",
-    height: "100%",
-    minHeight: "56px", // for Chrome
+    alignSelf: "stretch",
     backgroundColor: "white",
   },
   tuneicon: {

@@ -17,7 +17,7 @@ const styles = theme => ({
     justifyContent: "center",
   },
   flagcolumn: {
-    height: "100%",
+    alignSelf: "stretch",
     display: "flex",
     justifyContent: "space-around",
     flexDirection: "column",

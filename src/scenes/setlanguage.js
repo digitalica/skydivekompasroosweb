@@ -5,7 +5,6 @@ import Language from "../components/language";
 
 
 import C from "../services/kompasroosconstants";
-import Sorting from "../components/sorting";
 import List from "../components/list";
 
 
