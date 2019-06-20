@@ -36,7 +36,7 @@ The base canopy data files are in de data folder. To prepare them for use in the
 npm run prepare
 ```
 
-This will create the src/components/kompasroosdata.js module, that wil be used.
+This will create the src/services/kompasroosdata.js module, that wil be used.
 
 ### Deploy
 
