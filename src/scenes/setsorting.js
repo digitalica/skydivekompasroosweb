@@ -4,7 +4,6 @@ import {withStyles} from '@material-ui/core/styles';
 import Sorting from '../components/sorting';
 
 import C from "../services/kompasroosconstants";
-import Filter from "../components/filter";
 import List from "../components/list";
 
 

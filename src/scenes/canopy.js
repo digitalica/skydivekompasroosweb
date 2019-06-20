@@ -305,9 +305,8 @@ function Canopy(props) {
   if (canopy.links) {
     for (let li = 0; li < canopy.links.length; li++) {
       let link = canopy.links[li];
-      let url = link.url;
       let icon = <LinkIcon/>;
-      let name = '';
+      let name = 'UNKNOWN TYPE';
       switch (link.type) {
         case 'dropzone.com':
           icon = <Bookmark/>;
@@ -328,6 +327,8 @@ function Canopy(props) {
         case 'pdf':
           icon = <PdfIcon/>;
           name = "PDF";
+          break;
+        default:
           break;
       }
       linkRows.push(

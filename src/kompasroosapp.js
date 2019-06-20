@@ -63,6 +63,8 @@ class KompasroosApp extends Component {
       case "de":
         defaultLanguage = C.LANGUAGE_DE;
         break;
+      default:
+        break;
     }
     // console.log('langs ' + browserLanguage +  "  " + defaultLanguage + " " + navigator.languages + " |  " + navigator.language +  " |  "+ navigator.userLanguage);
 

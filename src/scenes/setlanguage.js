@@ -27,7 +27,7 @@ const styles = theme => ({
 class Setlanguage extends React.Component {
 
   render() {
-    const {classes, language} = this.props;
+    const {classes} = this.props;
 
     if (this.props.isMobile) {
       return (
