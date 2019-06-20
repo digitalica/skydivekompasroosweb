@@ -4676,6 +4676,27 @@ let kompasroosData = {
       "search": "xf15|jojowings",
       "slug": "jojowings-xf15"
     },
+    "F46272C1-526B-41A1-88B1-8A4F7CE7BAA9": {
+      "id": "F46272C1-526B-41A1-88B1-8A4F7CE7BAA9",
+      "name": "ōm-7",
+      "category": null,
+      "cells": "7",
+      "commontype": 0,
+      "dropzoneid": "",
+      "manufacturerid": "29A49954-54B1-4F77-A399-CCEFCCC9B3B9",
+      "maxsize": "229",
+      "minsize": "99",
+      "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=146&Itemid=676",
+      "xbraced": false,
+      "links": [],
+      "displaycategory": "?",
+      "calculationcategory": 6,
+      "manufacturername": "Icarus Canopies",
+      "manufacturerurl": "http://www.icaruscanopies.aero/",
+      "manufacturerslug": "icarus_canopies",
+      "search": "om7|icaruscanopies",
+      "slug": "icarus_canopies-om-7"
+    },
     "A2252BB9-ED7C-4EEF-AB7B-18B6B4DC774E": {
       "id": "A2252BB9-ED7C-4EEF-AB7B-18B6B4DC774E",
       "name": "Scirocco",
@@ -4798,6 +4819,7 @@ let kompasroosData = {
     "FC044FAE-FD5C-45A2-8740-9CE8783C76FA",
     "C0785556-9B3B-431E-95A0-39911DB1DBD0",
     "19982FDF-FB8B-4178-8F34-127E40964A12",
+    "F46272C1-526B-41A1-88B1-8A4F7CE7BAA9",
     "95031F08-A04A-4FC4-81D5-EEAAEC329F6D",
     "5A213243-07F2-4450-9397-B021595F5865",
     "3193501C-9111-4782-B0EC-778CD6923E08",
@@ -4940,6 +4962,7 @@ let kompasroosData = {
     "6C91684B-857B-455F-9A6B-9DC15A31E98A",
     "89DCF61C-2FE5-4717-B14F-B5E8BB266DFB",
     "F996C3D1-5684-45BF-9B30-9B0ADEC987C2",
+    "F46272C1-526B-41A1-88B1-8A4F7CE7BAA9",
     "B831B534-D7A7-4063-A1C5-694D1FEE9F22",
     "B66CC389-2650-4205-B30B-5D279ACDE8AB",
     "CDC9F86A-5F6C-4334-8887-4A4AC7D6C24E",
@@ -5191,6 +5214,7 @@ let kompasroosData = {
     "F996C3D1-5684-45BF-9B30-9B0ADEC987C2",
     "F566B784-F61C-49A6-89A1-BEFF497487D2",
     "136EE958-6048-4129-B1B1-D0E4B11147EC",
+    "F46272C1-526B-41A1-88B1-8A4F7CE7BAA9",
     "3193501C-9111-4782-B0EC-778CD6923E08",
     "CDC9F86A-5F6C-4334-8887-4A4AC7D6C24E",
     "0858835E-BC3A-43D9-A085-3DF96D70D3ED",
@@ -5399,6 +5423,7 @@ let kompasroosData = {
     "jojowings-sonic": "A8C274D3-DE56-413D-AAA2-C8EE6D7CA3BE",
     "jojowings-raptor": "CDC9F86A-5F6C-4334-8887-4A4AC7D6C24E",
     "jojowings-xf15": "89DA27EF-860B-4FF9-9917-EF81A266FAFB",
+    "icarus_canopies-om-7": "F46272C1-526B-41A1-88B1-8A4F7CE7BAA9",
     "skylark_parachutes-scirocco": "A2252BB9-ED7C-4EEF-AB7B-18B6B4DC774E"
   }
 };

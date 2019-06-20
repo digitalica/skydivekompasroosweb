@@ -2567,6 +2567,19 @@
       "xbraced": true
     },
     {
+      "id": "F46272C1-526B-41A1-88B1-8A4F7CE7BAA9",
+      "name": "ōm-7",
+      "category": "",
+      "cells": "7",
+      "commontype": "0",
+      "dropzoneid": "",
+      "manufacturerid": "29A49954-54B1-4F77-A399-CCEFCCC9B3B9",
+      "maxsize": "229",
+      "minsize": "99",
+      "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=146&Itemid=676",
+      "xbraced": false
+    },
+    {
       "id": "A2252BB9-ED7C-4EEF-AB7B-18B6B4DC774E",
       "name": "Scirocco",
       "category": "7",

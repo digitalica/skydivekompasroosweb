@@ -53,13 +53,16 @@ function compareManufacturer(c1, c2) {
 function slugify(text) {
   let slug = text.toLowerCase()
     .replace(/ /g, '_')
+    .replace(/ō/g, 'o') // for ōm
     .replace(/[^\w-]+/g, '');
   return slug;
 }
 
 function cleanForSearch(text) {
   let search = text.trim().toLowerCase();
-  search = search.replace(/[ ,\-()]+/g, '');
+  search = search
+    .replace(/ō/g, 'o') // for ōm
+    .replace(/[ ,\-()]+/g, '');
   return search;
 }
 
