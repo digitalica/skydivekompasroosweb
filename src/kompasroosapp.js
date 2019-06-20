@@ -64,7 +64,7 @@ class KompasroosApp extends Component {
         defaultLanguage = C.LANGUAGE_DE;
         break;
     }
-    console.log('langs ' + browserLanguage +  "  " + defaultLanguage + " " + navigator.languages + " |  " + navigator.language +  " |  "+ navigator.userLanguage);
+    // console.log('langs ' + browserLanguage +  "  " + defaultLanguage + " " + navigator.languages + " |  " + navigator.language +  " |  "+ navigator.userLanguage);
 
     this.state = {
       filter: cookies.get(C.COOKIE_FILTER) || C.FILTER_ALL,

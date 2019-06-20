@@ -343,7 +343,7 @@ function Canopy(props) {
   }
 
 
-  console.log('canopy: ' + acceptability + ' ' + classAcceptability);
+  // console.log('canopy: ' + acceptability + ' ' + classAcceptability);
 
   if (canopy) {
     return (

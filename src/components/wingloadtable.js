@@ -77,7 +77,7 @@ class Wingloadtable extends React.Component {
       let isAreaOk = areaValue >= minArea;
       let isLoadOk = maxLoad === 0 || maxLoad >= wingload;
 
-      console.log('wl ' + areaValue + '  ' + this.props.exitWeight + ' ' + weightInLbs + ' ' + wingload + ' ' + isAreaOk + isLoadOk);
+      // console.log('wl ' + areaValue + '  ' + this.props.exitWeight + ' ' + weightInLbs + ' ' + wingload + ' ' + isAreaOk + isLoadOk);
       headerRow.push(
         <td key={areaValue} className={classes[this.getClassArea(isAreaOk, isLoadOk)]}>
           {areaValue}
