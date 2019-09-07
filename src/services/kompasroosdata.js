@@ -229,7 +229,7 @@ let kompasroosData = {
       "category": 1,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "22",
+      "dropzoneid": "navigator-r23",
       "firstyearofproduction": "1998",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "300",
@@ -239,7 +239,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/22.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/navigator-r23"
         },
         {
           "type": "youtube",
@@ -262,7 +262,7 @@ let kompasroosData = {
       "category": 1,
       "cells": "7",
       "commontype": 0,
-      "dropzoneid": "20",
+      "dropzoneid": "pd-7-cell-r21",
       "firstyearofproduction": "1985",
       "lastyearofproduction": "2000",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
@@ -273,7 +273,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/20.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/pd-7-cell-r21"
         }
       ],
       "displaycategory": 1,
@@ -290,7 +290,7 @@ let kompasroosData = {
       "category": 1,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "21",
+      "dropzoneid": "pd-9-cell-r22",
       "firstyearofproduction": "1984",
       "lastyearofproduction": "2000",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
@@ -301,7 +301,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/21.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/pd-9-cell-r22"
         }
       ],
       "displaycategory": 1,
@@ -318,7 +318,7 @@ let kompasroosData = {
       "category": 1,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "17",
+      "dropzoneid": "sabre-r18",
       "firstyearofproduction": "1990",
       "lastyearofproduction": "2005",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
@@ -329,7 +329,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/17.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/sabre-r18"
         }
       ],
       "displaycategory": 1,
@@ -346,7 +346,7 @@ let kompasroosData = {
       "category": 1,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "421",
+      "dropzoneid": "solo-r354",
       "firstyearofproduction": "2003",
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "290",
@@ -357,7 +357,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/421.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/solo-r354"
         }
       ],
       "displaycategory": 1,
@@ -373,7 +373,7 @@ let kompasroosData = {
       "name": "Exit One",
       "category": 1,
       "commontype": 0,
-      "dropzoneid": "592",
+      "dropzoneid": "exit-one-r475",
       "manufacturerid": "7AE2A118-7566-456B-9D73-2E6751BF7D7A",
       "maxsize": "260",
       "minsize": "210",
@@ -383,7 +383,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/592.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/exit-one-r475"
         }
       ],
       "displaycategory": 1,
@@ -416,7 +416,7 @@ let kompasroosData = {
       "category": 1,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "47",
+      "dropzoneid": "aerodyne-research-corporation-r48",
       "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
       "maxsize": "290",
       "minsize": "230",
@@ -425,7 +425,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/47.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/aerodyne-research-corporation-r48"
         }
       ],
       "displaycategory": 1,
@@ -441,14 +441,14 @@ let kompasroosData = {
       "category": 1,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "52",
+      "dropzoneid": "drakkar-r53",
       "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
       "xbraced": false,
       "links": [
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/52.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/drakkar-r53"
         }
       ],
       "displaycategory": 1,
@@ -517,14 +517,14 @@ let kompasroosData = {
       "commontype": 0,
       "maxsize": "282",
       "minsize": "120",
-      "dropzoneid": "27",
+      "dropzoneid": "super-raven-r28",
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "xbraced": false,
       "links": [
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/27.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/super-raven-r28"
         }
       ],
       "displaycategory": 1,
@@ -595,7 +595,7 @@ let kompasroosData = {
       "category": 1,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "448",
+      "dropzoneid": "balance-r370",
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
       "maxsize": "280",
       "minsize": "150",
@@ -605,7 +605,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/448.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/balance-r370"
         }
       ],
       "displaycategory": 1,
@@ -642,7 +642,7 @@ let kompasroosData = {
       "category": 1,
       "cells": "7",
       "commontype": 0,
-      "dropzoneid": "41",
+      "dropzoneid": "fight-concepts-7-cell-r42",
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "200",
       "minsize": "200",
@@ -652,7 +652,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/41.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/fight-concepts-7-cell-r42"
         }
       ],
       "displaycategory": 1,
@@ -668,7 +668,7 @@ let kompasroosData = {
       "name": "Fury",
       "category": 1,
       "cells": "7",
-      "dropzoneid": "41",
+      "dropzoneid": "fight-concepts-7-cell-r42",
       "commontype": 0,
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "220",
@@ -679,7 +679,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/41.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/fight-concepts-7-cell-r42"
         }
       ],
       "displaycategory": 1,
@@ -696,7 +696,7 @@ let kompasroosData = {
       "category": 1,
       "cells": "7",
       "commontype": 0,
-      "dropzoneid": "41",
+      "dropzoneid": "fight-concepts-7-cell-r42",
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "175",
       "minsize": "175",
@@ -706,7 +706,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/41.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/fight-concepts-7-cell-r42"
         }
       ],
       "displaycategory": 1,
@@ -723,7 +723,7 @@ let kompasroosData = {
       "category": 1,
       "cells": "7",
       "commontype": 0,
-      "dropzoneid": "41",
+      "dropzoneid": "fight-concepts-7-cell-r42",
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "145",
       "minsize": "145",
@@ -733,7 +733,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/41.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/fight-concepts-7-cell-r42"
         }
       ],
       "displaycategory": 1,
@@ -769,7 +769,7 @@ let kompasroosData = {
       "name": "Sharpchuter",
       "category": 1,
       "cells": "7",
-      "dropzoneid": "41",
+      "dropzoneid": "fight-concepts-7-cell-r42",
       "commontype": 0,
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "245",
@@ -780,7 +780,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/41.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/fight-concepts-7-cell-r42"
         }
       ],
       "displaycategory": 1,
@@ -797,7 +797,7 @@ let kompasroosData = {
       "category": 1,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "40",
+      "dropzoneid": "fight-concepts-9-cell-r41",
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "220",
       "minsize": "220",
@@ -807,7 +807,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/40.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/fight-concepts-9-cell-r41"
         }
       ],
       "displaycategory": 1,
@@ -824,7 +824,7 @@ let kompasroosData = {
       "category": 1,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "40",
+      "dropzoneid": "fight-concepts-9-cell-r41",
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "250",
       "minsize": "250",
@@ -834,7 +834,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/40.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/fight-concepts-9-cell-r41"
         }
       ],
       "displaycategory": 1,
@@ -854,14 +854,14 @@ let kompasroosData = {
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "195",
       "minsize": "195",
-      "dropzoneid": "40",
+      "dropzoneid": "fight-concepts-9-cell-r41",
       "url": "http://flightconceptsint.com/classic/9-cell-classic",
       "xbraced": false,
       "links": [
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/40.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/fight-concepts-9-cell-r41"
         }
       ],
       "displaycategory": 1,
@@ -878,7 +878,7 @@ let kompasroosData = {
       "category": 1,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "40",
+      "dropzoneid": "fight-concepts-9-cell-r41",
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "290",
       "minsize": "290",
@@ -887,7 +887,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/40.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/fight-concepts-9-cell-r41"
         }
       ],
       "displaycategory": 1,
@@ -904,7 +904,7 @@ let kompasroosData = {
       "category": 1,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "691",
+      "dropzoneid": "zp-manta-r570",
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "320",
       "minsize": "185",
@@ -913,7 +913,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/691.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/zp-manta-r570"
         },
         {
           "type": "youtube",
@@ -952,14 +952,14 @@ let kompasroosData = {
       "category": 1,
       "cells": "7",
       "commontype": 0,
-      "dropzoneid": "6",
+      "dropzoneid": "icarus-student-zp-7-r7",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "xbraced": false,
       "links": [
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/6.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/icarus-student-zp-7-r7"
         }
       ],
       "displaycategory": 1,
@@ -976,7 +976,7 @@ let kompasroosData = {
       "category": 1,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "692",
+      "dropzoneid": "equinox-r571",
       "manufacturerid": "29A49954-54B1-4F77-A399-CCEFCCC9B3B9",
       "maxsize": "229",
       "minsize": "189",
@@ -986,7 +986,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/692.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/equinox-r571"
         }
       ],
       "displaycategory": 1,
@@ -1022,14 +1022,14 @@ let kompasroosData = {
       "maxsize": "320",
       "minsize": "120",
       "commontype": 0,
-      "dropzoneid": "70",
+      "dropzoneid": "eagle-7-cell-r68",
       "manufacturerid": "2228CEB3-3246-47D8-A393-52FF9DFEBB45",
       "xbraced": false,
       "links": [
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/70.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/eagle-7-cell-r68"
         }
       ],
       "displaycategory": 1,
@@ -1046,7 +1046,7 @@ let kompasroosData = {
       "category": 1,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "71",
+      "dropzoneid": "eagle-9-cell-r69",
       "manufacturerid": "2228CEB3-3246-47D8-A393-52FF9DFEBB45",
       "maxsize": "330",
       "minsize": "110",
@@ -1056,7 +1056,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/71.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/eagle-9-cell-r69"
         }
       ],
       "displaycategory": 1,
@@ -1074,7 +1074,7 @@ let kompasroosData = {
       "firstyearofproduction": "2015",
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "966",
+      "dropzoneid": "icarus-student-r841",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "url": "http://www.nzaerosports.com/canopies/icarus-student",
       "xbraced": false,
@@ -1082,7 +1082,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/966.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/icarus-student-r841"
         }
       ],
       "displaycategory": 1,
@@ -1099,7 +1099,7 @@ let kompasroosData = {
       "category": 1,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "948",
+      "dropzoneid": "zp-r823",
       "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
       "url": "http://www.parachutesystemseurope.com/eng/zp.php",
       "xbraced": false,
@@ -1107,7 +1107,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/948.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/zp-r823"
         }
       ],
       "displaycategory": 1,
@@ -1124,7 +1124,7 @@ let kompasroosData = {
       "category": 2,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "292",
+      "dropzoneid": "electra-r229",
       "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
       "maxsize": "210",
       "minsize": "130",
@@ -1135,7 +1135,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/292.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/electra-r229"
         }
       ],
       "displaycategory": 2,
@@ -1151,14 +1151,14 @@ let kompasroosData = {
       "category": 2,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "48",
+      "dropzoneid": "merit-r49",
       "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
       "xbraced": false,
       "links": [
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/48.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/merit-r49"
         }
       ],
       "displaycategory": 2,
@@ -1174,7 +1174,7 @@ let kompasroosData = {
       "category": 2,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "420",
+      "dropzoneid": "pilot-r353",
       "firstyearofproduction": "2003",
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "230",
@@ -1186,7 +1186,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/420.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/pilot-r353"
         },
         {
           "type": "youtube",
@@ -1209,7 +1209,7 @@ let kompasroosData = {
       "category": 2,
       "cells": "7",
       "commontype": 1,
-      "dropzoneid": "980",
+      "dropzoneid": "pilot7-r861",
       "firstyearofproduction": "2016",
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "247",
@@ -1220,7 +1220,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/980.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/pilot7-r861"
         },
         {
           "type": "youtube",
@@ -1247,7 +1247,7 @@ let kompasroosData = {
       "category": 2,
       "cells": "7",
       "commontype": 1,
-      "dropzoneid": "36",
+      "dropzoneid": "triathlon-r37",
       "firstyearofproduction": "2000",
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "260",
@@ -1258,7 +1258,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/36.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/triathlon-r37"
         },
         {
           "type": "youtube",
@@ -1290,9 +1290,16 @@ let kompasroosData = {
       "category": 2,
       "cells": "7",
       "commontype": 1,
+      "dropzoneid": "super-seven-r371",
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/main-canopies/super-seven-r371"
+        }
+      ],
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Paratec",
@@ -1307,14 +1314,14 @@ let kompasroosData = {
       "cells": "9",
       "category": 2,
       "commontype": 0,
-      "dropzoneid": "450",
+      "dropzoneid": "quadra-v-tec-r372",
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
       "xbraced": false,
       "links": [
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/450.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/quadra-v-tec-r372"
         }
       ],
       "displaycategory": 2,
@@ -1331,7 +1338,7 @@ let kompasroosData = {
       "category": 2,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "17",
+      "dropzoneid": "sabre-r18",
       "firstyearofproduction": "1990",
       "lastyearofproduction": "2005",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
@@ -1342,7 +1349,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/17.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/sabre-r18"
         }
       ],
       "displaycategory": 2,
@@ -1359,7 +1366,7 @@ let kompasroosData = {
       "category": 2,
       "cells": "7",
       "commontype": 1,
-      "dropzoneid": "9",
+      "dropzoneid": "spectre-r10",
       "firstyearofproduction": "1997",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "230",
@@ -1369,7 +1376,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/9.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/spectre-r10"
         },
         {
           "type": "youtube",
@@ -1397,7 +1404,7 @@ let kompasroosData = {
       "category": 2,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "19",
+      "dropzoneid": "silhouette-r20",
       "firstyearofproduction": "1997",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "260",
@@ -1408,7 +1415,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/19.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/silhouette-r20"
         }
       ],
       "displaycategory": 2,
@@ -1425,7 +1432,7 @@ let kompasroosData = {
       "category": 2,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "585",
+      "dropzoneid": "pulse-r468",
       "firstyearofproduction": "2009",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "260",
@@ -1435,7 +1442,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/585.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/pulse-r468"
         },
         {
           "type": "youtube",
@@ -1458,7 +1465,7 @@ let kompasroosData = {
       "category": 2,
       "cells": "7",
       "commontype": 1,
-      "dropzoneid": "778",
+      "dropzoneid": "zero-r655",
       "firstyearofproduction": "2010",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "305",
@@ -1469,7 +1476,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/778.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/zero-r655"
         }
       ],
       "displaycategory": 2,
@@ -1486,7 +1493,7 @@ let kompasroosData = {
       "category": 2,
       "cells": "7",
       "commontype": 0,
-      "dropzoneid": "285",
+      "dropzoneid": "synergy-r225",
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "230",
       "minsize": "98",
@@ -1496,7 +1503,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/285.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/synergy-r225"
         }
       ],
       "displaycategory": 2,
@@ -1513,7 +1520,7 @@ let kompasroosData = {
       "category": 2,
       "cells": "7",
       "commontype": 0,
-      "dropzoneid": "300",
+      "dropzoneid": "omni-r236",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "maxsize": "229",
       "minsize": "99",
@@ -1523,7 +1530,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/300.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/omni-r236"
         }
       ],
       "displaycategory": 2,
@@ -1540,7 +1547,7 @@ let kompasroosData = {
       "category": 2,
       "cells": "7",
       "commontype": 1,
-      "dropzoneid": "3",
+      "dropzoneid": "omega-r4",
       "firstyearofproduction": "1998",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "maxsize": "229",
@@ -1551,7 +1558,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/3.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/omega-r4"
         }
       ],
       "displaycategory": 2,
@@ -1568,7 +1575,7 @@ let kompasroosData = {
       "category": 2,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "590",
+      "dropzoneid": "cayenne-light-r473",
       "manufacturerid": "7AE2A118-7566-456B-9D73-2E6751BF7D7A",
       "maxsize": "190",
       "minsize": "130",
@@ -1576,7 +1583,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/590.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/cayenne-light-r473"
         },
         {
           "type": "pdf",
@@ -1599,7 +1606,7 @@ let kompasroosData = {
       "category": 2,
       "cells": "7",
       "commontype": 0,
-      "dropzoneid": "706",
+      "dropzoneid": "dragon-r585",
       "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
       "maxsize": "210",
       "minsize": "135",
@@ -1609,7 +1616,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/706.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/dragon-r585"
         }
       ],
       "displaycategory": 2,
@@ -1626,7 +1633,7 @@ let kompasroosData = {
       "category": 2,
       "cells": "7",
       "commontype": 1,
-      "dropzoneid": "68",
+      "dropzoneid": "parafoil-r66",
       "manufacturerid": "2228CEB3-3246-47D8-A393-52FF9DFEBB45",
       "maxsize": "304",
       "minsize": "220",
@@ -1636,7 +1643,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/68.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/parafoil-r66"
         }
       ],
       "displaycategory": 2,
@@ -1653,7 +1660,7 @@ let kompasroosData = {
       "category": 2,
       "cells": "7",
       "commontype": 0,
-      "dropzoneid": "896",
+      "dropzoneid": "classic-r771",
       "manufacturerid": "B1F74487-55A3-4A0C-9A7E-463B508E3438",
       "maxsize": "328",
       "minsize": "198",
@@ -1662,7 +1669,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/896.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/classic-r771"
         }
       ],
       "displaycategory": 2,
@@ -1679,7 +1686,7 @@ let kompasroosData = {
       "category": 2,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "615",
+      "dropzoneid": "commodore-r615",
       "manufacturerid": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
       "maxsize": "190",
       "minsize": "290",
@@ -1689,7 +1696,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/615.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/commodore-r615"
         }
       ],
       "displaycategory": 2,
@@ -1719,10 +1726,17 @@ let kompasroosData = {
       "id": "6BC329AA-C9C7-4372-990E-46E3CA20ECF2",
       "name": "Turbo ZX",
       "category": 2,
+      "dropzoneid": "turbo-zx-r65",
       "commontype": 0,
       "manufacturerid": "571E4861-2CCE-4276-A5B2-046A38F4870E",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/main-canopies/turbo-zx-r65"
+        }
+      ],
       "displaycategory": 2,
       "calculationcategory": 2,
       "manufacturername": "Para-Flite",
@@ -1736,7 +1750,7 @@ let kompasroosData = {
       "category": 3,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "267",
+      "dropzoneid": "sabre2-r217",
       "firstyearofproduction": "2001",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "260",
@@ -1748,7 +1762,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/267.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/sabre2-r217"
         },
         {
           "type": "youtube",
@@ -1796,7 +1810,7 @@ let kompasroosData = {
       "category": 3,
       "cells": "7",
       "commontype": 1,
-      "dropzoneid": "18",
+      "dropzoneid": "lightning-r19",
       "firstyearofproduction": "1990",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "253",
@@ -1806,7 +1820,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/18.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/lightning-r19"
         },
         {
           "type": "youtube",
@@ -1839,7 +1853,7 @@ let kompasroosData = {
       "category": 3,
       "cells": "7",
       "commontype": 1,
-      "dropzoneid": "579",
+      "dropzoneid": "storm-r463",
       "firstyearofproduction": "2008",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "230",
@@ -1849,7 +1863,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/579.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/storm-r463"
         },
         {
           "type": "youtube",
@@ -1872,7 +1886,7 @@ let kompasroosData = {
       "category": 3,
       "cells": "7",
       "commontype": 1,
-      "dropzoneid": "1031",
+      "dropzoneid": "horizon-r912",
       "firstyearofproduction": "2017",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "190",
@@ -1882,7 +1896,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/1031.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/horizon-r912"
         },
         {
           "type": "youtube",
@@ -1905,7 +1919,7 @@ let kompasroosData = {
       "category": 3,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "467",
+      "dropzoneid": "fusion-r385",
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "230",
       "minsize": "89",
@@ -1915,7 +1929,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/467.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/fusion-r385"
         }
       ],
       "displaycategory": 3,
@@ -1932,7 +1946,7 @@ let kompasroosData = {
       "category": 3,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "74",
+      "dropzoneid": "lotus-r72",
       "manufacturerid": "5947BBA8-8DE6-4F61-AB89-B0B77A74B1EB",
       "maxsize": "190",
       "minsize": "95",
@@ -1942,7 +1956,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/74.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/lotus-r72"
         }
       ],
       "displaycategory": 3,
@@ -1959,7 +1973,7 @@ let kompasroosData = {
       "category": 3,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "1",
+      "dropzoneid": "safire-r2",
       "firstyearofproduction": "1998",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "remarks": {
@@ -1971,7 +1985,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/1.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/safire-r2"
         }
       ],
       "displaycategory": 3,
@@ -1988,7 +2002,7 @@ let kompasroosData = {
       "category": 3,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "301",
+      "dropzoneid": "safire-2-r237",
       "firstyearofproduction": "2001",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "maxsize": "229",
@@ -2004,7 +2018,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/301.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/safire-2-r237"
         },
         {
           "type": "youtube",
@@ -2042,7 +2056,7 @@ let kompasroosData = {
       "category": 3,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "1028",
+      "dropzoneid": "s-fire-r909",
       "firstyearofproduction": "2017",
       "manufacturerid": "29A49954-54B1-4F77-A399-CCEFCCC9B3B9",
       "maxsize": "229",
@@ -2052,7 +2066,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/1028.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/s-fire-r909"
         },
         {
           "type": "youtube",
@@ -2085,10 +2099,16 @@ let kompasroosData = {
       "category": 3,
       "cells": "9",
       "commontype": 1,
+      "dropzoneid": "safire-3-r863",
       "firstyearofproduction": "2016",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "url": "http://www.nzaerosports.com/canopies/icarus-safire3",
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/main-canopies/safire-3-r863"
+        },
         {
           "type": "youtube",
           "title": "The story",
@@ -2120,7 +2140,7 @@ let kompasroosData = {
       "category": 3,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "60",
+      "dropzoneid": "strong-z-po-r61",
       "manufacturerid": "ACD6855E-9F54-4E27-B498-14C9693FB7EF",
       "maxsize": "210",
       "minsize": "130",
@@ -2130,7 +2150,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/60.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/strong-z-po-r61"
         }
       ],
       "displaycategory": 3,
@@ -2147,7 +2167,7 @@ let kompasroosData = {
       "category": 3,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "451",
+      "dropzoneid": "faqtor-r373",
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
       "maxsize": "150",
       "minsize": "97",
@@ -2156,7 +2176,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/451.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/faqtor-r373"
         }
       ],
       "displaycategory": 3,
@@ -2197,14 +2217,14 @@ let kompasroosData = {
       "cells": "9",
       "category": 3,
       "commontype": 0,
-      "dropzoneid": "898",
+      "dropzoneid": "hornet-r773",
       "manufacturerid": "E0E33BAB-7067-42EC-96E3-FD6B35926A11",
       "xbraced": false,
       "links": [
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/898.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/hornet-r773"
         }
       ],
       "displaycategory": 3,
@@ -2220,14 +2240,14 @@ let kompasroosData = {
       "category": 3,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "433",
+      "dropzoneid": "zpexe-r365",
       "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
       "xbraced": false,
       "links": [
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/433.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/zpexe-r365"
         }
       ],
       "displaycategory": 3,
@@ -2244,7 +2264,7 @@ let kompasroosData = {
       "category": 3,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "973",
+      "dropzoneid": "volt-r854",
       "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
       "maxsize": "215",
       "minsize": "125",
@@ -2253,7 +2273,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/973.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/volt-r854"
         },
         {
           "type": "youtube",
@@ -2301,7 +2321,7 @@ let kompasroosData = {
       "cells": "7",
       "category": 3,
       "commontype": 0,
-      "dropzoneid": "42",
+      "dropzoneid": "express-r43",
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "200",
       "minsize": "125",
@@ -2311,7 +2331,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/42.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/express-r43"
         }
       ],
       "displaycategory": 3,
@@ -2328,7 +2348,7 @@ let kompasroosData = {
       "cells": "7",
       "category": 3,
       "commontype": 0,
-      "dropzoneid": "43",
+      "dropzoneid": "prodigy-r44",
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "250",
       "minsize": "150",
@@ -2338,7 +2358,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/43.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/prodigy-r44"
         }
       ],
       "displaycategory": 3,
@@ -2355,7 +2375,7 @@ let kompasroosData = {
       "category": 3,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "690",
+      "dropzoneid": "sentry-r569",
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "230",
       "minsize": "99",
@@ -2365,7 +2385,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/690.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/sentry-r569"
         }
       ],
       "displaycategory": 3,
@@ -2382,14 +2402,14 @@ let kompasroosData = {
       "category": 3,
       "cells": "7",
       "commontype": 0,
-      "dropzoneid": "967",
+      "dropzoneid": "matrix-r842",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "url": "http://www.nzaerosports.com/canopies/icarus-matrix",
       "links": [
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/967.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/matrix-r842"
         },
         {
           "type": "youtube",
@@ -2412,7 +2432,7 @@ let kompasroosData = {
       "category": 3,
       "cells": "15",
       "commontype": 0,
-      "dropzoneid": "968",
+      "dropzoneid": "matrix-2-r843",
       "firstyearofproduction": "2013",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "url": "http://www.nzaerosports.com/canopies/daedalus-matrix2",
@@ -2421,7 +2441,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/968.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/matrix-2-r843"
         }
       ],
       "displaycategory": 3,
@@ -2438,7 +2458,7 @@ let kompasroosData = {
       "category": 3,
       "cells": "7",
       "commontype": 0,
-      "dropzoneid": "612",
+      "dropzoneid": "skipper-r612",
       "manufacturerid": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
       "maxsize": "190",
       "minsize": "110",
@@ -2448,7 +2468,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/612.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/skipper-r612"
         }
       ],
       "displaycategory": 3,
@@ -2485,7 +2505,7 @@ let kompasroosData = {
       "category": 3,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "613",
+      "dropzoneid": "magellan-r613",
       "manufacturerid": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
       "maxsize": "190",
       "minsize": "100",
@@ -2495,7 +2515,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/613.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/magellan-r613"
         }
       ],
       "displaycategory": 3,
@@ -2534,9 +2554,15 @@ let kompasroosData = {
       "maxsize": "210",
       "minsize": "116",
       "commontype": 0,
+      "dropzoneid": "epicene-r948",
       "manufacturerid": "CD51335E-1304-4391-9672-A6058F97C352",
       "url": "https://squirrel.ws/parachutes/skydiving/epicene",
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/main-canopies/epicene-r948"
+        },
         {
           "type": "vimeo",
           "title": "Epicene promo video",
@@ -2626,7 +2652,7 @@ let kompasroosData = {
       "category": 4,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "16",
+      "dropzoneid": "stiletto-r17",
       "firstyearofproduction": "1992",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "190",
@@ -2639,7 +2665,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/16.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/stiletto-r17"
         }
       ],
       "displaycategory": 4,
@@ -2672,7 +2698,7 @@ let kompasroosData = {
       "category": 4,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "49",
+      "dropzoneid": "springo-r50",
       "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
       "planform": "28.0",
       "planformcells": "8",
@@ -2681,7 +2707,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/49.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/springo-r50"
         }
       ],
       "displaycategory": 4,
@@ -2733,14 +2759,14 @@ let kompasroosData = {
       "category": 4,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "25",
+      "dropzoneid": "batwing-r26",
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "xbraced": false,
       "links": [
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/25.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/batwing-r26"
         }
       ],
       "displaycategory": 4,
@@ -2789,14 +2815,14 @@ let kompasroosData = {
       "category": 4,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "32",
+      "dropzoneid": "cobalt-r33",
       "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
       "xbraced": false,
       "links": [
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/32.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/cobalt-r33"
         }
       ],
       "displaycategory": 4,
@@ -2813,14 +2839,14 @@ let kompasroosData = {
       "category": 4,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "34",
+      "dropzoneid": "alpha-r35",
       "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
       "xbraced": false,
       "links": [
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/34.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/alpha-r35"
         }
       ],
       "displaycategory": 4,
@@ -2837,14 +2863,14 @@ let kompasroosData = {
       "category": 4,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "33",
+      "dropzoneid": "space-r34",
       "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
       "xbraced": false,
       "links": [
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/33.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/space-r34"
         }
       ],
       "displaycategory": 4,
@@ -2878,7 +2904,7 @@ let kompasroosData = {
       "category": 4,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "419",
+      "dropzoneid": "vision-r352",
       "firstyearofproduction": "2005",
       "lastyearofproduction": "2010",
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
@@ -2891,7 +2917,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/419.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/vision-r352"
         }
       ],
       "displaycategory": 4,
@@ -2908,7 +2934,7 @@ let kompasroosData = {
       "category": 4,
       "cells": "7",
       "commontype": 1,
-      "dropzoneid": "35",
+      "dropzoneid": "diablo-r36",
       "firstyearofproduction": "2000",
       "lastyearofproduction": "2006",
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
@@ -2921,7 +2947,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/35.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/diablo-r36"
         }
       ],
       "displaycategory": 4,
@@ -2938,7 +2964,7 @@ let kompasroosData = {
       "category": 4,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "931",
+      "dropzoneid": "zulu-r806",
       "firstyearofproduction": "2015",
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "152",
@@ -2949,7 +2975,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/931.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/zulu-r806"
         },
         {
           "type": "youtube",
@@ -2993,7 +3019,7 @@ let kompasroosData = {
       "cells": "9",
       "category": 4,
       "commontype": 0,
-      "dropzoneid": "586",
+      "dropzoneid": "rage-r469",
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "230",
       "minsize": "90",
@@ -3007,7 +3033,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/586.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/rage-r469"
         }
       ],
       "displaycategory": 4,
@@ -3024,14 +3050,14 @@ let kompasroosData = {
       "cells": 9,
       "category": 4,
       "commontype": 0,
-      "dropzoneid": "452",
+      "dropzoneid": "fandango-r374",
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
       "xbraced": false,
       "links": [
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/452.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/fandango-r374"
         }
       ],
       "displaycategory": 4,
@@ -3089,7 +3115,7 @@ let kompasroosData = {
       "category": 4,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "432",
+      "dropzoneid": "hurricane-r364",
       "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
       "maxsize": "170",
       "minsize": "95",
@@ -3098,7 +3124,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/432.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/hurricane-r364"
         },
         {
           "type": "youtube",
@@ -3143,7 +3169,7 @@ let kompasroosData = {
       "category": 4,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "435",
+      "dropzoneid": "firebolt-r367",
       "manufacturerid": "ACCD2816-15E8-4668-B217-3F345AA6854F",
       "maxsize": "396",
       "minsize": "84",
@@ -3153,7 +3179,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/435.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/firebolt-r367"
         }
       ],
       "displaycategory": 4,
@@ -3170,7 +3196,7 @@ let kompasroosData = {
       "category": 4,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "4",
+      "dropzoneid": "crossfire-r5",
       "firstyearofproduction": "1999",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "remarks": {
@@ -3182,7 +3208,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/4.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/crossfire-r5"
         }
       ],
       "displaycategory": 4,
@@ -3200,7 +3226,7 @@ let kompasroosData = {
       "maxsize": "170",
       "minsize": "105",
       "category": 4,
-      "dropzoneid": "974",
+      "dropzoneid": "ventus-hybrid-r855",
       "commontype": 0,
       "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
       "url": "http://parachutesystems.com/ventus",
@@ -3209,7 +3235,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/974.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/ventus-hybrid-r855"
         }
       ],
       "displaycategory": 4,
@@ -3226,7 +3252,7 @@ let kompasroosData = {
       "category": 5,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "614",
+      "dropzoneid": "odyssey-r614",
       "manufacturerid": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
       "maxsize": "150",
       "minsize": "85",
@@ -3236,7 +3262,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/614.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/odyssey-r614"
         }
       ],
       "displaycategory": 5,
@@ -3273,7 +3299,7 @@ let kompasroosData = {
       "category": 5,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "302",
+      "dropzoneid": "crossfire-2-r238",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "maxsize": "169",
       "minsize": "89",
@@ -3285,7 +3311,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/302.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/crossfire-2-r238"
         },
         {
           "type": "youtube",
@@ -3313,10 +3339,11 @@ let kompasroosData = {
     },
     "6F21BE85-8902-4392-967C-8DE5FAAD478C": {
       "id": "6F21BE85-8902-4392-967C-8DE5FAAD478C",
-      "name": "Crossfire 3",
+      "name": "crossfire-3-r875",
       "category": 5,
       "cells": "9",
       "commontype": 1,
+      "dropzoneid": "",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "firstyearofproduction": "2016",
       "url": "http://www.nzaerosports.com/canopies/icarus-crossfire3",
@@ -3353,8 +3380,8 @@ let kompasroosData = {
       "manufacturername": "NZ Aerosports",
       "manufacturerurl": "http://www.nzaerosports.com",
       "manufacturerslug": "nz_aerosports",
-      "search": "crossfire3|nzaerosports",
-      "slug": "nz_aerosports-crossfire_3"
+      "search": "crossfire3r875|nzaerosports",
+      "slug": "nz_aerosports-crossfire-3-r875"
     },
     "B66CC389-2650-4205-B30B-5D279ACDE8AB": {
       "id": "B66CC389-2650-4205-B30B-5D279ACDE8AB",
@@ -3362,10 +3389,16 @@ let kompasroosData = {
       "category": 5,
       "cells": "9",
       "commontype": 1,
+      "dropzoneid": "x-fire-r910",
       "manufacturerid": "29A49954-54B1-4F77-A399-CCEFCCC9B3B9",
       "firstyearofproduction": "2017",
       "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=131&Itemid=675",
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/main-canopies/x-fire-r910"
+        },
         {
           "type": "youtube",
           "title": "Icarus Xfire 92 openings & flight",
@@ -3389,7 +3422,7 @@ let kompasroosData = {
       "category": 5,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "73",
+      "dropzoneid": "samurai-r71",
       "manufacturerid": "5947BBA8-8DE6-4F61-AB89-B0B77A74B1EB",
       "maxsize": "170",
       "minsize": "95",
@@ -3399,7 +3432,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/73.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/samurai-r71"
         }
       ],
       "displaycategory": 5,
@@ -3433,7 +3466,7 @@ let kompasroosData = {
       "category": 5,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "705",
+      "dropzoneid": "radical-r584",
       "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
       "maxsize": "170",
       "minsize": "85",
@@ -3443,7 +3476,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/705.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/radical-r584"
         }
       ],
       "displaycategory": 5,
@@ -3502,7 +3535,7 @@ let kompasroosData = {
       "category": 5,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "591",
+      "dropzoneid": "chilli-r474",
       "manufacturerid": "7AE2A118-7566-456B-9D73-2E6751BF7D7A",
       "maxsize": "150",
       "minsize": "80",
@@ -3510,7 +3543,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/591.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/chilli-r474"
         },
         {
           "type": "pdf",
@@ -3533,7 +3566,7 @@ let kompasroosData = {
       "category": 5,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "465",
+      "dropzoneid": "katana-r383",
       "firstyearofproduction": "2003",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "170",
@@ -3543,7 +3576,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/465.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/katana-r383"
         },
         {
           "type": "youtube",
@@ -3566,7 +3599,7 @@ let kompasroosData = {
       "category": 5,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "23",
+      "dropzoneid": "vengeance-r24",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "170",
       "minsize": "89",
@@ -3579,7 +3612,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/23.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/vengeance-r24"
         }
       ],
       "displaycategory": 5,
@@ -3596,14 +3629,14 @@ let kompasroosData = {
       "cells": "9",
       "category": 5,
       "commontype": 0,
-      "dropzoneid": "453",
+      "dropzoneid": "x-wing-r375",
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
       "xbraced": false,
       "links": [
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/453.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/x-wing-r375"
         }
       ],
       "displaycategory": 5,
@@ -3620,7 +3653,7 @@ let kompasroosData = {
       "cells": "9",
       "category": 5,
       "commontype": 0,
-      "dropzoneid": "567",
+      "dropzoneid": "rage-r454",
       "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
       "maxsize": "107",
       "minsize": "86",
@@ -3634,7 +3667,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/567.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/rage-r454"
         }
       ],
       "displaycategory": 5,
@@ -3685,7 +3718,7 @@ let kompasroosData = {
       "category": 5,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "268",
+      "dropzoneid": "nitron-r218",
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "170",
       "minsize": "78",
@@ -3695,7 +3728,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/268.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/nitron-r218"
         }
       ],
       "displaycategory": 5,
@@ -3712,7 +3745,7 @@ let kompasroosData = {
       "category": 5,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "551",
+      "dropzoneid": "mamba-r442",
       "firstyearofproduction": "2005",
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "150",
@@ -3723,7 +3756,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/551.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/mamba-r442"
         }
       ],
       "displaycategory": 5,
@@ -3741,18 +3774,12 @@ let kompasroosData = {
       "minsize": "97",
       "cells": "9",
       "firstyearofproduction": "2017",
-      "dropzoneid": "1036",
       "category": 5,
       "commontype": 0,
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
       "url": "http://www.fluidwings.com/tesla",
       "xbraced": false,
       "links": [
-        {
-          "type": "dropzone.com",
-          "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/1036.html"
-        },
         {
           "type": "vimeo",
           "title": "TESLA Release Video",
@@ -3783,7 +3810,7 @@ let kompasroosData = {
       "category": 6,
       "cells": "21",
       "commontype": 1,
-      "dropzoneid": "761",
+      "dropzoneid": "sensei-r638",
       "firstyearofproduction": "2010",
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "121",
@@ -3793,7 +3820,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/761.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/sensei-r638"
         },
         {
           "type": "youtube",
@@ -3826,7 +3853,7 @@ let kompasroosData = {
       "category": 6,
       "cells": "27",
       "commontype": 0,
-      "dropzoneid": "700",
+      "dropzoneid": "v-max-r579",
       "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
       "url": "http://parachutesystems.com/vmax",
       "xbraced": true,
@@ -3834,7 +3861,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/700.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/v-max-r579"
         }
       ],
       "displaycategory": 6,
@@ -3851,7 +3878,7 @@ let kompasroosData = {
       "category": 6,
       "cells": "21",
       "commontype": 1,
-      "dropzoneid": "8",
+      "dropzoneid": "velocity-r9",
       "firstyearofproduction": "1998",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "120",
@@ -3861,7 +3888,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/8.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/velocity-r9"
         },
         {
           "type": "youtube",
@@ -3889,7 +3916,7 @@ let kompasroosData = {
       "category": 6,
       "cells": "21",
       "commontype": 1,
-      "dropzoneid": "701",
+      "dropzoneid": "comp-velocity-r580",
       "firstyearofproduction": "2009",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "111",
@@ -3899,7 +3926,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/701.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/comp-velocity-r580"
         },
         {
           "type": "skydivemag",
@@ -3922,14 +3949,14 @@ let kompasroosData = {
       "category": 6,
       "cells": "21",
       "commontype": 0,
-      "dropzoneid": "265",
+      "dropzoneid": "ninja-r216",
       "manufacturerid": "35AF72C6-F1D1-473D-99D0-804769E3E768",
       "xbraced": true,
       "links": [
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/265.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/ninja-r216"
         }
       ],
       "displaycategory": 6,
@@ -3961,7 +3988,7 @@ let kompasroosData = {
       "category": 6,
       "cells": "21",
       "commontype": 1,
-      "dropzoneid": "276",
+      "dropzoneid": "xaos-21-r219",
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "135",
       "minsize": "68",
@@ -3971,7 +3998,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/276.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/xaos-21-r219"
         }
       ],
       "displaycategory": 6,
@@ -3988,7 +4015,7 @@ let kompasroosData = {
       "category": 6,
       "cells": "27",
       "commontype": 1,
-      "dropzoneid": "426",
+      "dropzoneid": "xaos-27-r358",
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "118",
       "minsize": "58",
@@ -3998,7 +4025,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/426.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/xaos-27-r358"
         }
       ],
       "displaycategory": 6,
@@ -4015,7 +4042,7 @@ let kompasroosData = {
       "category": 6,
       "cells": "27",
       "commontype": 1,
-      "dropzoneid": "2",
+      "dropzoneid": "extreme-vx-r3",
       "firstyearofproduction": "1999",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "maxsize": "119",
@@ -4030,7 +4057,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/2.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/extreme-vx-r3"
         }
       ],
       "displaycategory": 6,
@@ -4047,7 +4074,7 @@ let kompasroosData = {
       "category": 6,
       "cells": "21",
       "commontype": 1,
-      "dropzoneid": "5",
+      "dropzoneid": "extreme-fx-r6",
       "firstyearofproduction": "1997",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "maxsize": "119",
@@ -4062,7 +4089,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/5.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/extreme-fx-r6"
         }
       ],
       "displaycategory": 6,
@@ -4079,7 +4106,7 @@ let kompasroosData = {
       "category": 6,
       "cells": "21",
       "commontype": 1,
-      "dropzoneid": "571",
+      "dropzoneid": "neos-r456",
       "manufacturerid": "29A49954-54B1-4F77-A399-CCEFCCC9B3B9",
       "maxsize": "119",
       "minsize": "59",
@@ -4089,7 +4116,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/571.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/neos-r456"
         },
         {
           "type": "youtube",
@@ -4111,7 +4138,7 @@ let kompasroosData = {
       "category": 6,
       "cells": "27",
       "commontype": 0,
-      "dropzoneid": "762",
+      "dropzoneid": "jvx-r639",
       "firstyearofproduction": "2005",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "maxsize": "119",
@@ -4122,7 +4149,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/762.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/jvx-r639"
         },
         {
           "type": "youtube",
@@ -4144,7 +4171,7 @@ let kompasroosData = {
       "category": 6,
       "cells": "21",
       "commontype": 0,
-      "dropzoneid": "763",
+      "dropzoneid": "jfx-r640",
       "firstyearofproduction": "2010",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "maxsize": "119",
@@ -4154,7 +4181,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/763.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/jfx-r640"
         },
         {
           "type": "youtube",
@@ -4198,14 +4225,14 @@ let kompasroosData = {
       "cells": "27",
       "category": 6,
       "commontype": 0,
-      "dropzoneid": "473",
+      "dropzoneid": "onyx-r390",
       "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
       "xbraced": true,
       "links": [
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/473.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/onyx-r390"
         }
       ],
       "displaycategory": 6,
@@ -4247,7 +4274,7 @@ let kompasroosData = {
       "category": 7,
       "cells": "27",
       "commontype": 0,
-      "dropzoneid": "897",
+      "dropzoneid": "peregrine-r772",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "remarks": {
         "en": "Not freely available",
@@ -4258,7 +4285,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/897.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/peregrine-r772"
         },
         {
           "type": "youtube",
@@ -4296,7 +4323,7 @@ let kompasroosData = {
       "category": 7,
       "cells": "21",
       "commontype": 0,
-      "dropzoneid": "971",
+      "dropzoneid": "valkyrie-r852",
       "firstyearofproduction": "2014",
       "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
       "maxsize": "103",
@@ -4306,7 +4333,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/971.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/valkyrie-r852"
         },
         {
           "type": "youtube",
@@ -4339,7 +4366,7 @@ let kompasroosData = {
       "category": 7,
       "cells": "27",
       "commontype": 0,
-      "dropzoneid": "965",
+      "dropzoneid": "petra-r840",
       "firstyearofproduction": "2013",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "url": "http://www.nzaerosports.com/gallery/jpx-petra",
@@ -4347,7 +4374,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/965.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/petra-r840"
         },
         {
           "type": "youtube",
@@ -4389,7 +4416,7 @@ let kompasroosData = {
       "category": 7,
       "cells": "21",
       "commontype": 0,
-      "dropzoneid": "964",
+      "dropzoneid": "leia-r839",
       "firstyearofproduction": "2014",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "url": "http://www.nzaerosports.com/gallery/daedalus-leia",
@@ -4397,7 +4424,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/964.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/leia-r839"
         },
         {
           "type": "youtube",
@@ -4449,16 +4476,10 @@ let kompasroosData = {
       "minsize": "67",
       "firstyearofproduction": "2015",
       "category": 7,
-      "dropzoneid": "972",
       "commontype": 0,
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
       "url": "http://www.fluidwings.com/#!helix/cczj",
       "links": [
-        {
-          "type": "dropzone.com",
-          "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/972.html"
-        },
         {
           "type": "vimeo",
           "title": "Helix release video",
@@ -4484,18 +4505,11 @@ let kompasroosData = {
       "name": "HS",
       "cells": "9",
       "category": 7,
-      "dropzoneid": "1032",
       "commontype": 0,
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
       "url": "http://www.fluidwings.com/hs",
       "xbraced": true,
-      "links": [
-        {
-          "type": "dropzone.com",
-          "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/1032.html"
-        }
-      ],
+      "links": [],
       "displaycategory": 7,
       "calculationcategory": 7,
       "manufacturername": "Fluid Wings",
@@ -4512,17 +4526,11 @@ let kompasroosData = {
       "minsize": "64",
       "firstyearofproduction": "2017",
       "category": 7,
-      "dropzoneid": "1033",
       "commontype": 0,
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
       "url": "http://www.fluidwings.com/hk",
       "xbraced": true,
       "links": [
-        {
-          "type": "dropzone.com",
-          "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/1033.html"
-        },
         {
           "type": "youtube",
           "title": "Fluid Wings HK 60",
@@ -4555,18 +4563,11 @@ let kompasroosData = {
       "minsize": "64",
       "firstyearofproduction": "2017",
       "category": 7,
-      "dropzoneid": "1034",
       "commontype": 0,
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
       "url": "http://www.fluidwings.com/hkterminal",
       "xbraced": true,
-      "links": [
-        {
-          "type": "dropzone.com",
-          "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/1034.html"
-        }
-      ],
+      "links": [],
       "displaycategory": 7,
       "calculationcategory": 7,
       "manufacturername": "Fluid Wings",
@@ -4583,17 +4584,11 @@ let kompasroosData = {
       "minsize": "67",
       "firstyearofproduction": "2017",
       "category": 7,
-      "dropzoneid": "1035",
       "commontype": 0,
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
       "url": "http://www.fluidwings.com/airwolf",
       "xbraced": true,
       "links": [
-        {
-          "type": "dropzone.com",
-          "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/1035.html"
-        },
         {
           "type": "vimeo",
           "title": "AirWolf Release Video",
@@ -4631,10 +4626,17 @@ let kompasroosData = {
       "minsize": "120",
       "category": null,
       "commontype": 0,
+      "dropzoneid": "sonic-r824",
       "manufacturerid": "A82F2C34-DBA9-4A4B-8DE7-7319B00C7DB4",
       "url": "http://www.jojowing.com/cs/sonic/",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/main-canopies/sonic-r824"
+        }
+      ],
       "displaycategory": "?",
       "calculationcategory": 6,
       "manufacturername": "Jojowings",
@@ -4689,13 +4691,19 @@ let kompasroosData = {
       "category": null,
       "cells": "7",
       "commontype": 0,
-      "dropzoneid": "",
+      "dropzoneid": "om7-r962",
       "manufacturerid": "29A49954-54B1-4F77-A399-CCEFCCC9B3B9",
       "maxsize": "229",
       "minsize": "99",
       "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=146&Itemid=676",
       "xbraced": false,
-      "links": [],
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/main-canopies/om7-r962"
+        }
+      ],
       "displaycategory": "?",
       "calculationcategory": 6,
       "manufacturername": "Icarus Canopies",
@@ -4710,7 +4718,7 @@ let kompasroosData = {
       "category": null,
       "cells": "7",
       "commontype": 0,
-      "dropzoneid": "963",
+      "dropzoneid": "kraken-r963",
       "firstyearofproduction": "2019",
       "maxsize": "129",
       "minsize": "169",
@@ -4721,7 +4729,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/963.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/kraken-r963"
         }
       ],
       "displaycategory": "?",
@@ -4738,7 +4746,7 @@ let kompasroosData = {
       "category": null,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "439",
+      "dropzoneid": "ipt-axon-r439",
       "firstyearofproduction": "2019",
       "maxsize": "100",
       "minsize": "260",
@@ -4749,7 +4757,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/439.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/ipt-axon-r439"
         }
       ],
       "displaycategory": "?",
@@ -4765,7 +4773,7 @@ let kompasroosData = {
       "category": null,
       "cells": "9",
       "commontype": 0,
-      "dropzoneid": "440",
+      "dropzoneid": "ipt-furai-r440",
       "firstyearofproduction": "2019",
       "maxsize": "100",
       "minsize": "190",
@@ -4776,7 +4784,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/440.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/ipt-furai-r440"
         }
       ],
       "displaycategory": "?",
@@ -4792,7 +4800,7 @@ let kompasroosData = {
       "category": null,
       "cells": "7",
       "commontype": 0,
-      "dropzoneid": "960",
+      "dropzoneid": "vapor-r960",
       "firstyearofproduction": "2019",
       "maxsize": "100",
       "minsize": "230",
@@ -4803,7 +4811,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/960.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/vapor-r960"
         }
       ],
       "displaycategory": "?",
@@ -4819,7 +4827,7 @@ let kompasroosData = {
       "category": null,
       "cells": "7",
       "commontype": 0,
-      "dropzoneid": "959",
+      "dropzoneid": "helios-r959",
       "firstyearofproduction": "2019",
       "manufacturerid": "75B438C0-B3B7-4D3E-9D64-6058A351A82F",
       "url": "https://www.innovativeparachute.com/helios",
@@ -4828,7 +4836,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/959.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/helios-r959"
         }
       ],
       "displaycategory": "?",
@@ -4844,7 +4852,7 @@ let kompasroosData = {
       "category": 7,
       "cells": "30",
       "commontype": 0,
-      "dropzoneid": "636",
+      "dropzoneid": "scirocco-r636",
       "manufacturerid": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
       "maxsize": "124",
       "minsize": "64",
@@ -4854,7 +4862,7 @@ let kompasroosData = {
         {
           "type": "dropzone.com",
           "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/Detailed/636.html"
+          "url": "https://www.dropzone.com/gear/main-canopies/scirocco-r636"
         },
         {
           "type": "youtube",
@@ -5534,7 +5542,7 @@ let kompasroosData = {
     "skylark_parachutes-odyssey": "C0785556-9B3B-431E-95A0-39911DB1DBD0",
     "skylark_parachutes-odyssey_evo": "19982FDF-FB8B-4178-8F34-127E40964A12",
     "nz_aerosports-crossfire_2": "909AAB5D-37EA-447A-A850-4AEEE03CF1D2",
-    "nz_aerosports-crossfire_3": "6F21BE85-8902-4392-967C-8DE5FAAD478C",
+    "nz_aerosports-crossfire-3-r875": "6F21BE85-8902-4392-967C-8DE5FAAD478C",
     "icarus_canopies-x-fire": "B66CC389-2650-4205-B30B-5D279ACDE8AB",
     "big-air_sportz-samurai": "E761C654-5896-4903-8929-581C229EE0C3",
     "atair_aerodynamics-cobalt_competition": "918A79DF-E421-4207-ADFD-C15C64194642",

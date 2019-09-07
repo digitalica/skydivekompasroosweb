@@ -100,7 +100,7 @@ for (let c in canopiesArray) {
     links.push({
       type: "dropzone.com",
       title: "Dropzone.com",
-      url: 'https://www.dropzone.com/gear/Detailed/' + cObject.dropzoneid + '.html'
+      url: 'https://www.dropzone.com/gear/main-canopies/' + cObject.dropzoneid
     });
   }
   if (cObject.links) {
