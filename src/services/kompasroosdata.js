@@ -213,6 +213,13 @@ let kompasroosData = {
         "nl": "Para-Flite is niet meer actief. Het is onderdeel geworden van Airborne systems rond 2006"
       },
       "slug": "para-flite"
+    },
+    "75B438C0-B3B7-4D3E-9D64-6058A351A82F": {
+      "id": "75B438C0-B3B7-4D3E-9D64-6058A351A82F",
+      "name": "Innovative Parachute Technologies",
+      "countrycode": "us",
+      "shortname": "IPT",
+      "slug": "innovative_parachute_technologies"
     }
   },
   "canopies": {
@@ -4725,6 +4732,112 @@ let kompasroosData = {
       "search": "kraken|nzaerosports",
       "slug": "nz_aerosports-kraken"
     },
+    "6B1E0B26-043D-48EE-883F-59C60BB8F04F": {
+      "id": "6B1E0B26-043D-48EE-883F-59C60BB8F04F",
+      "name": "Axon",
+      "category": null,
+      "cells": "9",
+      "commontype": 0,
+      "dropzoneid": "439",
+      "firstyearofproduction": "2019",
+      "maxsize": "100",
+      "minsize": "260",
+      "manufacturerid": "75B438C0-B3B7-4D3E-9D64-6058A351A82F",
+      "url": "https://www.innovativeparachute.com/axon",
+      "xbraced": false,
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/439.html"
+        }
+      ],
+      "displaycategory": "?",
+      "calculationcategory": 6,
+      "manufacturername": "Innovative Parachute Technologies",
+      "manufacturerslug": "innovative_parachute_technologies",
+      "search": "axon|innovativeparachutetechnologies",
+      "slug": "innovative_parachute_technologies-axon"
+    },
+    "770353E7-3B9A-4969-AE70-268DADA2EF23": {
+      "id": "770353E7-3B9A-4969-AE70-268DADA2EF23",
+      "name": "Furai",
+      "category": null,
+      "cells": "9",
+      "commontype": 0,
+      "dropzoneid": "440",
+      "firstyearofproduction": "2019",
+      "maxsize": "100",
+      "minsize": "190",
+      "manufacturerid": "75B438C0-B3B7-4D3E-9D64-6058A351A82F",
+      "url": "https://www.innovativeparachute.com/furai",
+      "xbraced": false,
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/440.html"
+        }
+      ],
+      "displaycategory": "?",
+      "calculationcategory": 6,
+      "manufacturername": "Innovative Parachute Technologies",
+      "manufacturerslug": "innovative_parachute_technologies",
+      "search": "furai|innovativeparachutetechnologies",
+      "slug": "innovative_parachute_technologies-furai"
+    },
+    "BF43A017-C447-4FF6-9685-D57DD628A6D1": {
+      "id": "BF43A017-C447-4FF6-9685-D57DD628A6D1",
+      "name": "Vapor",
+      "category": null,
+      "cells": "7",
+      "commontype": 0,
+      "dropzoneid": "960",
+      "firstyearofproduction": "2019",
+      "maxsize": "100",
+      "minsize": "230",
+      "manufacturerid": "75B438C0-B3B7-4D3E-9D64-6058A351A82F",
+      "url": "https://www.innovativeparachute.com/vapor",
+      "xbraced": false,
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/960.html"
+        }
+      ],
+      "displaycategory": "?",
+      "calculationcategory": 6,
+      "manufacturername": "Innovative Parachute Technologies",
+      "manufacturerslug": "innovative_parachute_technologies",
+      "search": "vapor|innovativeparachutetechnologies",
+      "slug": "innovative_parachute_technologies-vapor"
+    },
+    "00CA8EEA-7D47-43EC-8696-DDC49D54C4D8": {
+      "id": "00CA8EEA-7D47-43EC-8696-DDC49D54C4D8",
+      "name": "Helios",
+      "category": null,
+      "cells": "7",
+      "commontype": 0,
+      "dropzoneid": "959",
+      "firstyearofproduction": "2019",
+      "manufacturerid": "75B438C0-B3B7-4D3E-9D64-6058A351A82F",
+      "url": "https://www.innovativeparachute.com/helios",
+      "xbraced": false,
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/959.html"
+        }
+      ],
+      "displaycategory": "?",
+      "calculationcategory": 6,
+      "manufacturername": "Innovative Parachute Technologies",
+      "manufacturerslug": "innovative_parachute_technologies",
+      "search": "helios|innovativeparachutetechnologies",
+      "slug": "innovative_parachute_technologies-helios"
+    },
     "A2252BB9-ED7C-4EEF-AB7B-18B6B4DC774E": {
       "id": "A2252BB9-ED7C-4EEF-AB7B-18B6B4DC774E",
       "name": "Scirocco",
@@ -4767,6 +4880,7 @@ let kompasroosData = {
     "F0C4AF1D-A9BE-4560-B8E4-4F38616B30D4",
     "E0142D15-96D2-461C-8915-9C1625C9C5EB",
     "C5820EA7-FD28-48D5-9BEC-0D830639B02A",
+    "6B1E0B26-043D-48EE-883F-59C60BB8F04F",
     "600122AA-A33A-4AF6-A326-8B9E251219D9",
     "2A2D16C5-D208-44AB-AF97-1398405EC1A5",
     "F0B876B6-F2C6-4560-BF4D-A22DD3C070ED",
@@ -4807,10 +4921,12 @@ let kompasroosData = {
     "ABB72EAB-6276-42E8-9681-19FBCB846FC1",
     "8BF69609-7C2D-4EF6-97F8-8A0530893D02",
     "371ABAEA-0A5B-4832-BB52-135A20A2C74F",
+    "770353E7-3B9A-4969-AE70-268DADA2EF23",
     "E1297544-310F-4FBD-9436-98368303E71E",
     "8A64E433-8856-4329-9B5E-2BF6F2D37632",
     "13C2B0F2-82C3-4996-A8D8-D42872879587",
     "5A77CCA4-6BCF-4A6D-87BA-091CE6397E24",
+    "00CA8EEA-7D47-43EC-8696-DDC49D54C4D8",
     "30592423-330F-4E41-9BCD-9CA85E06D425",
     "9E7E3E3C-F4DE-41EE-A08B-15E8CCA08B9A",
     "DC694B4B-EF96-4E4C-993C-601929279178",
@@ -4911,6 +5027,7 @@ let kompasroosData = {
     "6BC329AA-C9C7-4372-990E-46E3CA20ECF2",
     "858EEBF3-169F-4AE7-99A2-A7CC8D025D4E",
     "23498D9C-045C-4D99-AAD7-E01CFDBC717B",
+    "BF43A017-C447-4FF6-9685-D57DD628A6D1",
     "EB83326F-B055-46C7-8754-74C9033EE41E",
     "639CE7C8-8907-4F07-9AE6-C5D61B7E8341",
     "E20AECA2-ECF5-4985-9EF2-0A01130B084B",
@@ -4994,6 +5111,10 @@ let kompasroosData = {
     "F46272C1-526B-41A1-88B1-8A4F7CE7BAA9",
     "B831B534-D7A7-4063-A1C5-694D1FEE9F22",
     "B66CC389-2650-4205-B30B-5D279ACDE8AB",
+    "6B1E0B26-043D-48EE-883F-59C60BB8F04F",
+    "770353E7-3B9A-4969-AE70-268DADA2EF23",
+    "00CA8EEA-7D47-43EC-8696-DDC49D54C4D8",
+    "BF43A017-C447-4FF6-9685-D57DD628A6D1",
     "CDC9F86A-5F6C-4334-8887-4A4AC7D6C24E",
     "A8C274D3-DE56-413D-AAA2-C8EE6D7CA3BE",
     "89DA27EF-860B-4FF9-9917-EF81A266FAFB",
@@ -5234,12 +5355,15 @@ let kompasroosData = {
     "639CE7C8-8907-4F07-9AE6-C5D61B7E8341",
     "B66CC389-2650-4205-B30B-5D279ACDE8AB",
     "3E43D7CE-DDFD-446F-B6D4-BB793ABB46A6",
+    "6B1E0B26-043D-48EE-883F-59C60BB8F04F",
     "EA08A05D-B79A-4687-AED8-AFB272287ADA",
     "AD3229CE-7B38-4BC8-A1C6-73D6DF651198",
     "86F21B4A-D883-4391-A792-D2F43259942B",
     "65BE2372-98A5-4109-9D88-16550BD74A3D",
     "084EE6A7-9F1B-4102-ABF3-8F80E4E83132",
+    "770353E7-3B9A-4969-AE70-268DADA2EF23",
     "13C2B0F2-82C3-4996-A8D8-D42872879587",
+    "00CA8EEA-7D47-43EC-8696-DDC49D54C4D8",
     "47F5A0C0-1B04-4F5F-B9BF-6569E72C6121",
     "EE53A162-A74B-4899-AD30-CCE659CC5AF4",
     "F996C3D1-5684-45BF-9B30-9B0ADEC987C2",
@@ -5251,6 +5375,7 @@ let kompasroosData = {
     "0858835E-BC3A-43D9-A085-3DF96D70D3ED",
     "A8C274D3-DE56-413D-AAA2-C8EE6D7CA3BE",
     "858EEBF3-169F-4AE7-99A2-A7CC8D025D4E",
+    "BF43A017-C447-4FF6-9685-D57DD628A6D1",
     "EB83326F-B055-46C7-8754-74C9033EE41E",
     "67E749A9-324E-4322-B0D2-015974DD31A7",
     "B8B42051-2947-4461-A1A8-439BE861DB39",
@@ -5291,6 +5416,7 @@ let kompasroosData = {
     "jojowings": "A82F2C34-DBA9-4A4B-8DE7-7319B00C7DB4",
     "skylark_parachutes": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
     "para-flite": "571E4861-2CCE-4276-A5B2-046A38F4870E",
+    "innovative_parachute_technologies": "75B438C0-B3B7-4D3E-9D64-6058A351A82F",
     "performance_designs-navigator": "CB50EA97-DACF-4CCB-9D09-BA89C6C4B967",
     "performance_designs-pd_f111_serie_7_cell": "3231807B-22F3-4D6B-A490-403CC0018042",
     "performance_designs-pd_f111_serie_9_cell": "393488EE-E78B-4DFB-9995-0E44AB538F42",
@@ -5456,6 +5582,10 @@ let kompasroosData = {
     "jojowings-xf15": "89DA27EF-860B-4FF9-9917-EF81A266FAFB",
     "icarus_canopies-om-7": "F46272C1-526B-41A1-88B1-8A4F7CE7BAA9",
     "nz_aerosports-kraken": "EE53A162-A74B-4899-AD30-CCE659CC5AF4",
+    "innovative_parachute_technologies-axon": "6B1E0B26-043D-48EE-883F-59C60BB8F04F",
+    "innovative_parachute_technologies-furai": "770353E7-3B9A-4969-AE70-268DADA2EF23",
+    "innovative_parachute_technologies-vapor": "BF43A017-C447-4FF6-9685-D57DD628A6D1",
+    "innovative_parachute_technologies-helios": "00CA8EEA-7D47-43EC-8696-DDC49D54C4D8",
     "skylark_parachutes-scirocco": "A2252BB9-ED7C-4EEF-AB7B-18B6B4DC774E"
   }
 };

@@ -188,6 +188,12 @@
         "en": "Para-Flite is no longer active. It became part of Airborne systems around 2006",
         "nl": "Para-Flite is niet meer actief. Het is onderdeel geworden van Airborne systems rond 2006"
       }
+    },
+    {
+      "id": "75B438C0-B3B7-4D3E-9D64-6058A351A82F",
+      "name": "Innovative Parachute Technologies",
+      "countrycode": "us",
+      "shortname": "IPT"
     }
   ]
 }
