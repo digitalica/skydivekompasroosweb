@@ -42,7 +42,7 @@ let kompasroosData = {
         "nl": "Parachute Systems heette voorheen Chute Shop."
       },
       "shortname": "Parachute Systems",
-      "url": "http://www.parachutesystems.co.za/",
+      "url": "http://parachutesystems.com/",
       "slug": "parachute_systems"
     },
     "B1F74487-55A3-4A0C-9A7E-463B508E3438": {
@@ -1009,7 +1009,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Parachute Systems",
-      "manufacturerurl": "http://www.parachutesystems.co.za/",
+      "manufacturerurl": "http://parachutesystems.com/",
       "manufacturerslug": "parachute_systems",
       "search": "zepostudent|parachutesystems",
       "slug": "parachute_systems-zepo_student"
@@ -1113,7 +1113,7 @@ let kompasroosData = {
       "displaycategory": 1,
       "calculationcategory": 1,
       "manufacturername": "Parachute Systems",
-      "manufacturerurl": "http://www.parachutesystems.co.za/",
+      "manufacturerurl": "http://parachutesystems.com/",
       "manufacturerslug": "parachute_systems",
       "search": "zp|parachutesystems",
       "slug": "parachute_systems-zp"
@@ -2253,7 +2253,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Parachute Systems",
-      "manufacturerurl": "http://www.parachutesystems.co.za/",
+      "manufacturerurl": "http://parachutesystems.com/",
       "manufacturerslug": "parachute_systems",
       "search": "zepoexe|parachutesystems",
       "slug": "parachute_systems-zepo_exe"
@@ -2285,7 +2285,7 @@ let kompasroosData = {
       "displaycategory": 3,
       "calculationcategory": 3,
       "manufacturername": "Parachute Systems",
-      "manufacturerurl": "http://www.parachutesystems.co.za/",
+      "manufacturerurl": "http://parachutesystems.com/",
       "manufacturerslug": "parachute_systems",
       "search": "volt|parachutesystems",
       "slug": "parachute_systems-volt"
@@ -3141,7 +3141,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Parachute Systems",
-      "manufacturerurl": "http://www.parachutesystems.co.za/",
+      "manufacturerurl": "http://parachutesystems.com/",
       "manufacturerslug": "parachute_systems",
       "search": "hurricane|parachutesystems",
       "slug": "parachute_systems-hurricane"
@@ -3158,7 +3158,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Parachute Systems",
-      "manufacturerurl": "http://www.parachutesystems.co.za/",
+      "manufacturerurl": "http://parachutesystems.com/",
       "manufacturerslug": "parachute_systems",
       "search": "vixen|parachutesystems",
       "slug": "parachute_systems-vixen"
@@ -3241,7 +3241,7 @@ let kompasroosData = {
       "displaycategory": 4,
       "calculationcategory": 4,
       "manufacturername": "Parachute Systems",
-      "manufacturerurl": "http://www.parachutesystems.co.za/",
+      "manufacturerurl": "http://parachutesystems.com/",
       "manufacturerslug": "parachute_systems",
       "search": "ventushybrid|parachutesystems",
       "slug": "parachute_systems-ventus_hybrid"
@@ -3867,7 +3867,7 @@ let kompasroosData = {
       "displaycategory": 6,
       "calculationcategory": 6,
       "manufacturername": "Parachute Systems",
-      "manufacturerurl": "http://www.parachutesystems.co.za/",
+      "manufacturerurl": "http://parachutesystems.com/",
       "manufacturerslug": "parachute_systems",
       "search": "vmax|parachutesystems",
       "slug": "parachute_systems-v-max"
