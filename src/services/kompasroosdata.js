@@ -4697,6 +4697,34 @@ let kompasroosData = {
       "search": "om7|icaruscanopies",
       "slug": "icarus_canopies-om-7"
     },
+    "EE53A162-A74B-4899-AD30-CCE659CC5AF4": {
+      "id": "EE53A162-A74B-4899-AD30-CCE659CC5AF4",
+      "name": "Kraken",
+      "category": null,
+      "cells": "7",
+      "commontype": 0,
+      "dropzoneid": "963",
+      "firstyearofproduction": "2019",
+      "maxsize": "129",
+      "minsize": "169",
+      "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
+      "url": "https://www.nzaerosports.com/product/kraken/",
+      "xbraced": false,
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/Detailed/963.html"
+        }
+      ],
+      "displaycategory": "?",
+      "calculationcategory": 6,
+      "manufacturername": "NZ Aerosports",
+      "manufacturerurl": "http://www.nzaerosports.com",
+      "manufacturerslug": "nz_aerosports",
+      "search": "kraken|nzaerosports",
+      "slug": "nz_aerosports-kraken"
+    },
     "A2252BB9-ED7C-4EEF-AB7B-18B6B4DC774E": {
       "id": "A2252BB9-ED7C-4EEF-AB7B-18B6B4DC774E",
       "name": "Scirocco",
@@ -4797,6 +4825,7 @@ let kompasroosData = {
     "9EE6B1E3-564D-4310-81FC-8BD152FD7B61",
     "7428649F-5425-4F5A-A704-14DC383611C9",
     "3CADD8FE-CBFE-4390-9306-DB453623D44C",
+    "EE53A162-A74B-4899-AD30-CCE659CC5AF4",
     "de98ce5e-513e-454a-bfdb-fc8ff93ee92e",
     "1EE39B10-69B0-4434-BCA1-5A26BADAFD27",
     "52B5C7B1-D277-4358-AECA-714E0E219590",
@@ -4981,6 +5010,7 @@ let kompasroosData = {
     "084EE6A7-9F1B-4102-ABF3-8F80E4E83132",
     "47F5A0C0-1B04-4F5F-B9BF-6569E72C6121",
     "D5522A6B-5A85-4C59-A0E7-D424A96E94E4",
+    "EE53A162-A74B-4899-AD30-CCE659CC5AF4",
     "de98ce5e-513e-454a-bfdb-fc8ff93ee92e",
     "947b67ce-177f-4c70-8fa4-10ab3c171d29",
     "9D021CA3-A103-4CB9-B053-A7ABCC4BBC96",
@@ -5211,6 +5241,7 @@ let kompasroosData = {
     "084EE6A7-9F1B-4102-ABF3-8F80E4E83132",
     "13C2B0F2-82C3-4996-A8D8-D42872879587",
     "47F5A0C0-1B04-4F5F-B9BF-6569E72C6121",
+    "EE53A162-A74B-4899-AD30-CCE659CC5AF4",
     "F996C3D1-5684-45BF-9B30-9B0ADEC987C2",
     "F566B784-F61C-49A6-89A1-BEFF497487D2",
     "136EE958-6048-4129-B1B1-D0E4B11147EC",
@@ -5424,6 +5455,7 @@ let kompasroosData = {
     "jojowings-raptor": "CDC9F86A-5F6C-4334-8887-4A4AC7D6C24E",
     "jojowings-xf15": "89DA27EF-860B-4FF9-9917-EF81A266FAFB",
     "icarus_canopies-om-7": "F46272C1-526B-41A1-88B1-8A4F7CE7BAA9",
+    "nz_aerosports-kraken": "EE53A162-A74B-4899-AD30-CCE659CC5AF4",
     "skylark_parachutes-scirocco": "A2252BB9-ED7C-4EEF-AB7B-18B6B4DC774E"
   }
 };
