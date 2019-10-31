@@ -4243,6 +4243,33 @@ let kompasroosData = {
       "search": "onyx|atairaerodynamics",
       "slug": "atair_aerodynamics-onyx"
     },
+    "9556811C-4FA7-4A1A-9915-61295E9EC259": {
+      "id": "9556811C-4FA7-4A1A-9915-61295E9EC259",
+      "name": "Echo",
+      "maxsize": "170",
+      "minsize": "107",
+      "cells": "9",
+      "firstyearofproduction": "2019",
+      "category": null,
+      "commontype": 0,
+      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
+      "url": "https://www.fluidwings.com/echo",
+      "xbraced": false,
+      "links": [
+        {
+          "type": "vimeo",
+          "title": "Echo Teaser",
+          "url": "https://vimeo.com/316856335"
+        }
+      ],
+      "displaycategory": "?",
+      "calculationcategory": 6,
+      "manufacturername": "Fluid Wings",
+      "manufacturerurl": "http://www.fluidwings.com/",
+      "manufacturerslug": "fluid_wings",
+      "search": "echo|fluidwings",
+      "slug": "fluid_wings-echo"
+    },
     "13C2B0F2-82C3-4996-A8D8-D42872879587": {
       "id": "13C2B0F2-82C3-4996-A8D8-D42872879587",
       "name": "Gangster",
@@ -4915,6 +4942,7 @@ let kompasroosData = {
     "4BBA3DB9-9EC3-4EAD-BC59-C72744F4EE02",
     "747B45F3-B12C-4743-A5F8-2D90C20F22F1",
     "128B96F9-DAC3-4297-8329-FC24CCF9E781",
+    "9556811C-4FA7-4A1A-9915-61295E9EC259",
     "9BADF237-317E-4B64-BF72-9A476F85CA6B",
     "85990128-ED3F-442D-9D76-373E3F267CDA",
     "9B97CE42-AF52-41E6-828C-9D0EF103B7A3",
@@ -5106,6 +5134,7 @@ let kompasroosData = {
     "DEBE5437-93D0-4F1C-8A64-F75E77567AE9",
     "5FF8C2E2-9A99-47C5-BAD1-3E5C3B0EE615",
     "E0142D15-96D2-461C-8915-9C1625C9C5EB",
+    "9556811C-4FA7-4A1A-9915-61295E9EC259",
     "13C2B0F2-82C3-4996-A8D8-D42872879587",
     "30592423-330F-4E41-9BCD-9CA85E06D425",
     "9E7E3E3C-F4DE-41EE-A08B-15E8CCA08B9A",
@@ -5367,6 +5396,7 @@ let kompasroosData = {
     "EA08A05D-B79A-4687-AED8-AFB272287ADA",
     "AD3229CE-7B38-4BC8-A1C6-73D6DF651198",
     "86F21B4A-D883-4391-A792-D2F43259942B",
+    "9556811C-4FA7-4A1A-9915-61295E9EC259",
     "65BE2372-98A5-4109-9D88-16550BD74A3D",
     "084EE6A7-9F1B-4102-ABF3-8F80E4E83132",
     "770353E7-3B9A-4969-AE70-268DADA2EF23",
@@ -5574,6 +5604,7 @@ let kompasroosData = {
     "nz_aerosports-daedalus_jfx": "AD3229CE-7B38-4BC8-A1C6-73D6DF651198",
     "nz_aerosports-icarus_jfx_2": "47F5A0C0-1B04-4F5F-B9BF-6569E72C6121",
     "atair_aerodynamics-onyx": "3193501C-9111-4782-B0EC-778CD6923E08",
+    "fluid_wings-echo": "9556811C-4FA7-4A1A-9915-61295E9EC259",
     "fluid_wings-gangster": "13C2B0F2-82C3-4996-A8D8-D42872879587",
     "performance_designs-peregrine": "1931C950-68C7-11E2-BCFD-0800200C9A66",
     "performance_designs-valkyrie": "23498D9C-045C-4D99-AAD7-E01CFDBC717B",

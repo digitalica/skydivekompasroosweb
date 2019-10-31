@@ -2257,6 +2257,26 @@
       "xbraced": true
     },
     {
+      "id": "9556811C-4FA7-4A1A-9915-61295E9EC259",
+      "name": "Echo",
+      "maxsize": "170",
+      "minsize": "107",
+      "cells": "9",
+      "firstyearofproduction": "2019",
+      "category": "",
+      "commontype": "0",
+      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
+      "url": "https://www.fluidwings.com/echo",
+      "xbraced": false,
+      "links": [
+        {
+          "type": "vimeo",
+          "title": "Echo Teaser",
+          "id": "316856335"
+        }
+      ]
+    },
+    {
       "id": "13C2B0F2-82C3-4996-A8D8-D42872879587",
       "name": "Gangster",
       "maxsize": "135",
