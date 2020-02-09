@@ -391,7 +391,7 @@ function Canopy(props) {
               <td className={classes.canopycategory}><Autotext long={T[language].CANOPY_EXPERIENCENEEDED_L}
                                                                short={T[language].CANOPY_EXPERIENCENEEDED_S}/>:
               </td>
-              <td className={classes.canopydetails}>{T[language].EXPERIENCE_NEEDED[canopy.calculationcategory]}</td>
+              <td className={classes.canopydetails}>{T[language]["EXPERIENCE_NEEDED_" + canopy.calculationcategory]}</td>
               <td></td>
             </tr>
             {canopyCellsRow}

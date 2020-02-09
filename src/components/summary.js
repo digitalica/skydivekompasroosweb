@@ -51,7 +51,7 @@ class Summary extends React.Component {
     return (
       <div className={classes.root}>
         {T[language].RESULT_CAT}: {category}<br/>
-        <span className={classes.grey}>({T[language].JUMPERCATEGORIES[category]})</span>
+        <span className={classes.grey}>({T[language]["JUMPERCATEGORIES_"+category]})</span>
         <table className={classes.summarytable}>
           <tbody>
           <tr>

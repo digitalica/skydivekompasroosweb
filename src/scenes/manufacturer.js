@@ -74,7 +74,7 @@ function Manufacturer(props) {
   const manufacturer = kompasroosData.manufacturers[kompasroosData.slugs[slug]];
   if (manufacturer) {
     const countries = manufacturer.countrycode.split(/ *, */);
-    const country = countries.map((c) => T[language].COUNTRIES[c]).join(', ');
+    const country = countries.map((c) => T[language]["COUNTRIES_" + c.toUpperCase()]).join(', ');
 
     let remarksRow = null;
     if (manufacturer.remarks && manufacturer.remarks[language]) {
