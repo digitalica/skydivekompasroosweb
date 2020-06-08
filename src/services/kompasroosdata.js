@@ -4645,6 +4645,39 @@ let kompasroosData = {
       "search": "airwolf|fluidwings",
       "slug": "fluid_wings-airwolf"
     },
+    "15109E1D-8473-4218-9510-65EB089ADCC9": {
+      "id": "15109E1D-8473-4218-9510-65EB089ADCC9",
+      "name": "Sabre 3",
+      "category": null,
+      "cells": "9",
+      "commontype": 1,
+      "dropzoneid": "sabre-3-r969",
+      "firstyearofproduction": "2020",
+      "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
+      "maxsize": "230",
+      "minsize": "89",
+      "url": "https://www.performancedesigns.com/products/sabre3/",
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/main-canopies/sabre-3-r969"
+        },
+        {
+          "type": "youtube",
+          "title": "PD Sabre 3 promo",
+          "url": "https://www.youtube.com/watch?v=QOj_XyWbrqM"
+        }
+      ],
+      "xbraced": false,
+      "displaycategory": "?",
+      "calculationcategory": 6,
+      "manufacturername": "Performance Designs",
+      "manufacturerurl": "https://www.performancedesigns.com/",
+      "manufacturerslug": "performance_designs",
+      "search": "sabre3|performancedesigns",
+      "slug": "performance_designs-sabre_3"
+    },
     "A8C274D3-DE56-413D-AAA2-C8EE6D7CA3BE": {
       "id": "A8C274D3-DE56-413D-AAA2-C8EE6D7CA3BE",
       "name": "Sonic",
@@ -5028,6 +5061,7 @@ let kompasroosData = {
     "B83BF1CE-F80C-481A-9797-0FE46F6BA11F",
     "EDC9AA02-9A92-4809-BCEC-5BA863A28C69",
     "46281C3A-4286-422D-B8F4-8D9015AB96BB",
+    "15109E1D-8473-4218-9510-65EB089ADCC9",
     "3B9BF398-E112-45F3-B0A7-B9DC448DF868",
     "78C709A5-C1C8-4CAE-99F0-52D43B189D88",
     "83654CC3-4296-445B-863C-A5CC09185945",
@@ -5225,6 +5259,7 @@ let kompasroosData = {
     "B83BF1CE-F80C-481A-9797-0FE46F6BA11F",
     "EDC9AA02-9A92-4809-BCEC-5BA863A28C69",
     "46281C3A-4286-422D-B8F4-8D9015AB96BB",
+    "15109E1D-8473-4218-9510-65EB089ADCC9",
     "40734BBD-6781-45F7-9A90-C73C89C9ECF2",
     "AAC013BE-1485-46B3-9539-A4162D9C95AC",
     "107633B0-202B-4625-9CD4-8AFE131C5D10",
@@ -5410,6 +5445,7 @@ let kompasroosData = {
     "F46272C1-526B-41A1-88B1-8A4F7CE7BAA9",
     "3193501C-9111-4782-B0EC-778CD6923E08",
     "CDC9F86A-5F6C-4334-8887-4A4AC7D6C24E",
+    "15109E1D-8473-4218-9510-65EB089ADCC9",
     "0858835E-BC3A-43D9-A085-3DF96D70D3ED",
     "A8C274D3-DE56-413D-AAA2-C8EE6D7CA3BE",
     "858EEBF3-169F-4AE7-99A2-A7CC8D025D4E",
@@ -5616,6 +5652,7 @@ let kompasroosData = {
     "fluid_wings-hk": "9E7E3E3C-F4DE-41EE-A08B-15E8CCA08B9A",
     "fluid_wings-hk_terminal": "DC694B4B-EF96-4E4C-993C-601929279178",
     "fluid_wings-airwolf": "E0142D15-96D2-461C-8915-9C1625C9C5EB",
+    "performance_designs-sabre_3": "15109E1D-8473-4218-9510-65EB089ADCC9",
     "jojowings-sonic": "A8C274D3-DE56-413D-AAA2-C8EE6D7CA3BE",
     "jojowings-raptor": "CDC9F86A-5F6C-4334-8887-4A4AC7D6C24E",
     "jojowings-xf15": "89DA27EF-860B-4FF9-9917-EF81A266FAFB",

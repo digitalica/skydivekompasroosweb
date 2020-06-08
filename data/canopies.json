@@ -2551,6 +2551,27 @@
       ]
     },
     {
+      "id": "15109E1D-8473-4218-9510-65EB089ADCC9",
+      "name": "Sabre 3",
+      "category": "",
+      "cells": "9",
+      "commontype": "1",
+      "dropzoneid": "sabre-3-r969",
+      "firstyearofproduction": "2020",
+      "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
+      "maxsize": "230",
+      "minsize": "89",
+      "url": "https://www.performancedesigns.com/products/sabre3/",
+      "links": [
+        {
+          "type": "youtube",
+          "title": "PD Sabre 3 promo",
+          "id": "QOj_XyWbrqM"
+        }
+      ],
+      "xbraced": false
+    },
+    {
       "id": "A8C274D3-DE56-413D-AAA2-C8EE6D7CA3BE",
       "name": "Sonic",
       "cells": "9",
