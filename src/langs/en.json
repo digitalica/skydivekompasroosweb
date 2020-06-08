@@ -16,7 +16,7 @@
     "CANOPY_MINSIZE_L": "Minimal size",
     "CANOPY_MINSIZE_S": "Minimal",
     "CANOPY_NAME": "Name",
-    "CANOPY_NOTCATEGORIZEDYET": "Not categorized yet. Until then the category is",
+    "CANOPY_NOTCATEGORIZEDYET": "Not categorized yet. Until then the category is: ",
     "CANOPY_REMARKS": "Remarks",
     "CANOPY_SIZE": "Size",
     "CANOPY_SIZEWARNING":  "You can fly this type of canopy, as long as the wingload doesn't get too high. Take your minimum size into account",
