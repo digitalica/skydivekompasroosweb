@@ -43,5 +43,5 @@ This will create the src/services/kompasroosdata.js module, that wil be used.
 Follow these steps to deploy:
 ```
 npm run build
-scp -r build/* robbert@stratos.digitalica.nl:/var/www/test.skydivekompasroos.nl
+scp -r build/* robbert@stratos.digitalica.nl:/var/www/www.skydivekompasroos.nl 
 ```

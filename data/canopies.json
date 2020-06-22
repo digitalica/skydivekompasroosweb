@@ -841,6 +841,27 @@
       "xbraced": false
     },
     {
+      "id": "15109E1D-8473-4218-9510-65EB089ADCC9",
+      "name": "Sabre 3",
+      "category": "3",
+      "cells": "9",
+      "commontype": "1",
+      "dropzoneid": "sabre-3-r969",
+      "firstyearofproduction": "2020",
+      "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
+      "maxsize": "230",
+      "minsize": "89",
+      "url": "https://www.performancedesigns.com/products/sabre3/",
+      "links": [
+        {
+          "type": "youtube",
+          "title": "PD Sabre 3 promo",
+          "id": "QOj_XyWbrqM"
+        }
+      ],
+      "xbraced": false
+    },
+    {
       "id": "1EE39B10-69B0-4434-BCA1-5A26BADAFD27",
       "name": "Lightning",
       "category": "3",
@@ -1339,6 +1360,20 @@
           "id": "264115452"
         }
       ]
+    },
+    {
+      "id": "EE53A162-A74B-4899-AD30-CCE659CC5AF4",
+      "name": "Kraken",
+      "category": "3",
+      "cells": "7",
+      "commontype": "0",
+      "dropzoneid": "kraken-r963",
+      "firstyearofproduction": "2019",
+      "maxsize": "129",
+      "minsize": "169",
+      "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
+      "url": "https://www.nzaerosports.com/product/kraken/",
+      "xbraced": false
     },
     {
       "id": "107633B0-202B-4625-9CD4-8AFE131C5D10",
@@ -2551,27 +2586,6 @@
       ]
     },
     {
-      "id": "15109E1D-8473-4218-9510-65EB089ADCC9",
-      "name": "Sabre 3",
-      "category": "",
-      "cells": "9",
-      "commontype": "1",
-      "dropzoneid": "sabre-3-r969",
-      "firstyearofproduction": "2020",
-      "manufacturerid": "541E8673-69E0-458A-8633-A3698311FD4B",
-      "maxsize": "230",
-      "minsize": "89",
-      "url": "https://www.performancedesigns.com/products/sabre3/",
-      "links": [
-        {
-          "type": "youtube",
-          "title": "PD Sabre 3 promo",
-          "id": "QOj_XyWbrqM"
-        }
-      ],
-      "xbraced": false
-    },
-    {
       "id": "A8C274D3-DE56-413D-AAA2-C8EE6D7CA3BE",
       "name": "Sonic",
       "cells": "9",
@@ -2619,20 +2633,6 @@
       "maxsize": "229",
       "minsize": "99",
       "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=146&Itemid=676",
-      "xbraced": false
-    },
-    {
-      "id": "EE53A162-A74B-4899-AD30-CCE659CC5AF4",
-      "name": "Kraken",
-      "category": "",
-      "cells": "7",
-      "commontype": "0",
-      "dropzoneid": "kraken-r963",
-      "firstyearofproduction": "2019",
-      "maxsize": "129",
-      "minsize": "169",
-      "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
-      "url": "https://www.nzaerosports.com/product/kraken/",
       "xbraced": false
     },
     {
