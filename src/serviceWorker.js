@@ -8,7 +8,7 @@
 // resources are updated in the background.
 
 // To learn more about the benefits of this model and instructions on how to
-// opt-in, read http://bit.ly/CRA-PWA
+// opt-in, read https://create-react-app.dev/docs/making-a-progressive-web-app/
 
 const isLocalhost = Boolean(
   window.location.hostname === 'localhost' ||
@@ -31,6 +31,7 @@ export function register(config) {
       return;
     }
 
+    // on document load, register service worker
     window.addEventListener('load', () => {
       const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;
 
@@ -42,8 +43,8 @@ export function register(config) {
         // service worker/PWA documentation.
         navigator.serviceWorker.ready.then(() => {
           console.log(
-            'This web app is being served cache-first by a service ' +
-              'worker. To learn more, visit http://bit.ly/CRA-PWA'
+            'This web app works offline and is being served cache-first by a service ' +
+              'worker. To learn more, visit https://create-react-app.dev/docs/making-a-progressive-web-app/'
           );
         });
       } else {
@@ -71,7 +72,7 @@ function registerValidSW(swUrl, config) {
               // content until all client tabs are closed.
               console.log(
                 'New content is available and will be used when all ' +
-                  'tabs for this page are closed. See http://bit.ly/CRA-PWA.'
+                  'tabs for this page are closed. See https://create-react-app.dev/docs/making-a-progressive-web-app/.'
               );
 
               // Execute callback

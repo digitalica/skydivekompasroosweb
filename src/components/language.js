@@ -7,8 +7,6 @@ import RadioGroup from "@material-ui/core/RadioGroup/RadioGroup";
 import FormControlLabel from "@material-ui/core/FormControlLabel/FormControlLabel";
 import C from "../services/kompasroosconstants";
 import Radio from "@material-ui/core/Radio/Radio";
-import Flag from "react-world-flags";
-
 
 const styles = theme => ({
   languageselect: {
@@ -47,10 +45,11 @@ function Language(props) {
                             label={T[language].LANGUAGE_FRENCH + " / " + T["fr"].LANGUAGE_FRENCH}/>
         </RadioGroup>
         <div className={classes.flagcolumn}>
-          <Flag code="nl" height="16" width="24"/>
-          <Flag code="gb" height="16" width="24"/>
-          <Flag code="de" height="16" width="24"/>
-          <Flag code="fr" height="16" width="24"/>
+          {/* All flags can be found on: https://catamphetamine.gitlab.io/country-flag-icons/3x2/index.html */}
+          <img alt="NL" height="16" width="24" src="http://catamphetamine.gitlab.io/country-flag-icons/3x2/NL.svg"/>
+          <img alt="GB" height="16" width="24" src="http://catamphetamine.gitlab.io/country-flag-icons/3x2/GB.svg"/>
+          <img alt="DE" height="16" width="24" src="http://catamphetamine.gitlab.io/country-flag-icons/3x2/DE.svg"/>
+          <img alt="FR" height="16" width="24" src="http://catamphetamine.gitlab.io/country-flag-icons/3x2/FR.svg"/>
         </div>
       </div>
     </FormControl>
