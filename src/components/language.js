@@ -46,10 +46,10 @@ function Language(props) {
         </RadioGroup>
         <div className={classes.flagcolumn}>
           {/* All flags can be found on: https://catamphetamine.gitlab.io/country-flag-icons/3x2/index.html */}
-          <img alt="NL" height="16" width="24" src="http://catamphetamine.gitlab.io/country-flag-icons/3x2/NL.svg"/>
-          <img alt="GB" height="16" width="24" src="http://catamphetamine.gitlab.io/country-flag-icons/3x2/GB.svg"/>
-          <img alt="DE" height="16" width="24" src="http://catamphetamine.gitlab.io/country-flag-icons/3x2/DE.svg"/>
-          <img alt="FR" height="16" width="24" src="http://catamphetamine.gitlab.io/country-flag-icons/3x2/FR.svg"/>
+          <img alt="NL" height="16" width="24" src="https://catamphetamine.gitlab.io/country-flag-icons/3x2/NL.svg"/>
+          <img alt="GB" height="16" width="24" src="https://catamphetamine.gitlab.io/country-flag-icons/3x2/GB.svg"/>
+          <img alt="DE" height="16" width="24" src="https://catamphetamine.gitlab.io/country-flag-icons/3x2/DE.svg"/>
+          <img alt="FR" height="16" width="24" src="https://catamphetamine.gitlab.io/country-flag-icons/3x2/FR.svg"/>
         </div>
       </div>
     </FormControl>
