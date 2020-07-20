@@ -68,7 +68,8 @@ export default {
   cookieOptions() {
     return {
       path: '/',
-      expires: new Date(Date.now() + this.COOKIEMAXAGE)
+      expires: new Date(Date.now() + this.COOKIEMAXAGE),
+      sameSite: 'Lax'
     }
   },
 
