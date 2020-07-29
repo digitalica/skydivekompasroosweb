@@ -43,3 +43,15 @@ site: https://britishskydiving.org/
 Craig Poxon werkt aan een app, regels nog niet te vinden. 
 
 
+# FFP (Federation Francaise de Parachutisme)
+
+Vrij strenge regels
+
+nieuws in NL: https://www.parachute.nl/255.html?&cHash=1beaa3243e2cb3db799cba52aadff2df&tx_ttnews%5BbackPid%5D=1&tx_ttnews%5Btt_news%5D=1015
+
+
+online calculator: https://www.ffp.asso.fr/tailledevoile/
+
+er is een app: https://play.google.com/store/apps/details?id=com.mcleed.dt48&hl=nl
+
+regels staan in DT 48 (Directive Technique no. 48)
