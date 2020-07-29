@@ -55,3 +55,10 @@ online calculator: https://www.ffp.asso.fr/tailledevoile/
 er is een app: https://play.google.com/store/apps/details?id=com.mcleed.dt48&hl=nl
 
 regels staan in DT 48 (Directive Technique no. 48)
+
+
+# DFV (Deutsche Fallschirmsport Verein)
+
+site: https://www.dfv.aero
+
+nog geen regels gevonden
