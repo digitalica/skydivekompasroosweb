@@ -2,6 +2,7 @@
   "name": "kompasroosreact",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://eimert.github.io/skydivekompasroosweb",
   "dependencies": {
     "@material-ui/core": "^4.9.9",
     "@material-ui/icons": "^4.2.1",
@@ -20,7 +21,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prepare": "cd data; node prepare.js; cd .."
+    "prepare": "cd data; node prepare.js; cd ..",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,7 +37,8 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
-    "typescript": "^3.8.3",
-    "source-map-explorer": "^2.4.2"
+    "gh-pages": "^3.1.0",
+    "source-map-explorer": "^2.4.2",
+    "typescript": "^3.8.3"
   }
 }
