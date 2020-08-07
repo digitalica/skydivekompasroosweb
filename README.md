@@ -58,4 +58,4 @@ By default, pushes to master trigger a [github action](./github/workflows/gh-pag
 ```
 npm run deploy
 ```
-This will manually trigger a build and deploy. It requires the gh-pages (dev dependency) plugin to push to the gh-pages branch (that is serving static data).
+This will manually trigger a build and deploy. It requires the gh-pages (dev dependency) plugin. The gh-pages plugin pushes the build dir to the gh-pages branch (that is active serving static data).
