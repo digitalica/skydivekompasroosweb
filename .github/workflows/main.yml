@@ -22,6 +22,10 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
+    # install dependencies
+    - name: npm install
+      run: npm i && npm i --dev
+
     # Run build and deploy to github pages    
     - name: Run a one-line script
       run: npm run deploy
