@@ -22,10 +22,13 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    # install dependencies
     - name: npm install
       run: npm i && npm i --dev
 
-    # Run build and deploy to github pages    
-    - name: Run a one-line script
+    - name: configure git
+      run: |
+        git config --global user.name "Eimert Vink"
+        git config --global user.email "eimertvink@gmail.com"
+
+    - name: build and deploy gh-pages branch
       run: npm run deploy
