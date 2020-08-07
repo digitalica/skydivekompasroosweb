@@ -2,7 +2,6 @@
   "name": "kompasroosreact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://eimert.github.io/skydivekompasroosweb",
   "dependencies": {
     "@material-ui/core": "^4.9.9",
     "@material-ui/icons": "^4.2.1",
