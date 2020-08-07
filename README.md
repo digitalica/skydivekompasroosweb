@@ -1,3 +1,9 @@
+
+# Skydive Kompasroos
+Provides an overview what parachutes are suitable (or not), based on experience of the jumper. The regulations for assessing the level of experience differ per country. A limited number of countries in West-Europe is currently supported.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -45,3 +51,11 @@ Follow these steps to deploy:
 npm run build
 scp -r build/* robbert@stratos.digitalica.nl:/var/www/www.skydivekompasroos.nl 
 ```
+
+### Manual deploy to github pages
+
+By default, pushes to master trigger a [github action](./github/workflows/gh-pages.yml) that runs a build. The build output is pushed to the gh-pages branch. 
+```
+npm run deploy
+```
+This will manually trigger a build and deploy. It requires the gh-pages (dev dependency) plugin to push to the gh-pages branch (that is serving static data).
