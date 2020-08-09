@@ -1,0 +1,43 @@
+{
+  "name": "kompasroosreact",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.9",
+    "@material-ui/icons": "^4.2.1",
+    "@material-ui/lab": "^3.0.0-alpha.30",
+    "react": "^16.9.0",
+    "react-cookie": "^4.0.1",
+    "react-dev-utils": "^10.1.0",
+    "react-dom": "^16.9.0",
+    "react-media": "^1.9.2",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.3.0"
+  },
+  "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prepare": "cd data; node prepare.js; cd ..",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "gh-pages": "^3.1.0",
+    "source-map-explorer": "^2.4.2",
+    "typescript": "^3.8.3"
+  }
+}
