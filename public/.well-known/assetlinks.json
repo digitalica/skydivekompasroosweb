@@ -1,5 +1,0 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target" : { "namespace": "android_app", "package_name": "nl.skydivekompasroos.twa",
-               "sha256_cert_fingerprints": ["AB:28:17:C0:C1:60:50:CD:A9:6F:7C:00:9E:66:D0:A3:8D:C2:9A:0D:4E:3F:D2:87:84:F2:31:A2:E0:BF:BE:B4"] }
-}]
