@@ -1,0 +1,199 @@
+{
+  "manufacturers": [
+    {
+      "id": "0BF35960-3F26-42FD-8C97-03263EC42E84",
+      "name": "Aerodyne Research",
+      "countrycode": "us",
+      "shortname": "Aerodyne",
+      "url": "https://www.flyaerodyne.com"
+    },
+    {
+      "id": "97AD094C-A001-4928-8B4E-792EC76EFBCB",
+      "name": "Airtime",
+      "countrycode": "us",
+      "shortname": "Airtime"
+    },
+    {
+      "id": "6C76AE26-F763-4536-AA22-2C4C8326804D",
+      "name": "Atair Aerodynamics",
+      "countrycode": "us",
+      "shortname": "Atair",
+      "url": "http://www.atair.com/parachutes/"
+    },
+    {
+      "id": "5947BBA8-8DE6-4F61-AB89-B0B77A74B1EB",
+      "name": "Big-air sportz",
+      "countrycode": "us",
+      "shortname": "Big-air",
+      "url": "http://www.bigairsportz.com/"
+    },
+    {
+      "id": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
+      "name": "Parachute Systems",
+      "countrycode": "sa",
+      "remarks": {
+        "en": "Parachute Systems was called Chute Shop originally.",
+        "nl": "Parachute Systems heette voorheen Chute Shop."
+      },
+      "shortname": "Parachute Systems",
+      "url": "http://parachutesystems.com/"
+    },
+    {
+      "id": "B1F74487-55A3-4A0C-9A7E-463B508E3438",
+      "name": "Eiff Aerodynamics",
+      "countrycode": "us",
+      "shortname": "Eiff",
+      "url": "http://eiff.com"
+    },
+    {
+      "id": "7AE2A118-7566-456B-9D73-2E6751BF7D7A",
+      "name": "Firebird",
+      "countrycode": "us, de",
+      "remarks": {
+        "en": "Firebird was called Performance Variable originally.",
+        "nl": "Firebird heette voorheen Performance Variable."
+      },
+      "shortname": "Firebird",
+      "url": "http://www.flyfirebird.com/"
+    },
+    {
+      "id": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
+      "name": "Flight Concepts",
+      "countrycode": "us",
+      "shortname": "Flight Concepts",
+      "remarks": {
+        "en": "Flight Concepts was called Glide Path originally.",
+        "nl": "Flight Concepts heette voorheen Glide Path."
+      },
+      "url": "http://flightconceptsint.com/"
+    },
+    {
+      "id": "29A49954-54B1-4F77-A399-CCEFCCC9B3B9",
+      "name": "Icarus Canopies",
+      "countrycode": "nz, es",
+      "remarks": {
+        "en": "Most Icarus canopies are manufactured by NZ Aerosports.",
+        "nl": "De meeste typen Icarus parachutes worden gefabriceerd door NZ Aerosports."
+      },
+      "shortname": "Icarus",
+      "url": "http://www.icaruscanopies.aero/"
+    },
+    {
+      "id": "ACCD2816-15E8-4668-B217-3F345AA6854F",
+      "name": "Jump Shack",
+      "countrycode": "us",
+      "shortname": "Jump Shack",
+      "url": "http://www.jumpshack.com/"
+    },
+    {
+      "id": "2228CEB3-3246-47D8-A393-52FF9DFEBB45",
+      "name": "North American Aerodynamics, Inc.",
+      "countrycode": "us",
+      "shortname": "NAA",
+      "url": "http://www.naaero.com/"
+    },
+    {
+      "id": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
+      "name": "NZ Aerosports",
+      "countrycode": "nz",
+      "remarks": {
+        "en": "NZ Aerosports is the manufacturer of most of the Icarus canopies.",
+        "nl": "NZ Aerosports is de fabrikant van de meeste typen Icarus parachutes."
+      },
+      "shortname": "NZ Aerosports",
+      "url": "http://www.nzaerosports.com"
+    },
+    {
+      "id": "35AF72C6-F1D1-473D-99D0-804769E3E768",
+      "name": "Parachutes de France",
+      "countrycode": "fr",
+      "remarks": {
+        "en": "Parachutes de France was merged in Zodiac Aerospace around 2014. In February 2018, Safran took control of Zodiac Aerospace.",
+        "nl": "Parachutes de France is rond 2014 opgegaan in Zodiac Aerospace. In februari 2018 heeft Safran Zodiac Aerospace overgenomen."
+      },
+      "shortname": "PdF"
+    },
+    {
+      "id": "E1DA167E-6512-401E-9033-8621884D2C67",
+      "name": "Paratec",
+      "countrycode": "de",
+      "shortname": "Paratec",
+      "url": "http://www.paratec.de/"
+    },
+    {
+      "id": "541E8673-69E0-458A-8633-A3698311FD4B",
+      "name": "Performance Designs",
+      "countrycode": "us",
+      "shortname": "PD",
+      "url": "https://www.performancedesigns.com/"
+    },
+    {
+      "id": "E0E33BAB-7067-42EC-96E3-FD6B35926A11",
+      "name": "PISA",
+      "countrycode": "sa",
+      "remarks": {
+        "en": "PISA (Parachute Industries of South Africa) is no longer active. In 2018 the website was not online any more.",
+        "nl": "PISA (Parachute Industries of South Africa) is niet meer actief. In 2018 was de website niet meer actief."
+      },
+      "shortname": "PISA"
+    },
+    {
+      "id": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
+      "name": "Precision Aerodynamics",
+      "countrycode": "us",
+      "shortname": "Precision",
+      "url": "http://www.precision.net/"
+    },
+    {
+      "id": "ACD6855E-9F54-4E27-B498-14C9693FB7EF",
+      "name": "Strong Enterprises",
+      "countrycode": "us",
+      "shortname": "Strong",
+      "url": "http://www.strongparachutes.com/"
+    },
+    {
+      "id": "CD51335E-1304-4391-9672-A6058F97C352",
+      "name": "Squirrel",
+      "countrycode": "us",
+      "shortname": "Squirrel",
+      "url": "https://squirrel.ws/"
+    },
+    {
+      "id": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
+      "name": "Fluid Wings",
+      "countrycode": "us",
+      "shortname": "Fluid",
+      "url": "http://www.fluidwings.com/"
+    },
+    {
+      "id": "A82F2C34-DBA9-4A4B-8DE7-7319B00C7DB4",
+      "name": "Jojowings",
+      "countrycode": "cz",
+      "shortname": "Jojo",
+      "url": "http://www.jojowing.com/"
+    },
+    {
+      "id": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
+      "name": "Skylark Parachutes",
+      "countrycode": "ua",
+      "shortname": "Skylark",
+      "url": "http://skylarkparachutes.com/"
+    },
+    {
+      "id": "571E4861-2CCE-4276-A5B2-046A38F4870E",
+      "name": "Para-Flite",
+      "countrycode": "us",
+      "shortname": "Para-Flite",
+      "remarks": {
+        "en": "Para-Flite is no longer active. It became part of Airborne systems around 2006",
+        "nl": "Para-Flite is niet meer actief. Het is onderdeel geworden van Airborne systems rond 2006"
+      }
+    },
+    {
+      "id": "75B438C0-B3B7-4D3E-9D64-6058A351A82F",
+      "name": "Innovative Parachute Technologies",
+      "countrycode": "us",
+      "shortname": "IPT"
+    }
+  ]
+}
