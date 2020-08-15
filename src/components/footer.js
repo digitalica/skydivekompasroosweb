@@ -15,19 +15,19 @@ import Autotext from "./autotext";
 
 const styles = theme => ({
   button: {
-    margin: theme.spacing.unit,
+    margin: theme.spacing(1),
     flexGrow: 1,
   },
   text: {
-    paddingTop: theme.spacing.unit * 2,
-    paddingLeft: theme.spacing.unit * 2,
-    paddingRight: theme.spacing.unit * 2,
+    paddingTop: theme.spacing(2),
+    paddingLeft: theme.spacing(2),
+    paddingRight: theme.spacing(2),
   },
   grow: {
     flexGrow: 1,
   },
   list: {
-    marginBottom: theme.spacing.unit * 2,
+    marginBottom: theme.spacing(2),
   },
   subHeader: {
     backgroundColor: theme.palette.background.paper,
@@ -57,7 +57,7 @@ const styles = theme => ({
     backgroundColor: "white",
   },
   tuneicon: {
-    paddingRight: theme.spacing.unit * 2,
+    paddingRight: theme.spacing(2),
   }
 });
 

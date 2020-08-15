@@ -13,9 +13,9 @@ const styles = theme => ({
     maxWidth: C.MAXWIDTH,
     marginLeft: "auto",
     marginRight: "auto",
-    paddingTop: theme.spacing.unit * 2,
-    paddingLeft: theme.spacing.unit * 2,
-    paddingRight: theme.spacing.unit * 2,
+    paddingTop: theme.spacing(2),
+    paddingLeft: theme.spacing(2),
+    paddingRight: theme.spacing(2),
   },
   paper: {
     paddingTop: 50,

@@ -20,12 +20,12 @@ const styles = theme => ({
     paddingBottom: 150,
   },
   fab: {
-    margin: theme.spacing.unit,
+    margin: theme.spacing(1),
     backgroundColor: theme.palette.good[C.BGICONCOLORSHADE]
 
   },
   extendedIcon: {
-    marginRight: theme.spacing.unit,
+    marginRight: theme.spacing(1),
   },
   welcome: {
     marginBottom: "25px"
@@ -34,12 +34,12 @@ const styles = theme => ({
     maxWidth: C.MAXWIDTH,
     marginLeft: "auto",
     marginRight: "auto",
-    paddingTop: theme.spacing.unit * 2,
-    paddingLeft: theme.spacing.unit * 2,
-    paddingRight: theme.spacing.unit * 2,
+    paddingTop: theme.spacing(2),
+    paddingLeft: theme.spacing(2),
+    paddingRight: theme.spacing(2),
   },
   button: {
-    margin: theme.spacing.unit,
+    margin: theme.spacing(1),
     width: "100%",
     marginLeft: "auto",
     textAlign: "left"

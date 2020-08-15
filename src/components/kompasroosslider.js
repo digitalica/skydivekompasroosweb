@@ -14,13 +14,13 @@ import Autotext from "./autotext";
 
 const styles = theme => ({
   fab: {
-    // margin: theme.spacing.unit,
+    // margin: theme.spacing(1),
     marginLeft: 0
   },
   text: {
-    paddingTop: theme.spacing.unit * 2,
-    paddingLeft: theme.spacing.unit * 2,
-    paddingRight: theme.spacing.unit * 2,
+    paddingTop: theme.spacing(2),
+    paddingLeft: theme.spacing(2),
+    paddingRight: theme.spacing(2),
   },
   root: {
     paddingTop: 20

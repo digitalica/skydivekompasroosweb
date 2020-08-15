@@ -42,7 +42,6 @@ it('calculates jumper category', () => {
   expect(C.jumperCategory(99, 25, 0)).toEqual(2);
   expect(C.jumperCategory(999, 24, 0)).toEqual(2);
   expect(C.jumperCategory(999, 24, 333)).toEqual(2);
-  acceptability
   expect(C.jumperCategory(399, 99, 0)).toEqual(3);
   expect(C.jumperCategory(999, 49, 0)).toEqual(3);
   expect(C.jumperCategory(999, 49, 666)).toEqual(3);
