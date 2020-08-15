@@ -1,15 +1,6 @@
 import C from './kompasroosconstants';
 
-it('converst kg to lbs', () => {
-  var testCanopy = {
-    category: '2',
-    maxsize: 280
-  };
-  expect(C.acceptability(testCanopy, 7, 90)).toEqual(C.ACC_ACCEPTABLE);
-});
-
-
-it('converst kg to lbs', () => {
+it('converts kg to lbs', () => {
   expect(C.kgToLbsRounded(0)).toEqual(0);
   expect(C.kgToLbsRounded(2)).toEqual(4);
   expect(C.kgToLbsRounded(99)).toEqual(218);
@@ -51,13 +42,7 @@ it('calculates jumper category', () => {
   expect(C.jumperCategory(99, 25, 0)).toEqual(2);
   expect(C.jumperCategory(999, 24, 0)).toEqual(2);
   expect(C.jumperCategory(999, 24, 333)).toEqual(2);
-
-  expect(C.jumperCategory(100, 25, 0)).toEqual(3);
-  expect(C.jumperCategory(100, 25, undefined)).toEqual(3);
-  expect(C.jumperCategory(100, 25, null)).toEqual(3);
-  expect(C.jumperCategory(400, 49, 0)).toEqual(3);
-  expect(C.jumperCategory(399, 50, 0)).toEqual(3);
-  expect(C.jumperCategory(399, 100, 0)).toEqual(3);
+  acceptability
   expect(C.jumperCategory(399, 99, 0)).toEqual(3);
   expect(C.jumperCategory(999, 49, 0)).toEqual(3);
   expect(C.jumperCategory(999, 49, 666)).toEqual(3);
