@@ -33,7 +33,7 @@ class Setlanguage extends React.Component {
       return (
         <div className={classes.root}>
           <div className={classes.text}>
-            <Language {...this.props}/>
+            <Language {...C.withoutClasses(this.props)}/>
           </div>
         </div>
       )
@@ -46,14 +46,14 @@ class Setlanguage extends React.Component {
               <div className={classes.text}>
                 <br/>
                 <Language
-                  {...this.props}
+                  {...C.withoutClasses(this.props)}
                 />
               </div>
             </div>
             <div className={this.props.classes.column}>
               <div className={classes.text}>
                 <List
-                  {...this.props}
+                  {...C.withoutClasses(this.props)}
                 />
               </div>
             </div>

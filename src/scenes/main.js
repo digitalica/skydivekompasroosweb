@@ -38,7 +38,7 @@ function Main(props) {
     return (
       <div className={classes.root}>
         <div className={classes.text}>
-          <List {...props}/>
+          <List {...C.withoutClasses(props)}/>
         </div>
       </div>
     )
@@ -57,7 +57,7 @@ function Main(props) {
           <div className={props.classes.column}>
             <div className={classes.text}>
               <List
-                {...props}
+                {...C.withoutClasses(props)}
               />
             </div>
           </div>

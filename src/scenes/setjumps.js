@@ -164,7 +164,7 @@ class SetJumps extends React.Component {
     if (showWelcome) {
       languageSelect = (
         <div>
-          <Language {...this.props}/>
+          <Language {...C.withoutClasses(this.props)}/>
           <br/>
           <br/>
         </div>

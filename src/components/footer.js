@@ -107,7 +107,6 @@ class BottomAppBar extends React.Component {
     let divider = null;
     if (!this.props.showWelcome) {
       exitWeightButton = <Button className={classes.button} color="inherit"
-                                 border={4} borderColor="red"
                                  onClick={this.toggleSetWeight}>
         <table>
           <tbody>

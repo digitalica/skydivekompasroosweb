@@ -195,6 +195,11 @@ export default {
       }
     }
     return this.ACC_ACCEPTABLE;
+  },
+
+  withoutClasses(propsObject) {
+    const {classes, ...otherkeys} = propsObject
+    return otherkeys
   }
 
 };
