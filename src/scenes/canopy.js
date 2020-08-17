@@ -332,7 +332,7 @@ function Canopy(props) {
           break;
       }
       linkRows.push(
-        <tr className={classes.linkrow}
+        <tr className={classes.linkrow} key={linkRows.length}
             onClick={() => openBlank(link.url)}>
           <td>{icon}</td>
           <td className={classes.canopydetails}>{name}</td>
