@@ -1,12 +1,13 @@
 import React from "react";
+import {Helmet} from "react-helmet";
 import {withStyles} from '@material-ui/core/styles';
 
 import Language from "../components/language";
 
-
 import C from "../services/kompasroosconstants";
-import List from "../components/list";
+import T from "../services/kompasroostranslations";
 
+import List from "../components/list";
 
 const styles = theme => ({
   root: {
@@ -27,11 +28,14 @@ const styles = theme => ({
 class Setlanguage extends React.Component {
 
   render() {
-    const {classes} = this.props;
+    const {language, classes} = this.props;
 
     if (this.props.isMobile) {
       return (
         <div className={classes.root}>
+          <Helmet>
+            <title>{T[language].LANGUAGE} - Skydive Kompasroos</title>
+          </Helmet>
           <div className={classes.text}>
             <Language {...C.withoutClasses(this.props)}/>
           </div>
@@ -40,7 +44,9 @@ class Setlanguage extends React.Component {
     } else {
       return (
         <div className={classes.root}>
-
+          <Helmet>
+            <title>{T[language].LANGUAGE} - Skydive Kompasroos</title>
+          </Helmet>
           <div className={this.props.classes.row}>
             <div className={this.props.classes.column}>
               <div className={classes.text}>

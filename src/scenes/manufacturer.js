@@ -1,4 +1,5 @@
 import React from "react";
+import {Helmet} from "react-helmet";
 import {withStyles} from '@material-ui/core/styles';
 import Typography from "@material-ui/core/Typography/Typography";
 import GroupIcon from '@material-ui/icons/Group';
@@ -120,7 +121,9 @@ function Manufacturer(props) {
 
     return (
       <div className={classes.root}>
-
+        <Helmet>
+            <title>{manufacturer.name} - Skydive Kompasroos</title>
+        </Helmet>
         <div className={classes.text}>
           <div>
             <table className={classes.table}>

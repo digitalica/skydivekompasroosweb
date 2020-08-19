@@ -1,4 +1,5 @@
 import React from "react";
+import {Helmet} from "react-helmet";
 import {withStyles} from "@material-ui/core";
 
 import List from "../components/list";
@@ -37,6 +38,9 @@ function Main(props) {
   if (props.isMobile) {
     return (
       <div className={classes.root}>
+        <Helmet>
+          <title>Skydive Kompasroos</title>
+        </Helmet>
         <div className={classes.text}>
           <List {...C.withoutClasses(props)}/>
         </div>
@@ -45,6 +49,9 @@ function Main(props) {
   } else {
     return (
       <div className={classes.root}>
+        <Helmet>
+          <title>Skydive Kompasroos</title>
+        </Helmet>
         <div className={props.classes.row}>
           <div className={props.classes.column}>
             <div className={classes.text}>

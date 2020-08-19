@@ -1,7 +1,9 @@
 import React from "react";
+import {Helmet} from "react-helmet";
 import {withStyles} from '@material-ui/core/styles';
 
 import C from "../services/kompasroosconstants";
+import T from "../services/kompasroostranslations";
 
 const styles = theme => ({
   root: {
@@ -29,6 +31,9 @@ function About(props) {
     case "nl":
       return (
         <div className={classes.root}>
+          <Helmet>
+            <title>{T[language].MENU_ABOUT} - Skydive Kompasroos</title>
+          </Helmet>
           <div className={classes.text}>
             <h3>Over Skydive Kompasroos</h3>
             <p>Skydive Kompasroos is een website om te helpen bij het kiezen van een passende parachute, volgens de
@@ -80,6 +85,9 @@ function About(props) {
     case "en":
       return (
         <div className={classes.root}>
+          <Helmet>
+            <title>{T[language].MENU_ABOUT} - Skydive Kompasroos</title>
+          </Helmet>
           <div className={classes.text}>
             <h3>About Skydive Kompasroos</h3>
             <p>Skydive Kompasroos (kompasroos is Dutch for compass rose) is a website to help
@@ -135,6 +143,9 @@ function About(props) {
     case "de":
       return (
         <div className={classes.root}>
+          <Helmet>
+            <title>{T[language].MENU_ABOUT} - Skydive Kompasroos</title>
+          </Helmet>
           <div className={classes.text}>
             <h3>Über Skydive Kompasroos</h3>
             <p>Die Website Skydive Kompasroos ("kompasroos" ist das holländische Wort für "Kompass-Rose") hilft dir bei
@@ -192,6 +203,9 @@ function About(props) {
     case "fr":
       return (
         <div className={classes.root}>
+          <Helmet>
+            <title>{T[language].MENU_ABOUT} - Skydive Kompasroos</title>
+          </Helmet>
           <div className={classes.text}>
             <h3>A propos de Skydive Kompasroos</h3>
 

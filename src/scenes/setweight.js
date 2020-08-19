@@ -7,6 +7,7 @@ import Summary from "../components/summary";
 
 import C from "../services/kompasroosconstants";
 import T from "../services/kompasroostranslations";
+import { Helmet } from "react-helmet";
 
 const styles = theme => ({
   root: {
@@ -27,9 +28,16 @@ const styles = theme => ({
 
 class SetWeight extends React.Component {
   render() {
-    const {classes, language} = this.props;
+    const {classes, language, isMobile} = this.props;
+    let helmet = null
+    if (isMobile) {
+      helmet = <Helmet>
+        <title>{T[language].EXITWEIGHT} - Skydive Kompasroos</title>
+      </Helmet>
+    }
     return (
       <div className={classes.root}>
+        {helmet}
         <div className={classes.text}>
           {T[language].WEIGHT_INTRO}
         </div>

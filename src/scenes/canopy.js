@@ -1,4 +1,5 @@
 import React from "react";
+import {Helmet} from "react-helmet";
 import {withStyles} from '@material-ui/core/styles';
 import {withRouter} from "react-router-dom";
 
@@ -349,6 +350,9 @@ function Canopy(props) {
   if (canopy) {
     return (
       <div className={classes.root}>
+        <Helmet>
+            <title>{canopy.name} - Skydive Kompasroos</title>
+        </Helmet>
         <div className={classes.text}>
           <div className={classes[classAcceptability]}>
             <table className={classes.table}>

@@ -1,9 +1,12 @@
 import React from "react";
+import {Helmet} from "react-helmet";
 import {withStyles} from '@material-ui/core/styles';
 
 import Filter from "../components/filter"
 
 import C from "../services/kompasroosconstants";
+import T from "../services/kompasroostranslations";
+
 import List from "../components/list";
 
 
@@ -33,11 +36,14 @@ const styles = theme => ({
 class Setfilter extends React.Component {
 
   render() {
-    const {classes} = this.props;
+    const {language, classes} = this.props;
 
     if (this.props.isMobile) {
       return (
         <div className={classes.root}>
+          <Helmet>
+            <title>{T[language].FILTER} - Skydive Kompasroos</title>
+          </Helmet>
           <div className={classes.text}>
             <Filter {...this.props}/>
           </div>
@@ -46,7 +52,9 @@ class Setfilter extends React.Component {
     } else {
       return (
         <div className={classes.root}>
-
+          <Helmet>
+            <title>{T[language].FILTER} - Skydive Kompasroos</title>
+          </Helmet>
           <div className={this.props.classes.row}>
             <div className={this.props.classes.column}>
               <div className={classes.text}>

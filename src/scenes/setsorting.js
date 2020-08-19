@@ -1,11 +1,13 @@
 import React from "react";
+import {Helmet} from "react-helmet";
 import {withStyles} from '@material-ui/core/styles';
 
 import Sorting from '../components/sorting';
 
 import C from "../services/kompasroosconstants";
-import List from "../components/list";
+import T from "../services/kompasroostranslations";
 
+import List from "../components/list";
 
 const styles = theme => ({
   root: {
@@ -26,11 +28,14 @@ const styles = theme => ({
 class Setsorting extends React.Component {
 
   render() {
-    const {classes} = this.props;
+    const {language, classes} = this.props;
 
     if (this.props.isMobile) {
       return (
         <div className={classes.root}>
+          <Helmet>
+            <title>{T[language].SORTING} - Skydive Kompasroos</title>
+          </Helmet>
           <div className={classes.text}>
             <Sorting {...this.props}/>
           </div>
@@ -39,7 +44,9 @@ class Setsorting extends React.Component {
     } else {
       return (
         <div className={classes.root}>
-
+          <Helmet>
+            <title>{T[language].SORTING} - Skydive Kompasroos</title>
+          </Helmet>
           <div className={this.props.classes.row}>
             <div className={this.props.classes.column}>
               <div className={classes.text}>

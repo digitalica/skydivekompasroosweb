@@ -1,4 +1,5 @@
 import React from "react";
+import {Helmet} from "react-helmet";
 import Fab from '@material-ui/core/Fab';
 import {withStyles} from '@material-ui/core/styles';
 import DoneAllIcon from '@material-ui/icons/DoneAll';
@@ -117,7 +118,7 @@ class SetJumps extends React.Component {
   };
 
   render() {
-    const {classes, language, showWelcome} = this.props;
+    const {classes, language, showWelcome, isMobile} = this.props;
 
     let totalJumpsSlider = (
       <KompasroosSlider
@@ -211,9 +212,16 @@ class SetJumps extends React.Component {
 
     }
 
+    let helmet = null
+    if (isMobile) {
+      helmet = <Helmet>
+        <title>{T[language].EXPERIENCE} - Skydive Kompasroos</title>
+      </Helmet>
+    }
 
     return (
       <div className={classes.root}>
+        {helmet}
         <div className={classes.text}>
           {welcomeText}
           {languageSelect}
