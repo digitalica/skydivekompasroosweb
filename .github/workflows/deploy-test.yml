@@ -17,16 +17,15 @@ jobs:
     - name: npm run build
       run: npm run build
 
-    # Copying files and artifacts via SSH
-    - name: Copying files to server
-      uses: appleboy/scp-action@master
+
+    # Copying files using rsyc
+    - name: rsync deployments
+      uses: burnett01/rsync-deployments@4.1
       with:
-        host: ${{ secrets.REMOTE_HOST }}
-        username: ${{ secrets.REMOTE_USER }}
-        key: ${{ secrets.SSH_KEY }}
-        passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
-        rm: true
-        source: "build/"
-        target: "${{ secrets.REMOTE_DIR_TEST }}"
-        debug: true
-        
+        switches: -avzr --delete
+        path: build/
+        remote_path: ${{ secrets.REMOTE_DIR_TEST }}
+        remote_host: ${{ secrets.REMOTE_HOST }}
+        remote_port: 22
+        remote_user: ${{ secrets.REMOTE_USER }}
+        remote_key: ${{ secrets.SSH_KEY }}
