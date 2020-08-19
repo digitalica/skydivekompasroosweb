@@ -1,0 +1,30 @@
+name: deploy to stratos test
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: npm install
+      run: npm i && npm i --only=dev
+
+    - name: npm run build
+      run: npm run build
+
+    # Copying files and artifacts via SSH
+    - name: Copying files to server
+      uses: appleboy/scp-action@master
+      with:
+        host: ${{ secrets.REMOTE_HOST }}
+        username: ${{ secrets.REMOTE_USER }}
+        key: ${{ secrets.SSH_KEY }}
+        passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
+        rm: true
+        source: "build/"
+        target: "${{ secrets.REMOTE_DIR_TEST }}"
