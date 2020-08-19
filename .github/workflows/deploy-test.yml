@@ -28,3 +28,5 @@ jobs:
         rm: true
         source: "build/"
         target: "${{ secrets.REMOTE_DIR_TEST }}"
+        debug: true
+        
