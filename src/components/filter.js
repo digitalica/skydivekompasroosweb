@@ -25,7 +25,7 @@ function Filter(props) {
         <FormControlLabel value={C.FILTER_ALL} control={<Radio/>} label={T[language].FILTER_ALL}/>
         <FormControlLabel value={C.FILTER_COMMON} control={<Radio/>} label={T[language].FILTER_COMMON}/>
         <FormControlLabel value={C.FILTER_AROUND} control={<Radio/>}
-                          label={T[language].FILTER_AROUND + ' ' + props.category}/>
+                          label={T[language].FILTER_AROUND + ' (' + props.category + ')'}/>
       </RadioGroup>
     </FormControl>
   );

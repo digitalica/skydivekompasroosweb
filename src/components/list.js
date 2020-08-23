@@ -185,7 +185,19 @@ class List extends React.Component {
 
     let searchFilteredWarning = null;
     if (this.props.searchText && searchedCanopyHidden) {
-      searchFilteredWarning = this.getHeader(T[language].SEARCH_FILTERWARNING);
+      let warningText = T[language].SEARCH_FILTERWARNING
+      switch (this.props.filter) {
+        case C.FILTER_ALL: // this should not happen ;-)
+          warningText += ' (' + T[language].FILTER_ALL + ')'
+          break;
+        case C.FILTER_COMMON:
+          warningText += ' (' + T[language].FILTER_COMMON + ')'
+          break;
+        case C.FILTER_AROUND:
+          warningText += ' (' + T[language].FILTER_AROUND + ', '  + this.props.category + ')'
+          break;
+      }
+      searchFilteredWarning = this.getHeader(warningText);
     }
 
     let noMatchWarning = null;
