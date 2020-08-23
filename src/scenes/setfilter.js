@@ -45,7 +45,7 @@ class Setfilter extends React.Component {
             <title>{T[language].FILTER} - Skydive Kompasroos</title>
           </Helmet>
           <div className={classes.text}>
-            <Filter {...this.props}/>
+            <Filter {...C.withoutClasses(this.props)}/>
           </div>
         </div>
       )
@@ -60,14 +60,14 @@ class Setfilter extends React.Component {
               <div className={classes.text}>
                 <br/>
                 <Filter
-                  {...this.props}
+                  {...C.withoutClasses(this.props)}
                 />
               </div>
             </div>
             <div className={this.props.classes.column}>
               <div className={classes.text}>
                 <List
-                  {...this.props}
+                  {...C.withoutClasses(this.props)}
                 />
               </div>
             </div>

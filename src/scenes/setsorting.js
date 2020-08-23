@@ -23,6 +23,12 @@ const styles = theme => ({
     paddingLeft: theme.spacing(2),
     paddingRight: theme.spacing(2),
   },
+  row: {
+    display: "flex",
+  },
+  column: {
+    flex: "50%",
+  },
 });
 
 class Setsorting extends React.Component {
@@ -37,7 +43,7 @@ class Setsorting extends React.Component {
             <title>{T[language].SORTING} - Skydive Kompasroos</title>
           </Helmet>
           <div className={classes.text}>
-            <Sorting {...this.props}/>
+            <Sorting {...C.withoutClasses(this.props)}/>
           </div>
         </div>
       )
@@ -52,14 +58,14 @@ class Setsorting extends React.Component {
               <div className={classes.text}>
                 <br/>
                 <Sorting
-                  {...this.props}
+                  {...C.withoutClasses(this.props)}
                 />
               </div>
             </div>
             <div className={this.props.classes.column}>
               <div className={classes.text}>
                 <List
-                  {...this.props}
+                  {...C.withoutClasses(this.props)}
                 />
               </div>
             </div>

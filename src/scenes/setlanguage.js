@@ -23,6 +23,12 @@ const styles = theme => ({
     paddingLeft: theme.spacing(2),
     paddingRight: theme.spacing(2),
   },
+  row: {
+    display: "flex",
+  },
+  column: {
+    flex: "50%",
+  },
 });
 
 
