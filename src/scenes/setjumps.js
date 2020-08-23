@@ -5,7 +5,6 @@ import {withStyles} from '@material-ui/core/styles';
 import DoneAllIcon from '@material-ui/icons/DoneAll';
 
 import Summary from "../components/summary";
-import Language from "../components/language"
 import KompasroosSlider from "../components/kompasroosslider";
 import Wingloadtable from "../components/wingloadtable";
 
@@ -159,17 +158,9 @@ class SetJumps extends React.Component {
       );
     }
 
-    let languageSelect = null;
     let welcomeText = null;
     let doneButton = null;
     if (showWelcome) {
-      languageSelect = (
-        <div>
-          <Language {...C.withoutClasses(this.props)}/>
-          <br/>
-          <br/>
-        </div>
-      );
       welcomeText = (
         <div className={classes.welcome}>
           <b>{T[language].EXPERIENCE_WELCOME}</b>
@@ -224,7 +215,6 @@ class SetJumps extends React.Component {
         {helmet}
         <div className={classes.text}>
           {welcomeText}
-          {languageSelect}
           {T[language].EXPERIENCE_INTRO}
         </div>
         {totalJumpsSlider}
