@@ -80,6 +80,7 @@
     "RESULT_MINAREA_L": "Schirmgrösse mindestens",
     "RESULT_MINAREA_S": "Minimum",
     "SEARCH_FILTERWARNING": "Schirme vom Filter ausgeblendet!",
+    "SEARCH_NOMATCHWARNING": "Keine Schirme passen zur Suche",
     "SEARCH": "Suche",
     "SLIDER_JUMPSLAST12MONTHS_L": "Anzahl Sprünge in den letzten 12 Monaten",
     "SLIDER_JUMPSLAST12MONTHS_S": "Letzte 12 Monate",

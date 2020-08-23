@@ -80,6 +80,7 @@
     "RESULT_MINAREA_L": "Minimum size",
     "RESULT_MINAREA_S": "Minimum",
     "SEARCH_FILTERWARNING": "Parachutes hidden by filter!",
+    "SEARCH_NOMATCHWARNING": "No parachutes match search!",
     "SEARCH": "Search",
     "SLIDER_JUMPSLAST12MONTHS_L": "Number of jumps in the last 12 months",
     "SLIDER_JUMPSLAST12MONTHS_S": "Last 12 months",

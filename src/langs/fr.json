@@ -80,6 +80,7 @@
     "RESULT_MINAREA_L": "Taille minimale",
     "RESULT_MINAREA_S": "Minimum",
     "SEARCH_FILTERWARNING": "Pas de parachute avec ce filtre",
+    "SEARCH_NOMATCHWARNING": "Pas de parachute correspond à la recherche",
     "SEARCH": "Recherche",
     "SLIDER_JUMPSLAST12MONTHS_L": "Nombre de sauts dans le 12 derniers mois",
     "SLIDER_JUMPSLAST12MONTHS_S": "12 derniers mois",

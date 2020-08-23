@@ -89,6 +89,7 @@ class List extends React.Component {
 
     let lastGroup = null;
     let searchedCanopyHidden = false;
+    let shownCanopyCount = 0;
 
     for (let f = 0; f < orderedCanopies.length; f++) {
       let canopy = kompasroosData.canopies[orderedCanopies[f]];
@@ -119,6 +120,7 @@ class List extends React.Component {
         if (!this.searchMatch(canopy, this.props.searchText)) {
           showCanopy = false;
         } else {
+          shownCanopyCount++;
           if (!showCanopy) {
             searchedCanopyHidden = true;
           }
@@ -128,7 +130,6 @@ class List extends React.Component {
       if (!showCanopy) {
         continue;
       }
-
 
       //console.log(canopy.name);
       canopy.key = canopy.id;
@@ -182,9 +183,14 @@ class List extends React.Component {
       }
     }
 
-    let searchWarning = null;
+    let searchFilteredWarning = null;
     if (this.props.searchText && searchedCanopyHidden) {
-      searchWarning = this.getHeader(T[language].SEARCH_FILTERWARNING);
+      searchFilteredWarning = this.getHeader(T[language].SEARCH_FILTERWARNING);
+    }
+
+    let noMatchWarning = null;
+    if (shownCanopyCount === 0) {
+      noMatchWarning = this.getHeader(T[language].SEARCH_NOMATCHWARNING);
     }
 
     let summary = null;
@@ -206,7 +212,8 @@ class List extends React.Component {
         {summary}
         <ul className={classes.list}>
           {canopyList}
-          {searchWarning}
+          {searchFilteredWarning}
+          {noMatchWarning}
         </ul>
       </div>
     )
