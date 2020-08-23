@@ -89,7 +89,7 @@ class List extends React.Component {
 
     let lastGroup = null;
     let searchedCanopyHidden = false;
-    let shownCanopyCount = 0;
+    let showNoMatchWarning = true;
 
     for (let f = 0; f < orderedCanopies.length; f++) {
       let canopy = kompasroosData.canopies[orderedCanopies[f]];
@@ -120,7 +120,7 @@ class List extends React.Component {
         if (!this.searchMatch(canopy, this.props.searchText)) {
           showCanopy = false;
         } else {
-          shownCanopyCount++;
+          showNoMatchWarning = false;
           if (!showCanopy) {
             searchedCanopyHidden = true;
           }
@@ -204,7 +204,7 @@ class List extends React.Component {
     }
 
     let noMatchWarning = null;
-    if (shownCanopyCount === 0) {
+    if (this.props.searchText && showNoMatchWarning) {
       noMatchWarning = this.getHeader(T[language].SEARCH_NOMATCHWARNING);
     }
 
