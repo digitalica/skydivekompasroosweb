@@ -205,3 +205,38 @@ it('returns a filename from a path', function () {
   expect(C.effectiveMinAreaBasedOnCategoryAndExitWeight(4, 110)).toEqual(162);
   expect(C.effectiveMinAreaBasedOnCategoryAndExitWeight(4, 120)).toEqual(176);
 });
+
+it('validates languages correctly', function () {
+  expect(C.isValidLanguage('en')).toEqual(true);
+  expect(C.isValidLanguage('fr')).toEqual(true);
+  expect(C.isValidLanguage('de')).toEqual(true);
+  expect(C.isValidLanguage('nl')).toEqual(true);
+
+  expect(C.isValidLanguage('EN')).toEqual(false);
+  expect(C.isValidLanguage('FR')).toEqual(false);
+  expect(C.isValidLanguage('DE')).toEqual(false);
+  expect(C.isValidLanguage('NL')).toEqual(false);
+  expect(C.isValidLanguage('xx')).toEqual(false);
+  expect(C.isValidLanguage('a')).toEqual(false);
+  expect(C.isValidLanguage('aaaa')).toEqual(false);
+  expect(C.isValidLanguage('')).toEqual(false);
+  expect(C.isValidLanguage('deer')).toEqual(false);
+  expect(C.isValidLanguage('ander')).toEqual(false);
+  expect(C.isValidLanguage('undefined')).toEqual(false);
+  expect(C.isValidLanguage(undefined)).toEqual(false);
+});
+
+it('validates just a languagepath correctly', function () {
+  expect(C.isJustLanguagePath('/en')).toEqual(true);
+  expect(C.isJustLanguagePath('/en/')).toEqual(true);
+  expect(C.isJustLanguagePath('/xx')).toEqual(true);
+  expect(C.isJustLanguagePath('/xx/')).toEqual(true);
+
+  expect(C.isJustLanguagePath('/x/')).toEqual(false);
+  expect(C.isJustLanguagePath('/x')).toEqual(false);
+  expect(C.isJustLanguagePath('/abc/')).toEqual(false);
+  expect(C.isJustLanguagePath('/abc')).toEqual(false);
+  expect(C.isJustLanguagePath('en')).toEqual(false);
+  expect(C.isJustLanguagePath('/en/more')).toEqual(false);
+  expect(C.isJustLanguagePath('/english')).toEqual(false);
+});

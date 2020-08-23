@@ -138,7 +138,7 @@ class ListElement extends React.Component {
 
         element = (
           <li className={classes[classAcceptability]}>
-            <Link to={'/canopy/' + canopy.slug}>
+            <Link to={'/' + language + '/canopy/' + canopy.slug}>
               <table>
                 <tbody>
                 <tr>
@@ -165,7 +165,7 @@ class ListElement extends React.Component {
       case C.SORTING_CATEGORY:
         element = (
           <li className={classes[classAcceptability]}>
-            <Link to={'/canopy/' + canopy.slug}>
+            <Link to={'/' + language + '/canopy/' + canopy.slug}>
               <table>
                 <tbody>
                 <tr>
@@ -193,7 +193,7 @@ class ListElement extends React.Component {
       default:
         element = (
           <li className={classes[classAcceptability]}>
-            <Link to={'/canopy/' + canopy.slug}>
+            <Link to={'/' + language + '/canopy/' + canopy.slug}>
               <table>
                 <tbody>
                 <tr>

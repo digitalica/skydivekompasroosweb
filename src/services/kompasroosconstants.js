@@ -200,6 +200,14 @@ export default {
   withoutClasses(propsObject) {
     const {classes, ...otherkeys} = propsObject
     return otherkeys
+  },
+
+  isValidLanguage(language) {
+    return /^(en|de|fr|nl)$/.test(language)
+  },
+
+  isJustLanguagePath(path) {
+    return /^\/\w\w\/?$/.test(path)
   }
 
 };

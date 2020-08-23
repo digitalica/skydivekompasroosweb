@@ -141,6 +141,7 @@ class List extends React.Component {
 
           canopyList.push(
             <Listelement
+              key={canopy.id}
               language={language}
               canopy={canopy}
               category={this.props.category}
@@ -156,6 +157,8 @@ class List extends React.Component {
           lastGroup = canopy.calculationcategory;
           canopyList.push(
             <Listelement
+              key={canopy.id}
+              language={language}
               canopy={canopy}
               category={this.props.category}
               exitWeight={this.props.exitWeight}
@@ -168,6 +171,7 @@ class List extends React.Component {
           canopyList.push(
             <Listelement
               key={canopy.id}
+              language={language}
               canopy={canopy}
               category={this.props.category}
               exitWeight={this.props.exitWeight}

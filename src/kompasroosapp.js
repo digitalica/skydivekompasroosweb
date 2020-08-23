@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+import {BrowserRouter, Route, Redirect, Switch} from "react-router-dom";
+
 import {withCookies} from 'react-cookie';
 
 import {MuiThemeProvider, createMuiTheme} from '@material-ui/core/styles';
@@ -66,12 +68,16 @@ class KompasroosApp extends Component {
       default:
         break;
     }
-    // console.log('langs ' + browserLanguage +  "  " + defaultLanguage + " " + navigator.languages + " |  " + navigator.language +  " |  "+ navigator.userLanguage);
+
+    let languageCookie = cookies.get(C.COOKIE_LANGUAGE)
+    if (!C.isValidLanguage(languageCookie)) {
+      languageCookie = ''
+    }
 
     this.state = {
       filter: cookies.get(C.COOKIE_FILTER) || C.FILTER_ALL,
       sorting: cookies.get(C.COOKIE_SORTING) || C.SORTING_NAME,
-      language: cookies.get(C.COOKIE_LANGUAGE) || defaultLanguage ,
+      defaultLanguage: languageCookie || defaultLanguage ,
       showWelcome: !showList,
       searchText: '',
       exitWeight: exitWeght,
@@ -82,12 +88,16 @@ class KompasroosApp extends Component {
     };
   }
 
-
+  
   updateLanguage = (event) => {
     const {cookies} = this.props;
-    let language = event.target.value;
-    cookies.set(C.COOKIE_LANGUAGE, language, C.cookieOptions());
-    this.setState({language: language});
+    let newLanguage = event.target.value;
+    cookies.set(C.COOKIE_LANGUAGE, newLanguage, C.cookieOptions());
+    this.setState({language: newLanguage});
+    // actually switch language, we're not in a router, so no history available :-(
+    const oldLangRegEx = /\/..\/setlanguage/
+    const newLangPath = '/' + newLanguage + '/setlanguage'
+    window.location.href = window.location.href.replace(oldLangRegEx, newLangPath)
   };
 
   updateSorting = (event) => {
@@ -141,66 +151,78 @@ class KompasroosApp extends Component {
   render() {
     return (
       <MuiThemeProvider theme={theme}>
-        <Media query="(max-width: 1280px)">
-          {matches =>
-            matches ? (
-              <KompasroosMobile
-                theme={theme}
+        <BrowserRouter>
+          <Switch>
+            <Route path="/:language(de|en|fr|nl)"
 
-                isMobile={true}
+render={({ match, props, location }) => (
+  <Media query="(max-width: 1280px)">
+    
+    {matches =>
+      matches ? (
+        <KompasroosMobile
+          theme={theme}
 
-                showWelcome={this.state.showWelcome}
-                welcomeDone={this.welcomeDone}
+          isMobile={true}
 
-                language={this.state.language}
-                filter={this.state.filter}
-                sorting={this.state.sorting}
+          showWelcome={this.state.showWelcome}
+          welcomeDone={this.welcomeDone}
 
-                updateLanguage={this.updateLanguage}
-                updateFilter={this.updateFilter}
-                updateSorting={this.updateSorting}
+          language={match.params.language}
+          filter={this.state.filter}
+          sorting={this.state.sorting}
 
-                searchText={this.state.searchText}
-                onSearchChange={this.updateSearchText}
+          updateLanguage={this.updateLanguage}
+          updateFilter={this.updateFilter}
+          updateSorting={this.updateSorting}
 
-                totalJumps={this.state.totalJumps}
-                jumpsLast12Months={this.state.jumpsLast12Months}
-                xbracedJumps={this.state.xbracedJumps}
-                updateJumps={this.updateJumps}
-                category={this.state.category}
-                exitWeight={this.state.exitWeight}
-                updateExitWeight={this.updateExitWeight}
-              />
-            ) : (
-              <KompasroosDesktop
-                theme={theme}
+          searchText={this.state.searchText}
+          onSearchChange={this.updateSearchText}
 
-                isMobile={false}
+          totalJumps={this.state.totalJumps}
+          jumpsLast12Months={this.state.jumpsLast12Months}
+          xbracedJumps={this.state.xbracedJumps}
+          updateJumps={this.updateJumps}
+          category={this.state.category}
+          exitWeight={this.state.exitWeight}
+          updateExitWeight={this.updateExitWeight}
+        />
+      ) : (
+        <KompasroosDesktop
+          theme={theme}
 
-                showWelcome={this.state.showWelcome}
-                welcomeDone={this.welcomeDone}
+          isMobile={false}
 
-                language={this.state.language}
-                filter={this.state.filter}
-                sorting={this.state.sorting}
+          showWelcome={this.state.showWelcome}
+          welcomeDone={this.welcomeDone}
 
-                updateLanguage={this.updateLanguage}
-                updateFilter={this.updateFilter}
-                updateSorting={this.updateSorting}
+          language={match.params.language}
+          filter={this.state.filter}
+          sorting={this.state.sorting}
 
-                searchText={this.state.searchText}
-                onSearchChange={this.updateSearchText}
+          updateLanguage={this.updateLanguage}
+          updateFilter={this.updateFilter}
+          updateSorting={this.updateSorting}
 
-                totalJumps={this.state.totalJumps}
-                jumpsLast12Months={this.state.jumpsLast12Months}
-                xbracedJumps={this.state.xbracedJumps}
-                updateJumps={this.updateJumps}
-                category={this.state.category}
-                exitWeight={this.state.exitWeight}
-                updateExitWeight={this.updateExitWeight}
-              />
-            )}
-        </Media>
+          searchText={this.state.searchText}
+          onSearchChange={this.updateSearchText}
+
+          totalJumps={this.state.totalJumps}
+          jumpsLast12Months={this.state.jumpsLast12Months}
+          xbracedJumps={this.state.xbracedJumps}
+          updateJumps={this.updateJumps}
+          category={this.state.category}
+          exitWeight={this.state.exitWeight}
+          updateExitWeight={this.updateExitWeight}
+        />
+      )}
+  </Media>
+)}
+
+            />
+            <Redirect to={"/" + this.state.defaultLanguage + "/"} />
+          </Switch>
+        </BrowserRouter>
       </MuiThemeProvider>
     );
   }

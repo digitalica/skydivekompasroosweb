@@ -26,6 +26,7 @@ const styles = theme => ({
 
 
 function KompasroosDesktop(props) {
+  const {language} = props
 
   return (
     <BrowserRouter>
@@ -35,48 +36,48 @@ function KompasroosDesktop(props) {
         />
         <Switch>
           <KompasroosRoute
-            exact path="/"
+            exact path={"/" + language + "/"}
             component={Main}
 
             {...props}
           />
           <KompasroosRoute
-            path="/about"
+            path={"/" + language + "/about" }
             component={About}
 
             {...props}
           />
           <KompasroosRoute
-            path="/setfilter"
+            path={"/" + language + "/setfilter"}
             component={Setfilter}
 
             {...props}
           />
           <KompasroosRoute
-            path="/setsorting"
+            path={"/" + language + "/setsorting"}
             component={Setsorting}
 
             {...props}
           />
           <KompasroosRoute
-            path="/setlanguage"
+            path={"/" + language + "/setlanguage"}
             component={Setlanguage}
 
             {...props}
           />
           <KompasroosRoute
-            path="/canopy/:slug"
+            path={"/" + language + "/canopy/:slug"}
             component={Canopy}
 
             {...props}
           />
           <KompasroosRoute
-            path="/manufacturer/:slug"
+            path={"/" + language + "/manufacturer/:slug"}
             component={Manufacturer}
 
             {...props}
           />
-          <Redirect to="/"/>
+          <Redirect to={"/" + language + "/"} />
         </Switch>
       </div>
     </BrowserRouter>

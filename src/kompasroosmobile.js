@@ -16,6 +16,7 @@ import Footer from "./components/footer";
 import KompasroosRoute from "./kompasroosroute";
 
 function KompasroosMobile(props) {
+  const {language} = props
   return (
     <BrowserRouter>
       <div>
@@ -24,60 +25,60 @@ function KompasroosMobile(props) {
         />
         <Switch>
           <KompasroosRoute
-            exact path="/"
+            exact path={"/" + language +"/"}
             component={Main}
 
             {...props}
           />
           <KompasroosRoute
-            path="/about"
+            path={"/" + language + "/about"}
             component={About}
 
             {...props}
           />
           <KompasroosRoute
-            path="/setfilter"
+            path={"/" + language + "/setfilter"}
             component={Setfilter}
 
             {...props}
           />
           <KompasroosRoute
-            path="/setsorting"
+            path={"/" + language + "/setsorting"}
             component={Setsorting}
 
             {...props}
           />
           <KompasroosRoute
-            path="/setlanguage"
+            path={"/" + language + "/setlanguage"}
             component={Setlanguage}
 
             {...props}
           />
           <KompasroosRoute
-            path="/setjumps"
+            path={"/" + language + "/setjumps"}
             component={SetJumps}
 
             {...props}
           />
           <KompasroosRoute
-            path="/setweight"
+            path={"/" + language + "/setweight"}
             component={SetWeight}
 
             {...props}
           />
           <KompasroosRoute
-            path="/canopy/:slug"
+            path={"/" + language + "/canopy/:slug"}
             component={Canopy}
 
             {...props}
           />
           <KompasroosRoute
-            path="/manufacturer/:slug"
+            path={"/" + language + "/manufacturer/:slug"}
             component={Manufacturer}
 
             {...props}
           />
-          <Redirect to="/"/>
+          <Redirect to={"/" + language + "/"} />
         </Switch>
         <Footer
           {...props}

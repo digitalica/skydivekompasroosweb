@@ -23,6 +23,7 @@ import {withStyles} from '@material-ui/core/styles';
 
 import Autotext from "./autotext";
 
+import C from "../services/kompasroosconstants";
 import T from "../services/kompasroostranslations";
 
 
@@ -121,36 +122,36 @@ class TopAppBar extends React.Component {
     // console.log('go search ' + this.state.showSearch);
     if (!this.props.showWelcome) {
       this.setState({showSearch: true});
-      if (this.props.location.pathname !== "/") {
-        this.props.history.push('/');
-      }
+      // if (this.props.location.pathname !== "/") {
+      //   this.props.history.push('/');
+      // }
     }
   };
 
 
   goFilter = () => {
     this.closeMenu();
-    this.props.history.push('/setfilter')
+    this.props.history.push('/' + this.props.language + '/setfilter')
   };
 
   goSorting = () => {
     this.closeMenu();
-    this.props.history.push('/setsorting')
+    this.props.history.push('/' + this.props.language + '/setsorting')
   };
 
   goLanguage = () => {
     this.closeMenu();
-    this.props.history.push('/setlanguage')
+    this.props.history.push('/' + this.props.language + '/setlanguage')
   };
 
   goAbout = () => {
     this.closeMenu();
-    this.props.history.push('/about')
+    this.props.history.push('/' + this.props.language + '/about')
   };
 
 
   goBack = () => {
-    this.props.history.push('/')
+    this.props.history.push('/' + this.props.language + '/')
   };
 
 
@@ -158,11 +159,10 @@ class TopAppBar extends React.Component {
     const {classes, language} = this.props;
     const {anchorEl} = this.state;
 
-
     let topLeftButton = null;
     // console.log(this.props.location.pathname)
     if (!this.props.showWelcome) {
-      if (this.props.location.pathname === "/") {
+      if (C.isJustLanguagePath(this.props.location.pathname)) {
         // console.log('menu');
         topLeftButton =
           <IconButton className={classes.menuButton} color="inherit" aria-label="Menu" onClick={this.openMenu}>
@@ -179,7 +179,7 @@ class TopAppBar extends React.Component {
 
     let topRightButton = null;
     if (!this.props.showWelcome) {
-      if (this.props.location.pathname === "/" && this.state.showSearch) {
+      if (C.isJustLanguagePath(this.props.location.pathname) && this.state.showSearch) {
         topRightButton =
           <IconButton
             className={classes.searchButton}
@@ -203,7 +203,7 @@ class TopAppBar extends React.Component {
     }
 
     let headerCenter;
-    if (this.props.location.pathname === "/" && this.state.showSearch) {
+    if (C.isJustLanguagePath(this.props.location.pathname) && this.state.showSearch) {
       headerCenter = (
         <div className={classes.search}>
           <InputBase

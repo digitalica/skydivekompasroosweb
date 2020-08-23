@@ -25,10 +25,13 @@ const styles = theme => ({
   },
 });
 
+
 class Setlanguage extends React.Component {
 
   render() {
     const {language, classes} = this.props;
+
+    console.log('setlanguage render')
 
     if (this.props.isMobile) {
       return (
@@ -37,7 +40,7 @@ class Setlanguage extends React.Component {
             <title>{T[language].LANGUAGE} - Skydive Kompasroos</title>
           </Helmet>
           <div className={classes.text}>
-            <Language {...C.withoutClasses(this.props)}/>
+            <Language {...C.withoutClasses(this.props)} />
           </div>
         </div>
       )
@@ -51,9 +54,7 @@ class Setlanguage extends React.Component {
             <div className={this.props.classes.column}>
               <div className={classes.text}>
                 <br/>
-                <Language
-                  {...C.withoutClasses(this.props)}
-                />
+                <Language {...C.withoutClasses(this.props)} />
               </div>
             </div>
             <div className={this.props.classes.column}>

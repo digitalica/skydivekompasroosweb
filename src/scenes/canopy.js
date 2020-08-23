@@ -153,6 +153,9 @@ function Canopy(props) {
   const {classes, language, slug, category, exitWeight} = props;
   // console.log(JSON.stringify(props));
 
+  console.log('canopy props ' + JSON.stringify(Object.keys(props)))
+
+
   const canopy = kompasroosData.canopies[kompasroosData.slugs[slug]];
 
   let canopyCellsRow = null;
@@ -374,7 +377,7 @@ function Canopy(props) {
             <tbody>
             {warningRow}
             <tr className={classes.linkrow}
-                onClick={() => props.history.push("/manufacturer/" + canopy.manufacturerslug)}>
+                onClick={() => props.history.push("/" + language + "/manufacturer/" + canopy.manufacturerslug)}>
               <td className={classes.canopycategory}>{T[language].CANOPY_MANUFACTURER}:</td>
               <td className={classes.canopydetails}>
                 {canopy.manufacturername}

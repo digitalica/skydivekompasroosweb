@@ -74,13 +74,13 @@ class BottomAppBar extends React.Component {
 
   toggleSetWeight = () => {
     if (!this.props.showWelcome) {
-      this.props.history.push(this.togglePage('/setweight'))
+      this.props.history.push(this.togglePage('/' + this.props.language + '/setweight'))
     }
   };
 
   toggleSetJumps = () => {
     if (!this.props.showWelcome) {
-      this.props.history.push(this.togglePage('/setjumps'))
+      this.props.history.push(this.togglePage('/' + this.props.language + '/setjumps'))
     }
   };
 
