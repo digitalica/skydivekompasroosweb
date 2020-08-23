@@ -122,9 +122,11 @@ class TopAppBar extends React.Component {
     // console.log('go search ' + this.state.showSearch);
     if (!this.props.showWelcome) {
       this.setState({showSearch: true});
-      // if (this.props.location.pathname !== "/") {
-      //   this.props.history.push('/');
-      // }
+      // if we are not in the main screen (but for example canopy screen)
+      // return to main screen (showing the list) for search
+      if (!C.isJustLanguagePath(this.props.location.pathname)) {
+        this.props.history.push('/' + this.props.language + '/');
+      }
     }
   };
 
