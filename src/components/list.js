@@ -196,6 +196,9 @@ class List extends React.Component {
         case C.FILTER_AROUND:
           warningText += ' (' + T[language].FILTER_AROUND + ', '  + this.props.category + ')'
           break;
+        default: // this should also not happen
+          warningText += ' (????)'
+          break;
       }
       searchFilteredWarning = this.getHeader(warningText);
     }
