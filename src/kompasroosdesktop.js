@@ -13,6 +13,7 @@ import Manufacturer from "./scenes/manufacturer";
 
 import KompasroosRoute from "./kompasroosroute";
 
+import C from "./services/kompasroosconstants";
 
 const styles = theme => ({
   row: {
@@ -32,50 +33,50 @@ function KompasroosDesktop(props) {
     <BrowserRouter>
       <div>
         <Header
-          {...props}
+          {...C.withoutClasses(props)}
         />
         <Switch>
           <KompasroosRoute
             exact path={"/" + language + "/"}
             component={Main}
 
-            {...props}
+            {...C.withoutClasses(props)}
           />
           <KompasroosRoute
             path={"/" + language + "/about" }
             component={About}
 
-            {...props}
+            {...C.withoutClasses(props)}
           />
           <KompasroosRoute
             path={"/" + language + "/setfilter"}
             component={Setfilter}
 
-            {...props}
+            {...C.withoutClasses(props)}
           />
           <KompasroosRoute
             path={"/" + language + "/setsorting"}
             component={Setsorting}
 
-            {...props}
+            {...C.withoutClasses(props)}
           />
           <KompasroosRoute
             path={"/" + language + "/setlanguage"}
             component={Setlanguage}
 
-            {...props}
+            {...C.withoutClasses(props)}
           />
           <KompasroosRoute
             path={"/" + language + "/canopy/:slug"}
             component={Canopy}
 
-            {...props}
+            {...C.withoutClasses(props)}
           />
           <KompasroosRoute
             path={"/" + language + "/manufacturer/:slug"}
             component={Manufacturer}
 
-            {...props}
+            {...C.withoutClasses(props)}
           />
           <Redirect to={"/" + language + "/"} />
         </Switch>

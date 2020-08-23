@@ -15,73 +15,75 @@ import Footer from "./components/footer";
 
 import KompasroosRoute from "./kompasroosroute";
 
+import C from "./services/kompasroosconstants";
+
 function KompasroosMobile(props) {
   const {language} = props
   return (
     <BrowserRouter>
       <div>
         <Header
-          {...props}
+          {...C.withoutClasses(props)}
         />
         <Switch>
           <KompasroosRoute
             exact path={"/" + language +"/"}
             component={Main}
 
-            {...props}
+            {...C.withoutClasses(props)}
           />
           <KompasroosRoute
             path={"/" + language + "/about"}
             component={About}
 
-            {...props}
+            {...C.withoutClasses(props)}
           />
           <KompasroosRoute
             path={"/" + language + "/setfilter"}
             component={Setfilter}
 
-            {...props}
+            {...C.withoutClasses(props)}
           />
           <KompasroosRoute
             path={"/" + language + "/setsorting"}
             component={Setsorting}
 
-            {...props}
+            {...C.withoutClasses(props)}
           />
           <KompasroosRoute
             path={"/" + language + "/setlanguage"}
             component={Setlanguage}
 
-            {...props}
+            {...C.withoutClasses(props)}
           />
           <KompasroosRoute
             path={"/" + language + "/setjumps"}
             component={SetJumps}
 
-            {...props}
+            {...C.withoutClasses(props)}
           />
           <KompasroosRoute
             path={"/" + language + "/setweight"}
             component={SetWeight}
 
-            {...props}
+            {...C.withoutClasses(props)}
           />
           <KompasroosRoute
             path={"/" + language + "/canopy/:slug"}
             component={Canopy}
 
-            {...props}
+            {...C.withoutClasses(props)}
           />
           <KompasroosRoute
             path={"/" + language + "/manufacturer/:slug"}
             component={Manufacturer}
 
-            {...props}
+            {...C.withoutClasses(props)}
           />
           <Redirect to={"/" + language + "/"} />
         </Switch>
         <Footer
-          {...props}
+          {...C.withoutClasses(props)}
         />
       </div>
     </BrowserRouter>

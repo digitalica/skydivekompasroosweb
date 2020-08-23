@@ -57,7 +57,7 @@ function Main(props) {
             <div className={classes.text}>
               <br/>
               <SetJumps
-                {...props}
+                {...C.withoutClasses(props)}
               />
             </div>
           </div>

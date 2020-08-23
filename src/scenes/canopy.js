@@ -153,9 +153,6 @@ function Canopy(props) {
   const {classes, language, slug, category, exitWeight} = props;
   // console.log(JSON.stringify(props));
 
-  console.log('canopy props ' + JSON.stringify(Object.keys(props)))
-
-
   const canopy = kompasroosData.canopies[kompasroosData.slugs[slug]];
 
   let canopyCellsRow = null;
