@@ -520,8 +520,8 @@
         },
         {
           "type": "skydivemag",
-          "title": "Skydivemag Introducing the Pilot7",
-          "id": "introducing-the-pilot7"
+          "title": "Skydive Magazine: Introducing the Pilot7",
+          "id": "2016-04-20-introducing-the-pilot7"
         }
       ]
     },
@@ -610,8 +610,8 @@
         },
         {
           "type": "skydivemag",
-          "title": "Skydivemag review",
-          "id": "pd-spectre-predictable-and-versatile"
+          "title": "Skydive Magazine: Packing a SPECTRE",
+          "id": "packing-a-spectre"
         }
       ],
       "xbraced": false
@@ -1008,11 +1008,6 @@
           "type": "youtube",
           "title": "NEW ICARUS CANOPIES SAFIRE2 119 sqft OPENING & LANDING",
           "id": "3RWf974sCtk"
-        },
-        {
-          "type": "skydivemag",
-          "title": "Skydivemag review",
-          "id": "icarus-canopies-by-nz-aerosports-reviewi"
         }
       ],
       "xbraced": false
@@ -1039,11 +1034,6 @@
           "type": "youtube",
           "title": "ICARUS SFire 139 - Skydive - AIR 65",
           "id": "Ik-HlZx_gok"
-        },
-        {
-          "type": "skydivemag",
-          "title": "Skydivemag review",
-          "id": "safire-3-review"
         }
       ],
       "xbraced": false
@@ -1073,6 +1063,11 @@
           "type": "youtube",
           "title": "Openings",
           "id": "QuNRQplQOhA"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydive Magazine review",
+          "id": "2017-04-12-safire-3-review/"
         }
       ],
       "xbraced": false
@@ -1550,11 +1545,6 @@
           "type": "youtube",
           "title": "aerodyne zulu (152ft) test jump",
           "id": "aGzmbjk30KU"
-        },
-        {
-          "type": "skydivemag",
-          "title": "Skydivemag review",
-          "id": "zulu"
         }
       ],
       "xbraced": false
@@ -1787,7 +1777,7 @@
         {
           "type": "skydivemag",
           "title": "Skydivemag Crossfire 3 Insights",
-          "id": "crossfire-3-insights"
+          "id": "2016-12-05-crossfire-3-insights"
         }
       ],
       "xbraced": false
@@ -2062,7 +2052,7 @@
         {
           "type": "skydivemag",
           "title": "Skydivemag review",
-          "id": "20131002-the-sensei"
+          "id": "2014-03-07-20131002-the-sensei"
         }
       ],
       "xbraced": true
@@ -2098,8 +2088,8 @@
         },
         {
           "type": "skydivemag",
-          "title": "Skydivemag review",
-          "id": "20131115-velocity-103"
+          "title": "Skydive Magazine review",
+          "id": "2013-11-15-20131115-velocity-103"
         }
       ],
       "xbraced": true
@@ -2119,8 +2109,8 @@
       "links": [
         {
           "type": "skydivemag",
-          "title": "Skydivemag review",
-          "id": "20130815-competition-velocity"
+          "title": "Skydive Magazine review",
+          "id": "2013-09-26-20130815-competition-velocity/"
         }
       ],
       "xbraced": true
@@ -2356,11 +2346,6 @@
           "type": "youtube",
           "title": "Peregrine XRW (met wingsuit)",
           "id": "dPAcENXxtnw"
-        },
-        {
-          "type": "skydivemag",
-          "title": "Skydivemag: Peregrine Project | #SkydiveDubai",
-          "id": "peregrine-project-skydivedubai"
         }
       ],
       "xbraced": true
@@ -2390,8 +2375,8 @@
         },
         {
           "type": "skydivemag",
-          "title": "Skydivemag review",
-          "id": "valkyrie-review"
+          "title": "Skydive Magazine review",
+          "id": "2017-03-06-valkyrie-review"
         }
       ],
       "xbraced": true

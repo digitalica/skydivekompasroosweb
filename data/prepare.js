@@ -117,7 +117,7 @@ for (let c in canopiesArray) {
           url = "https://vimeo.com/" + cObject.links[li].id;
           break;
         case 'skydivemag':
-          url = "http://www.skydivemag.com/article/" + cObject.links[li].id;
+          url = "http://www.skydivemag.com/new/" + cObject.links[li].id;
           break;
         case 'pdf':
           url = cObject.links[li].id;

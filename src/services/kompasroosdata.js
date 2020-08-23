@@ -1229,8 +1229,8 @@ let kompasroosData = {
         },
         {
           "type": "skydivemag",
-          "title": "Skydivemag Introducing the Pilot7",
-          "url": "http://www.skydivemag.com/article/introducing-the-pilot7"
+          "title": "Skydive Magazine: Introducing the Pilot7",
+          "url": "http://www.skydivemag.com/new/2016-04-20-introducing-the-pilot7"
         }
       ],
       "displaycategory": 2,
@@ -1385,8 +1385,8 @@ let kompasroosData = {
         },
         {
           "type": "skydivemag",
-          "title": "Skydivemag review",
-          "url": "http://www.skydivemag.com/article/pd-spectre-predictable-and-versatile"
+          "title": "Skydive Magazine: Packing a SPECTRE",
+          "url": "http://www.skydivemag.com/new/packing-a-spectre"
         }
       ],
       "xbraced": false,
@@ -2067,11 +2067,6 @@ let kompasroosData = {
           "type": "youtube",
           "title": "NEW ICARUS CANOPIES SAFIRE2 119 sqft OPENING & LANDING",
           "url": "https://www.youtube.com/watch?v=3RWf974sCtk"
-        },
-        {
-          "type": "skydivemag",
-          "title": "Skydivemag review",
-          "url": "http://www.skydivemag.com/article/icarus-canopies-by-nz-aerosports-reviewi"
         }
       ],
       "xbraced": false,
@@ -2110,11 +2105,6 @@ let kompasroosData = {
           "type": "youtube",
           "title": "ICARUS SFire 139 - Skydive - AIR 65",
           "url": "https://www.youtube.com/watch?v=Ik-HlZx_gok"
-        },
-        {
-          "type": "skydivemag",
-          "title": "Skydivemag review",
-          "url": "http://www.skydivemag.com/article/safire-3-review"
         }
       ],
       "xbraced": false,
@@ -2156,6 +2146,11 @@ let kompasroosData = {
           "type": "youtube",
           "title": "Openings",
           "url": "https://www.youtube.com/watch?v=QuNRQplQOhA"
+        },
+        {
+          "type": "skydivemag",
+          "title": "Skydive Magazine review",
+          "url": "http://www.skydivemag.com/new/2017-04-12-safire-3-review/"
         }
       ],
       "xbraced": false,
@@ -3042,11 +3037,6 @@ let kompasroosData = {
           "type": "youtube",
           "title": "aerodyne zulu (152ft) test jump",
           "url": "https://www.youtube.com/watch?v=aGzmbjk30KU"
-        },
-        {
-          "type": "skydivemag",
-          "title": "Skydivemag review",
-          "url": "http://www.skydivemag.com/article/zulu"
         }
       ],
       "xbraced": false,
@@ -3437,7 +3427,7 @@ let kompasroosData = {
         {
           "type": "skydivemag",
           "title": "Skydivemag Crossfire 3 Insights",
-          "url": "http://www.skydivemag.com/article/crossfire-3-insights"
+          "url": "http://www.skydivemag.com/new/2016-12-05-crossfire-3-insights"
         }
       ],
       "xbraced": false,
@@ -3901,7 +3891,7 @@ let kompasroosData = {
         {
           "type": "skydivemag",
           "title": "Skydivemag review",
-          "url": "http://www.skydivemag.com/article/20131002-the-sensei"
+          "url": "http://www.skydivemag.com/new/2014-03-07-20131002-the-sensei"
         }
       ],
       "xbraced": true,
@@ -3963,8 +3953,8 @@ let kompasroosData = {
         },
         {
           "type": "skydivemag",
-          "title": "Skydivemag review",
-          "url": "http://www.skydivemag.com/article/20131115-velocity-103"
+          "title": "Skydive Magazine review",
+          "url": "http://www.skydivemag.com/new/2013-11-15-20131115-velocity-103"
         }
       ],
       "xbraced": true,
@@ -3996,8 +3986,8 @@ let kompasroosData = {
         },
         {
           "type": "skydivemag",
-          "title": "Skydivemag review",
-          "url": "http://www.skydivemag.com/article/20130815-competition-velocity"
+          "title": "Skydive Magazine review",
+          "url": "http://www.skydivemag.com/new/2013-09-26-20130815-competition-velocity/"
         }
       ],
       "xbraced": true,
@@ -4394,11 +4384,6 @@ let kompasroosData = {
           "type": "youtube",
           "title": "Peregrine XRW (met wingsuit)",
           "url": "https://www.youtube.com/watch?v=dPAcENXxtnw"
-        },
-        {
-          "type": "skydivemag",
-          "title": "Skydivemag: Peregrine Project | #SkydiveDubai",
-          "url": "http://www.skydivemag.com/article/peregrine-project-skydivedubai"
         }
       ],
       "xbraced": true,
@@ -4440,8 +4425,8 @@ let kompasroosData = {
         },
         {
           "type": "skydivemag",
-          "title": "Skydivemag review",
-          "url": "http://www.skydivemag.com/article/valkyrie-review"
+          "title": "Skydive Magazine review",
+          "url": "http://www.skydivemag.com/new/2017-03-06-valkyrie-review"
         }
       ],
       "xbraced": true,
@@ -4637,7 +4622,7 @@ let kompasroosData = {
         {
           "type": "skydivemag",
           "title": "Skydivemag Fluid Wings Releases Competition Wing",
-          "url": "http://www.skydivemag.com/article/fluid-wings-releases-competition-wing"
+          "url": "http://www.skydivemag.com/new/fluid-wings-releases-competition-wing"
         }
       ],
       "displaycategory": 7,
