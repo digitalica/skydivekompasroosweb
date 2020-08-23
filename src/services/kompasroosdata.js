@@ -4603,6 +4603,7 @@ let kompasroosData = {
       "maxsize": "84",
       "minsize": "64",
       "firstyearofproduction": "2017",
+      "lastyearofproduction": "2020",
       "category": 7,
       "commontype": 0,
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
@@ -4632,6 +4633,38 @@ let kompasroosData = {
       "manufacturerslug": "fluid_wings",
       "search": "hk|fluidwings",
       "slug": "fluid_wings-hk"
+    },
+    "AF70A061-2995-47E3-A68B-12F4B68385CC": {
+      "id": "AF70A061-2995-47E3-A68B-12F4B68385CC",
+      "name": "HK2",
+      "cells": "27",
+      "maxsize": "84",
+      "minsize": "64",
+      "firstyearofproduction": "2020",
+      "category": null,
+      "commontype": 0,
+      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
+      "url": "http://www.fluidwings.com/hk2",
+      "xbraced": true,
+      "links": [
+        {
+          "type": "vimeo",
+          "title": "New Game - Fluid Wings HK2 Launch",
+          "url": "https://vimeo.com/443516186"
+        },
+        {
+          "type": "youtube",
+          "title": "2020 Opening Weekends - Fluid Wings HK2-69",
+          "url": "https://www.youtube.com/watch?v=xiBv1WY47J8"
+        }
+      ],
+      "displaycategory": "?",
+      "calculationcategory": 7,
+      "manufacturername": "Fluid Wings",
+      "manufacturerurl": "http://www.fluidwings.com/",
+      "manufacturerslug": "fluid_wings",
+      "search": "hk2|fluidwings",
+      "slug": "fluid_wings-hk2"
     },
     "DC694B4B-EF96-4E4C-993C-601929279178": {
       "id": "DC694B4B-EF96-4E4C-993C-601929279178",
@@ -4695,6 +4728,42 @@ let kompasroosData = {
       "manufacturerslug": "fluid_wings",
       "search": "airwolf|fluidwings",
       "slug": "fluid_wings-airwolf"
+    },
+    "1802CFF1-E4F6-40D7-895E-D3F8EE01B7C3": {
+      "id": "1802CFF1-E4F6-40D7-895E-D3F8EE01B7C3",
+      "name": "Wairwolf",
+      "cells": "7",
+      "maxsize": "96",
+      "minsize": "67",
+      "firstyearofproduction": "2020",
+      "category": null,
+      "commontype": 0,
+      "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
+      "url": "http://www.fluidwings.com/wairwolf",
+      "xbraced": true,
+      "links": [
+        {
+          "type": "vimeo",
+          "title": "WairWolf Release Video",
+          "url": "https://vimeo.com/370386214"
+        },
+        {
+          "type": "vimeo",
+          "title": "WairWolf 79 cutaway",
+          "url": "https://vimeo.com/398312832"
+        }
+      ],
+      "remarks": {
+        "en": "The Wairwolf is a limited-release wing, a significant step up from the Airwolf",
+        "nl": "The Wairwolf is a limited-release koepel, met verbeteringen ten opzichte van de Airwolf"
+      },
+      "displaycategory": "?",
+      "calculationcategory": 7,
+      "manufacturername": "Fluid Wings",
+      "manufacturerurl": "http://www.fluidwings.com/",
+      "manufacturerslug": "fluid_wings",
+      "search": "wairwolf|fluidwings",
+      "slug": "fluid_wings-wairwolf"
     },
     "A8C274D3-DE56-413D-AAA2-C8EE6D7CA3BE": {
       "id": "A8C274D3-DE56-413D-AAA2-C8EE6D7CA3BE",
@@ -4989,6 +5058,7 @@ let kompasroosData = {
     "30592423-330F-4E41-9BCD-9CA85E06D425",
     "9E7E3E3C-F4DE-41EE-A08B-15E8CCA08B9A",
     "DC694B4B-EF96-4E4C-993C-601929279178",
+    "AF70A061-2995-47E3-A68B-12F4B68385CC",
     "BF1DAC87-02CD-4743-B715-62EFF23ECBED",
     "86593DB8-9894-4866-A580-E7A35D53D600",
     "AF1933DE-FA7F-4753-8DA1-713035A955DD",
@@ -5095,6 +5165,7 @@ let kompasroosData = {
     "6188C8D0-8CF4-4BE4-86FE-268862413701",
     "FF9EE1B5-2B29-4EF8-B929-35C530DD52A0",
     "C728529C-B0FE-4726-9D1C-7438721117CA",
+    "1802CFF1-E4F6-40D7-895E-D3F8EE01B7C3",
     "A23740C3-2E70-4B87-8326-C9A88F4CD66E",
     "B66CC389-2650-4205-B30B-5D279ACDE8AB",
     "3E43D7CE-DDFD-446F-B6D4-BB793ABB46A6",
@@ -5163,10 +5234,12 @@ let kompasroosData = {
     "30592423-330F-4E41-9BCD-9CA85E06D425",
     "9E7E3E3C-F4DE-41EE-A08B-15E8CCA08B9A",
     "DC694B4B-EF96-4E4C-993C-601929279178",
+    "AF70A061-2995-47E3-A68B-12F4B68385CC",
     "AF1933DE-FA7F-4753-8DA1-713035A955DD",
     "CD87EF17-F2AC-429D-A8D5-5443485A6BF3",
     "65A55BBF-5E9E-4ACC-BD87-723BD3CB3ACF",
     "6C91684B-857B-455F-9A6B-9DC15A31E98A",
+    "1802CFF1-E4F6-40D7-895E-D3F8EE01B7C3",
     "89DCF61C-2FE5-4717-B14F-B5E8BB266DFB",
     "F996C3D1-5684-45BF-9B30-9B0ADEC987C2",
     "F46272C1-526B-41A1-88B1-8A4F7CE7BAA9",
@@ -5447,6 +5520,7 @@ let kompasroosData = {
     "30592423-330F-4E41-9BCD-9CA85E06D425",
     "9E7E3E3C-F4DE-41EE-A08B-15E8CCA08B9A",
     "DC694B4B-EF96-4E4C-993C-601929279178",
+    "AF70A061-2995-47E3-A68B-12F4B68385CC",
     "AF1933DE-FA7F-4753-8DA1-713035A955DD",
     "de98ce5e-513e-454a-bfdb-fc8ff93ee92e",
     "1931C950-68C7-11E2-BCFD-0800200C9A66",
@@ -5454,6 +5528,7 @@ let kompasroosData = {
     "A2252BB9-ED7C-4EEF-AB7B-18B6B4DC774E",
     "6334C760-93BD-41D1-90B7-4A63678177E7",
     "23498D9C-045C-4D99-AAD7-E01CFDBC717B",
+    "1802CFF1-E4F6-40D7-895E-D3F8EE01B7C3",
     "89DA27EF-860B-4FF9-9917-EF81A266FAFB"
   ],
   "slugs": {
@@ -5642,8 +5717,10 @@ let kompasroosData = {
     "fluid_wings-helix": "30592423-330F-4E41-9BCD-9CA85E06D425",
     "fluid_wings-hs": "AF1933DE-FA7F-4753-8DA1-713035A955DD",
     "fluid_wings-hk": "9E7E3E3C-F4DE-41EE-A08B-15E8CCA08B9A",
+    "fluid_wings-hk2": "AF70A061-2995-47E3-A68B-12F4B68385CC",
     "fluid_wings-hk_terminal": "DC694B4B-EF96-4E4C-993C-601929279178",
     "fluid_wings-airwolf": "E0142D15-96D2-461C-8915-9C1625C9C5EB",
+    "fluid_wings-wairwolf": "1802CFF1-E4F6-40D7-895E-D3F8EE01B7C3",
     "jojowings-sonic": "A8C274D3-DE56-413D-AAA2-C8EE6D7CA3BE",
     "jojowings-raptor": "CDC9F86A-5F6C-4334-8887-4A4AC7D6C24E",
     "jojowings-xf15": "89DA27EF-860B-4FF9-9917-EF81A266FAFB",
