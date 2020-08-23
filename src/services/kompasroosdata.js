@@ -3400,15 +3400,20 @@ let kompasroosData = {
     },
     "6F21BE85-8902-4392-967C-8DE5FAAD478C": {
       "id": "6F21BE85-8902-4392-967C-8DE5FAAD478C",
-      "name": "crossfire-3-r875",
+      "name": "Crossfire 3",
       "category": 5,
       "cells": "9",
       "commontype": 1,
-      "dropzoneid": "",
+      "dropzoneid": "crossfire-3-r875",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "firstyearofproduction": "2016",
       "url": "http://www.nzaerosports.com/canopies/icarus-crossfire3",
       "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/main-canopies/crossfire-3-r875"
+        },
         {
           "type": "vimeo",
           "title": "Crossfire 3 trailer",
@@ -3441,8 +3446,8 @@ let kompasroosData = {
       "manufacturername": "NZ Aerosports",
       "manufacturerurl": "http://www.nzaerosports.com",
       "manufacturerslug": "nz_aerosports",
-      "search": "crossfire3r875|nzaerosports",
-      "slug": "nz_aerosports-crossfire-3-r875"
+      "search": "crossfire3|nzaerosports",
+      "slug": "nz_aerosports-crossfire_3"
     },
     "B66CC389-2650-4205-B30B-5D279ACDE8AB": {
       "id": "B66CC389-2650-4205-B30B-5D279ACDE8AB",
@@ -5610,7 +5615,7 @@ let kompasroosData = {
     "skylark_parachutes-odyssey": "C0785556-9B3B-431E-95A0-39911DB1DBD0",
     "skylark_parachutes-odyssey_evo": "19982FDF-FB8B-4178-8F34-127E40964A12",
     "nz_aerosports-crossfire_2": "909AAB5D-37EA-447A-A850-4AEEE03CF1D2",
-    "nz_aerosports-crossfire-3-r875": "6F21BE85-8902-4392-967C-8DE5FAAD478C",
+    "nz_aerosports-crossfire_3": "6F21BE85-8902-4392-967C-8DE5FAAD478C",
     "icarus_canopies-x-fire": "B66CC389-2650-4205-B30B-5D279ACDE8AB",
     "big-air_sportz-samurai": "E761C654-5896-4903-8929-581C229EE0C3",
     "atair_aerodynamics-cobalt_competition": "918A79DF-E421-4207-ADFD-C15C64194642",

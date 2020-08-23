@@ -1755,11 +1755,11 @@
     },
     {
       "id": "6F21BE85-8902-4392-967C-8DE5FAAD478C",
-      "name": "crossfire-3-r875",
+      "name": "Crossfire 3",
       "category": "5",
       "cells": "9",
       "commontype": "1",
-      "dropzoneid": "",
+      "dropzoneid": "crossfire-3-r875",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "firstyearofproduction": "2016",
       "url": "http://www.nzaerosports.com/canopies/icarus-crossfire3",
