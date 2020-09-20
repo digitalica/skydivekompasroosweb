@@ -1371,6 +1371,19 @@
       "xbraced": false
     },
     {
+      "id": "F46272C1-526B-41A1-88B1-8A4F7CE7BAA9",
+      "name": "ōm-7",
+      "category": "3",
+      "cells": "7",
+      "commontype": "0",
+      "dropzoneid": "om7-r962",
+      "manufacturerid": "29A49954-54B1-4F77-A399-CCEFCCC9B3B9",
+      "maxsize": "229",
+      "minsize": "99",
+      "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=146&Itemid=676",
+      "xbraced": false
+    },
+    {
       "id": "107633B0-202B-4625-9CD4-8AFE131C5D10",
       "name": "Stiletto",
       "category": "4",
@@ -1684,6 +1697,19 @@
       "commontype": "0",
       "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
       "url": "http://parachutesystems.com/ventus",
+      "xbraced": false
+    },
+    {
+      "id": "5DB3826F-4207-4A7A-A3A4-F968F85F1D04",
+      "name": "Scorpion",
+      "cells": "9",
+      "maxsize": "190",
+      "minsize": "97",
+      "category": "4",
+      "firstyearofproduction": "2020",
+      "commontype": "0",
+      "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
+      "url": "https://www.paratec.de/scorpion",
       "xbraced": false
     },
     {
@@ -2663,19 +2689,6 @@
       "xbraced": true
     },
     {
-      "id": "F46272C1-526B-41A1-88B1-8A4F7CE7BAA9",
-      "name": "ōm-7",
-      "category": "",
-      "cells": "7",
-      "commontype": "0",
-      "dropzoneid": "om7-r962",
-      "manufacturerid": "29A49954-54B1-4F77-A399-CCEFCCC9B3B9",
-      "maxsize": "229",
-      "minsize": "99",
-      "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=146&Itemid=676",
-      "xbraced": false
-    },
-    {
       "id": "6B1E0B26-043D-48EE-883F-59C60BB8F04F",
       "name": "Axon",
       "category": "",
@@ -2753,6 +2766,19 @@
           "id": "SEvR-pgquw8"
         }
       ]
+    },
+    {
+      "id": "71605FA8-1F08-41EF-98E0-339005AA2D4A",
+      "name": "XTC",
+      "cells": "9",
+      "maxsize": "94",
+      "minsize": "74",
+      "category": "7",
+      "firstyearofproduction": "2020",
+      "commontype": "0",
+      "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
+      "url": "https://www.paratec.de/xtc",
+      "xbraced": true
     }
   ]
 }

@@ -2702,6 +2702,33 @@ let kompasroosData = {
       "search": "kraken|nzaerosports",
       "slug": "nz_aerosports-kraken"
     },
+    "F46272C1-526B-41A1-88B1-8A4F7CE7BAA9": {
+      "id": "F46272C1-526B-41A1-88B1-8A4F7CE7BAA9",
+      "name": "ōm-7",
+      "category": 3,
+      "cells": "7",
+      "commontype": 0,
+      "dropzoneid": "om7-r962",
+      "manufacturerid": "29A49954-54B1-4F77-A399-CCEFCCC9B3B9",
+      "maxsize": "229",
+      "minsize": "99",
+      "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=146&Itemid=676",
+      "xbraced": false,
+      "links": [
+        {
+          "type": "dropzone.com",
+          "title": "Dropzone.com",
+          "url": "https://www.dropzone.com/gear/main-canopies/om7-r962"
+        }
+      ],
+      "displaycategory": 3,
+      "calculationcategory": 3,
+      "manufacturername": "Icarus Canopies",
+      "manufacturerurl": "http://www.icaruscanopies.aero/",
+      "manufacturerslug": "icarus_canopies",
+      "search": "om7|icaruscanopies",
+      "slug": "icarus_canopies-om-7"
+    },
     "107633B0-202B-4625-9CD4-8AFE131C5D10": {
       "id": "107633B0-202B-4625-9CD4-8AFE131C5D10",
       "name": "Stiletto",
@@ -3296,6 +3323,27 @@ let kompasroosData = {
       "manufacturerslug": "parachute_systems",
       "search": "ventushybrid|parachutesystems",
       "slug": "parachute_systems-ventus_hybrid"
+    },
+    "5DB3826F-4207-4A7A-A3A4-F968F85F1D04": {
+      "id": "5DB3826F-4207-4A7A-A3A4-F968F85F1D04",
+      "name": "Scorpion",
+      "cells": "9",
+      "maxsize": "190",
+      "minsize": "97",
+      "category": 4,
+      "firstyearofproduction": "2020",
+      "commontype": 0,
+      "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
+      "url": "https://www.paratec.de/scorpion",
+      "xbraced": false,
+      "links": [],
+      "displaycategory": 4,
+      "calculationcategory": 4,
+      "manufacturername": "Paratec",
+      "manufacturerurl": "http://www.paratec.de/",
+      "manufacturerslug": "paratec",
+      "search": "scorpion|paratec",
+      "slug": "paratec-scorpion"
     },
     "C0785556-9B3B-431E-95A0-39911DB1DBD0": {
       "id": "C0785556-9B3B-431E-95A0-39911DB1DBD0",
@@ -4832,33 +4880,6 @@ let kompasroosData = {
       "search": "xf15|jojowings",
       "slug": "jojowings-xf15"
     },
-    "F46272C1-526B-41A1-88B1-8A4F7CE7BAA9": {
-      "id": "F46272C1-526B-41A1-88B1-8A4F7CE7BAA9",
-      "name": "ōm-7",
-      "category": null,
-      "cells": "7",
-      "commontype": 0,
-      "dropzoneid": "om7-r962",
-      "manufacturerid": "29A49954-54B1-4F77-A399-CCEFCCC9B3B9",
-      "maxsize": "229",
-      "minsize": "99",
-      "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=146&Itemid=676",
-      "xbraced": false,
-      "links": [
-        {
-          "type": "dropzone.com",
-          "title": "Dropzone.com",
-          "url": "https://www.dropzone.com/gear/main-canopies/om7-r962"
-        }
-      ],
-      "displaycategory": "?",
-      "calculationcategory": 6,
-      "manufacturername": "Icarus Canopies",
-      "manufacturerurl": "http://www.icaruscanopies.aero/",
-      "manufacturerslug": "icarus_canopies",
-      "search": "om7|icaruscanopies",
-      "slug": "icarus_canopies-om-7"
-    },
     "6B1E0B26-043D-48EE-883F-59C60BB8F04F": {
       "id": "6B1E0B26-043D-48EE-883F-59C60BB8F04F",
       "name": "Axon",
@@ -5001,6 +5022,27 @@ let kompasroosData = {
       "manufacturerslug": "skylark_parachutes",
       "search": "scirocco|skylarkparachutes",
       "slug": "skylark_parachutes-scirocco"
+    },
+    "71605FA8-1F08-41EF-98E0-339005AA2D4A": {
+      "id": "71605FA8-1F08-41EF-98E0-339005AA2D4A",
+      "name": "XTC",
+      "cells": "9",
+      "maxsize": "94",
+      "minsize": "74",
+      "category": 7,
+      "firstyearofproduction": "2020",
+      "commontype": 0,
+      "manufacturerid": "E1DA167E-6512-401E-9033-8621884D2C67",
+      "url": "https://www.paratec.de/xtc",
+      "xbraced": true,
+      "links": [],
+      "displaycategory": 7,
+      "calculationcategory": 7,
+      "manufacturername": "Paratec",
+      "manufacturerurl": "http://www.paratec.de/",
+      "manufacturerslug": "paratec",
+      "search": "xtc|paratec",
+      "slug": "paratec-xtc"
     }
   },
   "canopiesByName": [
@@ -5127,6 +5169,7 @@ let kompasroosData = {
     "83654CC3-4296-445B-863C-A5CC09185945",
     "E761C654-5896-4903-8929-581C229EE0C3",
     "A2252BB9-ED7C-4EEF-AB7B-18B6B4DC774E",
+    "5DB3826F-4207-4A7A-A3A4-F968F85F1D04",
     "0858835E-BC3A-43D9-A085-3DF96D70D3ED",
     "DD3686AE-6C9C-446F-A255-C41A5CEEBE46",
     "DEBE5437-93D0-4F1C-8A64-F75E77567AE9",
@@ -5172,6 +5215,7 @@ let kompasroosData = {
     "67E749A9-324E-4322-B0D2-015974DD31A7",
     "B8B42051-2947-4461-A1A8-439BE861DB39",
     "89DA27EF-860B-4FF9-9917-EF81A266FAFB",
+    "71605FA8-1F08-41EF-98E0-339005AA2D4A",
     "D78B4C18-1887-4D66-8FF6-6FFFEF93C6CB",
     "26C05258-8F36-4A4B-A710-5B7A4D64810B",
     "B14481B6-5DE6-485F-9858-7011DE27884C",
@@ -5308,8 +5352,10 @@ let kompasroosData = {
     "FC044FAE-FD5C-45A2-8740-9CE8783C76FA",
     "D1AEB195-55A5-4447-9578-47BD8431E13F",
     "BBF8B6D2-AD53-45AF-98E5-CBD30A00ED50",
+    "5DB3826F-4207-4A7A-A3A4-F968F85F1D04",
     "49B5D670-24BF-4392-B6D5-3426A88DC2AC",
     "3E43D7CE-DDFD-446F-B6D4-BB793ABB46A6",
+    "71605FA8-1F08-41EF-98E0-339005AA2D4A",
     "EA08A05D-B79A-4687-AED8-AFB272287ADA",
     "BF1DAC87-02CD-4743-B715-62EFF23ECBED",
     "3CADD8FE-CBFE-4390-9306-DB453623D44C",
@@ -5430,6 +5476,7 @@ let kompasroosData = {
     "9D021CA3-A103-4CB9-B053-A7ABCC4BBC96",
     "CD87EF17-F2AC-429D-A8D5-5443485A6BF3",
     "FC044FAE-FD5C-45A2-8740-9CE8783C76FA",
+    "F46272C1-526B-41A1-88B1-8A4F7CE7BAA9",
     "65A55BBF-5E9E-4ACC-BD87-723BD3CB3ACF",
     "C34B49DE-FB46-49EA-B34C-41CC059EC4B5",
     "B831B534-D7A7-4063-A1C5-694D1FEE9F22",
@@ -5464,6 +5511,7 @@ let kompasroosData = {
     "7428649F-5425-4F5A-A704-14DC383611C9",
     "66EE6227-E990-4451-B134-43D0D51715C6",
     "FF9B09BF-27F1-4072-B0FB-1801C0A9B89E",
+    "5DB3826F-4207-4A7A-A3A4-F968F85F1D04",
     "620114F1-70C7-474A-B996-318B49AA2D9F",
     "A088AE69-7D61-45A5-9919-BF2328F836BE",
     "04B47713-9ACE-4E57-851F-137DE23CD4E5",
@@ -5506,7 +5554,6 @@ let kompasroosData = {
     "F996C3D1-5684-45BF-9B30-9B0ADEC987C2",
     "F566B784-F61C-49A6-89A1-BEFF497487D2",
     "136EE958-6048-4129-B1B1-D0E4B11147EC",
-    "F46272C1-526B-41A1-88B1-8A4F7CE7BAA9",
     "3193501C-9111-4782-B0EC-778CD6923E08",
     "CDC9F86A-5F6C-4334-8887-4A4AC7D6C24E",
     "0858835E-BC3A-43D9-A085-3DF96D70D3ED",
@@ -5529,7 +5576,8 @@ let kompasroosData = {
     "6334C760-93BD-41D1-90B7-4A63678177E7",
     "23498D9C-045C-4D99-AAD7-E01CFDBC717B",
     "1802CFF1-E4F6-40D7-895E-D3F8EE01B7C3",
-    "89DA27EF-860B-4FF9-9917-EF81A266FAFB"
+    "89DA27EF-860B-4FF9-9917-EF81A266FAFB",
+    "71605FA8-1F08-41EF-98E0-339005AA2D4A"
   ],
   "slugs": {
     "aerodyne_research": "0BF35960-3F26-42FD-8C97-03263EC42E84",
@@ -5647,6 +5695,7 @@ let kompasroosData = {
     "atair_aerodynamics-winx": "A23740C3-2E70-4B87-8326-C9A88F4CD66E",
     "fluid_wings-nexus": "CD87EF17-F2AC-429D-A8D5-5443485A6BF3",
     "nz_aerosports-kraken": "EE53A162-A74B-4899-AD30-CCE659CC5AF4",
+    "icarus_canopies-om-7": "F46272C1-526B-41A1-88B1-8A4F7CE7BAA9",
     "performance_designs-stiletto": "107633B0-202B-4625-9CD4-8AFE131C5D10",
     "parachutes_de_france-bt": "F0B876B6-F2C6-4560-BF4D-A22DD3C070ED",
     "parachutes_de_france-springo": "A088AE69-7D61-45A5-9919-BF2328F836BE",
@@ -5672,6 +5721,7 @@ let kompasroosData = {
     "jump_shack-firebolt": "8BF69609-7C2D-4EF6-97F8-8A0530893D02",
     "nz_aerosports-crossfire": "1FB6128A-0203-44D9-9C55-06E4289D1540",
     "parachute_systems-ventus_hybrid": "E20AECA2-ECF5-4985-9EF2-0A01130B084B",
+    "paratec-scorpion": "5DB3826F-4207-4A7A-A3A4-F968F85F1D04",
     "skylark_parachutes-odyssey": "C0785556-9B3B-431E-95A0-39911DB1DBD0",
     "skylark_parachutes-odyssey_evo": "19982FDF-FB8B-4178-8F34-127E40964A12",
     "nz_aerosports-crossfire_2": "909AAB5D-37EA-447A-A850-4AEEE03CF1D2",
@@ -5724,12 +5774,12 @@ let kompasroosData = {
     "jojowings-sonic": "A8C274D3-DE56-413D-AAA2-C8EE6D7CA3BE",
     "jojowings-raptor": "CDC9F86A-5F6C-4334-8887-4A4AC7D6C24E",
     "jojowings-xf15": "89DA27EF-860B-4FF9-9917-EF81A266FAFB",
-    "icarus_canopies-om-7": "F46272C1-526B-41A1-88B1-8A4F7CE7BAA9",
     "innovative_parachute_technologies-axon": "6B1E0B26-043D-48EE-883F-59C60BB8F04F",
     "innovative_parachute_technologies-furai": "770353E7-3B9A-4969-AE70-268DADA2EF23",
     "innovative_parachute_technologies-vapor": "BF43A017-C447-4FF6-9685-D57DD628A6D1",
     "innovative_parachute_technologies-helios": "00CA8EEA-7D47-43EC-8696-DDC49D54C4D8",
-    "skylark_parachutes-scirocco": "A2252BB9-ED7C-4EEF-AB7B-18B6B4DC774E"
+    "skylark_parachutes-scirocco": "A2252BB9-ED7C-4EEF-AB7B-18B6B4DC774E",
+    "paratec-xtc": "71605FA8-1F08-41EF-98E0-339005AA2D4A"
   }
 };
 

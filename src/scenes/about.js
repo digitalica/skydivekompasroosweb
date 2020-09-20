@@ -62,7 +62,7 @@ function About(props) {
                  href={C.BVR_BIJLAGE_A_URL}>{C.filenameFromPath(C.BVR_BIJLAGE_A_URL)}</a>
             </p>
 
-            <p>BVR Bijlage B, Indeling hoofdparachutes, versie februari 2019:<br/>
+            <p>BVR Bijlage B, Indeling hoofdparachutes, versie september 2020:<br/>
               <a target="_blank" rel="noopener noreferrer"
                  href={C.BVR_BIJLAGE_B_URL}>{C.filenameFromPath(C.BVR_BIJLAGE_B_URL)}</a>
             </p>
@@ -118,7 +118,7 @@ function About(props) {
                  href={C.BVR_BIJLAGE_A_URL}>{C.filenameFromPath(C.BVR_BIJLAGE_A_URL)}</a>
             </p>
 
-            <p>BVR annex B, main canopy categories, version februari 2019:<br/>
+            <p>BVR annex B, main canopy categories, version September 2020:<br/>
               <a target="_blank" rel="noopener noreferrer"
                  href={C.BVR_BIJLAGE_B_URL}>{C.filenameFromPath(C.BVR_BIJLAGE_B_URL)}</a>
             </p>
@@ -180,7 +180,7 @@ function About(props) {
                  href={C.BVR_BIJLAGE_A_URL}>{C.filenameFromPath(C.BVR_BIJLAGE_A_URL)}</a>
             </p>
 
-            <p>BVR Anhang B, Hauptschirm-Kategorien, Version Februar 2019:<br/>
+            <p>BVR Anhang B, Hauptschirm-Kategorien, Version September 2020:<br/>
               <a target="_blank" rel="noopener noreferrer"
                  href={C.BVR_BIJLAGE_B_URL}>{C.filenameFromPath(C.BVR_BIJLAGE_B_URL)}</a>
             </p>
@@ -232,7 +232,7 @@ function About(props) {
                  href={C.BVR_BIJLAGE_A_URL}>{C.filenameFromPath(C.BVR_BIJLAGE_A_URL)}</a>
             </p>
 
-            <p>Règles de sécurité annexe B, catégories de parachutes principaux, version février 2019 :<br/>
+            <p>Règles de sécurité annexe B, catégories de parachutes principaux, version septembre 2020 :<br/>
               <a target="_blank" rel="noopener noreferrer"
                  href={C.BVR_BIJLAGE_B_URL}>{C.filenameFromPath(C.BVR_BIJLAGE_B_URL)}</a>
             </p>
