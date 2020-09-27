@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/skydivekompasroosweb/static/css/main.75452755.chunk.css",
-    "main.js": "/skydivekompasroosweb/static/js/main.bc6cb953.chunk.js",
-    "main.js.map": "/skydivekompasroosweb/static/js/main.bc6cb953.chunk.js.map",
+    "main.js": "/skydivekompasroosweb/static/js/main.a3990824.chunk.js",
+    "main.js.map": "/skydivekompasroosweb/static/js/main.a3990824.chunk.js.map",
     "runtime-main.js": "/skydivekompasroosweb/static/js/runtime-main.cfbd9755.js",
     "runtime-main.js.map": "/skydivekompasroosweb/static/js/runtime-main.cfbd9755.js.map",
-    "static/js/2.b3634f14.chunk.js": "/skydivekompasroosweb/static/js/2.b3634f14.chunk.js",
-    "static/js/2.b3634f14.chunk.js.map": "/skydivekompasroosweb/static/js/2.b3634f14.chunk.js.map",
+    "static/js/2.13a1160f.chunk.js": "/skydivekompasroosweb/static/js/2.13a1160f.chunk.js",
+    "static/js/2.13a1160f.chunk.js.map": "/skydivekompasroosweb/static/js/2.13a1160f.chunk.js.map",
     "index.html": "/skydivekompasroosweb/index.html",
-    "precache-manifest.aa81ba2dc58f2dd92780f52976789388.js": "/skydivekompasroosweb/precache-manifest.aa81ba2dc58f2dd92780f52976789388.js",
+    "precache-manifest.dd7528a3274262ba5c05b36eaca508ae.js": "/skydivekompasroosweb/precache-manifest.dd7528a3274262ba5c05b36eaca508ae.js",
     "service-worker.js": "/skydivekompasroosweb/service-worker.js",
     "static/css/main.75452755.chunk.css.map": "/skydivekompasroosweb/static/css/main.75452755.chunk.css.map",
-    "static/js/2.b3634f14.chunk.js.LICENSE.txt": "/skydivekompasroosweb/static/js/2.b3634f14.chunk.js.LICENSE.txt"
+    "static/js/2.13a1160f.chunk.js.LICENSE.txt": "/skydivekompasroosweb/static/js/2.13a1160f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cfbd9755.js",
-    "static/js/2.b3634f14.chunk.js",
+    "static/js/2.13a1160f.chunk.js",
     "static/css/main.75452755.chunk.css",
-    "static/js/main.bc6cb953.chunk.js"
+    "static/js/main.a3990824.chunk.js"
   ]
 }
