@@ -1,6 +1,6 @@
 
 # Skydive Kompasroos
-Provides an overview what parachutes are suitable (or not), based on experience of the jumper. The regulations for assessing the level of experience differ per country. A limited number of countries in West-Europe is currently supported.
+Provides an overview what parachutes are suitable (or not), based on experience of the jumper according to the Dutch (KNVvL) regulations. The regulations for what parachute can be used differ per country. To make the dutch regulations more accessible, this site is available in four languages.
 
 ---
 
@@ -45,6 +45,8 @@ npm run prepare
 This will create the src/services/kompasroosdata.js module, that wil be used.
 
 ### Deploy
+
+Deploy to test is automatic, via github workflow.
 
 Follow these steps to deploy:
 ```
