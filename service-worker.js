@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/skydivekompasroosweb/precache-manifest.dd7528a3274262ba5c05b36eaca508ae.js"
+  "/skydivekompasroosweb/precache-manifest.8d3b2a68a436b021446fcb134e398120.js"
 );
 
 self.addEventListener('message', (event) => {
