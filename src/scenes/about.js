@@ -35,7 +35,7 @@ function About(props) {
             <title>{T[language].MENU_ABOUT} - Skydive Kompasroos</title>
           </Helmet>
           <div className={classes.text}>
-            <h3>Over Skydive Kompasroos test</h3>
+            <h3>Over Skydive Kompasroos</h3>
             <p>Skydive Kompasroos is een website om te helpen bij het kiezen van een passende parachute, volgens de
               regels zoals vastgelegd in het <abbr title="Basis Veiligheids Reglement">BVR</abbr> van de afdeling
               parachutespringen van de <abbr
