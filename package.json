@@ -8,7 +8,7 @@
     "@material-ui/lab": "^3.0.0-alpha.30",
     "react": "^16.9.0",
     "react-cookie": "^4.0.1",
-    "react-dev-utils": "^10.1.0",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.9.0",
     "react-helmet": "^6.1.0",
     "react-media": "^1.9.2",
