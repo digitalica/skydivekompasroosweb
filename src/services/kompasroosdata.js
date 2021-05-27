@@ -2457,7 +2457,7 @@ let kompasroosData = {
     "9D021CA3-A103-4CB9-B053-A7ABCC4BBC96": {
       "id": "9D021CA3-A103-4CB9-B053-A7ABCC4BBC96",
       "name": "Matrix 2",
-      "category": 3,
+      "category": 5,
       "cells": "15",
       "commontype": 0,
       "dropzoneid": "matrix-2-r843",
@@ -2472,8 +2472,8 @@ let kompasroosData = {
           "url": "https://www.dropzone.com/gear/main-canopies/matrix-2-r843"
         }
       ],
-      "displaycategory": 3,
-      "calculationcategory": 3,
+      "displaycategory": 5,
+      "calculationcategory": 5,
       "manufacturername": "NZ Aerosports",
       "manufacturerurl": "http://www.nzaerosports.com",
       "manufacturerslug": "nz_aerosports",
@@ -5473,7 +5473,6 @@ let kompasroosData = {
     "C3165B46-F1F8-4524-9D50-46ADD9B1E86F",
     "9661B8FA-BD0D-4C75-9F0A-0409C3121B37",
     "947b67ce-177f-4c70-8fa4-10ab3c171d29",
-    "9D021CA3-A103-4CB9-B053-A7ABCC4BBC96",
     "CD87EF17-F2AC-429D-A8D5-5443485A6BF3",
     "FC044FAE-FD5C-45A2-8740-9CE8783C76FA",
     "F46272C1-526B-41A1-88B1-8A4F7CE7BAA9",
@@ -5530,6 +5529,7 @@ let kompasroosData = {
     "9EE6B1E3-564D-4310-81FC-8BD152FD7B61",
     "3CADD8FE-CBFE-4390-9306-DB453623D44C",
     "3F35D12C-4BBA-400D-BA7F-BC13512B22EB",
+    "9D021CA3-A103-4CB9-B053-A7ABCC4BBC96",
     "613D4345-0C3F-4BE2-AC7D-28D209F159BA",
     "C0785556-9B3B-431E-95A0-39911DB1DBD0",
     "19982FDF-FB8B-4178-8F34-127E40964A12",
