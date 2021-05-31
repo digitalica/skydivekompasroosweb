@@ -58,11 +58,11 @@ export default {
 
 
   GITHUB_URL: "https://github.com/digitalica/skydivekompasroosweb",
-  REGLEMENTEN_URL: "https://www.parachute.nl/bevoegdhedenregl.html",
-  KOMPASROOS_URL: "https://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/kompasroos_2016.pdf",
-  BVR_URL: "https://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/BVR_2018_inclusief_wijzigingen.pdf",
-  BVR_BIJLAGE_A_URL: "https://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/BVR_bijlage_A_2018.pdf",
-  BVR_BIJLAGE_B_URL: "https://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/BVR_bijlage_B_versie_20200910.pdf",
+  REGLEMENTEN_URL: "https://www.parachute.nl/bevoegdhedenregl0.html",
+  KOMPASROOS_URL: "https://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/kompasroos_2016_01.pdf",
+  BVR_URL: "https://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/BVR_2020.pdf",
+  BVR_BIJLAGE_A_URL: "https://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/BVR_bijlage_A_2020.pdf",
+  BVR_BIJLAGE_B_URL: "https://www.parachute.nl/fileadmin/knvvlpa_upload/pdf/BVR_bijlage_B_versie_20210420.pdf",
 
 
   cookieOptions() {

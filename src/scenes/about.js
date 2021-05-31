@@ -57,12 +57,12 @@ function About(props) {
                  href={C.KOMPASROOS_URL}>{C.filenameFromPath(C.KOMPASROOS_URL)}</a>
             </p>
 
-            <p>BVR Bijlage A, Regels voor Parachutekeuze, versie 2018:<br/>
+            <p>BVR Bijlage A, Regels voor Parachutekeuze, versie 2020:<br/>
               <a target="_blank" rel="noopener noreferrer"
                  href={C.BVR_BIJLAGE_A_URL}>{C.filenameFromPath(C.BVR_BIJLAGE_A_URL)}</a>
             </p>
 
-            <p>BVR Bijlage B, Indeling hoofdparachutes, versie september 2020:<br/>
+            <p>BVR Bijlage B, Indeling hoofdparachutes, versie 20 april 2021:<br/>
               <a target="_blank" rel="noopener noreferrer"
                  href={C.BVR_BIJLAGE_B_URL}>{C.filenameFromPath(C.BVR_BIJLAGE_B_URL)}</a>
             </p>
@@ -113,12 +113,12 @@ function About(props) {
                  href={C.KOMPASROOS_URL}>{C.filenameFromPath(C.KOMPASROOS_URL)}</a>
             </p>
 
-            <p>BVR annex A, Rules for canopy selection, version 2018:<br/>
+            <p>BVR annex A, Rules for canopy selection, version 2020:<br/>
               <a target="_blank" rel="noopener noreferrer"
                  href={C.BVR_BIJLAGE_A_URL}>{C.filenameFromPath(C.BVR_BIJLAGE_A_URL)}</a>
             </p>
 
-            <p>BVR annex B, main canopy categories, version September 2020:<br/>
+            <p>BVR annex B, main canopy categories, version April 20th, 2021:<br/>
               <a target="_blank" rel="noopener noreferrer"
                  href={C.BVR_BIJLAGE_B_URL}>{C.filenameFromPath(C.BVR_BIJLAGE_B_URL)}</a>
             </p>
@@ -175,12 +175,12 @@ function About(props) {
                  href={C.KOMPASROOS_URL}>{C.filenameFromPath(C.KOMPASROOS_URL)}</a>
             </p>
 
-            <p>BVR Anhang A, Regeln für Schirm-Auswahl, Version 2018:<br/>
+            <p>BVR Anhang A, Regeln für Schirm-Auswahl, Version 2020:<br/>
               <a target="_blank" rel="noopener noreferrer"
                  href={C.BVR_BIJLAGE_A_URL}>{C.filenameFromPath(C.BVR_BIJLAGE_A_URL)}</a>
             </p>
 
-            <p>BVR Anhang B, Hauptschirm-Kategorien, Version September 2020:<br/>
+            <p>BVR Anhang B, Hauptschirm-Kategorien, Version 20 April 2021:<br/>
               <a target="_blank" rel="noopener noreferrer"
                  href={C.BVR_BIJLAGE_B_URL}>{C.filenameFromPath(C.BVR_BIJLAGE_B_URL)}</a>
             </p>
@@ -227,12 +227,12 @@ function About(props) {
                  href={C.KOMPASROOS_URL}>{C.filenameFromPath(C.KOMPASROOS_URL)}</a>
             </p>
 
-            <p>Règles de sécurité annexe A, choisir un parachute, version 2018 :<br/>
+            <p>Règles de sécurité annexe A, choisir un parachute, version 2020 :<br/>
               <a target="_blank" rel="noopener noreferrer"
                  href={C.BVR_BIJLAGE_A_URL}>{C.filenameFromPath(C.BVR_BIJLAGE_A_URL)}</a>
             </p>
 
-            <p>Règles de sécurité annexe B, catégories de parachutes principaux, version septembre 2020 :<br/>
+            <p>Règles de sécurité annexe B, catégories de parachutes principaux, version 20 avril 2021 :<br/>
               <a target="_blank" rel="noopener noreferrer"
                  href={C.BVR_BIJLAGE_B_URL}>{C.filenameFromPath(C.BVR_BIJLAGE_B_URL)}</a>
             </p>
