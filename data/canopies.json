@@ -86,7 +86,6 @@
       "manufacturerid": "7AE2A118-7566-456B-9D73-2E6751BF7D7A",
       "maxsize": "260",
       "minsize": "210",
-      "url": "http://www.flyfirebird.com/catalog/product_info.php/cPath/90_21_159/products_id/670",
       "xbraced": false
     },
     {
@@ -169,7 +168,7 @@
       "maxsize": "300",
       "minsize": "120",
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
-      "url": "http://www.precision.net/falcon-9.htm",
+      "url": "https://precision.net/sport-parachutes/ols/products/falcon",
       "xbraced": false
     },
     {
@@ -226,7 +225,6 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "200",
       "minsize": "200",
-      "url": "http://flightconceptsint.com/classic/7-cell-classic",
       "xbraced": false
     },
     {
@@ -239,7 +237,6 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "220",
       "minsize": "200",
-      "url": "http://flightconceptsint.com/classic/7-cell-classic",
       "xbraced": false
     },
     {
@@ -252,7 +249,6 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "175",
       "minsize": "175",
-      "url": "http://flightconceptsint.com/classic/7-cell-classic",
       "xbraced": false
     },
     {
@@ -265,7 +261,6 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "145",
       "minsize": "145",
-      "url": "http://flightconceptsint.com/classic/7-cell-classic",
       "xbraced": false
     },
     {
@@ -277,7 +272,6 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "320",
       "minsize": "265",
-      "url": "http://flightconceptsint.com/classic/7-cell-classic",
       "xbraced": false
     },
     {
@@ -290,7 +284,6 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "245",
       "minsize": "245",
-      "url": "http://flightconceptsint.com/classic/7-cell-classic",
       "xbraced": false
     },
     {
@@ -303,7 +296,6 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "220",
       "minsize": "220",
-      "url": "http://flightconceptsint.com/classic/9-cell-classic",
       "xbraced": false
     },
     {
@@ -316,7 +308,6 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "250",
       "minsize": "250",
-      "url": "http://flightconceptsint.com/classic/9-cell-classic",
       "xbraced": false
     },
     {
@@ -329,7 +320,6 @@
       "maxsize": "195",
       "minsize": "195",
       "dropzoneid": "fight-concepts-9-cell-r41",
-      "url": "http://flightconceptsint.com/classic/9-cell-classic",
       "xbraced": false
     },
     {
@@ -354,7 +344,6 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "320",
       "minsize": "185",
-      "url": "http://flightconceptsint.com/zp-main/zp-manta",
       "links": [
         {
           "type": "youtube",
@@ -392,7 +381,6 @@
       "manufacturerid": "29A49954-54B1-4F77-A399-CCEFCCC9B3B9",
       "maxsize": "229",
       "minsize": "189",
-      "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=20&Itemid=19",
       "xbraced": false
     },
     {
@@ -438,7 +426,7 @@
       "commontype": "0",
       "dropzoneid": "icarus-student-r841",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
-      "url": "http://www.nzaerosports.com/canopies/icarus-student",
+      "url": "https://www.nzaerosports.com/product/student/?v=796834e7a283",
       "xbraced": false
     },
     {
@@ -449,7 +437,6 @@
       "commontype": "0",
       "dropzoneid": "zp-r823",
       "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
-      "url": "http://www.parachutesystemseurope.com/eng/zp.php",
       "xbraced": false
     },
     {
@@ -489,7 +476,7 @@
       "minsize": "90",
       "planform": "6.7",
       "planformcells": "4",
-      "url": "https://www.flyaerodyne.com/pilot.asp",
+      "url": "https://www.flyaerodyne.com/canopies/pilot/",
       "links": [
         {
           "type": "youtube",
@@ -510,7 +497,7 @@
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "247",
       "minsize": "117",
-      "url": "https://www.flyaerodyne.com/pilot7.asp",
+      "url": "https://www.flyaerodyne.com/canopies/pilot7/",
       "xbraced": false,
       "links": [
         {
@@ -536,7 +523,7 @@
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "260",
       "minsize": "99",
-      "url": "https://www.flyaerodyne.com/triathlon.asp",
+      "url": "https://www.flyaerodyne.com/canopies/triathlon/",
       "xbraced": false,
       "links": [
         {
@@ -675,7 +662,6 @@
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "230",
       "minsize": "98",
-      "url": "http://www.precision.net/synergy.htm",
       "xbraced": false
     },
     {
@@ -688,7 +674,6 @@
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "maxsize": "229",
       "minsize": "99",
-      "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=1&Itemid=11",
       "xbraced": false
     },
     {
@@ -702,7 +687,6 @@
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "maxsize": "229",
       "minsize": "99",
-      "url": "http://www.nzaerosports.com/canopies/icarus-omega",
       "xbraced": false
     },
     {
@@ -719,7 +703,7 @@
         {
           "type": "pdf",
           "title": "Manual",
-          "id": "http://www.flyfirebird.com/fb/downloads/manuals/cayenne.pdf"
+          "id": "https://www.flyfirebird.com/fb/sites/default/files/downloads/manuals/cayenne-light.pdf"
         }
       ],
       "xbraced": false
@@ -734,7 +718,6 @@
       "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
       "maxsize": "210",
       "minsize": "135",
-      "url": "http://www.basetroll.com/products_4.html",
       "xbraced": false
     },
     {
@@ -772,7 +755,7 @@
       "manufacturerid": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
       "maxsize": "190",
       "minsize": "290",
-      "url": "http://skylarkparachutes.com/commodore",
+      "url": "https://skylarkparachutes.com/commodore/",
       "xbraced": false
     },
     {
@@ -944,7 +927,7 @@
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "230",
       "minsize": "89",
-      "url": "http://www.precision.net/fusion.htm",
+      "url": "https://precision.net/fusion",
       "xbraced": false
     },
     {
@@ -957,7 +940,7 @@
       "manufacturerid": "5947BBA8-8DE6-4F61-AB89-B0B77A74B1EB",
       "maxsize": "190",
       "minsize": "95",
-      "url": "http://www.bigairsportz.com/lotus.php",
+      "url": "https://www.bigairsportz.com/lotus.php",
       "xbraced": false
     },
     {
@@ -988,7 +971,7 @@
       "minsize": "99",
       "planform": "16.4",
       "planformcells": "8",
-      "url": "http://www.nzaerosports.com/canopies/icarus-safire",
+      "url": "https://www.nzaerosports.com/canopies/icarus-safire",
       "remarks": {
         "en": "Safire 3 was introduced in 2016",
         "nl": "Safire 3 werd geïntroduceerd in 2016"
@@ -1023,7 +1006,6 @@
       "manufacturerid": "29A49954-54B1-4F77-A399-CCEFCCC9B3B9",
       "maxsize": "229",
       "minsize": "99",
-      "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=127&Itemid=673",
       "links": [
         {
           "type": "youtube",
@@ -1047,7 +1029,7 @@
       "dropzoneid": "safire-3-r863",
       "firstyearofproduction": "2016",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
-      "url": "http://www.nzaerosports.com/canopies/icarus-safire3",
+      "url": "https://www.nzaerosports.com/product/safire-3/",
       "links": [
         {
           "type": "youtube",
@@ -1082,7 +1064,6 @@
       "manufacturerid": "ACD6855E-9F54-4E27-B498-14C9693FB7EF",
       "maxsize": "210",
       "minsize": "130",
-      "url": "http://www.strongparachutes.com/pages/Sport/spmain.html",
       "xbraced": false
     },
     {
@@ -1144,7 +1125,7 @@
       "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
       "maxsize": "215",
       "minsize": "125",
-      "url": "http://parachutesystems.com/volt",
+      "url": "https://parachutesystems.com/volt",
       "links": [
         {
           "type": "youtube",
@@ -1167,7 +1148,7 @@
         {
           "type": "pdf",
           "title": "Manual",
-          "id": "http://www.flyfirebird.com/fb/downloads/manuals/spark.pdf"
+          "id": "https://www.flyfirebird.com/fb/sites/default/files/downloads/manuals/spark.pdf"
         }
       ],
       "xbraced": false
@@ -1182,7 +1163,6 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "200",
       "minsize": "125",
-      "url": "http://flightconceptsint.com/zp-main/express",
       "xbraced": false
     },
     {
@@ -1195,7 +1175,6 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "250",
       "minsize": "150",
-      "url": "http://flightconceptsint.com/zp-main/prodigy",
       "xbraced": false
     },
     {
@@ -1208,7 +1187,6 @@
       "manufacturerid": "97C58924-5A47-4306-B8D4-E6A932E25A9F",
       "maxsize": "230",
       "minsize": "99",
-      "url": "http://flightconceptsint.com/zp-main/sentry",
       "xbraced": false
     },
     {
@@ -1219,7 +1197,6 @@
       "commontype": "0",
       "dropzoneid": "matrix-r842",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
-      "url": "http://www.nzaerosports.com/canopies/icarus-matrix",
       "links": [
         {
           "type": "youtube",
@@ -1238,7 +1215,6 @@
       "dropzoneid": "matrix-2-r843",
       "firstyearofproduction": "2013",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
-      "url": "http://www.nzaerosports.com/canopies/daedalus-matrix2",
       "xbraced": true
     },
     {
@@ -1251,7 +1227,7 @@
       "manufacturerid": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
       "maxsize": "190",
       "minsize": "110",
-      "url": "http://skylarkparachutes.com/skipper/",
+      "url": "https://skylarkparachutes.com/skipper/",
       "xbraced": false
     },
     {
@@ -1263,7 +1239,7 @@
       "manufacturerid": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
       "maxsize": "185",
       "minsize": "95",
-      "url": "http://skylarkparachutes.com/skipper-evo/",
+      "url": "https://skylarkparachutes.com/skipper-evo/",
       "xbraced": false
     },
     {
@@ -1276,7 +1252,7 @@
       "manufacturerid": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
       "maxsize": "190",
       "minsize": "100",
-      "url": "http://skylarkparachutes.com/magellan/",
+      "url": "https://skylarkparachutes.com/magellan/",
       "xbraced": false
     },
     {
@@ -1288,7 +1264,7 @@
       "manufacturerid": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
       "maxsize": "185",
       "minsize": "95",
-      "url": "http://skylarkparachutes.com/magellan-evo/",
+      "url": "https://skylarkparachutes.com/magellan-evo-2/",
       "xbraced": false
     },
     {
@@ -1321,7 +1297,7 @@
       "category": "3",
       "commontype": "0",
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
-      "url": "http://www.fluidwings.com/prime",
+      "url": "https://www.fluidwings.com/prime",
       "xbraced": false
     },
     {
@@ -1333,7 +1309,7 @@
       "category": "3",
       "commontype": "0",
       "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
-      "url": "http://www.basetroll.com/products/winx/",
+      "url": "https://ataircanopies.com/winx.html",
       "xbraced": false
     },
     {
@@ -1380,7 +1356,6 @@
       "manufacturerid": "29A49954-54B1-4F77-A399-CCEFCCC9B3B9",
       "maxsize": "229",
       "minsize": "99",
-      "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=146&Itemid=676",
       "xbraced": false
     },
     {
@@ -1552,7 +1527,7 @@
       "maxsize": "152",
       "minsize": "102",
       "planform": "10",
-      "url": "https://www.flyaerodyne.com/zulu.asp",
+      "url": "https://www.flyaerodyne.com/canopies/zulu_x/",
       "links": [
         {
           "type": "youtube",
@@ -1582,8 +1557,7 @@
       "minsize": "90",
       "remarks": {
         "en": "There is a 'Rage' from Paratec too",
-        "nl": "Er bestaat ook een 'Rage' van Paratec",
-        "url": "http://flightconcepts.com/the-rage/"
+        "nl": "Er bestaat ook een 'Rage' van Paratec"
       },
       "xbraced": false
     },
@@ -1610,7 +1584,7 @@
         {
           "type": "pdf",
           "title": "Manual",
-          "id": "http://www.flyfirebird.com/fb/downloads/manuals/contrail.pdf"
+          "id": "https://www.flyfirebird.com/fb/sites/default/files/downloads/manuals/contrail.pdf"
         }
       ],
       "xbraced": false
@@ -1634,7 +1608,7 @@
       "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
       "maxsize": "170",
       "minsize": "95",
-      "url": "http://parachutesystems.com/hurricane",
+      "url": "https://parachutesystems.com/hurricane",
       "links": [
         {
           "type": "youtube",
@@ -1668,7 +1642,7 @@
       "manufacturerid": "ACCD2816-15E8-4668-B217-3F345AA6854F",
       "maxsize": "396",
       "minsize": "84",
-      "url": "http://www.jumpshack.com/firebolt.htm",
+      "url": "https://plabsinc.com/9.html",
       "xbraced": false
     },
     {
@@ -1696,7 +1670,7 @@
       "dropzoneid": "ventus-hybrid-r855",
       "commontype": "0",
       "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
-      "url": "http://parachutesystems.com/ventus",
+      "url": "https://parachutesystems.com/ventus",
       "xbraced": false
     },
     {
@@ -1722,7 +1696,7 @@
       "manufacturerid": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
       "maxsize": "150",
       "minsize": "85",
-      "url": "http://skylarkparachutes.com/odyssey/",
+      "url": "https://skylarkparachutes.com/odyssey/",
       "xbraced": false
     },
     {
@@ -1734,7 +1708,7 @@
       "manufacturerid": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
       "maxsize": "135",
       "minsize": "75",
-      "url": "http://skylarkparachutes.com/odyssey-evo/",
+      "url": "https://skylarkparachutes.com/odyssey-evo/",
       "xbraced": false
     },
     {
@@ -1750,7 +1724,7 @@
       "firstyearofproduction": "2001",
       "planform": "21.6",
       "planformcells": "8",
-      "url": "http://www.nzaerosports.com/canopies/icarus-crossfire",
+      "url": "https://www.nzaerosports.com/canopies/icarus-crossfire",
       "links": [
         {
           "type": "youtube",
@@ -1778,7 +1752,7 @@
       "dropzoneid": "crossfire-3-r875",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "firstyearofproduction": "2016",
-      "url": "http://www.nzaerosports.com/canopies/icarus-crossfire3",
+      "url": "https://www.nzaerosports.com/product/crossfire-3/",
       "links": [
         {
           "type": "vimeo",
@@ -1817,7 +1791,6 @@
       "dropzoneid": "x-fire-r910",
       "manufacturerid": "29A49954-54B1-4F77-A399-CCEFCCC9B3B9",
       "firstyearofproduction": "2017",
-      "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=131&Itemid=675",
       "links": [
         {
           "type": "youtube",
@@ -1839,7 +1812,7 @@
       "manufacturerid": "5947BBA8-8DE6-4F61-AB89-B0B77A74B1EB",
       "maxsize": "170",
       "minsize": "95",
-      "url": "http://www.bigairsportz.com/samurai.php",
+      "url": "https://www.bigairsportz.com/samurai.php",
       "xbraced": false
     },
     {
@@ -1861,7 +1834,6 @@
       "manufacturerid": "6C76AE26-F763-4536-AA22-2C4C8326804D",
       "maxsize": "170",
       "minsize": "85",
-      "url": "http://www.basetroll.com/products_3.html",
       "xbraced": false
     },
     {
@@ -1882,12 +1854,11 @@
       "manufacturerid": "7AE2A118-7566-456B-9D73-2E6751BF7D7A",
       "maxsize": "130",
       "minsize": "60",
-      "url": "http://www.flyfirebird.com/catalog/product_info.php/products_id/61",
       "links": [
         {
           "type": "pdf",
           "title": "Manual",
-          "id": "http://www.flyfirebird.com/fb/downloads/manuals/demon.pdf"
+          "id": "https://www.flyfirebird.com/fb/sites/default/files/downloads/manuals/demon.pdf"
         }
       ],
       "xbraced": false
@@ -1906,7 +1877,7 @@
         {
           "type": "pdf",
           "title": "Manual",
-          "id": "http://www.flyfirebird.com/fb/downloads/manuals/chilli.pdf"
+          "id": "https://www.flyfirebird.com/fb/sites/default/files/downloads/manuals/chilli.pdf"
         }
       ],
       "xbraced": false
@@ -2005,7 +1976,7 @@
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "170",
       "minsize": "78",
-      "url": "http://www.precision.net/nitron.htm",
+      "url": "https://precision.net/nitron",
       "xbraced": false
     },
     {
@@ -2019,7 +1990,6 @@
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "150",
       "minsize": "90",
-      "url": "https://www.flyaerodyne.com/mamba.asp",
       "xbraced": false
     },
     {
@@ -2032,7 +2002,7 @@
       "category": "5",
       "commontype": "0",
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
-      "url": "http://www.fluidwings.com/tesla",
+      "url": "https://www.fluidwings.com/tesla",
       "xbraced": false,
       "links": [
         {
@@ -2063,7 +2033,6 @@
       "manufacturerid": "0BF35960-3F26-42FD-8C97-03263EC42E84",
       "maxsize": "121",
       "minsize": "71",
-      "url": "https://www.flyaerodyne.com/sensei.asp",
       "links": [
         {
           "type": "youtube",
@@ -2091,7 +2060,6 @@
       "commontype": "0",
       "dropzoneid": "v-max-r579",
       "manufacturerid": "781D6203-9BF1-4D51-8CE0-21FFFB9D4D12",
-      "url": "http://parachutesystems.com/vmax",
       "xbraced": true
     },
     {
@@ -2170,7 +2138,6 @@
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "135",
       "minsize": "68",
-      "url": "http://www.precision.net/xaos-21.htm",
       "xbraced": true
     },
     {
@@ -2183,7 +2150,7 @@
       "manufacturerid": "7D4DAE42-062F-42A6-AD27-187B0AECDDA6",
       "maxsize": "118",
       "minsize": "58",
-      "url": "http://www.precision.net/xaos-27.htm",
+      "url": "https://precision.net/xaos-27",
       "xbraced": true
     },
     {
@@ -2201,7 +2168,7 @@
         "en": "Daedalus JVX was introduced in 2005",
         "nl": "Daedalus JVX werd geïntroduceerd in 2005"
       },
-      "url": "http://www.nzaerosports.com/canopies/icarus-VX",
+      "url": "https://www.nzaerosports.com/canopies/icarus-VX",
       "xbraced": true
     },
     {
@@ -2219,7 +2186,7 @@
         "en": "Daedalus JFX was introduced in 2010",
         "nl": "Daedalus JFX werd geïntroduceerd in 2010"
       },
-      "url": "http://www.nzaerosports.com/canopies/icarus-FX",
+      "url": "https://www.nzaerosports.com/canopies/icarus-FX",
       "xbraced": true
     },
     {
@@ -2232,7 +2199,6 @@
       "manufacturerid": "29A49954-54B1-4F77-A399-CCEFCCC9B3B9",
       "maxsize": "119",
       "minsize": "59",
-      "url": "http://www.icaruscanopies.aero/index.php?option=com_content&view=article&id=19&Itemid=18",
       "xbraced": true,
       "links": [
         {
@@ -2253,7 +2219,7 @@
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "maxsize": "119",
       "minsize": "59",
-      "url": "http://www.nzaerosports.com/canopies/daedalus-JVX",
+      "url": "https://www.nzaerosports.com/canopies/daedalus-JVX",
       "xbraced": true,
       "links": [
         {
@@ -2274,7 +2240,7 @@
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "maxsize": "119",
       "minsize": "59",
-      "url": "http://www.nzaerosports.com/canopies/daedalus-JFX",
+      "url": "https://www.nzaerosports.com/canopies/daedalus-JFX",
       "links": [
         {
           "type": "youtube",
@@ -2294,7 +2260,7 @@
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
       "maxsize": "119",
       "minsize": "59",
-      "url": "http://www.nzaerosports.com/canopies/icarus-jfx2",
+      "url": "https://www.nzaerosports.com/canopies/icarus-jfx2",
       "xbraced": true
     },
     {
@@ -2416,7 +2382,7 @@
       "dropzoneid": "petra-r840",
       "firstyearofproduction": "2013",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
-      "url": "http://www.nzaerosports.com/gallery/jpx-petra",
+      "url": "https://www.nzaerosports.com/gallery/jpx-petra",
       "links": [
         {
           "type": "youtube",
@@ -2454,7 +2420,7 @@
       "dropzoneid": "leia-r839",
       "firstyearofproduction": "2014",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
-      "url": "http://www.nzaerosports.com/gallery/daedalus-leia",
+      "url": "https://www.nzaerosports.com/product/leia/",
       "links": [
         {
           "type": "youtube",
@@ -2476,7 +2442,7 @@
       "commontype": "0",
       "firstyearofproduction": "2018",
       "manufacturerid": "4A42F850-E739-44D4-9A69-F66AD3247B1F",
-      "url": "http://www.nzaerosports.com/canopies/daedalus-sleia/",
+      "url": "https://www.nzaerosports.com/product/leia/",
       "remarks": {
         "en": "To order NZA requires at least 1500 jumps, of which at least 300 on a crossbraced canopy with a similar wing loading than the Leia odered; 150 jumps in the last 6 months.",
         "nl": "Om te bestellen eist NZA minimaal 1500 sprongen, waarvan minstens 300 onder een crossbraced koepel met een soorgelijke wingload als de bestelde Leia; 150 sprongen in de laatste 6 maanden."
@@ -2493,7 +2459,7 @@
       "category": "7",
       "commontype": "0",
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
-      "url": "http://www.fluidwings.com/#!helix/cczj",
+      "url": "https://www.fluidwings.com/helix",
       "links": [
         {
           "type": "vimeo",
@@ -2515,7 +2481,7 @@
       "category": "7",
       "commontype": "0",
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
-      "url": "http://www.fluidwings.com/hs",
+      "url": "https://www.fluidwings.com/hs",
       "xbraced": true
     },
     {
@@ -2529,7 +2495,7 @@
       "category": "7",
       "commontype": "0",
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
-      "url": "http://www.fluidwings.com/hk",
+      "url": "https://www.fluidwings.com/hk",
       "xbraced": true,
       "links": [
         {
@@ -2559,7 +2525,7 @@
       "category": "",
       "commontype": "0",
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
-      "url": "http://www.fluidwings.com/hk2",
+      "url": "https://www.fluidwings.com/hk2",
       "xbraced": true,
       "links": [
         {
@@ -2584,7 +2550,7 @@
       "category": "7",
       "commontype": "0",
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
-      "url": "http://www.fluidwings.com/hkterminal",
+      "url": "https://www.fluidwings.com/hkterminal",
       "xbraced": true
     },
     {
@@ -2597,7 +2563,7 @@
       "category": "7",
       "commontype": "0",
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
-      "url": "http://www.fluidwings.com/airwolf",
+      "url": "https://www.fluidwings.com/airwolf",
       "xbraced": true,
       "links": [
         {
@@ -2632,7 +2598,7 @@
       "category": "",
       "commontype": "0",
       "manufacturerid": "932734A0-EDDD-4BED-8B8C-C329214F7F4C",
-      "url": "http://www.fluidwings.com/wairwolf",
+      "url": "https://www.fluidwings.com/wairwolf",
       "xbraced": true,
       "links": [
         {
@@ -2752,7 +2718,7 @@
       "manufacturerid": "F497D86C-7E1E-4D4E-8FD4-AD4766AE5B15",
       "maxsize": "124",
       "minsize": "64",
-      "url": "http://skylarkparachutes.com/scirocco",
+      "url": "https://skylarkparachutes.com/scirocco/",
       "xbraced": true,
       "links": [
         {
