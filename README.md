@@ -1,6 +1,7 @@
-
-# Skydive Kompasroos
+# Skydive Kompasroos (OUTDATED)
 Provides an overview what parachutes are suitable (or not), based on experience of the jumper according to the Dutch (KNVvL) regulations. The regulations for what parachute can be used differ per country. To make the dutch regulations more accessible, this site is available in four languages.
+
+*Since end 2025 / start 2026 a new version has been developed by somebody else, therefore this version is outdated and obsolete now.*
 
 ## Available Scripts
 
@@ -57,11 +58,3 @@ npm run deploy
 ```
 This will manually trigger a build and deploy. It requires the gh-pages (dev dependency) plugin. The gh-pages plugin pushes the build dir to the gh-pages branch (that is active serving static data).
 
-### Contributing
-
-You can really make a difference by:
-
-- [Making an issue](https://help.github.com/articles/creating-an-issue/). A well described issue helps a lot. (Have a look at the [known issues](https://github.com/digitalica/skydivekompasroosweb/issues).)
-- [Making a pull request](https://services.github.com/on-demand/github-cli/open-pull-request-github) when you see the error in code.
-
-Base your code on the master branch.
